@@ -1,0 +1,68 @@
+{
+	"jumpingoffcliffs": {
+		"author_id":"jessevondoom",
+		"author_name":"Jesse von Doom",
+		"author_byline":"Executive Director, Strategy and Technology at CASH Music",
+		"release_id":"staffhighlights",
+		"title":"Jumping Off Cliffs",
+		"description":"Art directly creates our culture, driving ideas and enabling communication that goes far beyond language alone.",
+		"summary":"",
+		"type":"writing",
+		"date":"November 4, 2015",
+		"license":"CC-BY",
+		"tags":[
+			"open",
+			"strategy"
+		]
+	},
+	"marksurman": {
+		"author_id":"marksurman",
+		"author_name":"Mark Surman",
+		"author_byline":"Executive Director, Mozilla Foundation",
+		"release_id":"whymusicmatters",
+		"title":"Mark Surman, executive director, Mozilla Foundation",
+		"description":"Music is a guiding force, able to steer people toward communities and causes they're passionate about. ...I've been drawn to social causes and organizations that embody that punk passion and sincerity. In a way, music made me.",
+		"summary":"Music is one of the most accessible forms of expression - everyone can listen, and anyone brave enough to hoist a ukulele or beat a drum can participate. It's visceral. Music is also one of the most collaborative forms of expression - the more people, the better it sounds. (At least to the people making it.)",
+		"type":"writing",
+		"date":"November 16, 2015",
+		"license":"CC-BY",
+		"tags":[
+			"open",
+			"impact",
+			"community"
+		]
+	},
+	"bethditto": {
+		"author_id":"bethditto",
+		"author_name":"Beth Ditto",
+		"author_byline":"musician",
+		"release_id":"whymusicmatters",
+		"title":"CASH Music: Beth Ditto",
+		"description":"Tell people how rad they are. I think if you want to keep artists’ voices being heard then tell people that what they do is important.",
+		"summary":"",
+		"type":"redirect",
+		"url":"https://www.youtube.com/watch?v=7I2-dEp5WAw",
+		"date":"November 4, 2015",
+		"license":"CC-BY",
+		"tags":[
+			"impact",
+			"education"
+		]
+	},
+	"hidden": {
+		"author_id":"hidden",
+		"author_name":"No One",
+		"author_byline":"fake",
+		"release_id":"whymusicmatters",
+		"title":"We shouldn't see this one",
+		"description":"We'll hide this.",
+		"summary":"",
+		"type":"writing",
+		"date":"November 4, 2016",
+		"license":"CC-BY",
+		"tags":[
+			"fake",
+			"hidden"
+		]
+	}
+}
