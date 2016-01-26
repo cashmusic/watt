@@ -1,17 +1,24 @@
 {
 	"id":"jumpingoffcliffs",
 	"author_id":"jessevondoom",
-	"author_name":"Jesse von Doom",
-	"author_byline":"Executive Director, Strategy and Technology at CASH Music",
 	"release_id":"staffhighlights",
 	"title":"Jumping Off Cliffs",
 	"description":"Art directly creates our culture, driving ideas and enabling communication that goes far beyond language alone.",
-	"summary":"",
+	"summary":"Whatever there's a summary okay?",
 	"type":"writing",
 	"date":"November 4, 2015",
 	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"PD",
+			"url":"https://cdn-images-1.medium.com/max/2000/1*T_2d9HrhoQ12KvTOV3Q61w.png",
+			"credits":""
+		}
+	],
 	"tags":[
 		"open",
 		"strategy"
-	]
+	],
+	"template":"default"
 }

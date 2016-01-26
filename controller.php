@@ -23,6 +23,7 @@
  ***************************************************************************************************/
 
 //require_once(__DIR__.'/definitions.php');
+
 require_once(__DIR__.'/lib/mustache/Mustache.php');
 $full_index = json_decode(file_get_contents(__DIR__.'/index.json'),true);
 $request_type = false;
@@ -68,7 +69,23 @@ $display_options = array();
 // figure out what template we're using
 if ($request_type) {
 	if ($request_type == 'view') {
-		$template = file_get_contents(__DIR__.'/templates/default.mustache');
+		require_once(__DIR__.'/lib/markdown/markdown.php');
+		$display_options['id'] = $request_options[0]; // get article id
+		if (file_exists(__DIR__.'/work/'.$display_options['id'].'.md')) {
+			$display_options['content'] = Markdown(file_get_contents(__DIR__.'/work/'.$display_options['id'].'.md'));
+			$work_details = json_decode(file_get_contents(__DIR__.'/work/'.$display_options['id'].'.json'),true);
+			if ($work_details) {
+				if (isset($work_details['template'])) {
+					$template = file_get_contents(__DIR__.'/templates/'.$work_details['template'].'.mustache');
+				} else {
+					$template = file_get_contents(__DIR__.'/templates/default.mustache');
+				}
+			} else {
+				$template = file_get_contents(__DIR__.'/templates/404.mustache');
+			}
+		} else {
+			$template = file_get_contents(__DIR__.'/templates/404.mustache');
+		}
 	} else if ($request_type == 'rss') {
 		$template = file_get_contents(__DIR__.'/templates/rss.mustache');
 	} else if ($request_type == 'podcast') {
