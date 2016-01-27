@@ -1,0 +1,25 @@
+{
+	"id":"marksurman",
+	"author_id":"marksurman",
+	"release_id":"impactofmusic",
+	"title":"Jumping Off Cliffs",
+	"description":"A description!",
+	"summary":"Whatever there's a summary okay?",
+	"type":"writing",
+	"date":"November 16, 2015",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/ms.jpg",
+			"credits":""
+		}
+	],
+	"tags":[
+		"open",
+		"impact",
+		"community"
+	],
+	"template":"blank"
+}
