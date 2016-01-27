@@ -29,6 +29,7 @@ $full_index = json_decode(file_get_contents(__DIR__.'/index.json'),true);
 $request_type = false;
 $request_options = false;
 
+$tag_list = array();
 $tag_index = array();
 $published_index = array();
 $now = time();
@@ -40,11 +41,21 @@ foreach ($full_index as $key => $work) {
 			if (count($work['tags'])) {
 				foreach ($work['tags'] as $tag) {
 					$tag_index[$tag][] = $work;
+					$tag_list[] = $tag;
 				}
 			}
 		}
 	}
 }
+$tag_list = array_unique($tag_list); // trim tags to unique
+sort($tag_list); // alphabetize
+
+// now make it an associative array
+$tmp_array = array();
+foreach ($tag_list as $tag) {
+	$tmp_array[]['tag'] = $tag;
+}
+$tag_list = $tmp_array;
 
 if (isset($_GET['p'])) {
 	$request = explode('/',trim($_GET['p'],'/'));
@@ -75,6 +86,12 @@ if ($request_type) {
 			$display_options['content'] = Markdown(file_get_contents(__DIR__.'/work/'.$display_options['id'].'.md'));
 			$work_details = json_decode(file_get_contents(__DIR__.'/work/'.$display_options['id'].'.json'),true);
 			if ($work_details) {
+				// build tags array
+				$tmp_array = array();
+				foreach ($work_details['tags'] as $tag) {
+					$tmp_array[]['tag'] = $tag;
+				}
+				$display_options['tags'] = $tmp_array;
 				if (isset($work_details['template'])) {
 					$template = file_get_contents(__DIR__.'/templates/'.$work_details['template'].'.mustache');
 				} else {
@@ -127,6 +144,7 @@ if ($request_type) {
 	}
 } else {
 	$display_options['work'] = $published_index;
+	$display_options['tag_list'] = $tag_list;
 	$template = file_get_contents(__DIR__.'/templates/index.mustache');
 }
 

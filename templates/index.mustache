@@ -4,8 +4,15 @@
 
 {{#work}}
 	<p>
-		<a href="/writing/{{id}}">{{title}}</a><br />
+		<a href="/{{type}}/{{id}}">{{title}}</a><br />
 		{{author_name}} ({{author_byline}})<br />
 		{{description}}
 	</p>
 {{/work}}
+
+<p>
+all tags:<br />
+{{#tag_list}}
+	<a href="/tag/{{tag}}">{{tag}}</a>
+{{/tag_list}}
+</p>
