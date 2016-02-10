@@ -1,0 +1,27 @@
+{
+	"id":"kimboekbinder",
+	"author_id":"kimboekbinder",
+	"release_id":"impactofmusic",
+	"title":"Kim Boekbinder",
+	"description":"I think [music] the greatest source of joy and comfort of all art forms. And done right, it can foster understanding of and openness to other ways of being like nothing else can.",
+	"summary":"",
+	"type":"writing",
+	"date":"December 14, 2015",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/ls.jpg",
+			"credits":""
+		}
+	],
+	"tags":[
+		"open",
+		"impact",
+		"community"
+	],
+	"template":"twocol-leftalign",
+	"template_styles":"background:#fcffff;",
+	"template_additional":"dark"
+}

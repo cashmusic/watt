@@ -1,0 +1,27 @@
+{
+	"id":"horacepanter",
+	"author_id":"horacepanter",
+	"release_id":"impactofmusic",
+	"title":"Horace Panter",
+	"description":"Time stood still. It was transcendental. I knew then that playing music was the greatest thing in the world.",
+	"summary":"",
+	"type":"writing",
+	"date":"January 11, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/hp.jpg",
+			"credits":""
+		}
+	],
+	"tags":[
+		"open",
+		"impact",
+		"community"
+	],
+	"template":"twocol-rightalign",
+	"template_styles":"#horacepanter{background:#414841;}",
+	"template_additional":"light"
+}

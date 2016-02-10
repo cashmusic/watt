@@ -20,5 +20,7 @@
 		"open",
 		"strategy"
 	],
-	"template":"default"
+	"template":"default",
+	"template_styles":"#jessevondoom{background:#131313; color:#bcbcbc!important;}",
+	"template_additional":"light"
 }

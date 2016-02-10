@@ -1,7 +1,14 @@
-<div>
-	<img src="{{#photo}}{{url}}{{/photo}}" alt="{{name}}" />
-	{{name}}, {{byline}}
+<div class="author">
+	
 	{{#links}}
-		<a href="{{url}}">{{title}}</a>
+	<a class="avatar" href="{{url}}" target="_blank">
+	<img src="{{#photo}}{{url}}{{/photo}}" alt="{{name}}" /></a>
 	{{/links}}
-</div>
+	 <div class="details">
+	 	<h4>{{name}}, {{byline}}</h4>
+		{{#links}}
+			<a href="{{url}}" target="_blank">{{title}}</a>
+		{{/links}}
+	</div><!--details-->
+
+</div><!--author-->

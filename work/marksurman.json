@@ -2,8 +2,8 @@
 	"id":"marksurman",
 	"author_id":"marksurman",
 	"release_id":"impactofmusic",
-	"title":"Jumping Off Cliffs",
-	"description":"A description!",
+	"title":"Mark Surman, executive director, Mozilla Foundation",
+	"description":"MUSIC IS A GUIDING FORCE, ABLE TO STEER PEOPLE TOWARD COMMUNITIES AND CAUSES THEY'RE PASSIONATE ABOUT. ...I'VE BEEN DRAWN TO SOCIAL CAUSES AND ORGANIZATIONS THAT EMBODY THAT PUNK PASSION AND SINCERITY. IN A WAY, MUSIC MADE ME.",
 	"summary":"Whatever there's a summary okay?",
 	"type":"writing",
 	"date":"November 16, 2015",
@@ -21,5 +21,7 @@
 		"impact",
 		"community"
 	],
-	"template":"blank"
+	"template":"twocol-leftalign",
+	"template_styles":"#marksurman{background-color:#5140f5;} #marksurman h1, #marksurman h2, #marksurman blockquote, #marksurman blockquote p{font-family: 'Playfair Display' !important; text-transform: none;} #marksurman h1{text-transform: none;}",
+	"template_additional":"light"
 }

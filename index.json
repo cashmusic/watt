@@ -49,6 +49,102 @@
 			"education"
 		]
 	},
+	"laurasnapes": {
+		"author_id":"laurasnapes",
+		"author_name":"Laura Snapes",
+		"author_byline":"a contributing editor at Pitchfork who also writes at The Guardian, The Observer, The Financial Times, Uncut and more",
+		"release_id":"whymusicmatters",
+		"title":"Laura Snapes",
+		"description":"I think it's the greatest source of joy and comfort of all art forms. And done right, it can foster understanding of and openness to other ways of being like nothing else can.",
+		"summary":"",
+		"type":"writing",
+		"date":"November 4, 2015",
+		"license":"CC-BY",
+		"tags":[
+			"impact",
+			"education"
+		]
+	},
+	"kimboekbinder": {
+		"author_id":"kimboekbinder",
+		"author_name":"Kim Boekbinder",
+		"author_byline":"a contributing editor at Pitchfork who also writes at The Guardian, The Observer, The Financial Times, Uncut and more",
+		"release_id":"whymusicmatters",
+		"title":"Kim Boekbinder",
+		"description":"I think it's the greatest source of joy and comfort of all art forms. And done right, it can foster understanding of and openness to other ways of being like nothing else can.",
+		"summary":"",
+		"type":"writing",
+		"date":"November 4, 2015",
+		"license":"CC-BY",
+		"tags":[
+			"impact",
+			"education"
+		]
+	},
+	"jedwardkeyes": {
+		"author_id":"jedwardkeyes",
+		"author_name":"J. Edward Keyes",
+		"author_byline":"a contributing editor at Pitchfork who also writes at The Guardian, The Observer, The Financial Times, Uncut and more",
+		"release_id":"whymusicmatters",
+		"title":"J. Edward Keyes",
+		"description":"I think it's the greatest source of joy and comfort of all art forms. And done right, it can foster understanding of and openness to other ways of being like nothing else can.",
+		"summary":"",
+		"type":"writing",
+		"date":"November 4, 2015",
+		"license":"CC-BY",
+		"tags":[
+			"impact",
+			"education"
+		]
+	},
+	"henryrollins": {
+		"author_id":"henryrollins",
+		"author_name":"Henry Rollins",
+		"author_byline":"a contributing editor at Pitchfork who also writes at The Guardian, The Observer, The Financial Times, Uncut and more",
+		"release_id":"whymusicmatters",
+		"title":"Henry Rollins on the impact of music in our world",
+		"description":"The way millions listen to music has chnaged radically in the last few decades and that i think speaks to the question.",
+		"summary":"",
+		"type":"writing",
+		"date":"November 4, 2015",
+		"license":"CC-BY",
+		"tags":[
+			"impact",
+			"education"
+		]
+	},
+	"horacepanter": {
+		"author_id":"horacepanter",
+		"author_name":"Horace Panter",
+		"author_byline":"a contributing editor at Pitchfork who also writes at The Guardian, The Observer, The Financial Times, Uncut and more",
+		"release_id":"whymusicmatters",
+		"title":"Horace Panter",
+		"description":"I think it's the greatest source of joy and comfort of all art forms. And done right, it can foster understanding of and openness to other ways of being like nothing else can.",
+		"summary":"",
+		"type":"writing",
+		"date":"November 4, 2015",
+		"license":"CC-BY",
+		"tags":[
+			"impact",
+			"education"
+		]
+	},
+	"nathanlarson": {
+		"author_id":"nathanlarson",
+		"author_name":"Nathan Larson",
+		"author_byline":"NYC dwelling film composing male, author, diviner, label owner",
+		"release_id":"whymusicmatters",
+		"title":"Nathan Larson",
+		"description":"But like all new tech the potential for discovery and access is mind-blowing, and beyond good and evil. The fact is the sample group of kids I have access to are as likely to know as much about obscure '60s garage punk stuff, or classic hip hop, or 'classic' punk rock, and that's extremely fucking cool.",
+		"summary":"",
+		"type":"writing",
+		"date":"November 4, 2015",
+		"license":"CC-BY",
+		"tags":[
+			"impact",
+			"education"
+		]
+	},
 	"hidden": {
 		"author_id":"hidden",
 		"author_name":"No One",

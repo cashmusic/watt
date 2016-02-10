@@ -130,6 +130,11 @@ function formatByline($author) {
 	}
 }
 
+function formatShare() {
+	global $lemmy;
+		$template = file_get_contents(__DIR__.'/templates/share.mustache');
+		return $lemmy->render($template, ['location' => 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']]);
+}
 /***************************************************************************************************
  *
  * GET DATA AND RENDER PAGE
@@ -157,6 +162,7 @@ if ($request_type) {
 				$display_options['tags'] = $tmp_array;
 				$display_options['display_time'] = formatTimeAgo($work_details['date']);
 				$display_options['display_byline'] = formatByline($work_details['author_id']);
+				$display_options['display_share'] = formatShare();
 				if (isset($work_details['template'])) {
 					$template = file_get_contents(__DIR__.'/templates/'.$work_details['template'].'.mustache');
 				} else {

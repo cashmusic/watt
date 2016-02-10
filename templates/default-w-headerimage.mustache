@@ -54,7 +54,6 @@
 
         <script type="text/javascript" src="https://cashmusic.org/public/cashmusic.js"></script>
         <script type="text/javascript" src="https://static-cashmusic.netdna-ssl.com/www/js/main.js"></script>
-        <script type="text/javascript" src="../js/color_test.js"></script>
 
         </script>
 
@@ -105,36 +104,53 @@
 
         </header>
 <!--SITE HEADER END (REMOVE LATER)-->
-<main id="main" class="article-page static pure-g" role="main">
-<article class="pure-u-1 expanded dark">
+
+<!--Article Inline Styles-->
+<style type="text/css">
+    {{template_styles}}
+</style>
+
+<main id="main" class="article-page pure-g" role="main">
+
+<article id="{{author_id}}" class="pure-u-1 expanded {{template}} {{template_additional}}">
   <section class="article-content">
-  <section class="pure-u-1">
-    <h1 class="page-title"><a href="/">Archive -</a><a href="/tag/{{tag}}">Tag: {{tag}}</a></h1>
-  </section>
-  <section class="pure-u-1">
-{{#work}}<div class="article-archive pure-u-1 pure-u-md-1-4 dark">
-        <div id="{{author_id}}" class="inner">
-          <a class="wrap_link" href="/{{type}}/{{id}}">
-				  <h2>{{title}}</h2>
-				 	<h4>{{author_name}}</h4>
-            <p><span>({{author_byline}})</span></p>
-          <p>{{summary}}</p>
-          </a>
-        </div><!--inner-->
-        <div class="fadeout"></div><!--fadeout-->
-	</div><!--article-archive-->{{/work}}
-</section><!--pure-->
-</section><!--article-content-->
-</article>
+    <section class="pure-u-1">
+      <h4 class="date">{{display_time}}</h4>
+      <h1 class="page-title">{{title}}</h1>
+    </section>
 
-</main><!--#main-->
+    {{#assets}}
+        <img src="{{url}}" alt="{{description}}"/>
+    {{/assets}}
 
+    <section class="pure-u-1">
+      {{{content}}}
+    </section>
+
+    <section class="pure-u-1">
+
+    </section>
+
+    <footer class="pure-u-1">
+      <h4>Tags:</h4>
+      <ul class="tags">
+          {{#tags}}
+            <li><a class="tag" href="/tag/{{tag}}">{{tag}}</a></li>
+          {{/tags}}
+      </ul>
+
+      {{{display_share}}}
+      {{{display_byline}}}
+    </footer>
+  </section><!--article-content-->
+</article><!--{{author}}-->
+
+</main><!--main-->
 
 <!--SITE FOOTER START (REMOVE LATER)-->
 <footer role="contentinfo">
 
-        <script type="text/javascript" src="https://cashmusic.org/public/cashmusic.js"></script>
-        <script type="text/javascript"> window.cashmusic.embed({endpoint:'https://cashmusic.org/public',elementid:'7748',cssoverride:'#mainspc{padding:10px 0px 0 0px; background:rgba(0,0,0,0); color:#999; margin-bottom:30px;}input{border-color:#999;}.cash_notation{color:#999}input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, textarea:focus{background:#111; color:#999;}'});</script>
+        <script type="text/javascript" src="https://cashmusic.org/public/cashmusic.js"></script><script type="text/javascript"> window.cashmusic.embed({endpoint:'https://cashmusic.org/public',elementid:'7748',cssoverride:'#mainspc{padding:10px 0px 0 0px; background:rgba(0,0,0,0); color:#999; margin-bottom:30px;}input{border-color:#999;}.cash_notation{color:#999}input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, textarea:focus{background:#111; color:#999;}'});</script>
 
             <div class="brand-partner">
 

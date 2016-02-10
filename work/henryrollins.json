@@ -1,0 +1,27 @@
+{
+	"id":"henryrollins",
+	"author_id":"henryrollins",
+	"release_id":"impactofmusic",
+	"title":"Henry Rollins - The impact of music in our world",
+	"description":"The way millions listen to music has chnaged radically in the last few decades and that i think speaks to the question.",
+	"summary":"",
+	"type":"writing",
+	"date":"January 11, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"PD",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/hr.jpg",
+			"credits":""
+		}
+	],
+	"tags":[
+		"open",
+		"impact",
+		"community"
+	],
+	"template":"twocol-twothirds-hero",
+	"template_styles":"#henryrollins{background-color:#000;} #henryrollins h2, #henryrollins blockquote, #henryrollins blockquote p{font-family: 'nova_cutbook'!important; text-transform: uppercase;}",
+	"template_additional":"light"
+}

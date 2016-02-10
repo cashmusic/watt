@@ -1,6 +1,4 @@
-We tend to think about the arts, pop culture especially, as a reflection of the world around us. That’s fair, but they are so much more. Art directly creates our culture, driving ideas and enabling communication that goes far beyond language alone. Music is especially primary. I can remember the songs from my childhood, from my wedding, from every time in my life. Depeche Mode saved a twelve year old me from depression just like Fugazi later saved me from a life in suits making money for assholes.
-
-<blockquote>Music isn’t a reflection, but a tool that shapes our world.</blockquote>
+>We tend to think about the arts, pop culture especially, as a reflection of the world around us. That’s fair, but they are so much more. Art directly creates our culture, driving ideas and enabling communication that goes far beyond language alone. Music is especially primary. I can remember the songs from my childhood, from my wedding, from every time in my life. [Depeche Mode](http://www.depechemode.com/) saved a twelve year old me from depression just like Fugazi later saved me from a life in suits making money for assholes. Music isn’t a reflection, but a tool that shapes our world.
 
 Another tool that shapes us is technology. In an increasingly digital landscape technology, code especially, starts to hold undue leverage and privilege. With the rise of web powerhouses we’ve seen centralization of functionality. Small kingdoms made of services that define how whole sectors work. Developers build tools for people, but not with them. Software is written with a set of assumptions and decisions made by the people writing it, not the people using it.The result is a web that has the potential to be empowering for everyone working only for the few. The digital revolution was more of a failed coup, and the new bosses are mostly the same as the old bosses. Everything’s changed except the ownership.
 
@@ -10,7 +8,7 @@ Before I go any further let me give you some context. I work at a nonprofit orga
 
 We’ve built tools that power email-for-download, direct digital and physical sales, download codes, and more. You can download everything we make or just use it on a free (now and forever) hosted site. Everything connects to your own accounts so there’s no new middleman and no cut taken. It’s your career, your data, your business.
 
-<blockquote>The most important part is that it’s open.</blockquote>
+> The most important part is that it’s open.
 
 And this is what I’m here to talk about. Open. What is open? You might have heard about open source code, and there are also open business models and open data. But first let’s talk about the core idea of open. And I’ll admit: there’s a sort of hippie zen bullshit angle to open that’s undeniable. Open isn’t a set of well-defined practices and rules, but a way of thinking that shifts your internal defaults. An open world thinks in terms of sharing and collaboration first, exclusion second. It builds benefits for the individual from the greater good, not the other way around.
 
