@@ -1449,6 +1449,10 @@ margin:15px auto;
     width:65%;
 }
 
+#main.article-page article.twocol-twothirds-hero section.article-content h2{
+    margin-top:40px;
+}
+
 #main.article-page article.twocol-twothirds-hero .article-content blockquote{
   text-align: right;
   display: inline-block;

@@ -121,21 +121,14 @@
                  <h1 class="page-title">{{title}}</h1>
                 </section>
                   <footer>
-                          <div class="author">
-                              <a class="avatar" href="/"><img src="https://static-cashmusic.netdna-ssl.com/www/img/contributor/hr.jpg" alt="author"/></a>
-                              <div class="details">
-                                  <h4>Henry Rollins, writer &amp; speaker,<br/>based in Los Angeles California</h4>
-                                  <a href="https://twitter.com/henryrollins" target="_blank">@henryrollins</a>
-                              </div>
-                          </div><!--author-->
+                    {{{display_byline}}}
                   </footer>
-                  <a class="inline-credit" href="https://www.flickr.com/photos/polytropos/1507925081/" target="_blank"><p>Image <span>@polytropos</span></p></a>
+                  <a class="inline-credit" href="{{#assets}}{{#credits}}{{user_url}}{{/credits}}{{/assets}}" target="_blank"><p>Image <span>{{#assets}}{{#credits}}{{username}}{{/credits}}{{/assets}}</span></p></a>
               </header>
   <section class="article-content">
 		<section class="pure-u-1">
       	{{{content}}}
 		</section>
-
   </section><!--article-content-->
 
 		<footer class="pure-u-1">

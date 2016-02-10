@@ -13,7 +13,12 @@
 			"type":"image",
 			"license":"PD",
 			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/hr.jpg",
-			"credits":""
+			"credits":[
+				{
+					"username":"@polytropos",
+					"user_url":"https://www.flickr.com/photos/polytropos/1507925081/"
+				}
+			]
 		}
 	],
 	"tags":[
