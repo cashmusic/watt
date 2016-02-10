@@ -22,6 +22,6 @@
 		"community"
 	],
 	"template":"twocol-rightalign",
-	"template_styles":"background:#fcffff;",
+	"template_styles":"#laurasnapes{background:#fcffff;}",
 	"template_additional":"dark"
 }
