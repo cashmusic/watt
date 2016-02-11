@@ -84,17 +84,20 @@
 	"jedwardkeyes": {
 		"author_id":"jedwardkeyes",
 		"author_name":"J. Edward Keyes",
-		"author_byline":"a contributing editor at Pitchfork who also writes at The Guardian, The Observer, The Financial Times, Uncut and more",
+		"author_byline":"writer, editor, beer drinker, film watcher, showgoer, record collector. Editorial Director for Bandcamp.",
 		"release_id":"whymusicmatters",
 		"title":"J. Edward Keyes",
-		"description":"I think it's the greatest source of joy and comfort of all art forms. And done right, it can foster understanding of and openness to other ways of being like nothing else can.",
+		"description":"That's always been the music that's excited me the most, when artists question the accepted - in culture, in song structure, in production methods - and tear everything down so they can build it back up again in their own way.",
 		"summary":"",
 		"type":"writing",
-		"date":"November 4, 2015",
+		"date":"December 14, 2015",
 		"license":"CC-BY",
 		"tags":[
+			"open",
 			"impact",
-			"education"
+			"community",
+			"joy",
+			"journalism"
 		]
 	},
 	"henryrollins": {
