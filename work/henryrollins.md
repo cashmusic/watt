@@ -6,7 +6,7 @@ There are different levels of impact because of the ways that music is currently
 
 Humans have been finding rhythm, melody and harmony for centuries but the way millions listen to music has changed radically in the last few decades and that I think speaks to the question.
 
->"The way millions listen to music has changed radically in the last few decades and i think that speaks to the quetion"
+>"The way millions listen to music has changed radically in the last few decades and i think that speaks to the question"
 
 There are good and bad aspects to the current accessibility/delivery systems of music. I think they are for the most part, good.
 
@@ -58,7 +58,7 @@ Okay, they’re gone now. Let’s take those who are left, those who can be reas
 
 I try to take full responsibility for the artists I listen to. Even with bands who are pals of mine, I NEVER ask for a free record. I buy it. I previously stated that I was listening to the Chelsea Wolfe Live at Roadburn LP. What I didn’t include was that I bought all four color variations! I am a maniac and often take things to extremes but it usually ends well. There are labels such as Utech, Castle Face, American Tapes and Teenbeat that I buy one of everything they put out. I don’t always think every single release is great but I think what these labels are doing is, and so, I show up.
 
-image
+![Henry Rollins](https://static-cashmusic.netdna-ssl.com/www/img/article/hr-2.jpg "Henry Rollins")
 
 To devalue music, which is so easy to do now, is to risk losing some of its most beautiful species. Do you really want to be stuck with the species that prevail? If you're reading this, I doubt it.
 
