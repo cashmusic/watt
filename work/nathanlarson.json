@@ -1,0 +1,27 @@
+{
+	"id":"nathanlarson",
+	"author_id":"nathanlarson",
+	"release_id":"impactofmusic",
+	"title":"Nathan Larson",
+	"description":"I think [music] the greatest source of joy and comfort of all art forms. And done right, it can foster understanding of and openness to other ways of being like nothing else can.",
+	"summary":"",
+	"type":"writing",
+	"date":"January 11, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/nl.jpg",
+			"credits":""
+		}
+	],
+	"tags":[
+		"open",
+		"impact",
+		"community"
+	],
+	"template":"threecol-text",
+	"template_styles":"#nathanlarson{background:#2c2c2c;}",
+	"template_additional":"light"
+}
