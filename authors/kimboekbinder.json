@@ -1,0 +1,16 @@
+{
+	"id":"kimboekbinder",
+	"name":"Kim Boekbinder",
+	"byline":"musician",
+	"links":[
+		{
+			"title":"@KimBoekbinder",
+			"url":"https://twitter.com/KimBoekbinder"
+		}
+	],
+	"photo":{
+		"url":"https://static-cashmusic.netdna-ssl.com/www/img/contributor/kbo.jpg",
+		"license":"",
+		"credits":""
+	}
+}
