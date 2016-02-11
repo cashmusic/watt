@@ -145,6 +145,23 @@
 			"education"
 		]
 	},
+	"jubileesugar": {
+		"author_id":"jubileesugar",
+		"author_name":"Ashok 'Dap' Kondabolu",
+		"author_byline":"musician",
+		"release_id":"whymusicmatters",
+		"title":"CASH Music Interview Series: EP.2 (Teaser) - Jubilee & Hot Sugar w/ Ashok 'Dap' Kondabolu",
+		"description":"[Music]’s everywhere all the time and I don't think people realize what kind of an impact it really has.",
+		"summary":"",
+		"type":"redirect",
+		"url":"https://youtu.be/fyKwXTEW3cc",
+		"date":"November 4, 2015",
+		"license":"CC-BY",
+		"tags":[
+			"impact",
+			"education"
+		]
+	},
 	"hidden": {
 		"author_id":"hidden",
 		"author_name":"No One",
