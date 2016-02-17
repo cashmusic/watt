@@ -6,7 +6,7 @@ There are different levels of impact because of the ways that music is currently
 
 Humans have been finding rhythm, melody and harmony for centuries but the way millions listen to music has changed radically in the last few decades and that I think speaks to the question.
 
->"The way millions listen to music has changed radically in the last few decades and i think that speaks to the question"
+>"The way millions listen to music has changed radically in the last few decades and I think that speaks to the question"
 
 There are good and bad aspects to the current accessibility/delivery systems of music. I think they are for the most part, good.
 
@@ -36,6 +36,8 @@ To me, the real crime starts and ends right there. If that’s how you’re list
 
 When music is just a thing you drag and drop onto your desktop for free, it is arguably without value. That someone can totally strip something that was often created at great human expense of all worth and shove it into a “file” is a perfect failure. It is cultural crime.
 
+***
+
 ## What can we do to ensure that artists' voices are heard?
 
 >Be unrelenting in improving not only the accessibility of music delivery but also upping the sonic quality of the content. If it's digital, then help music fans understand what they're missing out on with low resolution downloads. If downloading and streaming are going to be how millions of people listen to music, then make that as excellent as possible.
@@ -45,6 +47,8 @@ It’s one thing to get the signal out there, and that’s important of course, 
 If you are listening to a low resolution version of a song, (I can’t believe this a real conversation. I can’t believe we have to give a music file any dignity whatsoever but here we are.) you are not hearing the artists’ true voice.
 
 So, first, work on making music availability synonymous with quality. This I think will help to ensure sustainability.
+
+***
 
 ###As to sustainability:
 

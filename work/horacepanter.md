@@ -8,9 +8,13 @@ If there was one specific instance, it was probably in 1970 when I played 'You k
 
 Haha! Most of my favourite artists are dead or are financially independent and don't need my help. I don't have an enormous amount of clout in 'the business'. I do take an interest in local/’up and coming' musicians, and have attempted to pull some strings. A lot of this is to do with the local acts' determination: 'You can lead a horse to water but you can't get him a record deal'. There was a fantastic band in the 80's, 20 Days, which I went to see regularly but they ended up splitting. There was a really good rock outfit from Coventry called The Glass Guns who I attempted to champion a couple of years ago but they also ended up folding. I’m a fan, not a businessman. I've worked (played bass) on recordings with local singer/songwriter Danny Ansell and I’m helping out a very talented singer/songwriter called Steve Malik. There's a band called The Commonjets who are all still at school, but they're pretty damned good. It's a bit odd when I go to see these new bands; people think I'm one of the bands' grandfathers I’m sure. Of course, I championed The Sleaford Mods in the support slot for The Specials tour in 2015 and recently went to see Millie Manders (Camden girl with attitude who writes, sings and plays a ukulele) in Birmingham; one to watch out for.
 
+***
+
 ###How have you seen music change your world?
 
 Difficult one this. Music has always been an integral part of 'my world' so I was unaware of its shifting influences - it was a flow I went with. There was a tremendous feeling of pride/satisfaction when The Specials inked their record deal. In the 'occupation' bit of my passport application form, I could write 'musician'. That felt good. When I was working as a teacher in the first decade of this century I was playing at weekends. I’ve always played. It has become an everyday part of who I am.
+
+***
 
 ###How have the changes in the music industry (especially since the dawn of the digital age) affected your career?
 

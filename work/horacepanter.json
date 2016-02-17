@@ -13,7 +13,16 @@
 			"type":"image",
 			"license":"CC-BY",
 			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/hp.jpg",
-			"credits":""
+			"credits":[
+				{
+					"username":"@horacepanterart",
+					"user_url":"https://twitter.com/horacepanterart"
+				},
+				{
+					"username":"@thespecials",
+					"user_url":"https://twitter.com/thespecials"
+				}
+			]
 		}
 	],
 	"tags":[
