@@ -1,0 +1,26 @@
+{
+	"id":"anadasilva",
+	"author_id":"anadasilva",
+	"release_id":"impactofmusic",
+	"title":"I Hear The Music",
+	"description":"A visual response",
+	"summary":"",
+	"type":"writing",
+	"date":"November 16, 2015",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"PD",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/ads.jpg"
+		}
+	],
+	"tags":[
+		"open",
+		"impact",
+		"community"
+	],
+	"template":"default",
+	"template_styles":"#anadasilva{background:#2c2c2c;}",
+	"template_additional":"light"
+}

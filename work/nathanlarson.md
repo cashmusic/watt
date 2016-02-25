@@ -32,10 +32,6 @@ What are those factors? Because sometimes the algorithm is a great thing. If I l
 
 ***
 
-![Nathan](https://static-cashmusic.netdna-ssl.com/www/img/article/nl.jpg)
-
-***
-
 As corny as it sounds there is nothing so powerful as word from a friend or trusted mind. It's nostalgia and therefore worthless but I was raised with the guy/gal at the record store who paid attention, and on whose word you would buy anything. Maybe this person now has a blog. I don't know. Then how do you locate the blog?
 
 

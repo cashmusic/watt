@@ -3,10 +3,10 @@
 	"author_id":"nathanlarson",
 	"release_id":"impactofmusic",
 	"title":"Nathan Larson",
-	"description":"I think [music] the greatest source of joy and comfort of all art forms. And done right, it can foster understanding of and openness to other ways of being like nothing else can.",
+	"description":"But like all new tech the potential for discovery and access is mind-blowing, and beyond good and evil. The fact is the sample group of kids I have access to are as likely to know as much about obscure '60s garage punk stuff, or classic hip hop, or 'classic' punk rock, and that's extremely fucking cool.",
 	"summary":"",
 	"type":"writing",
-	"date":"January 11, 2016",
+	"date":"December 14, 2015",
 	"license":"CC-BY",
 	"assets":[
 		{
@@ -21,7 +21,7 @@
 		"impact",
 		"community"
 	],
-	"template":"threecol-text",
+	"template":"twocol-twothirds-hero",
 	"template_styles":"#nathanlarson{background:#2c2c2c;}",
 	"template_additional":"light"
 }

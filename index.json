@@ -68,13 +68,13 @@
 	"kimboekbinder": {
 		"author_id":"kimboekbinder",
 		"author_name":"Kim Boekbinder",
-		"author_byline":"a contributing editor at Pitchfork who also writes at The Guardian, The Observer, The Financial Times, Uncut and more",
+		"author_byline":"musician",
 		"release_id":"whymusicmatters",
 		"title":"Kim Boekbinder",
-		"description":"I think it's the greatest source of joy and comfort of all art forms. And done right, it can foster understanding of and openness to other ways of being like nothing else can.",
+		"description":"The corporate content hegemony is worse than ever and we're stuck squabbling over the pitiful amounts of money our streaming overlords let slip through their grasp, or clinging to ad agencies and music supervisors like life rafts.",
 		"summary":"",
 		"type":"writing",
-		"date":"November 4, 2015",
+		"date":"January 11, 2016",
 		"license":"CC-BY",
 		"tags":[
 			"impact",
@@ -103,10 +103,10 @@
 	"henryrollins": {
 		"author_id":"henryrollins",
 		"author_name":"Henry Rollins",
-		"author_byline":"a contributing editor at Pitchfork who also writes at The Guardian, The Observer, The Financial Times, Uncut and more",
+		"author_byline":"A writer and speaker, based in Los Angeles California",
 		"release_id":"whymusicmatters",
 		"title":"Henry Rollins on the impact of music in our world",
-		"description":"The way millions listen to music has changed radically in the last few decades and that, I think, speaks to the question.",
+		"description":"The way millions listen to music has changed radically in the last few decades and I think that speaks to the question.",
 		"summary":"",
 		"type":"writing",
 		"date":"November 4, 2015",
@@ -141,7 +141,7 @@
 		"description":"But like all new tech the potential for discovery and access is mind-blowing, and beyond good and evil. The fact is the sample group of kids I have access to are as likely to know as much about obscure '60s garage punk stuff, or classic hip hop, or 'classic' punk rock, and that's extremely fucking cool.",
 		"summary":"",
 		"type":"writing",
-		"date":"November 4, 2015",
+		"date":"December 14, 2015",
 		"license":"CC-BY",
 		"tags":[
 			"impact",
@@ -158,7 +158,23 @@
 		"summary":"",
 		"type":"redirect",
 		"url":"https://youtu.be/fyKwXTEW3cc",
-		"date":"November 4, 2015",
+		"date":"January 11, 2016",
+		"license":"CC-BY",
+		"tags":[
+			"impact",
+			"education"
+		]
+	},
+	"anadasilva": {
+		"author_id":"anadasilva",
+		"author_name":"Ana da Silva",
+		"author_byline":"founding member of The Raincoats",
+		"release_id":"whymusicmatters",
+		"title":"I Hear The Music",
+		"description":"A visual response",
+		"summary":"",
+		"type":"writing",
+		"date":"November 16, 2015",
 		"license":"CC-BY",
 		"tags":[
 			"impact",
