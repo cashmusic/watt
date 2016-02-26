@@ -84,7 +84,7 @@
 	"jedwardkeyes": {
 		"author_id":"jedwardkeyes",
 		"author_name":"J. Edward Keyes",
-		"author_byline":"writer, editor, beer drinker, film watcher, showgoer, record collector. Editorial Director for Bandcamp.",
+		"author_byline":"music critic, editor at Ghostly International",
 		"release_id":"whymusicmatters",
 		"title":"J. Edward Keyes",
 		"description":"That's always been the music that's excited me the most, when artists question the accepted - in culture, in song structure, in production methods - and tear everything down so they can build it back up again in their own way.",
@@ -172,6 +172,22 @@
 		"release_id":"whymusicmatters",
 		"title":"I Hear The Music",
 		"description":"A visual response",
+		"summary":"",
+		"type":"writing",
+		"date":"November 16, 2015",
+		"license":"CC-BY",
+		"tags":[
+			"impact",
+			"education"
+		]
+	},
+	"astrataylor": {
+		"author_id":"astrataylor",
+		"author_name":"Astra Taylor",
+		"author_byline":"director, author, and musician",
+		"release_id":"whymusicmatters",
+		"title":"Astra Taylor",
+		"description":"It almost feels like one of the elements. There's air, water, dirt, fire, and music.",
 		"summary":"",
 		"type":"writing",
 		"date":"November 16, 2015",
