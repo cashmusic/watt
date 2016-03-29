@@ -1,0 +1,27 @@
+{
+	"id":"annfriedman",
+	"author_id":"annfriedman",
+	"release_id":"impactofmusic",
+	"title":"Ann Friedman",
+	"description":"Music is a memory aid, a muscle relaxant, an aphrodisiac, a pain reliever, an anxiety suppressant, a mood enhancer.",
+	"summary":"",
+	"type":"writing",
+	"date":"November 30th, 2015",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/af-thin.jpg",
+			"credits":""
+		}
+	],
+	"tags":[
+		"open",
+		"impact",
+		"community"
+	],
+	"template":"twocol-leftalign",
+	"template_styles":"#annfriedman{background:#000000;}",
+	"template_additional":"light"
+}

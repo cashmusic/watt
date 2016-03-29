@@ -1,0 +1,27 @@
+{
+	"id":"jamiestewart",
+	"author_id":"jamiestewart",
+	"release_id":"impactofmusic",
+	"title":"Jamie Stewart",
+	"description":"The impact [music] has is that it gives living a context and momentum",
+	"summary":"",
+	"type":"writing",
+	"date":"November 30th, 2015",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/js.jpg",
+			"credits":""
+		}
+	],
+	"tags":[
+		"open",
+		"impact",
+		"community"
+	],
+	"template":"twocol-leftalign",
+	"template_styles":"#jamiestewart{background:#000000;}",
+	"template_additional":"light"
+}

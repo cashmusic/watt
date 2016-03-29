@@ -1,0 +1,11 @@
+### What kind of impact does music have in our world?
+
+this took me a minute to wrap my head around. maybe because the context for it in most people's lives is so integrated and ingrained that it is almost like asking what impact does talking have in our world. not knowing what to do with this i had to think about more about what impact would it have if there was not music in our world. imagine that it suddenly vanished from human society.
+
+a dance club would be a huge warehouse filled with drunk people, fog and lasers just kind of walking around, sort of bored. a wedding would be eating like 4 pieces of cake and watching someone else's relatives that don't like each other look at their watches. a break up would be drinking and what? just reading the economist alone. you can't sleep, you get in your car to go to beach at 3:00am and listen to AM talk radio on the way there for an hour. all the synths, drums, guitars and flutes in the world look really cool, but that is it. you are getting ready go on a first date and it is totally silent while you brush your hair. you are paralyzed in bed by a bout of depression you have been slogging through for 3 weeks and your only option is to try to read. opening credits of a movie just quietly scroll by. lost in the dark woods at night you can only keep walking and be afraid. your roommates are having unpleasant sex and to try and cover it up they turn the tv on really loud, which is only dialogue now. eulogies at funerals become incredibly long and rambling to fill space where there might have been your dad's favorite song. your kraftwerk t shirt does not make sense anymore. your vocal lessons become increasingly surreal. the way people walk becomes increasingly uniform and uninteresting, being driven now only by brute physicality. the feelings that you had before that were difficult to understand and bear are now impossible to understand and bear.
+
+it seems that the impact it has is that it gives living a context and momentum. it is not as if most things cant occur without it but when they do occur without, there is no there there anymore.
+
+### What can we do to ensure artist's voices are heard?
+
+ugh, i am not sure how to answer this. sorry

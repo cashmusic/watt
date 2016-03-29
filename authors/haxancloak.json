@@ -1,0 +1,16 @@
+{
+	"id":"haxancloak",
+	"name":"The Haxan Cloak",
+	"byline":"musician & producer",
+	"links":[
+		{
+			"title":"@haxan_cloak",
+			"url":"https://twitter.com/haxan_cloak"
+		}
+	],
+	"photo":{
+		"url":"https://static-cashmusic.netdna-ssl.com/www/img/contributor/hc.jpg",
+		"license":"",
+		"credits":""
+	}
+}

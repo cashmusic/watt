@@ -1,0 +1,27 @@
+{
+	"id":"jennschiffer",
+	"author_id":"jennschiffer",
+	"release_id":"impactofmusic",
+	"title":"Jenn Schiffer",
+	"description":"Music has a way of telling us how horrible and wonderful life is at the same time and it magically makes that reality easy to digest.",
+	"summary":"",
+	"type":"writing",
+	"date":"November 30th, 2015",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/af-thin.jpg",
+			"credits":""
+		}
+	],
+	"tags":[
+		"open",
+		"impact",
+		"community"
+	],
+	"template":"twocol-leftalign",
+	"template_styles":"#annfriedman{background:#000000;}",
+	"template_additional":"light"
+}
