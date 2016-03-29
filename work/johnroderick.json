@@ -1,0 +1,25 @@
+{
+	"id":"johnroderick",
+	"author_id":"johnroderick",
+	"release_id":"impactofmusic",
+	"title":"John Roderick",
+	"description":"People want art and need art, they crave it and seek it.",
+	"type":"writing",
+	"date":"November 16, 2015",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"PD",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/roderick.jpg"
+		}
+	],
+	"tags":[
+		"open",
+		"impact",
+		"community"
+	],
+	"template":"default",
+	"template_styles":"#johnroderick{background:#2c2c2c;}",
+	"template_additional":"light"
+}

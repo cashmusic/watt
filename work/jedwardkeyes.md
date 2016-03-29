@@ -6,6 +6,6 @@ That's always been the music that's excited me the most, when artists question t
 
 ***
 
-### How do we ensure that voices will get heard?
+### What can we do to ensure that artists' voices are heard?
 
 I've always had kind of a non-traditional approach to criticism and music journalism, where I feel like part of my role is to be an advocate for smaller artists who maybe aren't getting loads of press, but whose work I feel is important. So for me, I tend to naturally tune out bands once they get to a certain point in their career and start shifting focus back to smaller artists. It's important for the critic to actively engage in popular culture and serve as a voice in that regard, but the thing I've always loved about writing is when I discover a new band and get to help them tell their story. That blurs the line between objective criticism and A&R, I know, but I do view part of my specific role/passion as a journalist the act of getting people's eyes on new things.

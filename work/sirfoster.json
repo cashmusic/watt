@@ -1,0 +1,26 @@
+{
+	"id":"sirfoster",
+	"author_id":"sirfoster",
+	"release_id":"impactofmusic",
+	"title":"Sir Foster",
+	"description":"Artists are just as important as scientists, doctors, mathematicians and the like.",
+	"summary":"",
+	"type":"writing",
+	"date":"November 16, 2015",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"PD",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/sf-lrg.jpg"
+		}
+	],
+	"tags":[
+		"open",
+		"impact",
+		"community"
+	],
+	"template":"default",
+	"template_styles":"#sirfoster{background:#2c2c2c;}",
+	"template_additional":"light"
+}

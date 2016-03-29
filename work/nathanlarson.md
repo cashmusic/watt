@@ -16,7 +16,7 @@ Greater minds than mine have tackled this subject. Obviously.
 
 ***
 
-### How do we ensure that voices will get heard?
+### What can we do to ensure that artists' voices are heard?
 
 What can we do to ensure that artists' voices are heard?
 It's a goddamn cacophony of artists voices. There are hubs one can go to be crushed by an avalanche of artist's voices.

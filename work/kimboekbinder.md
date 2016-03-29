@@ -6,7 +6,7 @@ Music is the art form that travels with us through every aspect of our lives. We
 
 ***
 
-### How do we ensure that voices will get heard?
+### What can we do to ensure that artists' voices are heard?
 
 >Stop giving corporations all the power (a.k.a. your money.)
 

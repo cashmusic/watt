@@ -12,7 +12,7 @@ I like the divisive element of music, the subcultural even sectarian aspect, all
 
 ***
 
-### How do we ensure that voices will get heard?
+### What can we do to ensure that artists' voices are heard?
 
 I’m a political person, which means I’m not for artists voices being lifted categorically. Plenty of artists without a lot to say have an awful loud microphone compared to their fellow citizens. Beyond the superstars with their massive followings, all an artist has to do to be heard these days is talk shit about someone else and it’s front-page news. The incentives are all wrong if you crave a different kind of discourse. What I’d like to see is more thoughtful voices rise above the din, and also to see the sound turned up for some of the artists who inhabit those obscure niches I mentioned above (niches can refer to genre but also to geography or even gender, any trait that puts people outside the center). I think the number one priority is rethinking the advertiser corporate-sponsor data-collection driven business model that drives so much of our digital cultural distribution systems.
 

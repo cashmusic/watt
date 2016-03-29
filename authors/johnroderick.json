@@ -1,0 +1,16 @@
+{
+	"id":"johnroderick",
+	"name":"John Roderick",
+	"byline":"musician, singer of The Long Winters",
+	"links":[
+		{
+			"title":"@johnroderick",
+			"url":"https://twitter.com/johnroderick"
+		}
+	],
+	"photo":{
+		"url":"https://static-cashmusic.netdna-ssl.com/www/img/contributor/roderick.jpg",
+		"license":"",
+		"credits":""
+	}
+}

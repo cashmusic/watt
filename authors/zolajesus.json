@@ -1,0 +1,16 @@
+{
+	"id":"zolajesus",
+	"name":"Zola Jesus",
+	"byline":"musician",
+	"links":[
+		{
+			"title":"@zolajesus",
+			"url":"https://twitter.com/zolajesus"
+		}
+	],
+	"photo":{
+		"url":"https://static-cashmusic.netdna-ssl.com/www/img/contributor/zj.jpg",
+		"license":"",
+		"credits":""
+	}
+}
