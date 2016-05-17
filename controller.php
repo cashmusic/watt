@@ -1,5 +1,5 @@
 <?php
-/***************************************************************************************************
+/*******************************************************************************
  *
  * CASH Music publishing tool - main controller
  * http://archive.cashmusic.org/
@@ -12,20 +12,19 @@
  * Licensed under the GNU Lesser General Public License version 3.
  * See http://www.gnu.org/licenses/lgpl-3.0.html
  *
- ***************************************************************************************************/
+ ******************************************************************************/
 
 
 
-/***************************************************************************************************
+/*******************************************************************************
  *
  * INCLUDES AND VARIABLES
  *
- ***************************************************************************************************/
+ ******************************************************************************/
 
 //require_once(__DIR__.'/definitions.php');
-require_once(__DIR__.'/classes/DoubleBirds.php');
-require_once(__DIR__.'/lib/mustache/Mustache.php');
-$lemmy = new Mustache;
+require_once(__DIR__.'/classes/Harvard.php');
+$brown = new Harvard;
 
 $full_index = json_decode(file_get_contents(__DIR__.'/index.json'),true);
 $request_type = false;
@@ -71,18 +70,24 @@ if (isset($_GET['p'])) {
 }
 
 
-/***************************************************************************************************
+/*******************************************************************************
  *
  * GET DATA AND RENDER PAGE
  *
- ***************************************************************************************************/
+ ******************************************************************************/
 
 // first set up variables
 $display_options = array();
+$template = '404';
 
 // figure out what template we're using
 if ($request_type) {
 	if ($request_type == 'view') {
+		/*************************************************************************
+		 *
+		 * VIEW AN ARTICLE (/view)
+		 *
+		 ************************************************************************/
 		require_once(__DIR__.'/lib/markdown/markdown.php');
 		$display_options['id'] = $request_options[0]; // get article id
 		if (file_exists(__DIR__.'/content/work/'.$display_options['id'].'.md')) {
@@ -96,26 +101,37 @@ if ($request_type) {
 					$tmp_array[]['tag'] = $tag;
 				}
 				$display_options['tags'] = $tmp_array;
-				$display_options['display_time'] = DoubleBirds::formatTimeAgo($work_details['date']);
-					$display_options['display_byline'] = DoubleBirds::formatByline($work_details['author_id']);
-				$display_options['display_share'] = DoubleBirds::formatShare();
+				$display_options['display_time'] = $brown->formatTimeAgo($work_details['date']);
+					$display_options['display_byline'] = $brown->formatByline($work_details['author_id']);
+				$display_options['display_share'] = $brown->formatShare();
 				if (isset($work_details['template'])) {
-					$template = file_get_contents(__DIR__.'/templates/'.$work_details['template'].'.mustache');
+					$template = $work_details['template'];
 				} else {
-					$template = file_get_contents(__DIR__.'/templates/default.mustache');
+					$template = 'default';
 				}
-			} else {
-				$template = file_get_contents(__DIR__.'/templates/404.mustache');
 			}
-		} else {
-			$template = file_get_contents(__DIR__.'/templates/404.mustache');
 		}
 	} else if ($request_type == 'rss') {
-		$template = file_get_contents(__DIR__.'/templates/rss.mustache');
+		/*************************************************************************
+		 *
+		 * RSS FEED (/rss)
+		 *
+		 ************************************************************************/
+		$template = 'rss';
 	} else if ($request_type == 'podcast') {
-		$template = file_get_contents(__DIR__.'/templates/rss-media.mustache');
+		/*************************************************************************
+		 *
+		 * PODCAST FEED (/podcast)
+		 *
+		 ************************************************************************/
+		$template = 'rss-media';
 	} else if ($request_type == 'tag') {
-		$template = file_get_contents(__DIR__.'/templates/tag.mustache');
+		/*************************************************************************
+		 *
+		 * VIEW A SPECIFIC TAG (/tag)
+		 *
+		 ************************************************************************/
+		$template = 'tag';
 		if (count($request_options)) {
 			// found a tag. now what?
 			$display_options['tag'] = $request_options[0];
@@ -140,21 +156,33 @@ if ($request_type) {
 			exit;
 		}
 	} else if ($request_type == 'redirect') {
-		// lets us store info and create permalinks for things that are hosted elsewhere
+		/*************************************************************************
+		 *
+		 * REDIRECT TO EXTERNAL CONTENT (/redirect)
+		 *
+		 ************************************************************************/
 		if (isset($full_index[$request_options[0]]['url'])) {
 			header('Location: ' . $full_index[$request_options[0]]['url']);
-		} else {
-			$template = file_get_contents(__DIR__.'/templates/404.mustache');
 		}
-	} else {
-		$template = file_get_contents(__DIR__.'/templates/404.mustache');
+	} else if ($request_type == 'author') {
+		/*************************************************************************
+		 *
+		 * SHOW AUTHOR PAGE (/author)
+		 *
+		 ************************************************************************/
+		// do author stuff
 	}
 } else {
+	/****************************************************************************
+	 *
+	 * MAIN PAGE (/)
+	 *
+	 ***************************************************************************/
 	$display_options['work'] = $published_index;
 	$display_options['tag_list'] = $tag_list;
-	$template = file_get_contents(__DIR__.'/templates/index.mustache');
+	$template = 'index';
 }
 
 // pick the correct template and echo
-echo $lemmy->render($template, $display_options);
+echo $brown->renderMustache($template, $display_options);
 ?>

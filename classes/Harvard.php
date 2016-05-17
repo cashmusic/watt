@@ -1,6 +1,16 @@
 <?php
-class DoubleBirds {
+class Harvard {
+	public $lemmy = false;
 
+	public function __construct() {
+		require(__DIR__.'/../lib/mustache/Mustache.php');
+		$this->lemmy = new Mustache;
+	}
+
+	public function renderMustache($template_name, $vars) {
+		$template = file_get_contents(__DIR__.'/../templates/'.$template_name.'.mustache');
+		echo $this->lemmy->render($template, $vars);
+	}
 
 	/**
 	 * Takes a datestamp or a string capable of being converted to a datestamp and
@@ -9,7 +19,7 @@ class DoubleBirds {
 	 *
 	 * @return string
 	 */
-	public static function formatTimeAgo($time,$long=false) {
+	public function formatTimeAgo($time,$long=false) {
 		if (is_string($time)) {
 			if (is_numeric($time)) {
 				$datestamp = (int) $time;
@@ -46,7 +56,7 @@ class DoubleBirds {
 		return $ago_str;
 	}
 
-	public static function formatByline($author) {
+	public function formatByline($author) {
 		require_once(__DIR__.'/../lib/mustache/Mustache.php');
 		$lemmy = new Mustache;
 		if (file_exists(__DIR__.'/../authors/'.$author.'.json')) {
@@ -58,7 +68,7 @@ class DoubleBirds {
 		}
 	}
 
-	public static function formatShare() {
+	public function formatShare() {
 		require_once(__DIR__.'/../lib/mustache/Mustache.php');
 		$lemmy = new Mustache;
 		$template = file_get_contents(__DIR__.'/../templates/share.mustache');
