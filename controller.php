@@ -39,7 +39,7 @@ if (isset($_GET['p'])) {
 	}
 }
 
-$full_index = json_decode(file_get_contents(__DIR__.'/index.json'),true);
+$full_index = json_decode(file_get_contents(__DIR__.'/content/_generated_work.json'),true);
 
 $tag_list = array();
 $tag_index = array();
@@ -102,7 +102,7 @@ if ($request_type) {
 				}
 				$display_options['tags'] = $tmp_array;
 				$display_options['display_time'] = $brown->formatTimeAgo($work_details['date']);
-					$display_options['display_byline'] = $brown->formatByline($work_details['author_id']);
+				$display_options['display_byline'] = $brown->formatByline($work_details['author_id']);
 				$display_options['display_share'] = $brown->formatShare();
 				if (isset($work_details['template'])) {
 					$template = $work_details['template'];

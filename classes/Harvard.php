@@ -8,13 +8,22 @@ class Harvard {
 		$this->lemmy = new Mustache;
 
 		if (!file_exists(__DIR__.'/../content/_generated_work.json')) {
-			$this->buildIndexes();
+			$this->index = $this->buildIndexes();
+		} else {
+			$this->index = array();
+			$this->index['work']    = json_decode(file_get_contents(__DIR__.'/../content/_generated_work.json'));
+			$this->index['tags']    = json_decode(file_get_contents(__DIR__.'/../content/_generated_tags.json'));;
+			$this->index['authors'] = json_decode(file_get_contents(__DIR__.'/../content/_generated_authors.json'));;
 		}
 	}
 
 	public function renderMustache($template_name, $vars) {
 		$template = file_get_contents(__DIR__.'/../templates/'.$template_name.'.mustache');
 		echo $this->lemmy->render($template, $vars);
+	}
+
+	public function getIndex() {
+		return $this->index;
 	}
 
 	public function buildIndexes() {
@@ -32,6 +41,15 @@ class Harvard {
 				}
 			}
 		}
+
+		// add author details to work
+		foreach ($return['work'] as $key => &$entry) {
+			if (is_array($return['authors'][$entry['author_id']])) {
+				$entry['author_name'] = $return['authors'][$entry['author_id']]['name'];
+				$entry['author_byline'] = $return['authors'][$entry['author_id']]['byline'];
+			}
+		}
+
 		// do tag stuff
 		$tag_list = array();
 		$tag_index = array();
@@ -110,23 +128,19 @@ class Harvard {
 	}
 
 	public function formatByline($author) {
-		require_once(__DIR__.'/../lib/mustache/Mustache.php');
-		$lemmy = new Mustache;
-		if (file_exists(__DIR__.'/../authors/'.$author.'.json')) {
-			$details = json_decode(file_get_contents(__DIR__.'/../authors/'.$author.'.json'),true);
+		if (file_exists(__DIR__.'/../content/authors/'.$author.'.json')) {
+			$details = json_decode(file_get_contents(__DIR__.'/../content/authors/'.$author.'.json'),true);
 			$template = file_get_contents(__DIR__.'/../templates/byline.mustache');
-			return $lemmy->render($template, $details);
+			return $this->lemmy->render($template, $details);
 		} else {
 			return '';
 		}
 	}
 
 	public function formatShare() {
-		require_once(__DIR__.'/../lib/mustache/Mustache.php');
-		$lemmy = new Mustache;
 		$template = file_get_contents(__DIR__.'/../templates/share.mustache');
 		$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
-		return $lemmy->render($template, ['location' => $protocol.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']]);
+		return $this->lemmy->render($template, ['location' => $protocol.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']]);
 	}
 }
 ?>
