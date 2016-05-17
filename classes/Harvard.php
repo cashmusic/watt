@@ -1,15 +1,68 @@
 <?php
 class Harvard {
 	public $lemmy = false;
+	public $index = false;
 
 	public function __construct() {
 		require(__DIR__.'/../lib/mustache/Mustache.php');
 		$this->lemmy = new Mustache;
+
+		if (!file_exists(__DIR__.'/../content/_generated_work.json')) {
+			$this->buildIndexes();
+		}
 	}
 
 	public function renderMustache($template_name, $vars) {
 		$template = file_get_contents(__DIR__.'/../templates/'.$template_name.'.mustache');
 		echo $this->lemmy->render($template, $vars);
+	}
+
+	public function buildIndexes() {
+		$return = array();
+		$indexes = array(
+			"work"    => __DIR__.'/../content/work',
+			"authors" => __DIR__.'/../content/authors'
+		);
+		foreach ($indexes as $type => $location) {
+			foreach(glob($location . '/*.json') as $file) {
+				$entry = json_decode(file_get_contents($file),true);
+				if ($entry) {
+					$key = str_replace(array('.json',$location.'/'),'',$file);
+					$return[$type][$key] = $entry;
+				}
+			}
+		}
+		// do tag stuff
+		$tag_list = array();
+		$tag_index = array();
+		if (is_array($return['work'])) {
+			foreach ($return['work'] as $work) {
+				if (is_array($work['tags'])) {
+					if (count($work['tags'])) {
+						foreach ($work['tags'] as $tag) {
+							$tag_index[$tag][] = $work['id'];
+							$tag_list[] = $tag;
+						}
+					}
+				}
+			}
+		}
+		$tag_list = array_unique($tag_list); // trim tags to unique
+		$return['tags']['count'] = count($tag_list);
+		$return['tags']['list'] = $tag_list;
+		$return['tags']['work'] = $tag_index;
+		foreach(glob(__DIR__.'/../content/tags/*.json') as $file) {
+			$entry = json_decode(file_get_contents($file),true);
+			if ($entry) {
+				$key = str_replace(array('.json',$location.'/'),'',$file);
+				$return['tags'][$key] = $entry;
+			}
+		}
+
+		foreach ($return as $type => $data) {
+			file_put_contents(__DIR__.'/../content/_generated_'.$type.'.json',json_encode($data));
+		}
+		return $return;
 	}
 
 	/**

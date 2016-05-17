@@ -26,9 +26,20 @@
 require_once(__DIR__.'/classes/Harvard.php');
 $brown = new Harvard;
 
-$full_index = json_decode(file_get_contents(__DIR__.'/index.json'),true);
 $request_type = false;
 $request_options = false;
+if (isset($_GET['p'])) {
+	$request = explode('/',trim($_GET['p'],'/'));
+	if (is_array($request)) {
+		$request_type = array_shift($request);
+		$request_options = $request;
+		if ($request_type == 'writing') {
+			$request_type = 'view';
+		}
+	}
+}
+
+$full_index = json_decode(file_get_contents(__DIR__.'/index.json'),true);
 
 $tag_list = array();
 $tag_index = array();
@@ -57,17 +68,6 @@ foreach ($tag_list as $tag) {
 	$tmp_array[]['tag'] = $tag;
 }
 $tag_list = $tmp_array;
-
-if (isset($_GET['p'])) {
-	$request = explode('/',trim($_GET['p'],'/'));
-	if (is_array($request)) {
-		$request_type = array_shift($request);
-		$request_options = $request;
-		if ($request_type == 'writing') {
-			$request_type = 'view';
-		}
-	}
-}
 
 
 /*******************************************************************************

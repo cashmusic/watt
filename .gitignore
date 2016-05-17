@@ -1,0 +1,8 @@
+*.sw?
+*.bak
+.DS_Store
+.idea
+
+content/_generated_work.json
+content/_generated_tags.json
+content/_generated_authors.json
