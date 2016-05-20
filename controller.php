@@ -29,20 +29,20 @@ $brown = new Harvard;
 // get main settings
 $main_settings = json_decode(file_get_contents(__DIR__.'/settings.json'),true);
 
-$request_type = false;
-$request_options = false;
-$display_options = array();
+// parse the route
 if (isset($_GET['p'])) {
-	$request = explode('/',trim($_GET['p'],'/'));
-	if (is_array($request)) {
-		$request_type = array_shift($request);
-		$request_options = $request;
-		if ($request_type == 'writing') {
-			$request_type = 'view';
-		}
-	}
+	$parsed_route = $brown->parseRoute($_GET['p']);
+} else {
+	$parsed_route = false;
 }
 
+// set json true/false based on parsed route
+$display_options['json'] = false;
+if ($parsed_route['json']) {
+	$display_options['json'] = true;
+}
+
+// grab the full index from the Harvard class
 $full_index = $brown->getIndex();
 
 
@@ -54,27 +54,17 @@ $full_index = $brown->getIndex();
 
 // first set up variables
 $template = '404';
-$display_options['json'] = false;
-if ($request_options) {
-	if (count($request_options)) {
-		if (strpos($request_options[0],'.json')) {
-			// found a trailing.json
-			$request_options[0] = str_replace('.json','',$request_options[0]);
-			$display_options['json'] = true;
-		}
-	}
-}
 
 // figure out what template we're using
-if ($request_type) {
-	if ($request_type == 'view') {
+if ($parsed_route) {
+	if ($parsed_route['type'] == 'view') {
 		/*************************************************************************
 		 *
 		 * VIEW AN ARTICLE (/view)
 		 *
 		 ************************************************************************/
 		require_once(__DIR__.'/lib/markdown/markdown.php');
-		$display_options['id'] = $request_options[0]; // get article id
+		$display_options['id'] = $parsed_route['options'][0]; // get article id
 		if (file_exists(__DIR__.'/content/work/'.$display_options['id'].'.md')) {
 			$display_options['content'] = Markdown(file_get_contents(__DIR__.'/content/work/'.$display_options['id'].'.md'));
 			$work_details = json_decode(file_get_contents(__DIR__.'/content/work/'.$display_options['id'].'.json'),true);
@@ -96,30 +86,30 @@ if ($request_type) {
 				}
 			}
 		}
-	} else if ($request_type == 'rss') {
+	} else if ($parsed_route['type'] == 'rss') {
 		/*************************************************************************
 		 *
 		 * RSS FEED (/rss)
 		 *
 		 ************************************************************************/
 		$template = 'rss';
-	} else if ($request_type == 'podcast') {
+	} else if ($parsed_route['type'] == 'podcast') {
 		/*************************************************************************
 		 *
 		 * PODCAST FEED (/podcast)
 		 *
 		 ************************************************************************/
 		$template = 'rss-media';
-	} else if ($request_type == 'tag') {
+	} else if ($parsed_route['type'] == 'tag') {
 		/*************************************************************************
 		 *
 		 * VIEW A SPECIFIC TAG (/tag)
 		 *
 		 ************************************************************************/
 		$template = 'tag';
-		if (count($request_options)) {
+		if (count($parsed_route['options'])) {
 			// found a tag. now what?
-			$display_options['tag'] = $request_options[0];
+			$display_options['tag'] = $parsed_route['options'][0];
 			if (isset($full_index['tags']['index'][$display_options['tag']])) {
 				// set the content
 				$work = array();
@@ -138,25 +128,25 @@ if ($request_type) {
 			header('Location: /');
 			exit;
 		}
-	} else if ($request_type == 'redirect') {
+	} else if ($parsed_route['type'] == 'redirect') {
 		/*************************************************************************
 		 *
 		 * REDIRECT TO EXTERNAL CONTENT (/redirect)
 		 *
 		 ************************************************************************/
-		if (isset($full_index[$request_options[0]]['url'])) {
-			header('Location: ' . $full_index[$request_options[0]]['url']);
+		if (isset($full_index[$parsed_route['options'][0]]['url'])) {
+			header('Location: ' . $full_index[$parsed_route['options'][0]]['url']);
 		}
-	} else if ($request_type == 'author') {
+	} else if ($parsed_route['type'] == 'author') {
 		/*************************************************************************
 		 *
 		 * SHOW AUTHOR PAGE (/author)
 		 *
 		 ************************************************************************/
 		 $template = 'author';
- 		if (count($request_options)) {
+ 		if (count($parsed_route['options'])) {
  			// found a tag. now what?
- 			$display_options['author_id'] = $request_options[0];
+ 			$display_options['author_id'] = $parsed_route['options'][0];
  			if (isset($full_index['authors']['index'][$display_options['author_id']])) {
  				// set the content
  				$work = array();

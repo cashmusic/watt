@@ -2,6 +2,8 @@
 class Harvard {
 	public $lemmy = false;
 	public $index = false;
+	public $request_type = false;
+	public $request_options = false;
 
 	public function __construct() {
 		require(__DIR__.'/../lib/mustache/Mustache.php');
@@ -18,15 +20,81 @@ class Harvard {
 		$this->index['filtered_work'] = $this->filterIndexes();
 	}
 
+
+	/**
+	 * Okay do I really fucking need to explain this function?
+	 *
+	 * @return array index
+	 */
+	public function parseRoute($route) {
+		$display_options = array();
+		if ($route) {
+			$request = explode('/',$route);
+			if (is_array($request)) {
+				$request_type = array_shift($request);
+				$request_options = $request;
+				if ($request_type == 'writing') {
+					$request_type = 'view';
+				}
+
+				$use_json = false;
+				// test for JSON request
+				if ($request_options) {
+					if (count($request_options)) {
+						if (strpos($request_options[0],'.json')) {
+							// found a trailing.json
+							$request_options[0] = str_replace('.json','',$request_options[0]);
+							$use_json = true;
+							// pass basic no-cache / CORS headers
+							header('P3P: CP="ALL CUR OUR"'); // P3P privacy policy fix
+							header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+							header("Cache-Control: post-check=0, pre-check=0", false);
+							header("Pragma: no-cache");
+							header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
+							header("Access-Control-Allow-Origin: *");
+							header('Access-Control-Allow-Credentials: true');
+							header('Access-Control-Allow-Headers: X-Requested-With, Content-Type, Origin, Accept');
+					      header('Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT');
+						}
+					}
+				}
+
+				return array(
+					"type" => $request_type,
+					"options" => $request_options,
+					"json" => $use_json
+				);
+			}
+		}
+		return false;
+	}
+
+	/**
+	 * Gets an instance of mustache, reads a template, and renders it to the browser
+	 *
+	 * @return none
+	 */
 	public function renderMustache($template_name, $vars) {
 		$template = file_get_contents(__DIR__.'/../templates/'.$template_name.'.mustache');
 		echo $this->lemmy->render($template, $vars);
 	}
 
+	/**
+	 * Okay do I really fucking need to explain this function?
+	 *
+	 * @return array index
+	 */
 	public function getIndex() {
 		return $this->index;
 	}
 
+	/**
+	 * This is how we don't melt the server using flat files. Reads all the data
+	 * from folders once, writing out full indecies of everything found, then
+	 * parsing them and building cross-reference data.
+	 *
+	 * @return array index
+	 */
 	public function buildIndexes() {
 		$return = array();
 		$indexes = array(
@@ -99,6 +167,13 @@ class Harvard {
 		return $return;
 	}
 
+	/**
+	 * Takes the index and filters it out to only show pieces with a publish date
+	 * older than now() — so we can enter things with future pub dates and they
+	 * stay hidden until we want them to launch.
+	 *
+	 * @return array
+	 */
 	public function filterIndexes() {
 		$now = time();
 		$return = array();
@@ -155,6 +230,11 @@ class Harvard {
 		return $ago_str;
 	}
 
+	/**
+	 * Gets details for an author and returns a formatted byline
+	 *
+	 * @return markup
+	 */
 	public function formatByline($author) {
 		if (file_exists(__DIR__.'/../content/authors/'.$author.'.json')) {
 			$details = json_decode(file_get_contents(__DIR__.'/../content/authors/'.$author.'.json'),true);
@@ -165,6 +245,11 @@ class Harvard {
 		}
 	}
 
+	/**
+	 * Formats share buttons from a template for the current URL
+	 *
+	 * @return markup
+	 */
 	public function formatShare() {
 		$template = file_get_contents(__DIR__.'/../templates/share.mustache');
 		$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
