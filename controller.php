@@ -12,6 +12,31 @@
  * Licensed under the GNU Lesser General Public License version 3.
  * See http://www.gnu.org/licenses/lgpl-3.0.html
  *
+ *
+ *
+ * Main settings are stored in the settings.json file. Format:
+ *
+ *    {
+ *			"featured_work":[
+ *				"work_id",
+ * 			"anotherworkid"
+ *			],
+ *			"secondary_work":[
+ * 			"yetanotherworkid"
+ *			],
+ *			"tertiary_work":[
+ * 			"knockknockwhosthere-workid"
+ *			],
+ *			"featured_authors":[
+ *				"kurtvonnegut"
+ *			],
+ *			"featured_tags":[
+ *				"open",
+ * 			"idea"
+ *			],
+ *			"template":"index"
+ *		}
+ *
  ******************************************************************************/
 
 
