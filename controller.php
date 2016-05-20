@@ -39,14 +39,6 @@ if (isset($_GET['p'])) {
 		}
 	}
 }
-$display_options['json'] = false;
-if (count($request_options)) {
-	if (strpos($request_options[0],'.json')) {
-		// found a trailing.json
-		$request_options[0] = str_replace('.json','',$request_options[0]);
-		$display_options['json'] = true;
-	}
-}
 
 $full_index = $brown->getIndex();
 
@@ -58,8 +50,17 @@ $full_index = $brown->getIndex();
  ******************************************************************************/
 
 // first set up variables
-$display_options = array();
 $template = '404';
+$display_options['json'] = false;
+if ($request_options) {
+	if (count($request_options)) {
+		if (strpos($request_options[0],'.json')) {
+			// found a trailing.json
+			$request_options[0] = str_replace('.json','',$request_options[0]);
+			$display_options['json'] = true;
+		}
+	}
+}
 
 // figure out what template we're using
 if ($request_type) {
@@ -116,7 +117,6 @@ if ($request_type) {
 		if (count($request_options)) {
 			// found a tag. now what?
 			$display_options['tag'] = $request_options[0];
-			$display_options['json'] = false;
 			if (isset($full_index['tags']['index'][$display_options['tag']])) {
 				// set the content
 				$work = array();
@@ -150,7 +150,29 @@ if ($request_type) {
 		 * SHOW AUTHOR PAGE (/author)
 		 *
 		 ************************************************************************/
-		// do author stuff
+		 $template = 'author';
+ 		if (count($request_options)) {
+ 			// found a tag. now what?
+ 			$display_options['author_id'] = $request_options[0];
+ 			if (isset($full_index['authors']['index'][$display_options['author_id']])) {
+ 				// set the content
+ 				$work = array();
+ 				foreach ($full_index['authors']['index'][$display_options['author_id']] as $work_id) {
+ 					$work[] = $full_index['work'][$work_id];
+					$display_options['author_name'] = $full_index['work'][$work_id]['author_name'];
+ 				}
+ 				$display_options['work'] = $work;
+ 			}
+ 			if ($display_options['json']) {
+ 				// JSON requested, so spit it out and exit (no template)
+ 				echo json_encode($display_options['work']);
+ 				exit();
+ 			}
+ 		} else {
+ 			// No actual tag specified. Redirect.
+ 			header('Location: /');
+ 			exit;
+ 		}
 	}
 } else {
 	/****************************************************************************
