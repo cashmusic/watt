@@ -11,10 +11,11 @@ class Harvard {
 			$this->index = $this->buildIndexes();
 		} else {
 			$this->index = array();
-			$this->index['work']    = json_decode(file_get_contents(__DIR__.'/../content/_generated_work.json'));
-			$this->index['tags']    = json_decode(file_get_contents(__DIR__.'/../content/_generated_tags.json'));;
-			$this->index['authors'] = json_decode(file_get_contents(__DIR__.'/../content/_generated_authors.json'));;
+			$this->index['work']    = json_decode(file_get_contents(__DIR__.'/../content/_generated_work.json'),true);
+			$this->index['tags']    = json_decode(file_get_contents(__DIR__.'/../content/_generated_tags.json'),true);;
+			$this->index['authors'] = json_decode(file_get_contents(__DIR__.'/../content/_generated_authors.json'),true);;
 		}
+		$this->index['filtered_work'] = $this->filterIndexes();
 	}
 
 	public function renderMustache($template_name, $vars) {
@@ -30,7 +31,8 @@ class Harvard {
 		$return = array();
 		$indexes = array(
 			"work"    => __DIR__.'/../content/work',
-			"authors" => __DIR__.'/../content/authors'
+			"authors" => __DIR__.'/../content/authors',
+			"tags"    => __DIR__.'/../content/tags'
 		);
 		foreach ($indexes as $type => $location) {
 			foreach(glob($location . '/*.json') as $file) {
@@ -42,19 +44,29 @@ class Harvard {
 			}
 		}
 
+		// move author details
+		$details = $return['authors'];
+		unset($return['authors']);
+		$return['authors']['details'] = $details;
+
 		// add author details to work
 		foreach ($return['work'] as $key => &$entry) {
-			if (is_array($return['authors'][$entry['author_id']])) {
-				$entry['author_name'] = $return['authors'][$entry['author_id']]['name'];
-				$entry['author_byline'] = $return['authors'][$entry['author_id']]['byline'];
+			if (is_array($return['authors']['details'][$entry['author_id']])) {
+				$entry['author_name'] = $return['authors']['details'][$entry['author_id']]['name'];
+				$entry['author_byline'] = $return['authors']['details'][$entry['author_id']]['byline'];
 			}
 		}
 
 		// do tag stuff
+		$details = $return['tags'];
+		unset($return['tags']);
+		$return['tags']['details'] = $details;
 		$tag_list = array();
 		$tag_index = array();
+		$author_index = array();
 		if (is_array($return['work'])) {
 			foreach ($return['work'] as $work) {
+				$author_index[$work['author_id']][] = $work['id'];
 				if (is_array($work['tags'])) {
 					if (count($work['tags'])) {
 						foreach ($work['tags'] as $tag) {
@@ -66,19 +78,35 @@ class Harvard {
 			}
 		}
 		$tag_list = array_unique($tag_list); // trim tags to unique
+		sort($tag_list); // alphabetize
+
+		// format the tag list for mustache iteration
+		$tmp_array = array();
+		foreach ($tag_list as $tag) {
+			$tmp_array[]['tag'] = $tag;
+		}
+		$tag_list = $tmp_array;
+
 		$return['tags']['count'] = count($tag_list);
 		$return['tags']['list'] = $tag_list;
-		$return['tags']['work'] = $tag_index;
-		foreach(glob(__DIR__.'/../content/tags/*.json') as $file) {
-			$entry = json_decode(file_get_contents($file),true);
-			if ($entry) {
-				$key = str_replace(array('.json',$location.'/'),'',$file);
-				$return['tags'][$key] = $entry;
-			}
-		}
+		$return['tags']['index'] = $tag_index;
+
+		$return['authors']['index'] = $author_index;
 
 		foreach ($return as $type => $data) {
 			file_put_contents(__DIR__.'/../content/_generated_'.$type.'.json',json_encode($data));
+		}
+		return $return;
+	}
+
+	public function filterIndexes() {
+		$now = time();
+		$return = array();
+		foreach ($this->index['work'] as $key => $work) {
+			if (strtotime($work['date']) < $now) {
+				$work['id'] = $key;
+				$return[] = $work; // trim to current date or earlier
+			}
 		}
 		return $return;
 	}

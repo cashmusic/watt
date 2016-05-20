@@ -18,7 +18,7 @@
 
 /*******************************************************************************
  *
- * INCLUDES AND VARIABLES
+ * SET UP PAGE EXECUTION
  *
  ******************************************************************************/
 
@@ -28,6 +28,7 @@ $brown = new Harvard;
 
 $request_type = false;
 $request_options = false;
+$display_options = array();
 if (isset($_GET['p'])) {
 	$request = explode('/',trim($_GET['p'],'/'));
 	if (is_array($request)) {
@@ -38,36 +39,16 @@ if (isset($_GET['p'])) {
 		}
 	}
 }
-
-$full_index = json_decode(file_get_contents(__DIR__.'/content/_generated_work.json'),true);
-
-$tag_list = array();
-$tag_index = array();
-$published_index = array();
-$now = time();
-foreach ($full_index as $key => $work) {
-	if (strtotime($work['date']) < $now) {
-		$work['id'] = $key;
-		$published_index[] = $work; // trim to current date or earlier
-		if (is_array($work['tags'])) {
-			if (count($work['tags'])) {
-				foreach ($work['tags'] as $tag) {
-					$tag_index[$tag][] = $work;
-					$tag_list[] = $tag;
-				}
-			}
-		}
+$display_options['json'] = false;
+if (count($request_options)) {
+	if (strpos($request_options[0],'.json')) {
+		// found a trailing.json
+		$request_options[0] = str_replace('.json','',$request_options[0]);
+		$display_options['json'] = true;
 	}
 }
-$tag_list = array_unique($tag_list); // trim tags to unique
-sort($tag_list); // alphabetize
 
-// now make it an associative array
-$tmp_array = array();
-foreach ($tag_list as $tag) {
-	$tmp_array[]['tag'] = $tag;
-}
-$tag_list = $tmp_array;
+$full_index = $brown->getIndex();
 
 
 /*******************************************************************************
@@ -136,14 +117,13 @@ if ($request_type) {
 			// found a tag. now what?
 			$display_options['tag'] = $request_options[0];
 			$display_options['json'] = false;
-			if (strpos($display_options['tag'],'.json')) {
-				// found a trailing.json
-				$display_options['tag'] = str_replace('.json','',$display_options['tag']);
-				$display_options['json'] = true;
-			}
-			if (isset($tag_index[$display_options['tag']])) {
+			if (isset($full_index['tags']['index'][$display_options['tag']])) {
 				// set the content
-				$display_options['work'] = $tag_index[$display_options['tag']];
+				$work = array();
+				foreach ($full_index['tags']['index'][$display_options['tag']] as $work_id) {
+					$work[] = $full_index['work'][$work_id];
+				}
+				$display_options['work'] = $work;
 			}
 			if ($display_options['json']) {
 				// JSON requested, so spit it out and exit (no template)
@@ -178,8 +158,8 @@ if ($request_type) {
 	 * MAIN PAGE (/)
 	 *
 	 ***************************************************************************/
-	$display_options['work'] = $published_index;
-	$display_options['tag_list'] = $tag_list;
+	$display_options['work'] = $full_index['filtered_work'];
+	$display_options['tag_list'] = $full_index['tags']['list'];
 	$template = 'index';
 }
 
