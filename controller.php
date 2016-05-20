@@ -22,9 +22,12 @@
  *
  ******************************************************************************/
 
-//require_once(__DIR__.'/definitions.php');
+// get our education class
 require_once(__DIR__.'/classes/Harvard.php');
 $brown = new Harvard;
+
+// get main settings
+$main_settings = json_decode(file_get_contents(__DIR__.'/settings.json'),true);
 
 $request_type = false;
 $request_options = false;
@@ -180,9 +183,29 @@ if ($request_type) {
 	 * MAIN PAGE (/)
 	 *
 	 ***************************************************************************/
+
+	$display_options['featured_work'] = array();
+	$display_options['secondary_work'] = array();
+	$display_options['tertiary_work'] = array();
+	$display_options['featured_tags'] = $main_settings['featured_tags'];
+	$display_options['featured_authors'] = array();
+
+	foreach ($main_settings['featured_work'] as $work_id) {
+		$display_options['featured_work'][] = $full_index['work'][$work_id];
+	}
+	foreach ($main_settings['secondary_work'] as $work_id) {
+		$display_options['secondary_work'][] = $full_index['work'][$work_id];
+	}
+	foreach ($main_settings['tertiary_work'] as $work_id) {
+		$display_options['tertiary_work'][] = $full_index['work'][$work_id];
+	}
+	foreach ($main_settings['featured_authors'] as $author_id) {
+		$display_options['featured_authors'][] = $full_index['authors']['index'][$author_id];
+	}
+
 	$display_options['work'] = $full_index['filtered_work'];
 	$display_options['tag_list'] = $full_index['tags']['list'];
-	$template = 'index';
+	$template = $main_settings['template'];
 }
 
 // pick the correct template and echo
