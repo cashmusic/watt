@@ -220,15 +220,11 @@ if ($parsed_route) {
 	$display_options['featured_authors'] = array();
 
 	foreach ($main_settings['featured_work'] as $work_id) {
-		$display_options['featured_work'][] = $full_index['work'][$work_id];
-
 		require_once(__DIR__.'/lib/markdown/markdown.php');
-		//$display_options['id'] = $full_index['options'][0]; // get article id
-		 if (file_exists(__DIR__.'/content/work/'.$display_options['featured_work'].'.md')) {
-			$display_options['featured_body'] = Markdown(file_get_contents(__DIR__.'/content/work/'.$display_options['featured_work'].'.md'));
-			$work_details = json_decode(file_get_contents(__DIR__.'/content/work/'.$display_options['featured_work'].'.json'),true);
+		 if (file_exists(__DIR__.'/content/work/'.$work_id.'.md')) {
+			$full_index['work'][$work_id]['content'] = Markdown(file_get_contents(__DIR__.'/content/work/'.$work_id.'.md'));
 		}
-
+		$display_options['featured_work'][] = $full_index['work'][$work_id];
 	}
 	foreach ($main_settings['secondary_work'] as $work_id) {
 		$display_options['secondary_work'][] = $full_index['work'][$work_id];
