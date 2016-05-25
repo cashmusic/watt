@@ -93,6 +93,7 @@ if ($parsed_route) {
 		if (file_exists(__DIR__.'/content/work/'.$display_options['id'].'.md')) {
 			$display_options['content'] = Markdown(file_get_contents(__DIR__.'/content/work/'.$display_options['id'].'.md'));
 			$work_details = json_decode(file_get_contents(__DIR__.'/content/work/'.$display_options['id'].'.json'),true);
+
 			if ($work_details) {
 				$display_options = array_merge($work_details,$display_options);
 				// build tags array
@@ -163,6 +164,17 @@ if ($parsed_route) {
 		if (isset($full_index[$parsed_route['options'][0]]['url'])) {
 			header('Location: ' . $full_index[$parsed_route['options'][0]]['url']);
 		}
+
+	} else if ($parsed_route['type'] == 'video') {
+		/*************************************************************************
+		 *
+		 * REDIRECT TO EXTERNAL CONTENT (/video)
+		 *
+		 ************************************************************************/
+		if (isset($full_index[$parsed_route['options'][0]]['url'])) {
+			header('Location: ' . $full_index[$parsed_route['options'][0]]['url']);
+		}
+
 	} else if ($parsed_route['type'] == 'author') {
 		/*************************************************************************
 		 *
@@ -209,6 +221,14 @@ if ($parsed_route) {
 
 	foreach ($main_settings['featured_work'] as $work_id) {
 		$display_options['featured_work'][] = $full_index['work'][$work_id];
+
+		require_once(__DIR__.'/lib/markdown/markdown.php');
+		//$display_options['id'] = $full_index['options'][0]; // get article id
+		 if (file_exists(__DIR__.'/content/work/'.$display_options['featured_work'].'.md')) {
+			$display_options['featured_body'] = Markdown(file_get_contents(__DIR__.'/content/work/'.$display_options['featured_work'].'.md'));
+			$work_details = json_decode(file_get_contents(__DIR__.'/content/work/'.$display_options['featured_work'].'.json'),true);
+		}
+
 	}
 	foreach ($main_settings['secondary_work'] as $work_id) {
 		$display_options['secondary_work'][] = $full_index['work'][$work_id];
@@ -223,9 +243,11 @@ if ($parsed_route) {
 		$display_options['featured_authors'][] = $full_index['authors']['index'][$author_id];
 	}
 
+
 	$display_options['work'] = $full_index['filtered_work'];
 	$display_options['tag_list'] = $full_index['tags']['list'];
 	$template = $main_settings['template'];
+
 }
 
 // pick the correct template and echo

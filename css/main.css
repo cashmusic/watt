@@ -1049,20 +1049,20 @@ header .scroll{
 
 /* Secondary Article Types */
 
-#main article.expanded .article-archive.pure-u-md-1-2 .inner{
+#main article.expanded .article-archive.secondary .inner{
     background-color:transparent;
     background-size: cover;
 }
 
-#main article.expanded .article-archive.pure-u-md-1-2 .inner h2,#main article.expanded .article-archive.pure-u-md-1-2 .inner h4,#main article.expanded .article-archive.pure-u-md-1-2 .inner p{
+#main article.expanded .article-archive.secondary.inner h2,#main article.expanded .article-archive.secondary .inner h4,#main article.expanded .article-archive.secondary .inner p{
   width:50%;
 }
 
-#main article.expanded .article-archive.pure-u-md-1-2.light .inner h2,#main article.expanded .article-archive.pure-u-md-1-2.light .inner h4,#main article.expanded .article-archive.pure-u-md-1-2.light .inner p, #main article.expanded .article-archive.pure-u-md-1-2.light .inner a{
+#main article.expanded .article-archive.secondary.light .inner h2,#main article.expanded .article-archive.secondary.light .inner h4,#main article.expanded .article-archive.secondary.light .inner p, #main article.expanded .article-archive.secondary.light .inner a{
   color:#fff;
 }
 
-#main article.expanded .article-archive.pure-u-md-1-2 .inner .more-link{
+#main article.expanded .article-archive.secondary .inner .more-link{
     background-color:transparent;
     border-color:rgba(255,255,255,0.3);
 }
@@ -1070,8 +1070,9 @@ header .scroll{
 /* Quarterney Article Types */
 
 #main article.expanded .article-archive.quaternary .quaternary-outer{
-  /*margin:0 4% 4% 0;*/
+  /*margin:0 4% 2% 2%;*/
   padding:10px;
+  height:130px;
   background-size: cover;
   background-position: 50% 50%;
   background-color:#fc47a1;
@@ -1086,7 +1087,53 @@ header .scroll{
   margin:10px 0 0 0;
 }
 
+/* Video Article Types */
 
+#main article.expanded .article-archive.video{
+  padding:0;
+}
+
+#main article.expanded .article-archive.secondary.video .inner{
+    background: #fff!important;
+    height:125px;
+}
+
+#main article.expanded .article-archive.video .inner .more-link{
+  display: none;
+}
+
+#main article.expanded .article-archive.video .video_inner:before{
+  display: block;
+   content: "";
+   width: 100%;
+   padding-top: 56.25%;
+ }
+
+
+#main article.expanded .article-archive.video .inner h2{
+  display: inline-block!important;
+  padding:30px 0px 0 30px;
+}
+
+ #main article.expanded .article-archive.video .inner p{
+   padding:10px 10px 0 0;
+   width:90%;
+}
+
+#main article.expanded .article-archive.video .video_inner{
+    margin:0 1%;
+    position: relative;
+}
+#main article.expanded .article-archive.video iframe{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width:100%;
+    height:100%;
+    margin:0;
+}
 
 #main article.expanded .article-archive.quaternary .inner, #main article.expanded .article-archive.quaternary .inner .more-link{
 /*  background: #e6e6e6;
@@ -2896,17 +2943,18 @@ header #hero h1{
 
 /* Article Index */
 #main article.expanded .article-archive .inner{
-    margin:0 4% 4% 0;
+    margin:0 2% 4% 2%;
     height:300px;
 }
 
-#main article.expanded .article-archive.pure-u-md-1-2 .inner{
-    margin:0 2% 2% 0;
+#main article.expanded .article-archive.secondary .inner{
+    margin:0 1% 2% 1%;
     height:450px;
 }
 
 #main article.expanded .article-archive .sixteen-nine, .sixteen-nine{
-  margin-right:4%;
+  margin-right:2%;
+  margin-left:2%;
 }
 
 /* Featured index articles */

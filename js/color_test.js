@@ -1,4 +1,4 @@
-window.onload=function(){
+/*window.onload=function(){
 
   var colors = [
     "CD4A4A",
@@ -125,4 +125,4 @@ window.onload=function(){
       tags[i].style = 'background:' + '#'+ colors[i];
       console.log(colors[i]);
   }
-};
+};*/

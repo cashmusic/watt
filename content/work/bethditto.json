@@ -3,16 +3,17 @@
 	"author_id":"bethditto",
 	"release_id":"impactofmusic",
 	"title":"Beth Ditto",
-	"description":"[Music]'s everywhere all the time and I don't think people realize what kind of an impact it really has.",
+	"description":"[Music]s everywhere all the time and I don't think people realize what kind of an impact it really has.",
 	"summary":"",
-	"type":"redirect",
+	"type":"video",
 	"date":"November 30th, 2015",
 	"license":"CC-BY",
 	"assets":[
 		{
-			"type":"redirect",
+			"type":"embed",
 			"license":"CC-BY",
-			"url":"https://www.youtube.com/watch?v=fyKwXTEW3cc",
+			"url":"https://mykitamedia.com/media/image/collaborations/beth-ditto/mykita-beth-ditto.jpg",
+			"embed":"<iframe width='560' height='315' src='https://www.youtube.com/embed/7I2-dEp5WAw?vq=hd1080&showinfo=0' frameborder='0' allowfullscreen></iframe>",
 			"credits":""
 		}
 	],
@@ -23,5 +24,5 @@
 	],
 	"template":"twocol-leftalign",
 	"template_styles":"#bethditto{background:blue;}",
-	"template_additional":"light"
+	"template_additional":"dark"
 }
