@@ -1014,6 +1014,7 @@ header .scroll{
   /*background-color:#00b9a2;*/
   /*background-color: #de4caa;*/
   background-color:#ff475b;
+    background-color:#fc47a1;
   margin:0 0 60px 0;
   padding:30px;
   color:#fff;
@@ -1069,10 +1070,13 @@ header .scroll{
 /* Quarterney Article Types */
 
 #main article.expanded .article-archive.quaternary .quaternary-outer{
-  margin:0 4% 4% 0;
+  /*margin:0 4% 4% 0;*/
   padding:10px;
   background-size: cover;
   background-position: 50% 50%;
+  background-color:#fc47a1;
+  /*background-color:#fe6177;*/
+  background-blend-mode: exclusion;
 }
 
 #main article.expanded .article-archive.quaternary .inner .more-link{
@@ -1093,8 +1097,8 @@ header .scroll{
 }
 
 #main article.expanded .article-archive.quaternary .inner{
-  background-color:rgba(255,255,255,0.9);
-  margin:10px;
+  background-color:rgba(255,255,255,0.95);
+  margin:0px;
 }
 
 #main article.expanded .article-archive.quaternary .inner h2{
@@ -1151,6 +1155,7 @@ header .scroll{
    -o-background-size: cover;
    background-size: cover;
    background-color:#fe5c71;
+     background-color:#fc47a1;
    -webkit-transition: 0.3s  ease-in-out;
    -moz-transition: 0.3s  ease-in-out;
    transition:0.3s ease-in-out;
@@ -1316,7 +1321,7 @@ header .scroll{
 #main article ul.tags, #main article ul.social{
   list-style-type: none;
   padding:0;
-  margin:0 0 20px 0;
+  margin:20px 0;
   opacity: 0;
 }
 
@@ -1330,7 +1335,7 @@ header .scroll{
   font-size: 14px;
   font-family: 'Nunito', sans-serif!important;
   padding:8px 10px;
-  margin:0 1px 1px 0;
+  margin:0 1px 6px 0;
   background:rgba(34,34,34,0.1);
   color:rgba(0,0,0,0.5);
   border: solid 1px rgba(0, 0, 0, 0.05);

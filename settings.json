@@ -1,8 +1,8 @@
 {
 	"featured_work":["marksurman"],
-	"secondary_work":["jedwardkeyes","bethditto"],
-	"tertiary_work":["haxancloak","nathanlarson","astrataylor","henryrollins","sirfoster","jamiestewart"],
-	"quaternary_work":["anadasilva","annfriedman","nathanlarson","laurasnapes","johnroderick","sirfoster","anadasilva","annfriedman","nathanlarson","laurasnapes","johnroderick","sirfoster"],
+	"secondary_work":["jedwardkeyes","kimboekbinder"],
+	"tertiary_work":["haxancloak","nathanlarson","astrataylor","henryrollins","sirfoster","jamiestewart","bethditto"],
+	"quaternary_work":["anadasilva","annfriedman","laurasnapes","johnroderick"],
 	"featured_authors":["zolajesus"],
 	"featured_tags":["community","impact","cool","can","add","basically","anything","even","if","it","doesnt","exist"],
 	"template":"index"
