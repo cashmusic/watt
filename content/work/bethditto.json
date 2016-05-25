@@ -1,0 +1,27 @@
+{
+	"id":"bethditto",
+	"author_id":"bethditto",
+	"release_id":"impactofmusic",
+	"title":"Beth Ditto",
+	"description":"[Music]'s everywhere all the time and I don't think people realize what kind of an impact it really has.",
+	"summary":"",
+	"type":"redirect",
+	"date":"November 30th, 2015",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"redirect",
+			"license":"CC-BY",
+			"url":"https://www.youtube.com/watch?v=fyKwXTEW3cc",
+			"credits":""
+		}
+	],
+	"tags":[
+		"open",
+		"impact",
+		"community"
+	],
+	"template":"twocol-leftalign",
+	"template_styles":"#bethditto{background:blue;}",
+	"template_additional":"light"
+}

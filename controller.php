@@ -142,6 +142,7 @@ if ($parsed_route) {
 					$work[] = $full_index['work'][$work_id];
 				}
 				$display_options['work'] = $work;
+				$display_options['tag_list'] = $full_index['tags']['list'];
 			}
 			if ($display_options['json']) {
 				// JSON requested, so spit it out and exit (no template)
@@ -180,6 +181,7 @@ if ($parsed_route) {
 					$display_options['author_name'] = $full_index['work'][$work_id]['author_name'];
  				}
  				$display_options['work'] = $work;
+				$display_options['tag_list'] = $full_index['tags']['list'];
  			}
  			if ($display_options['json']) {
  				// JSON requested, so spit it out and exit (no template)
@@ -213,6 +215,9 @@ if ($parsed_route) {
 	}
 	foreach ($main_settings['tertiary_work'] as $work_id) {
 		$display_options['tertiary_work'][] = $full_index['work'][$work_id];
+	}
+	foreach ($main_settings['quaternary_work'] as $work_id) {
+		$display_options['quaternary_work'][] = $full_index['work'][$work_id];
 	}
 	foreach ($main_settings['featured_authors'] as $author_id) {
 		$display_options['featured_authors'][] = $full_index['authors']['index'][$author_id];

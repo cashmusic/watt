@@ -1,0 +1,373 @@
+/* CASH Logo */
+header h1.logo{
+    margin:0 0 0 30px;
+    padding:0;
+    line-height: 35px;
+    font-size: 35px;
+    display: inline-block;
+}
+header h1.logo span{
+    display: none;
+}
+
+header #collapsed h1.logo{
+  margin-top:10px;
+}
+
+/* Platform call to action */
+header #platform-signup{
+    position: absolute;
+    top:13px;
+    right:30px;
+    font-size: 11px;
+}
+header #platform-signup span{
+    margin:0 10px;
+}
+header #platform-signup a{
+  display: inline-block;
+    text-decoration: underline;
+}
+header #platform-signup a.login{
+    text-decoration: none;
+    border:solid 2px #fff;
+    padding:5px 18px;
+}
+
+/* Fixed header  */
+header #constant{
+    width:100%;
+    max-width:1380px;
+    position: absolute;
+    top:0;
+    min-height:68px;
+    z-index: 50;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Headers */
+header #constant #top, header #constant #collapsed{
+    margin:0;
+    padding:15px 0 0 0;
+    position: relative;
+    z-index: 2;
+    -webkit-transform: translate3d(0,0,0);
+}
+
+.static-nav header #constant #top{
+  background:#202020;
+  background-color:rgba(32,32,32,0.98);
+  background:#fe5c71 url('../img/banner.jpg') 0% 100%;
+  background-position: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding:10px 0;
+  width: 100%;
+  max-width: 1380px;
+}
+
+
+/* Collapsed Header (fixed one) */
+header #constant #collapsed{
+   position: fixed;
+   width:100%;
+   max-width:1380px;
+   top:-600px;
+	 background-color:rgba(34,34,34,0.98);
+   height:58px;
+   padding:0;
+   -webkit-transition: .3s ease-in-out;
+   -moz-transition: .3s ease-in-out;
+   -o-transition: .3s ease-in-out;
+   transition: .3s ease-in-out;
+}
+.reading header #constant #collapsed{
+    top:0px;
+}
+
+
+header #constant #collapsed #platform-signup{
+    top:13px;
+}
+
+header #constant #collapsed .menutoggle{
+    top:22px;
+}
+
+/* Navigation */
+header[role=banner] nav{
+  display: inline-block;
+  opacity: 1;
+  margin: 0;
+  padding:8px;
+  text-transform: uppercase;
+  /*border-top:1px solid rgba(255,255,255,0.2);
+  border-bottom:1px solid rgba(255,255,255,0.2);*/
+}
+
+header[role=banner] #constant #collapsed nav{
+  margin:0px 0  0 0;
+  padding:0;
+  display: block;
+  position: absolute;
+  top:18px;
+  left:130px;
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.static-nav header[role=banner] nav{
+  border-bottom: none;
+}
+
+.hide header[role=banner] nav{
+    /*opacity: 0;*/
+}
+header[role=banner] nav ul{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+header[role=banner] nav li{
+    margin:0;
+    padding:0;
+    display: inline;
+    line-height: 10px;
+}
+header[role=banner] nav li a{
+    margin: 0 0 5px 0;
+    padding:20px;
+    font-size: 11px;
+    display: block;
+    line-height: 10px;
+    font-family: 'Montserrat', sans-serif;
+    border:1px solid rgba(255,255,255,0.2);
+}
+header[role=banner] nav li a:hover{
+    background:rgba(255,255,255,0.6);
+}
+
+/* Menu Toggle Switch */
+.menutoggle{
+    position: absolute;
+    top:22px;
+    left:88px;
+    margin:0;
+    padding:0;
+}
+.menutoggle{
+  width: 20px;
+  height: 20px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+.menutoggle span{
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: #fff;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.menutoggle span:nth-child(1) {
+  top: 5px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+.menutoggle span:nth-child(2) {
+  top: 5px;
+  opacity:0;
+  left: 0px;
+}
+.menutoggle span:nth-child(3) {
+  top: 5px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+.hide .menutoggle span:nth-child(1) {
+  top: 0px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.hide .menutoggle span:nth-child(2){
+  left:0;
+  opacity:1;
+}
+.hide .menutoggle span:nth-child(3){
+  top: 10px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+/* Toggled headers */
+
+header[role=banner] #constant #collapsed.hide nav ul{
+  display:none;
+  pointer-events: none;
+}
+/*header[role=banner] #constant #top.hide nav{
+  opacity:0;
+  height: 0;
+  padding: 0 30px;
+}*/
+
+/* Overview  */
+
+header .overview{
+  background:#222;
+  padding:60px 0 0 0;
+  position: absolute;
+  top:0px;
+  z-index: -10;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+header .overview-inner{
+  opacity: 1;
+  padding:0px;
+  -webkit-transition: .3s ease-in-out .3s;
+  -moz-transition: .3s ease-in-out .3s;
+  -o-transition: .3s ease-in-out .3s;
+  transition: .3s ease-in-out .3s;
+  border-top: solid 1px #343434;
+}
+
+header .overview-inner img{
+  width:100%;
+  height:auto;
+}
+
+header .overview-inner ul{
+  padding:0 0 30px 30px;
+}
+
+header .overview-inner .nav-header{
+  padding:0 0 0 30px;
+}
+
+header .overview-inner p, header .overview-inner ul li a{
+  font-size: 12px;
+}
+
+header .overview-inner ul li {
+  margin:0;
+  padding:0;
+  line-height: 14px;
+}
+
+header .overview-inner ul li a{
+  color:#666;
+  margin:0;
+  padding:0;
+  -webkit-transition: .3s ease-in-out;
+  -moz-transition: .3s ease-in-out;
+  -o-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+header .overview-inner ul li a:hover{
+  color:#fff;
+}
+
+.overview .overview-content{
+  padding:0 30px;
+}
+
+header #collapsed.hide .overview{
+  top:-1000vh;
+}
+
+header  #collapsed.hide .overview-inner{
+  opacity: 0;
+}
+
+header .overview h2{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 24px;
+}
+
+/* Larger screen sizes */
+@media screen and (min-width: 48em) {
+	header[role=banner] nav{
+	  /*height:76px;*/
+    /*height:48px;*/
+    margin:0 0 0 10px;
+	}
+
+	header[role=banner] nav li{
+	    margin:0 20px 0 0;
+	    padding:0;
+	    display: inline-block;
+	    /*border-left:solid 1px rgba(255,255,255,0.2);*/
+	    line-height: 10px;
+	    vertical-align: middle;
+	}
+
+	header[role=banner] nav li a{
+	    margin: 0;
+	    padding:0;
+	    font-size: 11px;
+	    line-height: 10px;
+	    display: inline-block;
+	    font-family: 'Montserrat', sans-serif;
+	    border: none;
+	    border-bottom:3px solid rgba(255,255,255,0);
+	}
+
+	header[role=banner] nav li a:hover{
+	    background:none;
+	    border-bottom:3px solid rgba(255,255,255,0.5);
+	}
+}
+
+/* Smaller screens */
+@media screen and (max-width: 48em) {
+   header #constant #top {
+      display:none;
+   }
+   header #constant #collapsed {
+       top:0px;
+   }
+   header[role=banner] #constant #collapsed nav{
+		height:100%;
+    height:100vh;
+	}
+   header[role=banner] #constant #collapsed.hide nav{
+		height:28px;
+    margin:0;
+    padding:0;
+	}
+}

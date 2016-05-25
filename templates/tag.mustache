@@ -30,7 +30,7 @@
 
         <link rel="stylesheet" href="https://static-cashmusic.netdna-ssl.com/www/css/normalize.css">
         <link rel="stylesheet" href="https://static-cashmusic.netdna-ssl.com/www/css/font-mapping.css">
-        <link rel="stylesheet" href="https://static-cashmusic.netdna-ssl.com/www/css/nav.css">
+        <link rel="stylesheet" href="../css/nav.css">
         <link rel="stylesheet" href="../css/main.css">
         <script src="https://static-cashmusic.netdna-ssl.com/www/js/vendor/modernizr-2.8.3.min.js"></script>
 
@@ -53,7 +53,7 @@
         <?php include(__DIR__.'/ogmeta.php') ?>
 
         <script type="text/javascript" src="https://cashmusic.org/public/cashmusic.js"></script>
-        <script type="text/javascript" src="https://static-cashmusic.netdna-ssl.com/www/js/main.js"></script>
+        <script type="text/javascript" src="../js/main.js"></script>
         <script type="text/javascript" src="../js/color_test.js"></script>
 
         </script>
@@ -67,62 +67,126 @@
        <div id="wrapper">
         <header role="banner">
             <div id="constant">
-   <div id="top">
-      <div class="menutoggle"><span></span><span></span><span></span></div><!-- menutoggle -->
-      <h1 class="logo"><a href="https://cashmusic.org/"><div class="icon icon-logo"><span>CASH Music</span></div></a></h1><!--logo-->
+   <div id="top" class="hide">
+       <h1 class="logo"><a href="https://cashmusic.org/"><div class="icon icon-logo"><span>CASH Music</span></div></a></h1><!--logo-->
+      <nav class="pure-u-1 pure-u-md-1-2">
+          <ul class="pure-u-1">
+              <li class=""><a class="home" href="https://cashmusic.org/">Home</a></li><li class=""><a class="about" href="http://about.cashmusic.org/">About us</a></li><li class=""><a class="platform" href="http://platform.cashmusic.org/">Tools</a></li><li class=""><a class="education" href="http://education.cashmusic.org/">Education</a></li><li class=""><a href="https://medium.com/cash-music" target="_blank">Blog</a></li><li class=""><a class="donate" href="http://donate.cashmusic.org/">Donate</a></li>
+          </ul>
+      </nav>
           <div id="platform-signup">
               <a href="https://cashmusic.org/admin/dosignup/" target="_blank">Sign up</a> <span>or</span><a class="login" href="https://cashmusic.org/admin/" target="_blank">Login</a>
           </div><!--platform-signup-->
-      <nav>
-          <ul class="pure-g">
-              <li class="pure-u-1 pure-u-md-1-6"><a class="home" href="https://cashmusic.org/">Home</a></li>
-              <li class="pure-u-1 pure-u-md-1-6"><a class="about" href="http://about.cashmusic.org/">About us</a></li>
-              <li class="pure-u-1 pure-u-md-1-6"><a class="platform" href="http://platform.cashmusic.org/">Tools</a></li>
-              <li class="pure-u-1 pure-u-md-1-6"><a class="education" href="http://education.cashmusic.org/">Education</a></li>
-              <li class="pure-u-1 pure-u-md-1-6"><a href="https://medium.com/cash-music" target="_blank">Blog</a></li>
-              <li class="pure-u-1 pure-u-md-1-6"><a class="donate" href="http://donate.cashmusic.org/">Donate</a></li>
-          </ul>
-      </nav>
    </div><!--top-->
+   <div class="tag-nav">
+     <div class="tag-drawer"><h3>Explore</h3></div>
+     <div class="inner">
+       <div class="pure-u-1 pure-u-md-1-2 ">
+         <h3>Tags</h3>
+         <ul class="twocol">
+           {{#tag_list}}
+             <li><a href="/tag/{{tag}}">{{tag}}</a></li>
+           {{/tag_list}}
+         </ul>
+       </div><!--pure--><div class="pure-u-1 pure-u-md-1-2">
+         <h3>Authors</h3>
+         <ul class="twocol">
+           {{#work}}
+             <li><a href="/author/{{author_id}}">{{author_name}}</a></li>
+           {{/work}}
+         </ul>
+       </div><!--pure-->
+     </div><!--inner-->
+ </div><!--tag-nav-->
    <div id="collapsed" class="hide">
-      <div class="menutoggle"><span></span><span></span><span></span></div><!-- menutoggle -->
       <h1 class="logo"><a href="https://cashmusic.org/"><div class="icon icon-logo"><span>CASH Music</span></div></a></h1><!--logo-->
+      <div class="menutoggle"><span></span><span></span><span></span></div><!-- menutoggle -->
           <div id="platform-signup">
               <a href="http://cashmusic.org/admin/dosignup/" target="_blank">Sign up</a> <span>or</span><a class="login" href="http://cashmusic.org/admin/" target="_blank">Login</a>
           </div><!--platform-signup-->
       <nav>
-          <ul class="pure-g">
-              <li class="pure-u-1 pure-u-md-1-6"><a class="home" href="https://cashmusic.org/">Home</a></li>
-              <li class="pure-u-1 pure-u-md-1-6"><a class="about" href="http://about.cashmusic.org/">About us</a></li>
-              <li class="pure-u-1 pure-u-md-1-6"><a class="platform" href="http://platform.cashmusic.org/">Tools</a></li>
-              <li class="pure-u-1 pure-u-md-1-6"><a class="education" href="http://education.cashmusic.org/">Education</a></li>
-              <li class="pure-u-1 pure-u-md-1-6"><a href="https://medium.com/cash-music" target="_blank">Blog</a></li>
-              <li class="pure-u-1 pure-u-md-1-6"><a class="donate" href="http://donate.cashmusic.org/">Donate</a></li>
+          <ul class="pure-u-1">
+              <li><a class="home" href="https://cashmusic.org/">Home</a></li><li><a class="about" href="http://about.cashmusic.org/">About us</a></li><li><a class="platform" href="http://platform.cashmusic.org/">Tools</a></li><li><a class="education" href="http://education.cashmusic.org/">Education</a></li><li><a href="https://medium.com/cash-music" target="_blank">Blog</a></li><li><a class="donate" href="http://donate.cashmusic.org/">Donate</a></li>
           </ul>
       </nav>
+      <div class="overview">
+        <div class="overview-inner">
+         <div class="pure-u-1 pure-u-md-1-2">
+           <div class="overview-content">
+             <h5>TLDR;</h5>
+             <h2>CASH Music is a nonprofit sharing music industry knowledge from artist's perspectivies &amp; building free, open tools that give artists control of their careers.</h2>
+             <p>Music has always had the power to change the world we live in. It is ingrained into the fabric of human existence. It’s not about technology or convience, but people sharing what they feel about their time on earth. We think it is important to listen to it’s creators and support them, because with out them we’d all be totally lost.</p>
+           </div><!--overview-content-->
+         </div><!--pure--><div class="pure-u-1 pure-u-md-1-2">
+           <div class="pure-u-1 pure-u-md-1-2"><div class="overview-content"><h5>Our Tools</h5><img src="http://static.cashmusic.netdna-cdn.com/www/img/platform/platform-screen_v9.jpg" alt="CASH Platform"/><p>Manage your mailing list, sell your music, organize your digital world. The CASH Music platform is free to use, now and forever.</p></div><!--overview-content--></div><!--pure--><div class="pure-u-1 pure-u-md-1-2"><div class="overview-content"><h5>WATT</h5><img src="http://static.cashmusic.netdna-cdn.com/www/img/platform/platform-screen_v9.jpg" alt="CASH Platform"/>
+             <p>educational resources for musicians</p>
+           </div><!--overview-content--></div><!--pure-->
+           <div class="pure-u-1 pure-u-md-1-4">
+             <h5 class="nav-header">Read</h5>
+             <ul>
+               <li><a href="">Home</a></li>
+               <li><a href="">Blog</a></li>
+             </ul>
+           </div><!--pure--><div class="pure-u-1 pure-u-md-1-4">
+             <h5  class="nav-header">About</h5>
+             <ul>
+               <li><a href="">Mission</a></li>
+               <li><a href="">Team</a></li>
+               <li><a href="">Board</a></li>
+               <li><a href="">Advisors</a></li>
+             </ul>
+           </div><!--pure--><div class="pure-u-1 pure-u-md-1-4">
+             <h5  class="nav-header">Tools</h5>
+             <ul>
+               <li><a href="">Platform</a></li>
+               <li><a href="">Venue Data</a></li>
+               <li><a href="">Cashmusic.js</a></li>
+               <li><a href="">Support</a></li>
+               <li><a href="">Developers</a></li>
+             </ul>
+           </div><!--pure--><div class="pure-u-1 pure-u-md-1-4">
+             <h5  class="nav-header">Developers</h5>
+             <ul>
+               <li><a href="">Documentation</a></li>
+               <li><a href="">Github</a></li>
+             </ul>
+           </div><!--pure-->
+       </div><!--pure-->
+      </div><!--overview-inner-->
+      </div><!--overview-->
    </div><!--collapsed-->
 </div><!--constant-->
+</header>
 
-        </header>
 <!--SITE HEADER END (REMOVE LATER)-->
 <main id="main" class="article-page static pure-g" role="main">
 <article class="pure-u-1 expanded dark">
-  <section class="article-content">
+
+  <div id="hash-hero" class="drk-prple" role="hero">
+    <h3>Tag</h3>
+    <h1 class="page-title">#{{tag}}</h1>
+    <p>Tag descriptions?</p>
+  </div><!--hero-->
+
+  <section class="pure-u-1 article-content">
+    <section class="pure-u-1 section-title">
+    <h3>Recent articles marked {{tag}}</h3>
+    </section>
   <section class="pure-u-1">
-    <h1 class="page-title"><a href="/">Archive -</a><a href="/tag/{{tag}}">Tag: {{tag}}</a></h1>
-  </section>
-  <section class="pure-u-1">
-{{#work}}<div class="article-archive pure-u-1 pure-u-md-1-4 dark">
-        <div id="{{author_id}}" class="inner">
-          <a class="wrap_link" href="/{{type}}/{{id}}">
-				  <h2>{{title}}</h2>
-				 	<h4>{{author_name}}</h4>
-            <p><span>({{author_byline}})</span></p>
-          <p>{{summary}}</p>
-          </a>
-          <div class="fadeout"></div><!--fadeout-->
-        </div><!--inner-->
-	</div><!--article-archive-->{{/work}}
+{{#work}}<div class="article-archive pure-u-1 pure-u-md-1-4 dark {{type}}">
+    <a class="wrap-link" href="/{{type}}/{{id}}"><div class="sixteen-nine">
+        <div class="sn-content" style="background-image:url({{#assets}}{{url}}{{/assets}})">
+        <!--img src="{{#assets}}{{url}}{{/assets}}" alt="{{author_id}}" /-->
+      </div><!--sn-content-->
+    </div><!--sixteen-nine--></a><!--wrap-link-->
+          <div id="{{author_id}}" class="inner">
+            <div class="corner-marker"></div><!--important-->
+                    <h2><a href="/{{type}}/{{id}}">{{title}}</a></h2>
+                    <h4><a href="/author/{{id}}">{{author_name}}</a></h4>
+                    <p>{{description}}</p>
+                    <a class="more-link" href="/{{type}}/{{id}}">Read more</a>
+          </div><!--inner-->
+    </div><!--article-archive-->{{/work}}
 </section><!--pure-->
 </section><!--article-content-->
 </article>

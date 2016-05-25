@@ -22,6 +22,6 @@
 		"community"
 	],
 	"template":"twocol-leftalign",
-	"template_styles":"#jamiestewart{background:#000000;}",
+	"template_styles":"#jamiestewart{background:blue;}",
 	"template_additional":"light"
 }
