@@ -95,6 +95,20 @@ class Harvard {
 	}
 
 	/**
+	 * A sorting function to put index dates into reverse chronological order
+	 *
+	 * @return int
+	 */
+	public static function sortIndex($a,$b) {
+		$a_time = strtotime($a['date']);
+		$b_time = strtotime($b['date']);
+		if ($a_time == $b_time) {
+			return 0;
+		}
+		return ($a_time < $b_time) ? 1 : -1;
+	}
+
+	/**
 	 * This is how we don't melt the server using flat files. Reads all the data
 	 * from folders once, writing out full indecies of everything found, then
 	 * parsing them and building cross-reference data.
@@ -130,6 +144,9 @@ class Harvard {
 				$entry['author_byline'] = $return['authors']['details'][$entry['author_id']]['byline'];
 			}
 		}
+
+		// sort work to newest-first
+		uasort($return['work'], array("Harvard", "sortIndex"));
 
 		// do tag stuff
 		$details = $return['tags'];
