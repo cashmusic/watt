@@ -27,7 +27,6 @@ class Harvard {
 	 * @return array index
 	 */
 	public function parseRoute($route) {
-		$display_options = array();
 		if ($route) {
 			$request = explode('/',$route);
 			if (is_array($request)) {

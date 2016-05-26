@@ -61,6 +61,8 @@ if (isset($_GET['p'])) {
 	$parsed_route = false;
 }
 
+$display_options = array();
+$display_options['root_url'] = 'https://watt.cashmusic.org';
 // set json true/false based on parsed route
 $display_options['json'] = false;
 if ($parsed_route['json']) {
@@ -126,6 +128,8 @@ if ($parsed_route) {
 		 * RSS FEED (/rss)
 		 *
 		 ************************************************************************/
+
+		$display_options['filtered_work'] = $full_index['filtered_work'];
 		$template = 'rss';
 	} else if ($parsed_route['type'] == 'podcast') {
 		/*************************************************************************
