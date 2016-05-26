@@ -152,6 +152,14 @@ if ($parsed_route) {
 				}
 				$display_options['work'] = $work;
 				$display_options['tag_list'] = $full_index['tags']['list'];
+				if (isset($full_index['tags']['details'][$display_options['tag']])) {
+					$display_options = array_merge($display_options,$full_index['tags']['details'][$display_options['tag']]);
+				}
+				$features = array_merge($display_options['featured_work'],array());
+				$display_options['featured_work'] = array();
+				foreach ($features as $work_id) {
+					$display_options['featured_work'][] = $full_index['work'][$work_id];
+				}
 			}
 			if ($display_options['json']) {
 				// JSON requested, so spit it out and exit (no template)

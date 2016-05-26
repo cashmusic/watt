@@ -163,12 +163,43 @@
 <article class="pure-u-1 expanded dark">
 
   <div id="hash-hero" class="drk-prple" role="hero">
-    <h3>Tag</h3>
-    <h1 class="page-title">#{{tag}}</h1>
-    <p>Tag descriptions?</p>
+    <h3>Tag{{#title}} #{{tag}}{{/title}}</h3>
+    <h1 class="page-title">{{#title}}{{title}}{{/title}}{{^title}}#{{tag}}{{/title}}</h1>
+    {{#description}}<p>{{description}}</p>{{/description}}
   </div><!--hero-->
 
   <section class="pure-u-1 article-content">
+
+
+
+
+     {{#featured_work}}
+     <div class="pure-u-1 featured-work {{type}}">
+         <div class="featured-banner {{template_blend}} {{template_bg_style}}" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
+             <h2><a href="/{{type}}/{{id}}">{{title}}</a></h2>
+               <h3>{{description}}</h3>
+
+         </div><!--featured-banner-->
+         <div class="featured-body">
+             <div class="pure-u-1 pure-u-md-1-5">
+               <a class="avatar" href="/author/{{id}}" target="_blank">
+               <img src="{{photo.url}}" alt="{{name}}" /></a>
+                <div class="details">
+                  <h4>{{author_name}}, {{author_byline}}</h4>
+                     <a href="{{#links}}{{url}}{{/links}}" target="_blank">{{title}}</a>
+               </div><!--details-->
+             </div><!--author--><div class="inner pure-u-1 pure-u-md-3-5">
+               {{{content}}}
+             </div><!--inner--><div class="pure-u-1 pure-u-md-1-5">
+               {{{display_share}}}
+             </div><!--  -->
+      </div><!--featured-body-->
+
+      <a class="more-link" href="/{{type}}/{{id}}">Read more</a>
+      {{/featured_work}}
+
+
+
     <section class="pure-u-1 section-title">
     <h3>Recent articles marked {{tag}}</h3>
     </section>
