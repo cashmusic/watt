@@ -44,20 +44,14 @@
 
         <!--Fonts-->
 		<link href='https://fonts.googleapis.com/css?family=Caesar+Dressing|Playfair+Display|Montserrat:400,700|Nunito:300,400,700' rel='stylesheet' type='text/css'>
-
         <!--Mobile Viewport -->
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="viewport" content="initial-scale=1.0,user-scalable=no">
-
         <!--Open Graph Meta Data-->
         <?php include(__DIR__.'/ogmeta.php') ?>
-
         <script type="text/javascript" src="https://cashmusic.org/public/cashmusic.js"></script>
         <script type="text/javascript" src="../js/main.js"></script>
         <script type="text/javascript" src="../js/color_test.js"></script>
-
-        </script>
-
     </head>
 
     <body class="static-nav">
@@ -175,11 +169,24 @@
         <div class="featured-banner {{template_blend}} {{template_bg_style}}" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
             <h2><a href="/{{type}}/{{id}}">{{title}}</a></h2>
               <h3>{{description}}</h3>
-              <a class="more-link" href="/{{type}}/{{id}}">Read more</a>
+
         </div><!--featured-banner-->
         <div class="featured-body">
-            {{{featured_body}}}
+            <div class="pure-u-1 pure-u-md-1-5">
+            	<a class="avatar" href="/author/{{id}}" target="_blank">
+            	<img src="{{photo.url}}" alt="{{name}}" /></a>
+            	 <div class="details">
+            	 	<h4>{{author_name}}, {{author_byline}}</h4>
+            			<a href="{{#links}}{{url}}{{/links}}" target="_blank">{{title}}</a>
+            	</div><!--details-->
+            </div><!--author--><div class="inner pure-u-1 pure-u-md-3-5">
+              {{{content}}}
+            </div><!--inner--><div class="pure-u-1 pure-u-md-1-5">
+              {{{display_share}}}
+            </div><!--  -->
       </div><!--featured-body-->
+
+      <a class="more-link" href="/{{type}}/{{id}}">Read more</a>
         {{/featured_work}}
 
 <section class="pure-u-1">

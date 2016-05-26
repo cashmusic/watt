@@ -239,80 +239,6 @@ header #return-user h1{
   font-family:'Montserrat', sans-serif;
 }
 
-/* Tag/Author Drawer */
-
-.tag-drawer{
-  text-align: center;
-  background:#534785;
-  border-bottom: solid 1px #4c408c;
-  padding:10px;
-}
-
-.tag-drawer h3{
-  margin:0 auto;
-  text-indent: -5000em;
-  background: url('../img/eye.svg') no-repeat 50% 50%;
-  height:30px;
-  width:40px;
-  background-size: 60%;
-}
-
-
-.tag-drawer:hover{
-  cursor: pointer;
-  background:#3d3568;
-}
-
-.tag-drawer:hover h3{
-  background-size: 80%;
-  fill:red;
-}
-
-header .tag-nav{
-  background:#5e5290;
-  /*background:#4c408c;*/
-  color:#fe5c71;
-}
-
-header .tag-nav .inner{
-  padding:40px 30px 60px 30px;
-  position: absolute;
-  z-index: -10;
-  top:-1000vh;
-  background:#5e5290;
-  background:rgba(94,82,144,0.98);
-  width:100%;
-  -webkit-transition: 0.2s  ease-out;
-  transition: 0.2s  ease-out;
-}
-
-/* Show tags */
-
-header .tag-nav.show .inner{
-  top:109px;
-}
-
-header .tag-nav .inner h3{
-  margin:0 0 30px 0;
-  color:#fff;
-}
-
-header .tag-nav ul li a{
-  font-size: 14px;
-  border-bottom: solid 2px;
-  color:#332b5e;
-  text-transform: capitalize;
-}
-
-header .tag-nav ul li a:hover{
-  color:#fe5c71;
-}
-
-/* Tag/Author Header */
-
-header .tag-header{
-  background:#5e5390;
-}
 
 /* Platform call to action */
 
@@ -1047,6 +973,22 @@ header .scroll{
     color:#fe5c71;
 }
 
+
+#main article.expanded .featured-work.writing .featured-body, #main article.expanded .featured-work.statement .more-link{
+  display: none;
+}
+
+#main article.expanded .featured-work.statement .featured-body{
+    display: block;
+    background:#fff;
+    padding:30px;
+    margin:-180px 60px 60px 60px;
+}
+
+#main article.expanded .featured-work.statement .featured-body .inner{
+    padding:60px;
+}
+
 /* Secondary Article Types */
 
 #main article.expanded .article-archive.secondary .inner{
@@ -1095,7 +1037,7 @@ header .scroll{
 
 #main article.expanded .article-archive.secondary.video .inner{
     background: #fff!important;
-    height:125px;
+    height:150px;
 }
 
 #main article.expanded .article-archive.video .inner .more-link{
@@ -2958,8 +2900,12 @@ header #hero h1{
 }
 
 /* Featured index articles */
-#main article.expanded .featured-banner{
+#main article.expanded .featured-work.writing .featured-banner{
     padding:80px 150px;
+}
+
+#main article.expanded .featured-work.statement .featured-banner{
+    padding:80px 150px 180px 150px;
 }
 
 /* About Us */

@@ -224,6 +224,7 @@ if ($parsed_route) {
 		 if (file_exists(__DIR__.'/content/work/'.$work_id.'.md')) {
 			$full_index['work'][$work_id]['content'] = Markdown(file_get_contents(__DIR__.'/content/work/'.$work_id.'.md'));
 		}
+		$display_options['display_share'] = $brown->formatShare();
 		$display_options['featured_work'][] = $full_index['work'][$work_id];
 	}
 	foreach ($main_settings['secondary_work'] as $work_id) {

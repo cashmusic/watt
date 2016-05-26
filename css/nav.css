@@ -241,6 +241,83 @@ header[role=banner] #constant #collapsed.hide nav ul{
   padding: 0 30px;
 }*/
 
+/* Tag/Author Drawer */
+
+
+.tag-drawer{
+  text-align: center;
+  background:#534785;
+  border-bottom: solid 1px #4c408c;
+  padding:10px;
+}
+
+.tag-drawer h3{
+  margin:0 auto;
+  text-indent: -5000em;
+  background: url('../img/eye.svg') no-repeat 50% 50%;
+  height:30px;
+  width:40px;
+  background-size: 60%;
+}
+
+
+.tag-drawer:hover{
+  cursor: pointer;
+  background:#3d3568;
+}
+
+.tag-drawer:hover h3{
+  background-size: 80%;
+  fill:red;
+}
+
+header .tag-nav{
+  background:#5e5290;
+  color:#fe5c71;
+}
+
+header .tag-nav .inner{
+  padding:40px 30px 60px 30px;
+  position: absolute;
+  z-index: -10;
+  top:-1000vh;
+  background:#5e5290;
+  background:rgba(94,82,144,0.98);
+  width:100%;
+  -webkit-transition: 0.2s  ease-out;
+  transition: 0.2s  ease-out;
+}
+
+/* Show tags */
+
+header .tag-nav.show .inner{
+  top:109px;
+}
+
+header .tag-nav .inner h3{
+  margin:0 0 30px 0;
+  color:#fff;
+}
+
+header .tag-nav ul li a{
+  font-size: 14px;
+  border-bottom: solid 2px;
+  color:#332b5e;
+  text-transform: capitalize;
+}
+
+header .tag-nav ul li a:hover{
+  color:#fe5c71;
+}
+
+
+/* Tag/Author Header */
+
+header .tag-header{
+  /*background:#5e5390;*/
+}
+
+
 /* Overview  */
 
 header .overview{
