@@ -75,6 +75,12 @@ class Harvard {
 	 * @return none
 	 */
 	public function renderMustache($template_name, $vars) {
+		if (isset($vars['header'])) {
+			$vars['header'] = $this->lemmy->render($vars['header'], $vars);
+		}
+		if (isset($vars['footer'])) {
+			$vars['footer'] = $this->lemmy->render($vars['footer'], $vars);
+		}
 		$template = file_get_contents(__DIR__.'/../templates/'.$template_name.'.mustache');
 		echo $this->lemmy->render($template, $vars);
 	}
