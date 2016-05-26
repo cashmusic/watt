@@ -70,6 +70,14 @@ if ($parsed_route['json']) {
 // grab the full index from the Harvard class
 $full_index = $brown->getIndex();
 
+if (file_exists(__DIR__.'/templates/header.mustache')) {
+	$display_options['header'] = file_get_contents(__DIR__.'/templates/header.mustache');
+}
+
+if (file_exists(__DIR__.'/templates/footer.mustache')) {
+	$display_options['footer'] = file_get_contents(__DIR__.'/templates/footer.mustache');
+}
+
 
 /*******************************************************************************
  *
