@@ -6,6 +6,11 @@ header h1.logo{
     font-size: 35px;
     display: inline-block;
 }
+
+.watt header h1.logo{
+      margin:0 0 0 131px;
+}
+
 header h1.logo span{
     display: none;
 }
@@ -37,7 +42,7 @@ header #platform-signup a.login{
 /* Fixed header  */
 header #constant{
     width:100%;
-    max-width:1380px;
+    max-width:1350px;
     position: absolute;
     top:0;
     min-height:68px;
@@ -54,11 +59,11 @@ header #constant #top, header #constant #collapsed{
     -webkit-transform: translate3d(0,0,0);
 }
 
-.static-nav header #constant #top{
+header #constant #top{
   background:#202020;
   background-color:rgba(32,32,32,0.98);
   background:#fe5c71 url('../img/banner.jpg') 0% 100%;
-  background-position: fixed;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -113,7 +118,7 @@ header[role=banner] #constant #collapsed nav{
   display: block;
   position: absolute;
   top:18px;
-  left:130px;
+  left:200px;
   opacity: 1;
   -webkit-transition: .3s ease-in-out;
   -moz-transition: .3s ease-in-out;
@@ -291,7 +296,7 @@ header .tag-nav .inner{
 /* Show tags */
 
 header .tag-nav.show .inner{
-  top:109px;
+  top:59px;
 }
 
 header .tag-nav .inner h3{
@@ -317,6 +322,56 @@ header .tag-header{
   /*background:#5e5390;*/
 }
 
+/* WATT Specific Header */
+
+.watt header #top nav{
+  display: none;
+}
+
+.watt header #top, header.watt #top a{
+  color:#ff475b;
+  color:#fff;
+}
+
+.watt header #top #platform-signup a.login{
+  border-color:#ff475b;
+  border-color:#fff;
+}
+
+.watt header #constant #top{
+  background: transparent;
+  border-bottom:rgba(255,255,255,0.3) 1px solid;
+}
+
+.firstvisit.watt header #constant #top{
+  background:#fe5c71 url('../img/banner.jpg') 0% 269%;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Firstuse + Static Watt */
+
+.firstuse, .static-nav{
+
+}
+
+/* Watt Tag drawer */
+
+.watt header .tag-nav{
+  background: transparent;
+}
+.watt header .tag-drawer{
+  background: transparent;
+  border: none;
+  position: absolute;
+  top:3px;
+  left: 78px;
+  padding: 10px 0;
+  z-index: 10;
+}
 
 /* Overview  */
 
@@ -334,7 +389,7 @@ header .overview{
 
 header .overview-inner{
   opacity: 1;
-  padding:0px;
+  padding:30px 0px;
   -webkit-transition: .3s ease-in-out .3s;
   -moz-transition: .3s ease-in-out .3s;
   -o-transition: .3s ease-in-out .3s;

@@ -118,12 +118,16 @@ body{
 }
 
 body.static-nav{
-    background:#202020;
+    background:#101010;
     /*background:#fe5c71 url('../img/banner.jpg');*/
-    -webkit-background-size: cover;
+      background-image:url(../img/hash-pattern.png);
+      background-attachment: fixed;
+      background-size: 70%;
+      background-blend-mode: overlay;
+    /*-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;*/
 }
 
 /* Default */
@@ -177,7 +181,7 @@ blockquote footer{
 
 
 #wrapper{
-	max-width:1380px;
+	max-width:1350px;
   	margin: 0 auto;
 	/*opacity: 0;*/
 }
@@ -369,16 +373,22 @@ header #hero .preview{
 /* hashed background hero */
 
 #hash-hero{
+  display: none;
+}
+
+.firstvisit #hash-hero, #hash-hero.drk-prple{
   background:#eeeeee url('../img/hash-pattern.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-size: 80%;
-  color:#fe5c71;
+  background-attachment: fixed;
+  color:#ff475b;
   padding:180px 60px 60px 60px;
-  margin:0 0 -200px 0;
+  margin:0 0 0px 0;
   text-align: center;
+  display: block;
 }
 
 #main article.expanded #hash-hero h2{
@@ -411,13 +421,29 @@ header #hero .preview{
 
 /* Watt logo */
 
-#hash-hero h2.watt-logo{
+.watt-logo{
   background:url('../img/watt-logo.svg') no-repeat 50% 50%;
   text-indent: -5000em;
-  height: 146px;
+    height: 146px;
     width: 153px;
-    margin: 0 auto!important;
+    margin: 0 auto;
     background-size: 100%;
+}
+
+.watt header .watt-logo{
+  height: 58px;
+  width: 61px;
+  position: absolute;
+  top:0px;
+  left:0px;
+  margin:0;
+}
+
+.watt header #collapsed .watt-logo{
+  -webkit-filter: brightness(100%); /* Chrome, Safari, Opera */
+  filter: brightness(100%);
+  -webkit-filter: contrast(100%); /* Chrome, Safari, Opera */
+  filter: contrast(100%);
 }
 
 #main article.expanded #hash-hero h3{
@@ -707,6 +733,8 @@ header .scroll{
     transition-delay: 0.4s;
 }
 
+
+
 /* 3rd Party Link */
 
 #main article footer .ext-link{
@@ -847,7 +875,7 @@ header .scroll{
 
 #main article.expanded #archive{
     margin:0;
-    padding:0
+    padding:0;
 }
 
 #main article.expanded .article-archive{
@@ -940,7 +968,8 @@ header .scroll{
   /*background-color:#00b9a2;*/
   /*background-color: #de4caa;*/
   background-color:#ff475b;
-    background-color:#fc47a1;
+  background-color:#fc47a1;
+  background-attachment: fixed;
   margin:0 0 60px 0;
   padding:30px;
   color:#fff;
@@ -973,8 +1002,7 @@ header .scroll{
     color:#fe5c71;
 }
 
-
-#main article.expanded .featured-work.writing .featured-body, #main article.expanded .featured-work.statement .more-link{
+#main article.expanded .featured-work.statement .more-link{
   display: none;
 }
 
@@ -987,6 +1015,15 @@ header .scroll{
 
 #main article.expanded .featured-work.statement .featured-body .inner{
     padding:60px;
+}
+
+#main article.expanded .featured-work.statement .featured-body .share-title{
+    display: none;
+}
+
+#main article.expanded .featured-work.statement .featured-body ul.social li{
+    display:block;
+    margin:0 0 6px 0;
 }
 
 /* Secondary Article Types */
@@ -1035,16 +1072,16 @@ header .scroll{
   padding:0;
 }
 
-#main article.expanded .article-archive.secondary.video .inner{
+#main article.expanded #archive  .article-archive.secondary.video .inner{
     background: #fff!important;
     height:150px;
 }
 
-#main article.expanded .article-archive.video .inner .more-link{
+#main article.expanded #archive .article-archive.video .inner .more-link{
   display: none;
 }
 
-#main article.expanded .article-archive.video .video_inner:before{
+#main article.expanded #archive .article-archive.video .video_inner:before{
   display: block;
    content: "";
    width: 100%;
@@ -1063,7 +1100,7 @@ header .scroll{
 }
 
 #main article.expanded .article-archive.video .video_inner{
-    margin:0 1%;
+    margin:0 1% 0 1%;
     position: relative;
 }
 #main article.expanded .article-archive.video iframe{
@@ -2779,6 +2816,10 @@ header #hero h1{
   padding:200px 0 60px 0;
 }
 
+ .watt #main.article-page.static article.expanded section.article-content{
+  padding:0 0 60px 0;
+}
+
 #main.article-page.product.static article.expanded section.article-content{
   padding-bottom: 0;
 }
@@ -2894,12 +2935,14 @@ header #hero h1{
     height:450px;
 }
 
+
 #main article.expanded .article-archive .sixteen-nine, .sixteen-nine{
   margin-right:2%;
   margin-left:2%;
 }
 
 /* Featured index articles */
+
 #main article.expanded .featured-work.writing .featured-banner{
     padding:80px 150px;
 }
@@ -3013,6 +3056,15 @@ footer[role=contentinfo] .supporters a:first-child img{
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+
+.fourcol{
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
     -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
     -moz-column-gap: 40px; /* Firefox */
     column-gap: 40px;
