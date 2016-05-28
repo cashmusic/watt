@@ -44,16 +44,7 @@ class Harvard {
 							// found a trailing.json
 							$request_options[0] = str_replace('.json','',$request_options[0]);
 							$use_json = true;
-							// pass basic no-cache / CORS headers
-							header('P3P: CP="ALL CUR OUR"'); // P3P privacy policy fix
-							header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
-							header("Cache-Control: post-check=0, pre-check=0", false);
-							header("Pragma: no-cache");
-							header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
-							header("Access-Control-Allow-Origin: *");
-							header('Access-Control-Allow-Credentials: true');
-							header('Access-Control-Allow-Headers: X-Requested-With, Content-Type, Origin, Accept');
-					      header('Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT');
+							$this->setJSONHeaders();
 						}
 					}
 				}
@@ -66,6 +57,19 @@ class Harvard {
 			}
 		}
 		return false;
+	}
+
+	public function setJSONHeaders() {
+		// pass basic no-cache / CORS headers
+		header('P3P: CP="ALL CUR OUR"'); // P3P privacy policy fix
+		header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+		header("Cache-Control: post-check=0, pre-check=0", false);
+		header("Pragma: no-cache");
+		header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
+		header("Access-Control-Allow-Origin: *");
+		header('Access-Control-Allow-Credentials: true');
+		header('Access-Control-Allow-Headers: X-Requested-With, Content-Type, Origin, Accept');
+		header('Access-Control-Allow-Methods: POST, GET, OPTIONS, DELETE, PUT');
 	}
 
 	/**

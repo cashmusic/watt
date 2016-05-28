@@ -122,6 +122,16 @@ if ($parsed_route) {
 				}
 			}
 		}
+	} else if ($parsed_route['type'] == 'licenses' || $parsed_route['type'] == 'licenses.json') {
+		/*************************************************************************
+		 *
+		 * RSS FEED (/licenses.json)
+		 *
+		 ************************************************************************/
+
+		$brown->setJSONHeaders();
+		echo file_get_contents(__DIR__.'/content/licenses.json');
+		exit();
 	} else if ($parsed_route['type'] == 'rss') {
 		/*************************************************************************
 		 *
