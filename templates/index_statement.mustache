@@ -12,14 +12,23 @@
   <section class="article-content">
 
     {{#featured_work}}
-    <div class="pure-u-1 featured-work {{type}}">
+    <div class="pure-u-1 featured-work {{type}} statement">
         <div class="featured-banner {{template_blend}} {{template_bg_style}} {{template_additional}}" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
             <h2><a href="/{{type}}/{{id}}">{{title}}</a></h2>
               <h3>{{description}}</h3>
-      <a class="more-link" href="/{{type}}/{{id}}">Read more</a>
+
         </div><!--featured-banner-->
+        <div class="featured-body">
+            <div class="author pure-u-1 pure-u-md-1-5">
+              <h4><a href="/author/{{author_id}}">{{author_name}}, {{author_byline}}</a></h4>
+            </div><!--author--><div class="inner pure-u-1 pure-u-md-3-5">
+              {{{content}}}
+            </div><!--inner--><div class="pure-u-1 pure-u-md-1-5">
+              {{{display_share}}}
+            </div><!-- pure-->
+      </div><!--featured-body-->
     </div><!--featured-work-->
-        {{/featured_work}}
+    {{/featured_work}}
 
 <section class="pure-u-1">
 <h3>Featured articles:</h3>
@@ -76,7 +85,6 @@
     <ul class="tags">
   {{#featured_authors}}
     <li><a class="tag" href="/author/{{.}}">{{.}}</a></li>
-       <li><a class="tag" href="/author/{{title}}">{{name}}</a></li>
   {{/featured_authors}}
 </ul>
 </section>

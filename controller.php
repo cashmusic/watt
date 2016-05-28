@@ -80,6 +80,8 @@ if (file_exists(__DIR__.'/templates/footer.mustache')) {
 	$display_options['footer'] = file_get_contents(__DIR__.'/templates/footer.mustache');
 }
 
+// Feature tags site wide
+	$display_options['featured_tags'] = $main_settings['featured_tags'];
 
 /*******************************************************************************
  *
@@ -246,7 +248,6 @@ if ($parsed_route) {
 	$display_options['featured_work'] = array();
 	$display_options['secondary_work'] = array();
 	$display_options['tertiary_work'] = array();
-	$display_options['featured_tags'] = $main_settings['featured_tags'];
 	$display_options['featured_authors'] = array();
 
 	foreach ($main_settings['featured_work'] as $work_id) {

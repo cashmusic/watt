@@ -54,7 +54,7 @@
         <script type="text/javascript" src="../js/color_test.js"></script>
     </head>
 
-    <body class="static-nav watt">
+    <body class="watt {{type}}">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -75,20 +75,20 @@
    </div><!--top-->
    <div class="tag-nav">
      <div class="tag-drawer"><h3>Explore</h3></div>
-     <div class="inner">
-       <div class="pure-u-1">
-         <h3>Tags</h3>
-         <ul class="fourcol">
+     <div class="tag-content">
+          <h3>Featured Tags</h3>
+       <div class="inner">
+         <ul class="sixcol">
            {{#featured_tags}}
              <li><a class="tag" href="/tag/{{.}}">{{.}}</a></li>
            {{/featured_tags}}
          </ul>
        </div><!--pure-->
-     </div><!--inner-->
+     </div><!--tag-content-->
  </div><!--tag-nav-->
    <div id="collapsed" class="hide">
       <h1 class="logo"><a href="https://cashmusic.org/"><div class="icon icon-logo"><span>CASH Music</span></div></a></h1><!--logo-->
-       <h2 class="watt-logo">WATT</h2>
+        <a class="watt-logo" href="/">WATT</a>
       <div class="menutoggle"><span></span><span></span><span></span></div><!-- menutoggle -->
           <div id="platform-signup">
               <a href="http://cashmusic.org/admin/dosignup/" target="_blank">Sign up</a> <span>or</span><a class="login" href="http://cashmusic.org/admin/" target="_blank">Login</a>
