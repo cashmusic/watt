@@ -1,0 +1,25 @@
+{
+	"id":"meredithgraves",
+	"author_id":"meredithgraves",
+	"release_id":"first",
+	"title":"Meredith Graves talks about reality (not real headline)",
+	"description":"",
+	"type":"writing",
+	"date":"June 2, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"",
+			"url":""
+		}
+	],
+	"tags":[
+		"open",
+		"impact",
+		"community"
+	],
+	"template":"default",
+	"template_styles":"",
+	"template_additional":"light"
+}
