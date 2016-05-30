@@ -12,7 +12,7 @@
 		{
 			"type":"image",
 			"license":"CC-BY",
-			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/af-thin.jpg",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/jes.gif",
 			"credits":""
 		}
 	],
@@ -22,6 +22,6 @@
 		"community"
 	],
 	"template":"twocol-leftalign",
-	"template_styles":"#annfriedman{background:#000000;}",
+	"template_styles":"#jennschiffer{background:#fff;}",
 	"template_additional":"light"
 }

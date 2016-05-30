@@ -1,0 +1,9 @@
+###What kind of impact does music have in our world?
+
+I suppose the impact that music has on the world is sort of intangible. My guess is that it goes in waves, depends on context, depends on delivery. It’s like asking what impact speech has on the world. We all have these organic synthesizers in our faces and they’ve been used intuitively since the dawn of time; how can that not have an immeasurable impact on our daily lives, globally? Combine that with language and meaning and you’ve got the catalyst to some of the more seismic cultural changes that have occurred in human history. Short answer: YES LOTS OF IMPACT.
+
+***
+
+###What can we do to ensure that artists’ voices are heard? 
+
+I think that artists’ voices are now, more than ever, being amplified and projected. More tools are available; middlemen left and right are being made irrelevant — and in many ways that’s a good thing. The real question is how can we reattribute VALUE to those voices. I suppose because there are no longer the obstacles in place that would stop someone from pursuing a career in the arts (and I don’t think this is limited entirely to music) that there’s this assumption that music is somehow divorced from the labor in its creation. As if these advanced and cheap (if not free) tools have completely erased the actual work involved in creation, which has created this kind of systemic assumption that art should therefore be cheap (if not free). I have no idea how to remedy that. PSAs? After school specials? I guess artists should be prepared to amplify their defense of their livelihoods as well as their art, though I don’t think that’s anything any of us either signed up for or can be considered to be particularly good at. Me, I didn’t gravitate to music because of my political skills or my ability to root out and fight injustices — but that’s where we find ourselves.

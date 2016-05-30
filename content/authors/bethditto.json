@@ -1,0 +1,16 @@
+{
+	"id":"bethditto",
+	"name":"Beth Ditto",
+	"byline":"singer",
+	"links":[
+		{
+			"title":"@obethoditto",
+			"url":"https://twitter.com/obethoditto"
+		}
+	],
+	"photo":{
+		"url":"https://static-cashmusic.netdna-ssl.com/www/img/contributor/bd.jpg",
+		"license":"",
+		"credits":""
+	}
+}

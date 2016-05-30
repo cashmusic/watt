@@ -75,6 +75,12 @@ class Harvard {
 	 * @return none
 	 */
 	public function renderMustache($template_name, $vars) {
+		if (isset($vars['header'])) {
+			$vars['header'] = $this->lemmy->render($vars['header'], $vars);
+		}
+		if (isset($vars['footer'])) {
+			$vars['footer'] = $this->lemmy->render($vars['footer'], $vars);
+		}
 		$template = file_get_contents(__DIR__.'/../templates/'.$template_name.'.mustache');
 		echo $this->lemmy->render($template, $vars);
 	}
@@ -86,6 +92,20 @@ class Harvard {
 	 */
 	public function getIndex() {
 		return $this->index;
+	}
+
+	/**
+	 * A sorting function to put index dates into reverse chronological order
+	 *
+	 * @return int
+	 */
+	public static function sortIndex($a,$b) {
+		$a_time = strtotime($a['date']);
+		$b_time = strtotime($b['date']);
+		if ($a_time == $b_time) {
+			return 0;
+		}
+		return ($a_time < $b_time) ? 1 : -1;
 	}
 
 	/**
@@ -124,6 +144,9 @@ class Harvard {
 				$entry['author_byline'] = $return['authors']['details'][$entry['author_id']]['byline'];
 			}
 		}
+
+		// sort work to newest-first
+		uasort($return['work'], array("Harvard", "sortIndex"));
 
 		// do tag stuff
 		$details = $return['tags'];

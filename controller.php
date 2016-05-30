@@ -70,6 +70,14 @@ if ($parsed_route['json']) {
 // grab the full index from the Harvard class
 $full_index = $brown->getIndex();
 
+if (file_exists(__DIR__.'/templates/header.mustache')) {
+	$display_options['header'] = file_get_contents(__DIR__.'/templates/header.mustache');
+}
+
+if (file_exists(__DIR__.'/templates/footer.mustache')) {
+	$display_options['footer'] = file_get_contents(__DIR__.'/templates/footer.mustache');
+}
+
 
 /*******************************************************************************
  *
@@ -93,6 +101,7 @@ if ($parsed_route) {
 		if (file_exists(__DIR__.'/content/work/'.$display_options['id'].'.md')) {
 			$display_options['content'] = Markdown(file_get_contents(__DIR__.'/content/work/'.$display_options['id'].'.md'));
 			$work_details = json_decode(file_get_contents(__DIR__.'/content/work/'.$display_options['id'].'.json'),true);
+
 			if ($work_details) {
 				$display_options = array_merge($work_details,$display_options);
 				// build tags array
@@ -142,6 +151,15 @@ if ($parsed_route) {
 					$work[] = $full_index['work'][$work_id];
 				}
 				$display_options['work'] = $work;
+				$display_options['tag_list'] = $full_index['tags']['list'];
+				if (isset($full_index['tags']['details'][$display_options['tag']])) {
+					$display_options = array_merge($display_options,$full_index['tags']['details'][$display_options['tag']]);
+				}
+				$features = array_merge($display_options['featured_work'],array());
+				$display_options['featured_work'] = array();
+				foreach ($features as $work_id) {
+					$display_options['featured_work'][] = $full_index['work'][$work_id];
+				}
 			}
 			if ($display_options['json']) {
 				// JSON requested, so spit it out and exit (no template)
@@ -162,6 +180,17 @@ if ($parsed_route) {
 		if (isset($full_index[$parsed_route['options'][0]]['url'])) {
 			header('Location: ' . $full_index[$parsed_route['options'][0]]['url']);
 		}
+
+	} else if ($parsed_route['type'] == 'video') {
+		/*************************************************************************
+		 *
+		 * REDIRECT TO EXTERNAL CONTENT (/video)
+		 *
+		 ************************************************************************/
+		if (isset($full_index[$parsed_route['options'][0]]['url'])) {
+			header('Location: ' . $full_index[$parsed_route['options'][0]]['url']);
+		}
+
 	} else if ($parsed_route['type'] == 'author') {
 		/*************************************************************************
 		 *
@@ -180,6 +209,7 @@ if ($parsed_route) {
 					$display_options['author_name'] = $full_index['work'][$work_id]['author_name'];
  				}
  				$display_options['work'] = $work;
+				$display_options['tag_list'] = $full_index['tags']['list'];
  			}
  			if ($display_options['json']) {
  				// JSON requested, so spit it out and exit (no template)
@@ -206,6 +236,11 @@ if ($parsed_route) {
 	$display_options['featured_authors'] = array();
 
 	foreach ($main_settings['featured_work'] as $work_id) {
+		require_once(__DIR__.'/lib/markdown/markdown.php');
+		 if (file_exists(__DIR__.'/content/work/'.$work_id.'.md')) {
+			$full_index['work'][$work_id]['content'] = Markdown(file_get_contents(__DIR__.'/content/work/'.$work_id.'.md'));
+		}
+		$display_options['display_share'] = $brown->formatShare();
 		$display_options['featured_work'][] = $full_index['work'][$work_id];
 	}
 	foreach ($main_settings['secondary_work'] as $work_id) {
@@ -214,13 +249,18 @@ if ($parsed_route) {
 	foreach ($main_settings['tertiary_work'] as $work_id) {
 		$display_options['tertiary_work'][] = $full_index['work'][$work_id];
 	}
+	foreach ($main_settings['quaternary_work'] as $work_id) {
+		$display_options['quaternary_work'][] = $full_index['work'][$work_id];
+	}
 	foreach ($main_settings['featured_authors'] as $author_id) {
 		$display_options['featured_authors'][] = $full_index['authors']['index'][$author_id];
 	}
 
+
 	$display_options['work'] = $full_index['filtered_work'];
 	$display_options['tag_list'] = $full_index['tags']['list'];
 	$template = $main_settings['template'];
+
 }
 
 // pick the correct template and echo
