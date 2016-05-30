@@ -17,12 +17,9 @@
 		}
 	],
 	"tags":[
-		"open",
 		"impact",
-		"community",
-		"joy",
-		"cool",
-		"journalism"
+		"community"
+		
 	],
 	"template":"twocol-rightalign",
 	"template_styles":"#jedwardkeyes{background:#141414;}",
