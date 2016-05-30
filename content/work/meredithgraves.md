@@ -1,4 +1,4 @@
-###
+###Meredith Graves 
 
 By the time the clock strikes eight AM, I’m out of bed, overcaffeinated, medicated, and briefed: I’ve got three or four written pieces due in the next 48 hours, two of which I haven’t started, one of which involves hours of meticulous baking in addition to writing, plus a photoshoot, a research and development meeting, two phone calls, no groceries in the house, a friend with a crisis, the knowledge that I’m hosting a dinner for fifteen people in three days, artists emailing with questions about cover art for their upcoming LPs, plans for a work day with two other freelancer friends, commitments I made a month ago that I’m absolutely unable to attend, save for the fact that I have to.
 

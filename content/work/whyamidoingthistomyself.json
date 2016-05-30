@@ -1,0 +1,26 @@
+{
+	"id":"whyamidoingthistomyself",
+	"author_id":"jeangrae",
+	"release_id":"first",
+	"title":"Why Am I Doing This To Myself?",
+	"description":,
+	"type":"writing",
+	"date":"June 2, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"",
+			"credits":""
+		}
+	],
+	"tags":[
+		"open",
+		"impact",
+		"community"
+	],
+	"template":"twocol-leftalign",
+	"template_styles":"",
+	"template_additional":"light"
+}

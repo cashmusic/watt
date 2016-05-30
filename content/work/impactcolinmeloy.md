@@ -1,6 +1,6 @@
 ###What kind of impact does music have in our world?
 
-I suppose the impact that music has on the world is sort of intangible. My guess is that it goes in waves, depends on context, depends on delivery. It’s like asking what impact speech has on the world. We all have these organic synthesizers in our faces and they’ve been used intuitively since the dawn of time; how can that not have an immeasurable impact on our daily lives, globally? Combine that with language and meaning and you’ve got the catalyst to some of the more seismic cultural changes that have occurred in human history. Short answer: YES LOTS OF IMPACT
+I suppose the impact that music has on the world is sort of intangible. My guess is that it goes in waves, depends on context, depends on delivery. It’s like asking what impact speech has on the world. We all have these organic synthesizers in our faces and they’ve been used intuitively since the dawn of time; how can that not have an immeasurable impact on our daily lives, globally? Combine that with language and meaning and you’ve got the catalyst to some of the more seismic cultural changes that have occurred in human history. Short answer: YES LOTS OF IMPACT.
 
 ***
 

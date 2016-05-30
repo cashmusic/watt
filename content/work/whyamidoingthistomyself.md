@@ -1,4 +1,4 @@
-###Why Am I Doing This To Myself?! 
+###Why Am I Doing This To Myself? 
 
 It is currently 86° outside. It is sunny. It is just damn gorgeous.
 Summer arrived in NYC the way it usually does. No big parade, no steady rise in temperature. Just showing up at your door with a bag full of sweat, being overly excited and hugging you way too long.
