@@ -900,6 +900,7 @@ header .scroll{
 
 #main article.expanded .article-archive .inner a{
   color:#222;
+  display: inline;
 }
 
 #main article.expanded .article-archive .inner h2 a:hover{
@@ -1033,6 +1034,47 @@ header .scroll{
   display: inline-block;
 }
 
+/* Featured Video Style */
+
+#main article.expanded .featured-video-content{
+   position: relative;
+}
+
+#main article.expanded .featured-video-content:before{
+ width:100%;
+ display: block;
+ content: "";
+ width: 100%;
+ padding-top: 56.25%;
+ margin:0 60px;
+}
+
+#main article.expanded .featured-video-content .video_inner{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+overflow: hidden;
+background-position: 50% 50%
+background-repeat:no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-color:#fe5c71;
+  background-color:#fc47a1;
+-webkit-transition: 0.3s  ease-in-out;
+-moz-transition: 0.3s  ease-in-out;
+transition:0.3s ease-in-out;
+}
+
+#main article.expanded .featured-video-content iframe{
+  width:100%;
+  height:100%;
+  margin:0!important;
+}
+
 
 /* Secondary Article Types */
 
@@ -1055,6 +1097,10 @@ header .scroll{
 }
 
 /* Quarterney Article Types */
+
+#main article.expanded .article-archive.quaternary{
+  overflow: hidden;
+}
 
 #main article.expanded .article-archive.quaternary .quaternary-outer{
   /*margin:0 4% 2% 2%;*/

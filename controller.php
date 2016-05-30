@@ -246,6 +246,7 @@ if ($parsed_route) {
 	 ***************************************************************************/
 
 	$display_options['featured_work'] = array();
+	$display_options['featured_video'] = array();
 	$display_options['secondary_work'] = array();
 	$display_options['tertiary_work'] = array();
 	$display_options['featured_authors'] = array();
@@ -257,6 +258,9 @@ if ($parsed_route) {
 		}
 		$display_options['display_share'] = $brown->formatShare();
 		$display_options['featured_work'][] = $full_index['work'][$work_id];
+	}
+	foreach ($main_settings['featured_video'] as $work_id) {
+		$display_options['featured_video'][] = $full_index['work'][$work_id];
 	}
 	foreach ($main_settings['secondary_work'] as $work_id) {
 		$display_options['secondary_work'][] = $full_index['work'][$work_id];
