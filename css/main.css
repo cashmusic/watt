@@ -376,6 +376,9 @@ header #hero .preview{
   margin:0;
   text-align: center;
   display: block;
+  /*-webkit-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.43);
+  -moz-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.43);
+  box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.43);*/
 }
 
 .firstvisit #hash-hero{
@@ -395,10 +398,6 @@ header #hero .preview{
   background-color:#423a6e;
   text-align: left;
   background-blend-mode: overlay;
-  -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.43);
--moz-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.43);
-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.43);
-  margin:58px 0 0 0;
 }
 
 #main article.expanded #hash-hero.drk-prple h3{
@@ -1335,8 +1334,12 @@ transition:0.3s ease-in-out;
   background:none;
 }
 
-#main article.expanded .article-content .date, #main.article-page article.expanded .article-content{
+#main article.expanded .date, #main.article-page article.expanded .article-content{
   display: inline-block!important;
+}
+
+#main article.expanded .date{
+  margin:0 0 10px 0!important;
 }
 
 #main article.expanded .article-archive.redirect{
@@ -1417,6 +1420,7 @@ transition:0.3s ease-in-out;
 #main article ul.social{
   text-align: right;
   float: right;
+  margin:0;
 }
 
 #main article ul.tags li, #main article ul.social li{
@@ -1469,7 +1473,7 @@ transition:0.3s ease-in-out;
   width:40px;
   margin:0 1px 0 0;
   background-color:none;
-  border:solid 2px rgba(0,0,0,0.2);
+  border:solid 2px rgba(0,0,0,0.4);
   display: block;
   text-align: center;
   -webkit-border-radius: 50px;
@@ -1478,7 +1482,7 @@ transition:0.3s ease-in-out;
 }
 
 #main article.light ul.social li a{
-  border-color:rgba(255,255,255,0.2);
+  border-color:rgba(255,255,255,0.4);
 }
 
 #main article ul.social li a img{
@@ -1486,7 +1490,7 @@ transition:0.3s ease-in-out;
   height: 50%;
   margin: 9px 0;
   padding:1px;
-  opacity: 0.4;
+  opacity: 0.7;
 }
 
 #main article.light ul.social li a img{
@@ -1554,21 +1558,21 @@ transition:0.3s ease-in-out;
 }
 
 
-#main article section.article-content h1, #main article section.article-content h2,  #main article section.article-content h3, #main article section.article-content h4, #main article section.article-content  h5,  #main article section.article-content h6{
+#main article section.article-content h1, #main article section.article-content h2,  #main article section.article-content h3, #main article section.article-content h4, #main article section.article-content  h5,  #main article section.article-content h6, #main article section.inline-head .date{
   font-weight: 300;
   border-bottom: solid 2px rgba(0,0,0,0.2);
   padding:0 0 5px 0;
   display: inline;
 }
 
-#main article.light section.article-content h1, #main article.light section.article-content h2,  #main article.light section.article-content h3, #main article.light section.article-content h4, #main article.light section.article-content  h5,  #main article.light section.article-content h6{
+#main article.light section.article-content h1, #main article.light section.article-content h2,  #main article.light section.article-content h3, #main article.light section.article-content h4, #main article.light section.article-content  h5,  #main article.light section.article-content h6, #main article.light section.inline-head .date{
   border-bottom: solid 2px rgba(255,255,255,0.2);
 }
 
 #main article section.article-content h3{
   line-height: 36px;
   margin:0 0 30px 0;
-  display: inline-block;
+  display: inline;
 }
 
 /* Article Footer */
@@ -1696,7 +1700,6 @@ transition:0.3s ease-in-out;
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-    min-height: 700px;
 }
 
 #main article.expanded header footer{
@@ -1817,26 +1820,37 @@ transition:0.3s ease-in-out;
 
 /* Article Specific Titles */
 
-#main.article-page .article-title{
+#main.article-page .article-title h1{
   font-size:45px;
-  /*line-height: 50px;*/
+  line-height: 40px;
   padding:0;
-  margin:0;
   display: block;
   font-weight: 100;
   word-break: break-word;
-  margin-bottom: 100px;
-}
-
-#main.article-page .article-title h1{
+  margin:30px 0 100px 0;
   border: none!important;
 }
 
-#main.article-page .article-title .author{
-  margin:0;
+#main.article-page .author-title{
+  display: block;
+  margin:70px 0 10px 0;
+  width:100%;
+  padding:0;
+  text-align: right;
 }
 
-#main.article-page .article-title .author .details h4{
+#main.article-page .author-title .author .details a{
+  margin:0;
+  margin-left:5px;
+}
+
+
+#main article .author .avatar:last-of-type{
+  margin-right: 0;
+  margin-left:10px;
+}
+
+#main.article-page .author-title  .author .details h4{
   line-height: 14px;
 }
 
@@ -1884,10 +1898,16 @@ transition:0.3s ease-in-out;
 
 /* Default Archive Article Template */
 
-#main article.default .article-content h4,
+#main article.default .article-content h4, #main article.default .article-content h3,
 #main article.default .article-content blockquote, #main article.default .article-content p{
 max-width: 800px;
 margin:15px auto;
+}
+
+#main article.default .article-content h3{
+  display: block;
+  text-align: left;
+  margin:0 auto 30px auto;
 }
 
 #main article.default .article-content blockquote{
@@ -1896,27 +1916,20 @@ margin:15px auto;
 
 /* 2 Column (2/3) W/ Hero */
 
-#main article.twocol-twothirds-hero .inline-head{
-  padding:100px 30px;
+#main article.twocol-twothirds-hero header{
+  margin-bottom: -90px;
+  padding:100px 0 0 0;
 }
 
-#main article.twocol-twothirds-hero h1.page-title{
+#main article.twocol-twothirds-hero .inline-head{
+  padding:0px 30px;
+}
+
+#main article.twocol-twothirds-hero .article-title h1{
   line-height: 60px;
   display: inline;
   font-weight: 100;
   padding:0;
-}
-
-#main.article-page article.twocol-twothirds-hero.light .page-title{
-    background:rgba(0,0,0,0.9);
-}
-
-#main.article-page article.twocol-twothirds-hero.dark .page-title{
-    background:rgba(255,255,255,0.9);
-}
-
-#main.article-page article.twocol-twothirds-hero section.article-content h2, #main.article-page article.twocol-twothirds section.article-content h2{
-    margin-top:40px;
 }
 
 #main.article-page article.twocol-twothirds-hero .article-content blockquote, #main.article-page article.twocol-twothirds .article-content blockquote{
@@ -2894,9 +2907,9 @@ header #hero h1{
     padding: 25px 60px 30px 25px;
 }
 
-#main.article-page .page-title{
-  font-size:72px;
-  line-height: 78px;
+#main.article-page .page-title, #main.article-page .article-title h1{
+  font-size:90px;
+  line-height: 86px;
 }
 
 #main.article-page article.expanded section.article-content{
@@ -2915,9 +2928,6 @@ header #hero h1{
   padding-bottom: 0;
 }
 
-#main.article-page article.expanded header{
-  margin: 68px 0 -150px 0;
-}
 
 /* Expanded Article Content */
 
@@ -2972,15 +2982,21 @@ header #hero h1{
 
 /* Article 2 Column (2/3) W/ Hero */
 
+#main article.twocol-twothirds-hero header{
+  margin-bottom: -90px;
+  padding:0 0 0 0;
+  min-height: 600px;
+}
+
+#main article.twocol-twothirds-hero .article-title h1{
+  line-height: 118px;
+}
+
 #main article.twocol-twothirds-hero .inline-head{
-  padding:100px 60px;
+  padding:150px 60px;
 }
 
-#main article.twocol-twothirds-hero h1.page-title{
-  line-height: 98px;
-}
-
-#main.article-page article.twocol-twothirds-hero .article-content h1, #main.article-page article.twocol-twothirds-hero .article-content h2, #main.article-page article.twocol-twothirds-hero .article-content h3, #main.article-page article.twocol-twothirds-hero .article-content p, #main.article-page article.twocol-twothirds .article-content h1, #main.article-page article.twocol-twothirds .article-content h2, #main.article-page article.twocol-twothirds .article-content h3, #main.article-page article.twocol-twothirds .article-content p{
+#main.article-page article.twocol-twothirds-hero .article-content h1, #main.article-page article.twocol-twothirds-hero .article-content h2, #main.article-page article.twocol-twothirds-hero .article-content h3, #main.article-page article.twocol-twothirds-hero .article-content p, #main.article-page article.twocol-twothirds .article-content h2, #main.article-page article.twocol-twothirds .article-content h3, #main.article-page article.twocol-twothirds .article-content p{
     width:60%;
 }
 
@@ -3043,9 +3059,9 @@ header #hero h1{
     padding:180px 150px 180px 150px;
 }
 
-.firstvisit #main article.expanded .featured-work .featured-banner{
+/*.firstvisit #main article.expanded .featured-work .featured-banner{
     padding-top:80px;
-}
+}*/
 
 /* Featured Article Lrg style */
 

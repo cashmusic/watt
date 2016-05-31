@@ -10,20 +10,25 @@
 
 <article id="{{author_id}}" class="pure-u-1 expanded {{template}} {{template_additional}}">
                <header class="bg-center" style="background-image: url({{assets.0.url}});">
-                 <section class="inline-head">
+                 <section class="inline-head pure-u-1 pure-u-md-3-4">
                  <h4 class="date">{{display_time}}</h4>
-                 <h1 class="page-title">{{title}}</h1>
+                 <div class="article-title">
+                   <h1>{{title}}</h1>
+                 </div>
+                </section><section class="inline-head article-social pure-u-1 pure-u-md-1-4">
+                  {{{display_share}}}
+                <div class="author-title">
+                  {{{display_byline}}}
+                </div><!--author-title-->
                 </section>
-                  <footer>
-                    {{{display_byline}}}
-                  </footer>
+                {{#assets}}{{#credits}}
                   <a class="inline-credit" href="{{#assets}}{{#credits}}{{user_url}}{{/credits}}{{/assets}}" target="_blank"><p>Image <span>{{#assets}}{{#credits}}{{username}}{{/credits}}{{/assets}}</span></p></a>
+                {{/credits}}{{/assets}}
               </header>
   <section class="article-content">
 		<section class="pure-u-1">
       	{{{content}}}
 		</section>
-  </section><!--article-content-->
 
 		<footer class="pure-u-1">
 			<h4>Tags:</h4>
@@ -32,11 +37,8 @@
                <li><a class="tag" href="/tag/{{tag}}">{{tag}}</a></li>
           {{/tags}}
       </ul>
-
-      {{{display_share}}}
-      {{{display_byline}}}
     </footer>
-
+  </section><!--article-content-->
 </article>
 </main><!--main-->
 
