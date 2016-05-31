@@ -1,1 +1,26 @@
-rss
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>CASH Music | Watt</title>
+		<link>{{root_url}}/</link>
+		<description>Ideas, opinions, and knowledge about the music industry.</description>
+		<language>en-us</language>
+		<managingEditor>info@cashmusic.org</managingEditor>
+		<image>
+			<title>watt.cashmusic.org</title>
+			<url>https://cashmusic.org/admin/ui/default/assets/images/logo_alt.svg</url>
+			<link>{{root_url}}/</link>
+			<width>150</width> <height>150</height>
+		</image>
+
+		{{#filtered_work}}
+		<item>
+			<title>{{title}}</title>
+			<link>{{root_url}}/{{type}}/{{id}}</link>
+			<description>{{description}}</description>
+			<guid>{{root_url}}/{{type}}/{{id}}</guid>
+		</item>
+		{{/filtered_work}}
+
+	</channel>
+</rss>

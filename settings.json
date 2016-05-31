@@ -1,9 +1,10 @@
 {
 	"featured_work":["maggievail"],
 	"secondary_work":["jedwardkeyes","haxancloak","bethditto"],
-	"tertiary_work":["haxancloak","nathanlarson","astrataylor","horacepanter","henryrollins","sirfoster","jamiestewart","johnroderick","jennschiffer"],
+	"tertiary_work":["haxancloak","nathanlarson","astrataylor","horacepanter","henryrollins","sirfoster","jamiestewart","johnroderick","jennschiffer","jumpingoffcliffs"],
 	"quaternary_work":["anadasilva","annfriedman","laurasnapes","johnroderick","haxancloak","nathanlarson","astrataylor","henryrollins"],
 	"featured_authors":["zolajesus","astrataylor"],
-	"featured_tags":["community","impact","cool","can","add","basically","anything","even","if","it","doesnt","exist"],
-	"template":"index"
+	"featured_tags":["open","community","impact","cool","can","add","basically","anything","even","if","it","doesnt","exist"],
+	"featured_video":["bethditto"],
+	"template":"index_feat_video"
 }

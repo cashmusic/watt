@@ -1,0 +1,42 @@
+{
+	"PD":{
+		"name":"Public Domain",
+		"description":"Public domain means the work is free to use with no restrictions of any kind.",
+		"url":"https://wiki.creativecommons.org/wiki/Public_domain"
+	},
+	"CC-0":{
+		"name":"Creative Commons: Public Domain Dedication",
+		"description":"No rights reserved, and stated formally through a Creative Commons declaration.",
+		"url":"https://creativecommons.org/publicdomain/zero/1.0/"
+	},
+	"CC-BY":{
+		"name":"Creative Commons: Attribution",
+		"description":"This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.",
+		"url":"https://creativecommons.org/licenses/by/4.0/"
+	},
+	"CC-BY-NC":{
+		"name":"Creative Commons: Attribution-NonCommercial",
+		"description":"This license lets others remix, tweak, and build upon your work non-commercially, and although their new works must also acknowledge you and be non-commercial, they don’t have to license their derivative works on the same terms.",
+		"url":"https://creativecommons.org/licenses/by-nc/4.0"
+	},
+	"CC-BY-ND":{
+		"name":"Creative Commons: Attribution-NoDerivs",
+		"description":"This license allows for redistribution, commercial and non-commercial, as long as it is passed along unchanged and in whole, with credit to you.",
+		"url":"https://creativecommons.org/licenses/by-nd/4.0"
+	},
+	"CC-BY-SA":{
+		"name":"Creative Commons: Attribution-ShareAlike ",
+		"description":"This license lets others remix, tweak, and build upon your work even for commercial purposes, as long as they credit you and license their new creations under the identical terms. This license is often compared to “copyleft” free and open source software licenses. All new works based on yours will carry the same license, so any derivatives will also allow commercial use. This is the license used by Wikipedia, and is recommended for materials that would benefit from incorporating content from Wikipedia and similarly licensed projects.",
+		"url":"https://creativecommons.org/licenses/by-sa/4.0"
+	},
+	"CC-BY-NC-ND":{
+		"name":"Creative Commons: Attribution-NonCommercial-NoDerivs",
+		"description":"This license is the most restrictive of our six main licenses, only allowing others to download your works and share them with others as long as they credit you, but they can’t change them in any way or use them commercially.",
+		"url":"https://creativecommons.org/licenses/by-nc-nd/4.0"
+	},
+	"CC-BY-NC-SA":{
+		"name":"Creative Commons: Attribution-NonCommercial-ShareAlike",
+		"description":"This license lets others remix, tweak, and build upon your work non-commercially, as long as they credit you and license their new creations under the identical terms.",
+		"url":"https://creativecommons.org/licenses/by-nc-sa/4.0"
+	}
+}

@@ -6,6 +6,11 @@ header h1.logo{
     font-size: 35px;
     display: inline-block;
 }
+
+.watt header h1.logo{
+      margin:0 0 0 132px;
+}
+
 header h1.logo span{
     display: none;
 }
@@ -37,7 +42,7 @@ header #platform-signup a.login{
 /* Fixed header  */
 header #constant{
     width:100%;
-    max-width:1380px;
+    max-width:1350px;
     position: absolute;
     top:0;
     min-height:68px;
@@ -54,11 +59,11 @@ header #constant #top, header #constant #collapsed{
     -webkit-transform: translate3d(0,0,0);
 }
 
-.static-nav header #constant #top{
+header #constant #top{
   background:#202020;
   background-color:rgba(32,32,32,0.98);
   background:#fe5c71 url('../img/banner.jpg') 0% 100%;
-  background-position: fixed;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -73,10 +78,10 @@ header #constant #top, header #constant #collapsed{
 header #constant #collapsed{
    position: fixed;
    width:100%;
-   max-width:1380px;
+   max-width:1350px;
    top:-600px;
 	 background-color:rgba(34,34,34,0.98);
-   height:58px;
+   height:59px;
    padding:0;
    -webkit-transition: .3s ease-in-out;
    -moz-transition: .3s ease-in-out;
@@ -108,12 +113,12 @@ header[role=banner] nav{
 }
 
 header[role=banner] #constant #collapsed nav{
+  position: absolute;
+  top:18px;
+  left:200px;
   margin:0px 0  0 0;
   padding:0;
   display: block;
-  position: absolute;
-  top:18px;
-  left:130px;
   opacity: 1;
   -webkit-transition: .3s ease-in-out;
   -moz-transition: .3s ease-in-out;
@@ -156,7 +161,7 @@ header[role=banner] nav li a:hover{
 .menutoggle{
     position: absolute;
     top:22px;
-    left:88px;
+    left:85px;
     margin:0;
     padding:0;
 }
@@ -254,9 +259,9 @@ header[role=banner] #constant #collapsed.hide nav ul{
 .tag-drawer h3{
   margin:0 auto;
   text-indent: -5000em;
-  background: url('../img/eye.svg') no-repeat 50% 50%;
-  height:30px;
-  width:40px;
+  background: url('../img/tag.svg') no-repeat 50% 50%;
+  height:31px;
+  width:30px;
   background-size: 60%;
 }
 
@@ -267,7 +272,7 @@ header[role=banner] #constant #collapsed.hide nav ul{
 }
 
 .tag-drawer:hover h3{
-  background-size: 80%;
+  background-size: 65%;
   fill:red;
 }
 
@@ -276,33 +281,40 @@ header .tag-nav{
   color:#fe5c71;
 }
 
-header .tag-nav .inner{
-  padding:40px 30px 60px 30px;
+header .tag-nav .tag-content{
   position: absolute;
   z-index: -10;
   top:-1000vh;
-  background:#5e5290;
-  background:rgba(94,82,144,0.98);
+  background:#222;
+  background:rgba(34,34,34,0.99);
+  border-top: solid 1px #000;
   width:100%;
   -webkit-transition: 0.2s  ease-out;
   transition: 0.2s  ease-out;
 }
 
-/* Show tags */
-
-header .tag-nav.show .inner{
-  top:109px;
+header .tag-nav .tag-content .inner{
+  padding:30px 30px 80px 30px;
 }
 
-header .tag-nav .inner h3{
+/* Show tags */
+
+header .tag-nav.show .tag-content{
+  top:58px;
+}
+
+header .tag-nav .tag-content h3{
   margin:0 0 30px 0;
   color:#fff;
+  background:#202020;
+  padding:20px 30px;
+  text-align: center;
 }
 
 header .tag-nav ul li a{
   font-size: 14px;
   border-bottom: solid 2px;
-  color:#332b5e;
+  color:#444;
   text-transform: capitalize;
 }
 
@@ -317,6 +329,77 @@ header .tag-header{
   /*background:#5e5390;*/
 }
 
+/* Watt logo */
+
+.watt-logo, #main article.expanded #hash-hero h2 #watt-logo{
+    height: 100px;
+    width: 105px;
+    margin: 0 auto;
+    background-size: 100%;
+}
+
+ #main article.expanded #hash-hero h2 #watt-logo .watt-logo-inner{
+   fill:#ff475b;
+ }
+
+.watt header .watt-logo{
+  background:url('../img/watt-logo.svg') no-repeat 50% 50%;
+  background-size: 100%;
+  text-indent: -5000em;
+  height: 55px;
+  width: 55px;
+  position: absolute;
+  top:1px;
+  left:2px;
+  margin:0;
+}
+
+/* WATT Specific Header */
+
+.watt header #top nav{
+  display: none;
+}
+
+.watt header #top, header.watt #top a{
+  color:#ff475b;
+  color:#fff;
+}
+
+.watt header #top #platform-signup a.login{
+  border-color:#ff475b;
+  border-color:#fff;
+}
+
+
+.firstvisit.watt header #constant #top{
+  background:#fe5c71 url('../img/banner.jpg');
+  border:none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.watt header #constant #top, .writing.watt header #constant #top{
+  background: transparent;
+  background-position: 0% 0%;
+  border-bottom:rgba(255,255,255,0.2) 1px solid;
+}
+
+/* Watt Tag drawer */
+
+.watt header .tag-nav{
+  background: transparent;
+}
+.watt header .tag-drawer{
+  background: transparent;
+  border: none;
+  position: absolute;
+  top:3px;
+  left: 78px;
+  padding: 10px 0;
+  z-index: 10;
+}
 
 /* Overview  */
 
@@ -334,7 +417,7 @@ header .overview{
 
 header .overview-inner{
   opacity: 1;
-  padding:0px;
+  padding:30px 0px;
   -webkit-transition: .3s ease-in-out .3s;
   -moz-transition: .3s ease-in-out .3s;
   -o-transition: .3s ease-in-out .3s;
@@ -441,10 +524,28 @@ header .overview h2{
    header[role=banner] #constant #collapsed nav{
 		height:100%;
     height:100vh;
+    position: relative;
+    left:0;
+    top:11px;
+    padding:30px;
+    background:#222;
+    z-index: -2;
 	}
    header[role=banner] #constant #collapsed.hide nav{
-		height:28px;
+		height:0;
     margin:0;
-    padding:0;
+    padding:0 30px;
 	}
+
+  .watt header .tag-drawer{
+    display: none;
+  }
+
+  header .tag-nav.show .inner{
+    top: -1000vh;
+  }
+
+  .overview{
+    display: none;
+  }
 }

@@ -5,8 +5,8 @@
 	"title":"Maggie Vail, is a BOOOOOOOOSSSSS",
 	"description":"Something interesting that maggie says about WAAAAAT?",
 	"summary":"Whatever there's a summary okay?",
-	"type":"statement",
-	"date":"November 16, 2015",
+	"type":"writing",
+	"date":"June 2, 2016",
 	"license":"CC-BY",
 	"assets":[
 		{
@@ -17,12 +17,15 @@
 		}
 	],
 	"tags":[
-		"open",
+		"culture",
 		"impact",
-		"community"
+		"community",
+		"sustainability",
+		"independence"
 	],
 	"template":"twocol-leftalign",
 	"template_blend":"exclusion",
-	"template_styles":"#marksurman{background-color:#5140f5;} #marksurman h1, #marksurman h2, #marksurman blockquote, #marksurman blockquote p{font-family: 'Playfair Display' !important; text-transform: none;} #marksurman h1{text-transform: none;}",
+	"template_bg_style":"",
+	"template_styles":"#maggievail{background-color:#673f74;}",
 	"template_additional":"light"
 }

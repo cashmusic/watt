@@ -61,6 +61,8 @@ if (isset($_GET['p'])) {
 	$parsed_route = false;
 }
 
+$display_options = array();
+$display_options['root_url'] = 'https://watt.cashmusic.org';
 // set json true/false based on parsed route
 $display_options['json'] = false;
 if ($parsed_route['json']) {
@@ -78,6 +80,8 @@ if (file_exists(__DIR__.'/templates/footer.mustache')) {
 	$display_options['footer'] = file_get_contents(__DIR__.'/templates/footer.mustache');
 }
 
+// Feature tags site wide
+	$display_options['featured_tags'] = $main_settings['featured_tags'];
 
 /*******************************************************************************
  *
@@ -120,12 +124,24 @@ if ($parsed_route) {
 				}
 			}
 		}
+	} else if ($parsed_route['type'] == 'licenses' || $parsed_route['type'] == 'licenses.json') {
+		/*************************************************************************
+		 *
+		 * RSS FEED (/licenses.json)
+		 *
+		 ************************************************************************/
+
+		$brown->setJSONHeaders();
+		echo file_get_contents(__DIR__.'/content/licenses.json');
+		exit();
 	} else if ($parsed_route['type'] == 'rss') {
 		/*************************************************************************
 		 *
 		 * RSS FEED (/rss)
 		 *
 		 ************************************************************************/
+
+		$display_options['filtered_work'] = $full_index['filtered_work'];
 		$template = 'rss';
 	} else if ($parsed_route['type'] == 'podcast') {
 		/*************************************************************************
@@ -230,9 +246,9 @@ if ($parsed_route) {
 	 ***************************************************************************/
 
 	$display_options['featured_work'] = array();
+	$display_options['featured_video'] = array();
 	$display_options['secondary_work'] = array();
 	$display_options['tertiary_work'] = array();
-	$display_options['featured_tags'] = $main_settings['featured_tags'];
 	$display_options['featured_authors'] = array();
 
 	foreach ($main_settings['featured_work'] as $work_id) {
@@ -242,6 +258,9 @@ if ($parsed_route) {
 		}
 		$display_options['display_share'] = $brown->formatShare();
 		$display_options['featured_work'][] = $full_index['work'][$work_id];
+	}
+	foreach ($main_settings['featured_video'] as $work_id) {
+		$display_options['featured_video'][] = $full_index['work'][$work_id];
 	}
 	foreach ($main_settings['secondary_work'] as $work_id) {
 		$display_options['secondary_work'][] = $full_index['work'][$work_id];
