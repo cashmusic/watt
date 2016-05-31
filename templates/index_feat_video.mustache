@@ -54,16 +54,21 @@
 	</div><!--article-archive-->{{/tertiary_work}}
 </section>
 </div><!--archive-->
+<section class="pure-u-1">
+<h3>Featured video:</h3>
+</section>
 <section class="article-archive pure-u-1 featured-video">
 {{#featured_video}}
+<div class="featured-video-bg" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
 <div class="featured-video-content">
   {{#assets}}{{#embed}}
   <div class="video_inner">
     {{{embed}}}
   </div><!--video_inner-->
   {{/embed}}{{/assets}}
+</div><!--featured-video-content-->
 {{/featured_video}}
-</div><!--featured-video-->
+</div><!--featured-video-bg-->
 </section>
 <section class="pure-u-1 quaternary space-out">
   {{#quaternary_work}}<div class="article-archive pure-u-1 pure-u-md-1-4 quaternary">
@@ -76,22 +81,6 @@
   </div>{{/quaternary_work}}
 </section>
 
-<section class="pure-u-1 pure-u-md-1-2">
-    <h3>Featured tags:</h3>
-    <ul class="tags">
-  {{#featured_tags}}
-    <li><a class="tag" href="/tag/{{.}}">{{.}}</a></li>
-  {{/featured_tags}}
-</ul>
-</section><section class="pure-u-1 pure-u-md-1-2">
-    <h3>Featured authors:</h3>
-    <ul class="tags">
-  {{#featured_authors}}
-    <li><a class="tag" href="/author/{{.}}">{{.}}</a></li>
-       <li><a class="tag" href="/author/{{title}}">{{name}}</a></li>
-  {{/featured_authors}}
-</ul>
-</section>
 </section><!--article-content-->
 </article>
 

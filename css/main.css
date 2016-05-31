@@ -1036,8 +1036,16 @@ header .scroll{
 
 /* Featured Video Style */
 
+#main article.expanded .featured-video-bg{
+  background-color:#ddd;
+  margin:10px 10px 0 0;
+}
+
 #main article.expanded .featured-video-content{
    position: relative;
+   margin:0;
+   top: -10px;
+   left: 10px;
 }
 
 #main article.expanded .featured-video-content:before{
@@ -1811,14 +1819,25 @@ transition:0.3s ease-in-out;
 
 #main.article-page .article-title{
   font-size:45px;
-  line-height: 50px;
+  /*line-height: 50px;*/
   padding:0;
   margin:0;
-  margin-bottom: 100px;
   display: block;
-  border: none!important;
   font-weight: 100;
   word-break: break-word;
+  margin-bottom: 100px;
+}
+
+#main.article-page .article-title h1{
+  border: none!important;
+}
+
+#main.article-page .article-title .author{
+  margin:0;
+}
+
+#main.article-page .article-title .author .details h4{
+  line-height: 14px;
 }
 
 
