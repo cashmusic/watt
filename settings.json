@@ -1,10 +1,10 @@
 {
 	"featured_work":["maggievail"],
-	"secondary_work":["jedwardkeyes","haxancloak","bethditto"],
-	"tertiary_work":["haxancloak","nathanlarson","astrataylor","horacepanter","henryrollins","sirfoster","jamiestewart","johnroderick","jennschiffer","jumpingoffcliffs"],
-	"quaternary_work":["anadasilva","annfriedman","laurasnapes","johnroderick","haxancloak","nathanlarson","astrataylor","henryrollins"],
-	"featured_authors":["zolajesus","astrataylor"],
-	"featured_tags":["open","community","impact","cool","can","add","basically","anything","even","if","it","doesnt","exist"],
-	"featured_video":["bethditto"],
+	"secondary_work":["meredithgraves","whyamidoingthistomyself","colinmoloy","clairelobenfeld"],
+	"tertiary_work":[],
+	"quaternary_work":[],
+	"featured_authors":[],
+	"featured_tags":["impact","culture", "community", "sustainability"],
+	"featured_video":[],
 	"template":"index_first"
 }

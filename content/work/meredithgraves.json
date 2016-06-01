@@ -10,8 +10,8 @@
 	"assets":[
 		{
 			"type":"image",
-			"license":"",
-			"url":""
+			"license":"CC BY-NC-ND",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/mg.jpg"
 		}
 	],
 	"tags":[
@@ -19,7 +19,7 @@
 		"impact",
 		"community"
 	],
-	"template":"default",
-	"template_styles":"",
+	"template":"twocol-twothirds-hero",
+	"template_styles":"#meredithgraves{background-color:#999;}",
 	"template_additional":"light"
 }
