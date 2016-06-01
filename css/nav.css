@@ -356,8 +356,9 @@ header .tag-header{
 
 /* WATT Specific Header */
 
-.watt header #top nav{
+ header #top.hide nav{
   display: none;
+  opacity:0;
 }
 
 .watt header #top, header.watt #top a{
@@ -403,7 +404,7 @@ header .tag-header{
 
 /* Overview  */
 
-header .overview{
+.overview{
   background:#222;
   padding:60px 0 0 0;
   position: absolute;
@@ -415,7 +416,7 @@ header .overview{
   transition: .3s ease-in-out;
 }
 
-header .overview-inner{
+.overview-inner{
   opacity: 1;
   padding:30px 0px;
   -webkit-transition: .3s ease-in-out .3s;
@@ -425,30 +426,34 @@ header .overview-inner{
   border-top: solid 1px #343434;
 }
 
-header .overview-inner img{
+.overview-inner img{
   width:100%;
   height:auto;
 }
 
-header .overview-inner ul{
-  padding:0 0 30px 30px;
+.overview-inner ul{
+  padding:0 0 30px 0px;
 }
 
-header .overview-inner .nav-header{
+.overview-inner .nav-header{
   padding:0 0 0 30px;
 }
 
-header .overview-inner p, header .overview-inner ul li a{
-  font-size: 12px;
-}
-
-header .overview-inner ul li {
-  margin:0;
-  padding:0;
-  line-height: 14px;
+.overview-inner p, header .overview-inner ul li a{
+  font-size: 14px;
 }
 
 header .overview-inner ul li a{
+  border-bottom: solid 2px;
+}
+
+.overview-inner ul li {
+  margin:0 0 3px 0;
+  padding:0;
+  line-height: 18px;
+}
+
+.overview-inner ul li a{
   color:#666;
   margin:0;
   padding:0;
@@ -458,7 +463,7 @@ header .overview-inner ul li a{
   transition: .3s ease-in-out;
 }
 
-header .overview-inner ul li a:hover{
+.overview-inner ul li a:hover{
   color:#fff;
 }
 
@@ -466,15 +471,15 @@ header .overview-inner ul li a:hover{
   padding:0 30px;
 }
 
-header #collapsed.hide .overview{
+.hide .overview{
   top:-1000vh;
 }
 
-header  #collapsed.hide .overview-inner{
+.hide .overview-inner{
   opacity: 0;
 }
 
-header .overview h2{
+.overview h2{
   font-family: 'Montserrat', sans-serif;
   line-height: 24px;
 }
@@ -536,6 +541,10 @@ header .overview h2{
     margin:0;
     padding:0 30px;
 	}
+
+  #main.article-page article.expanded .article-content{
+    padding-top:59px!important;
+  }
 
   .watt header .tag-drawer{
     display: none;
