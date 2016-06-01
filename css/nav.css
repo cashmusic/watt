@@ -371,19 +371,19 @@ header .tag-header{
 }
 
 
-.firstvisit.watt header #constant #top{
+/*.firstvisit.watt header #constant #top{
   background:#fe5c71 url('../img/banner.jpg');
   border:none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 
 .watt header #constant #top, .writing.watt header #constant #top{
   background: transparent;
   background-position: 0% 0%;
-  border-bottom:rgba(255,255,255,0.2) 1px solid;
+  border-bottom:rgba(255,255,255,0.1) 1px solid;
 }
 
 /* Watt Tag drawer */

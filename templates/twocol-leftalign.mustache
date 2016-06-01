@@ -11,10 +11,17 @@
 <article id="{{author_id}}" class="pure-u-1 expanded {{template}} {{template_additional}}">
   <section class="article-content">
 
-		<section class="pure-u-1">
+    <section class="pure-u-1 pure-u-md-3-4">
       <h4 class="date">{{display_time}}</h4>
-      <h1 class="page-title">{{title}}</h1>
-		</section>
+      <div class="article-title">
+        <h1>{{title}}</h1>
+      </div>
+    </section><section class="article-social pure-u-1 pure-u-md-1-4">
+      {{{display_share}}}
+    <div class="author-title">
+      {{{display_byline}}}
+    </div><!--author-title-->
+    </section>
 
 	  <section class="pure-u-1 pure-u-md-1-2">
       {{{content}}}
@@ -29,9 +36,6 @@
             <li><a class="tag" href="/tag/{{tag}}">{{tag}}</a></li>
           {{/tags}}
       </ul>
-
-      {{{display_share}}}
-      {{{display_byline}}}
     </footer>
     </section><!--article-content-->
 

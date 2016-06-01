@@ -21,7 +21,6 @@
 		"economics",
 		"sustainability"
 	],
-	"template":"",
-	"template_styles":"",
-	"template_additional":"light"
+	"template":"default",
+	"template_styles":""
 }
