@@ -3,7 +3,7 @@
 	"author_id":"jeangrae",
 	"release_id":"first",
 	"title":"Why Am I Doing This To Myself?",
-	"description":,
+	"description":"This independent creative life has myriad simultaneous jobs, no days off, no assurance of security and requires extreme self-­discipline. There is no financial net provided AND you have the the super fun task of MAKING EVERYTHING WITH YOUR MIND. That is beautiful and magical, but also really hard to do in the midst of just trying to live.",
 	"type":"writing",
 	"date":"June 2, 2016",
 	"license":"CC-BY",
@@ -22,5 +22,5 @@
 	],
 	"template":"twocol-leftalign",
 	"template_styles":"",
-	"template_additional":"light"
+	"template_additional":""
 }
