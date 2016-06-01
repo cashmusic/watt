@@ -15,9 +15,10 @@
 		}
 	],
 	"tags":[
-		"open",
-		"impact",
-		"community"
+		"sustainability",
+		"economics",
+		"community", 
+		"independence"
 	],
 	"template":"twocol-twothirds-hero",
 	"template_styles":"#meredithgraves{background-color:#999;}",
