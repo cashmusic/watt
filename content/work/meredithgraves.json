@@ -10,14 +10,20 @@
 	"assets":[
 		{
 			"type":"image",
-			"license":"CC BY-NC-ND",
-			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/mg.jpg"
+			"license":"CC-BY-NC-ND",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/mg.jpg",
+			"credits":[
+				{
+					"username":"@southcoasting",
+					"user_url":"https://www.flickr.com/photos/southcoasting/14769296266"
+				}
+			]
 		}
 	],
 	"tags":[
 		"sustainability",
 		"economics",
-		"community", 
+		"community",
 		"independence"
 	],
 	"template":"twocol-twothirds-hero",

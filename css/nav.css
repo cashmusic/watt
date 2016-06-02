@@ -19,6 +19,7 @@ header #collapsed h1.logo{
   margin-top:10px;
 }
 
+
 /* Platform call to action */
 header #platform-signup{
     position: absolute;
@@ -72,6 +73,10 @@ header #constant #top{
   max-width: 1350px;
 }
 
+.dark header #constant #top{
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
 
 /* Collapsed Header (fixed one) */
 header #constant #collapsed{
@@ -394,6 +399,7 @@ header .tag-header{
   border-bottom:rgba(255,255,255,0.1) 1px solid;
 }
 
+
 /* Watt Tag drawer */
 
 .watt header .tag-nav{
@@ -448,6 +454,10 @@ header .tag-header{
 
 .overview-inner p, header .overview-inner ul li a{
   font-size: 14px;
+}
+
+.overview-inner p{
+    font-family: 'Nunito', sans-serif!important;
 }
 
 header .overview-inner ul li a{

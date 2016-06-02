@@ -12,7 +12,7 @@
 		{
 			"type":"image",
 			"license":"CC-BY",
-			"url":"https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/wiggle.png",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/collage_bg.jpg",
 			"credits":""
 		}
 	],
@@ -23,9 +23,9 @@
 		"sustainability",
 		"independence"
 	],
-	"template":"twocol-twothirds-hero",
-	"template_blend":"exclusion",
-	"template_bg_style":"",
-	"template_styles":"#maggievail{background-color:#673f74;}",
+	"template":"default-w-headerimage",
+	"template_blend":"",
+	"template_bg_style":"bg-cover",
+	"template_styles":"#maggievail{background-color:#fa455b;}",
 	"template_additional":"light"
 }
