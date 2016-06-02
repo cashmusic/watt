@@ -1,6 +1,6 @@
 /* CASH Logo */
 header h1.logo{
-    margin:0 0 0 30px;
+    margin:0 0 0 70px;
     padding:0;
     line-height: 35px;
     font-size: 35px;
@@ -62,15 +62,14 @@ header #constant #top, header #constant #collapsed{
 header #constant #top{
   background:#202020;
   background-color:rgba(32,32,32,0.98);
-  background:#fe5c71 url('../img/banner.jpg') 0% 100%;
-  background-attachment: fixed;
+  background:#fe5c71 url('../img/constant/texture/banner.jpg') 0% 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   padding:10px 0;
   width: 100%;
-  max-width: 1380px;
+  max-width: 1350px;
 }
 
 
@@ -115,7 +114,7 @@ header[role=banner] nav{
 header[role=banner] #constant #collapsed nav{
   position: absolute;
   top:18px;
-  left:200px;
+  left:130px;
   margin:0px 0  0 0;
   padding:0;
   display: block;
@@ -124,6 +123,11 @@ header[role=banner] #constant #collapsed nav{
   -moz-transition: .3s ease-in-out;
   -o-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
+}
+
+
+.watt header[role=banner] #constant #collapsed nav{
+  left:200px;
 }
 
 .static-nav header[role=banner] nav{
@@ -159,13 +163,11 @@ header[role=banner] nav li a:hover{
 
 /* Menu Toggle Switch */
 .menutoggle{
-    position: absolute;
-    top:22px;
-    left:85px;
-    margin:0;
-    padding:0;
-}
-.menutoggle{
+  position: absolute;
+  top:22px;
+  left:30px;
+  margin:0;
+  padding:0;
   width: 20px;
   height: 20px;
   -webkit-transform: rotate(0deg);
@@ -178,6 +180,11 @@ header[role=banner] nav li a:hover{
   transition: .5s ease-in-out;
   cursor: pointer;
 }
+
+.watt .menutoggle{
+  left:85px;
+}
+
 .menutoggle span{
   display: block;
   position: absolute;
@@ -381,7 +388,7 @@ header .tag-header{
   background-size: cover;
 }*/
 
-.watt header #constant #top, .writing.watt header #constant #top{
+.watt header #constant #top, .writing.watt header #constant #top, .platform-bg header #constant #top{
   background: transparent;
   background-position: 0% 0%;
   border-bottom:rgba(255,255,255,0.1) 1px solid;
@@ -418,7 +425,7 @@ header .tag-header{
 
 .overview-inner{
   opacity: 1;
-  padding:30px 0px;
+  padding:30px 0px 60px 30px;
   -webkit-transition: .3s ease-in-out .3s;
   -moz-transition: .3s ease-in-out .3s;
   -o-transition: .3s ease-in-out .3s;
@@ -451,6 +458,7 @@ header .overview-inner ul li a{
   margin:0 0 3px 0;
   padding:0;
   line-height: 18px;
+  display: inline-block;
 }
 
 .overview-inner ul li a{
@@ -461,6 +469,10 @@ header .overview-inner ul li a{
   -moz-transition: .3s ease-in-out;
   -o-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
+}
+
+.overview-inner ul li a{
+
 }
 
 .overview-inner ul li a:hover{
