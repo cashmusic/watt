@@ -21,8 +21,7 @@
                   {{{display_byline}}}
                 </div><!--author-title-->
                 </section>
-
-                {{#assets}}<a class="inline-credit" href="{{#credits}}{{user_url}}{{/credits}}" target="_blank"><p>Image <span>{{#credits}}{{username}}{{/credits}}</span>{{#license}}<span class="cc-license-image {{license}}"></span>{{/license}}</p></a>{{/assets}}
+                {{#assets}}<a class="inline-credit {{^credits}}none{{/credits}}" href="{{#credits}}{{user_url}}{{/credits}}" target="_blank"><p>{{#credits}}Image by <span>{{username}}{{/credits}}</span>{{#license}}<span class="cc-license-image {{license}}"></span>{{/license}}</p></a>{{/assets}}
               </header>
   <section class="article-content">
 		<section class="pure-u-1">
@@ -36,7 +35,7 @@
                <li><a class="tag" href="/tag/{{tag}}">{{tag}}</a></li>
           {{/tags}}
       </ul>
-      {{#license}}<p class="cc-license {{license}}">Copy distributed under the <strong>{{license}}</strong> creative commons license.</p>{{/license}}
+      {{#license}}<p class="cc-license {{license}}">Copy by {{author_id}}, distributed under the <strong>{{license}}</strong> creative commons license.</p>{{/license}}
     </footer>
   </section><!--article-content-->
 </article>

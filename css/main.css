@@ -3337,6 +3337,9 @@ footer[role=contentinfo] .supporters a:first-child img{
 
 .cc-license-image{
   text-decoration: none!important;
+}
+
+header .cc-license-image{
   display: block;
   text-align: right;
 }
@@ -3346,7 +3349,11 @@ footer[role=contentinfo] .supporters a:first-child img{
   opacity: 0.6!important;
   max-width:initial!important;
   font-size: 12px!important;
+  padding:0!important;
+  margin:0!important;
+  line-height: 24px!important;
 }
+
 
 .cc-license:before, .cc-license-image:before{
   content:"";
@@ -3362,8 +3369,16 @@ footer[role=contentinfo] .supporters a:first-child img{
 }
 
 .inline-credit-footer{
-  margin-top:-50px!important;
+  padding:0!important;
   display: inline-block!important;
+}
+
+.inline-credit-footer:hover{
+  opacity: 1!important;
+}
+
+.inline-credit-footer.none{
+  display: none!important;
 }
 
 .inline-credit-footer .cc-license-image:before{
