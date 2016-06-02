@@ -21,10 +21,8 @@
                   {{{display_byline}}}
                 </div><!--author-title-->
                 </section>
-                {{#assets}}{{#credits}}
-                  <a class="inline-credit" href="{{#assets}}{{#credits}}{{user_url}}{{/credits}}{{/assets}}" target="_blank"><p>Image <span>{{#assets}}{{#credits}}{{username}}{{/credits}}{{/assets}}</span></p></a>
-                {{/credits}}{{/assets}}
-                {{#assets}}{{#license}}<div class="cc-license-image {{license}}">{{license}}</div>{{/license}}{{/assets}}
+
+                {{#assets}}<a class="inline-credit" href="{{#credits}}{{user_url}}{{/credits}}" target="_blank"><p>Image <span>{{#credits}}{{username}}{{/credits}}</span>{{#license}}<span class="cc-license-image {{license}}"></span>{{/license}}</p></a>{{/assets}}
               </header>
   <section class="article-content">
 		<section class="pure-u-1">

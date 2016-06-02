@@ -552,6 +552,10 @@ header .credit span{
   text-decoration: underline;
 }
 
+.inline-credit-footer{
+  text-align: left;
+}
+
 /* Scroll hint */
 
 header .scroll{
@@ -3327,12 +3331,18 @@ footer[role=contentinfo] .supporters a:first-child img{
 
 /* CC Licenses */
 
-.cc-license{
-  opacity: 0.6;
-  max-width:initial!important;2
+.cc-license-image{
+  text-decoration: none!important;
 }
 
-.cc-license:before{
+
+.cc-license, .inline-credit-footer p{
+  opacity: 0.6!important;
+  max-width:initial!important;
+  font-size: 12px!important;
+}
+
+.cc-license:before, .cc-license-image:before{
   content:"";
   font-family: 'cc_iconsregular';
   margin:0 5px 0 0;
@@ -3340,15 +3350,29 @@ footer[role=contentinfo] .supporters a:first-child img{
   vertical-align: bottom;
 }
 
-.cc-license.PD:before{
+.cc-license-image:before{
+  margin:0 0 0 5px;
+  vertical-align: middle;
+}
+
+.inline-credit-footer{
+  margin-top:-50px!important;
+  display: inline-block!important;
+}
+
+.inline-credit-footer .cc-license-image:before{
+margin:0 5px 0 0;
+}
+
+.cc-license.PD:before, .cc-license-image.PD:before{
   content:"cp";
 }
 
-.cc-license.CC-0:before{
+.cc-license.CC-0:before, .cc-license-image.CC-0:before{
   content:"c0"
 }
 
-.cc-license.CC-BY:before{
+.cc-license.CC-BY:before, .cc-license-image.CC-BY:before{
   content:"cb";
 }
 
