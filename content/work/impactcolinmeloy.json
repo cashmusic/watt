@@ -11,7 +11,7 @@
 		{
 			"type":"image",
 			"license":"CC-BY",
-			"url":"",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/cm.jpg",
 			"credits":""
 		}
 	],
@@ -22,5 +22,6 @@
 		"sustainability"
 	],
 	"template":"default",
-	"template_styles":""
+	"template_styles":"",
+	"template_additional":"light"
 }

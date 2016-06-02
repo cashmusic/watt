@@ -11,7 +11,7 @@
 		{
 			"type":"image",
 			"license":"CC-BY",
-			"url":"",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/jg.jpg",
 			"credits":""
 		}
 	],
@@ -21,6 +21,6 @@
 		"independence"
 	],
 	"template":"twocol-leftalign",
-	"template_styles":"",
+	"template_styles":"#whyamidoingthistomyself{background-color:#fceefb;}",
 	"template_additional":""
 }
