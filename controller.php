@@ -193,8 +193,8 @@ if ($parsed_route) {
 		 * REDIRECT TO EXTERNAL CONTENT (/redirect)
 		 *
 		 ************************************************************************/
-		if (isset($full_index[$parsed_route['options'][0]]['url'])) {
-			header('Location: ' . $full_index[$parsed_route['options'][0]]['url']);
+		if (isset($full_index['work'][$parsed_route['options'][0]]['url'])) {
+			header('Location: ' . $full_index['work'][$parsed_route['options'][0]]['url']);
 		}
 
 	} else if ($parsed_route['type'] == 'video') {
@@ -203,8 +203,8 @@ if ($parsed_route) {
 		 * REDIRECT TO EXTERNAL CONTENT (/video)
 		 *
 		 ************************************************************************/
-		if (isset($full_index[$parsed_route['options'][0]]['url'])) {
-			header('Location: ' . $full_index[$parsed_route['options'][0]]['url']);
+		if (isset($full_index['work'][$parsed_route['options'][0]]['url'])) {
+			header('Location: ' . $full_index['work'][$parsed_route['options'][0]]['url']);
 		}
 
 	} else if ($parsed_route['type'] == 'author') {

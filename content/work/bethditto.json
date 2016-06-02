@@ -8,12 +8,13 @@
 	"type":"video",
 	"date":"November 30th, 2015",
 	"license":"CC-BY",
+	"url":"https://www.youtube.com/watch?v=7I2-dEp5WAw",
+	"embed_url":"https://www.youtube.com/embed/7I2-dEp5WAw?vq=hd1080&showinfo=0",
+	"youtube":true,
 	"assets":[
 		{
-			"type":"embed",
+			"type":"image",
 			"license":"CC-BY",
-			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/bd.jpg",
-			"embed":"<iframe width='560' height='315' src='https://www.youtube.com/embed/7I2-dEp5WAw?vq=hd1080&showinfo=0' frameborder='0' allowfullscreen></iframe>",
 			"credits":""
 		}
 	],
