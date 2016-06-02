@@ -12,6 +12,27 @@
    }
 
 
+
+/* Pullquote font */
+      @font-face {
+          font-family: 'LindenHill';
+          src: url('https://static-cashmusic.netdna-ssl.com/www/fonts/LindenHill-webfont.eot');
+          src: url('https://static-cashmusic.netdna-ssl.com/www/fonts/LindenHill-webfont.eot?#iefix') format('embedded-opentype'),
+               url('https://static-cashmusic.netdna-ssl.com/www/fonts/LindenHill-webfont.woff') format('woff'),
+               url('https://static-cashmusic.netdna-ssl.com/www/fonts/LindenHill-webfont.ttf') format('truetype'),
+               url('https://static-cashmusic.netdna-ssl.com/www/fonts/LindenHill-webfont.svg#LindenHill') format('svg');
+      }
+
+         @font-face {
+             font-family: 'charissil';
+             src: url('https://static-cashmusic.netdna-ssl.com/www/fonts/charissil-bi-webfont.woff2') format('woff2'),
+                  url('https://static-cashmusic.netdna-ssl.com/www/fonts/charissil-bi-webfont.woff') format('woff');
+             font-weight: normal;
+             font-style: normal;
+
+         }
+
+
 html {
     color: #222;
     font-size: 1em;
@@ -1033,9 +1054,8 @@ header .scroll{
 
 #main article.expanded section.article-content .featured-banner h3{
     max-width: 800px;
-    border-color:rgba(255,255,255,0.3);
     color:#fff;
-    text-transform: uppercase;
+    border-color:rgba(255,255,255,0.3);
     line-height: 36px;
     display: inline;
 }
@@ -1044,6 +1064,16 @@ header .scroll{
     max-width: 800px;
     border-color:rgba(34,34,34,0.3);
     color:#222;
+}
+
+#main article.expanded section.article-content .statement .featured-banner h2{
+    margin:0 0 30px 0;
+}
+
+
+#main article.expanded section.article-content .statement .featured-banner h3{
+  line-height: 46px;
+  font-size: 30px;
 }
 
 #main article.expanded .featured-banner .more-link, #main article.expanded  .more-link{
@@ -1077,9 +1107,20 @@ header .scroll{
     padding:0px;
 }
 
+#main article.expanded .featured-work.statement .featured-body .inner p{
+  text-align: left;
+}
+
+#main article.expanded .featured-work.statement .featured-body .inner blockquote p{
+    font-family: 'LindenHill';
+        font-family: 'Permanent Marker', cursive;
+        font-family: 'charissil';    charissil
+  }
+
 #main article.expanded .featured-work.statement .featured-body .author{
-  padding:0 20px;
+  padding:0 40px;
   margin:0;
+  text-align: center;
 }
 
 #main article.expanded .featured-work.statement .featured-body .author a{
@@ -1158,6 +1199,7 @@ transition:0.3s ease-in-out;
 
 #main article.expanded .article-archive.secondary.inner h2,#main article.expanded .article-archive.secondary .inner h4,#main article.expanded .article-archive.secondary .inner p{
   width:50%;
+  text-align: left;
 }
 
 #main article.expanded .article-archive.secondary.light .inner h2,#main article.expanded .article-archive.secondary.light .inner h4,#main article.expanded .article-archive.secondary.light .inner p, #main article.expanded .article-archive.secondary.light .inner a{
@@ -3210,8 +3252,16 @@ header #hero h1{
     padding:0 60px 30px 60px;
 }
 
+#main article.expanded .featured-work.statement .featured-body ul.social{
+    text-align: right;
+    padding:0 40px;
+}
 #main article.expanded .featured-work.statement .featured-body ul.social li{
-  display:inline-block;
+    display:inline-block;
+}
+
+#main article.expanded .featured-work.statement .featured-body .author{
+  text-align: right;
 }
 
 /* About Us */
@@ -3337,6 +3387,9 @@ footer[role=contentinfo] .supporters a:first-child img{
 
 .cc-license-image{
   text-decoration: none!important;
+}
+
+header .cc-license-image{
   display: block;
   text-align: right;
 }
@@ -3346,7 +3399,11 @@ footer[role=contentinfo] .supporters a:first-child img{
   opacity: 0.6!important;
   max-width:initial!important;
   font-size: 12px!important;
+  padding:0!important;
+  margin:0!important;
+  line-height: 24px!important;
 }
+
 
 .cc-license:before, .cc-license-image:before{
   content:"";
@@ -3362,8 +3419,16 @@ footer[role=contentinfo] .supporters a:first-child img{
 }
 
 .inline-credit-footer{
-  margin-top:-50px!important;
+  padding:0!important;
   display: inline-block!important;
+}
+
+.inline-credit-footer:hover{
+  opacity: 1!important;
+}
+
+.inline-credit-footer.none{
+  display: none!important;
 }
 
 .inline-credit-footer .cc-license-image:before{
