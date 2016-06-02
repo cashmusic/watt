@@ -37,11 +37,13 @@
 <section class="pure-u-1">
   {{#secondary_work}}<div class="article-archive pure-u-1 pure-u-md-1-2 secondary {{template_additional}} {{type}}">
     <!--If Video embed present-->
-    {{#assets}}{{#embed}}
-    <div class="video_inner">
-      {{{embed}}}
-    </div><!--video_inner-->
-    {{/embed}}{{/assets}}
+    {{#embed_url}}
+      <div class="video_inner">
+         {{#youtube}}
+            <iframe width='560' height='315' src='{{embed_url}}?vq=hd1080&showinfo=0' frameborder='0' allowfullscreen></iframe>
+         {{/youtube}}
+      </div><!--video_inner-->
+    {{/embed_url}}
     <div id="{{author_id}}" class="inner {{template_blend}}" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
         <h2><a href="/{{type}}/{{id}}">{{title}}</a></h2>
         <h4><a href="/author/{{author_id}}">{{author_name}}</a></h4>
