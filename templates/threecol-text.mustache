@@ -35,7 +35,9 @@
                <li><a class="tag" href="/tag/{{tag}}">{{tag}}</a></li>
           {{/tags}}
       </ul>
-      
+      {{#license}}<p class="cc-license {{license}}">Copy distributed under the <strong>{{license}}</strong> creative commons license.</p>{{/license}}
+      {{#assets}}<a class="inline-credit-footer" href="{{#credits}}{{user_url}}{{/credits}}" target="_blank"><p>{{#license}}<span class="cc-license-image {{license}}"></span>{{/license}}Image <span>{{#credits}}{{username}}{{/credits}}</span></p></a>{{/assets}}
+
     </footer>
   </section><!--article-content-->
 </article>
