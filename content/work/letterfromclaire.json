@@ -24,6 +24,6 @@
 	"template":"twocol-twothirds-hero",
 	"template_blend":"exclusion",
 	"template_bg_style":"",
-	"template_styles":"",
+	"template_styles":"#letterfromclaire{background-color:#364998;}",
 	"template_additional":"light"
 }

@@ -22,5 +22,5 @@
 	],
 	"template":"twocol-leftalign",
 	"template_styles":"#whyamidoingthistomyself{background-color:#fceefb;}",
-	"template_additional":""
+	"template_additional":"dark"
 }
