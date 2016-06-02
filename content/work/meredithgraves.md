@@ -1,4 +1,4 @@
-###A Day in the Life
+###The Career of Being Myself
 
 _Meredith Graves is keenly familiar with the insurmountable juggling act that goes on daily for a person working independently in the music industry. As the frontwoman of Perfect Pussy and label boss of Honor Press, she’s not only had to keep up with the demanding structures of being in a band, as well as running her own business. Graves wrote this essay for CASH Music detailing the ins-and-outs of these two jobs and all of her other means of supporting herself earlier this year before becoming an anchor at the revamped MTV News. While she may now be keeping people up-to-date on the latest issues in race and feminism, her experiences before taking her new job still illustrate the demands of doing it on your own and being able to stay afloat. Here’s one unique look into a day in the life of an independent musician._
 

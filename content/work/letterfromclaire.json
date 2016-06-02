@@ -1,0 +1,29 @@
+{
+	"id":"letterfromclaire",
+	"author_id":"clairelobenfeld",
+	"release_id":"first",
+	"title":"Letter from the Editor",
+	"description":"At Watt, we can look at the music industry in a way that highlights a lot of things that don't fit into the editorial mission at most publications, but will help both the industry and the outside see the music business in a new and imperative light.",
+	"summary":"Whatever there's a summary okay?",
+	"type":"writing",
+	"date":"June 2, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"",
+			"credits":""
+		}
+	],
+	"tags":[
+		"impact",
+		"community",
+		"sustainability"
+	],
+	"template":"twocol-twothirds-hero",
+	"template_blend":"exclusion",
+	"template_bg_style":"",
+	"template_styles":"",
+	"template_additional":"light"
+}
