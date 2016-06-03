@@ -117,6 +117,7 @@ if ($parsed_route) {
 				$display_options['display_time'] = $brown->formatTimeAgo($work_details['date']);
 				$display_options['display_byline'] = $brown->formatByline($work_details['author_id']);
 				$display_options['display_share'] = $brown->formatShare();
+				$display_options['author_name'] = $full_index['work'][$display_options['id']]['author_name'];
 				if (isset($work_details['template'])) {
 					$template = $work_details['template'];
 				} else {
