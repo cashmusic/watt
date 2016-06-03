@@ -124,6 +124,15 @@ if ($parsed_route) {
 					$template = 'default';
 				}
 			}
+			if ($display_options['json']) {
+				$full_index['work'][$display_options['id']]['permalink'] = $display_options['root_url'] . '/view/' . $display_options['id'];
+				$output = array(
+					"metadata" => $full_index['work'][$display_options['id']],
+					"content" => $display_options['content']
+				);
+				echo json_encode($output);
+				exit();
+			}
 		}
 	} else if ($parsed_route['type'] == 'licenses' || $parsed_route['type'] == 'licenses.json') {
 		/*************************************************************************
@@ -165,6 +174,7 @@ if ($parsed_route) {
 				// set the content
 				$work = array();
 				foreach ($full_index['tags']['index'][$display_options['tag']] as $work_id) {
+					$full_index['work'][$work_id]['permalink'] = $display_options['root_url'] . '/view/' . $work_id;
 					$work[] = $full_index['work'][$work_id];
 				}
 				$display_options['work'] = $work;
@@ -222,6 +232,7 @@ if ($parsed_route) {
  				// set the content
  				$work = array();
  				foreach ($full_index['authors']['index'][$display_options['author_id']] as $work_id) {
+					$full_index['work'][$work_id]['permalink'] = $display_options['root_url'] . '/view/' . $work_id;
  					$work[] = $full_index['work'][$work_id];
 					$display_options['author_name'] = $full_index['work'][$work_id]['author_name'];
  				}
