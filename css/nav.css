@@ -419,6 +419,7 @@ header .tag-header{
 
 .overview{
   background:#222;
+  background: rgba(34,34,34,0.98);
   padding:60px 0 0 0;
   position: absolute;
   top:0px;
@@ -552,7 +553,7 @@ header .overview-inner ul li a{
 		height:100%;
     height:100vh;
     position: relative;
-    left:0;
+    left:0!important;
     top:11px;
     padding:30px;
     background:#222;
@@ -563,10 +564,6 @@ header .overview-inner ul li a{
     margin:0;
     padding:0 30px;
 	}
-
-  #main.article-page article.expanded .article-content{
-    padding-top:59px!important;
-  }
 
   .watt header .tag-drawer{
     display: none;

@@ -11,7 +11,7 @@
 	"assets":[
 		{
 			"type":"image",
-			"license":"PD",
+			"license":"CC-BY-NC-ND",
 			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/hr.jpg",
 			"credits":[
 				{
@@ -30,7 +30,7 @@
 		"sustainability",
 		"economics"
 	],
-	"template":"twocol-twothirds-hero",
+	"template":"default-w-headerimage",
 	"template_styles":"#henryrollins, #main.article-page #henryrollins .article-title h1{background-color:#111;} #henryrollins h2, #henryrollins blockquote, #henryrollins blockquote p{font-family: 'nova_cutbook'!important; text-transform: uppercase;}",
 	"template_additional":"light"
 }
