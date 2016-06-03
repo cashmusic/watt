@@ -51,8 +51,17 @@
         <!--Mobile Viewport -->
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="viewport" content="initial-scale=1.0,user-scalable=no">
+
         <!--Open Graph Meta Data-->
-        <?php include(__DIR__.'/ogmeta.php') ?>
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@cashmusic" />
+        <meta name="twitter:creator" content="@cashmusic" />
+        <meta property="og:url" content="{{current_url}}" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Watt / {{title}}" />
+        <meta property="og:description" content="{{description}}" />
+        <meta property="og:image" content="https://static-cashmusic.netdna-ssl.com/www/img/constant/social/share.jpg" />
+
         <script type="text/javascript" src="https://cashmusic.org/public/cashmusic.js"></script>
         <script type="text/javascript" src="../js/main.js"></script>
         <script type="text/javascript" src="../js/color_test.js"></script>

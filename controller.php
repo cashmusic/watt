@@ -69,6 +69,8 @@ if ($parsed_route['json']) {
 	$display_options['json'] = true;
 }
 
+$display_options['current_url'] = $display_options['root_url'] . '/' . $_GET['p'];
+
 // grab the full index from the Harvard class
 $full_index = $brown->getIndex();
 
@@ -193,6 +195,11 @@ if ($parsed_route) {
 				echo json_encode($display_options['work']);
 				exit();
 			}
+
+			if (!$display_options['title']) {
+				$display_options['title'] = '#' . $display_options['tag'];
+				$display_options['description'] = 'All Watt articles matching #' . $display_options['tag'];
+			}
 		} else {
 			// No actual tag specified. Redirect.
 			header('Location: /');
@@ -244,6 +251,10 @@ if ($parsed_route) {
  				echo json_encode($display_options['work']);
  				exit();
  			}
+			if (!$display_options['title']) {
+				$display_options['title'] = $display_options['author_name'];
+				$display_options['description'] = 'All Watt articles by ' . $display_options['author_name'];
+			}
  		} else {
  			// No actual tag specified. Redirect.
  			header('Location: /');
@@ -287,6 +298,10 @@ if ($parsed_route) {
 		$display_options['featured_authors'][] = $full_index['authors']['index'][$author_id];
 	}
 
+	if (!$display_options['title']) {
+		$display_options['title'] = 'Home';
+		$display_options['description'] = 'Watt is a publication dedicated to asking and answering the questions that matter. We explore the economic, technology, culture, and health issues facing musicians.';
+	}
 
 	$display_options['work'] = $full_index['filtered_work'];
 	$display_options['tag_list'] = $full_index['tags']['list'];
