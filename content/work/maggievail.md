@@ -1,4 +1,4 @@
-####**Music is my life. It has been since birth.**
+###**Music is my life. It has been since birth.**
 
 I grew up surrounded by musicians. My parents took me to see artists like Tina Turner, The Go-Go's, Ramones, and Warren Zevon as a small child. I was just 4-years-old, sitting on my father’s lap, singing “Aaahoo! Werewolves of London” with him. Thanks to a practice room and my supportive family I started my first band when I was 10 years old with my best friend Brenda. We were called The Geoducks and were fairly prolific, writing most of our songs about library books and holidays. As a teenager, I got a job as the first full time employee at an up-and-coming independent record label called Kill Rock Stars. I worked there, holding nearly every job except owner, for over 17 years. I got to work on hundreds of releases by bands I truly believed in and whose music influenced the world. I’ve been lucky to spend my entire life both playing music and helping other people do the same.
 

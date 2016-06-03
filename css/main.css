@@ -394,7 +394,7 @@ header #hero .preview{
   background-size: 70%;
   background-attachment: fixed;
   color:#ff475b;
-  padding:180px 60px 60px 60px;
+  padding:180px 30px 60px 30px;
   margin:0;
   text-align: center;
   display: block;
@@ -488,6 +488,7 @@ header #hero .preview{
 #main article.expanded #hash-hero.drk-prple p{
   font-size: 20px;
   line-height: 24px;
+  font-family: 'Nunito', sans-serif;
 }
 
 #main article.expanded #hash-hero.drk-prple p:first-letter{
@@ -554,7 +555,7 @@ header .credit span{
   bottom:0;
   right:0;
   padding:60px;
-  opacity:0;
+  display: none;
 }
 
 .inline-credit:hover{
@@ -1033,8 +1034,8 @@ header .scroll{
   background-color:#ff475b;
   background-color:#fc47a1;
   background-attachment: fixed;
-  margin:0 0 60px 0;
-  padding:30px;
+  margin:-100px 0 60px 0;
+  padding:100px 30px 60px 30px;
   color:#fff;
 }
 
@@ -1549,10 +1550,16 @@ transition:0.3s ease-in-out;
   min-width: 60px;
 }
 
-#main article.light ul.tags li a, .overview ul.tags li a{
+#main article.light ul.tags li a{
   border: solid 1px rgba(255, 255, 255, 0.05);
   background:rgba(255,255,255,0.2);
   color:rgba(255,255,255,0.5);
+}
+
+.overview ul.tags li a{
+    background:rgba(0,0,0,0.2);
+    border: solid 1px rgba(0, 0, 0, 0.05);
+    color:rgba(255,255,255,0.5);
 }
 
 #main article ul.tags li a:before, #main article ul.social li a:before{
@@ -1822,7 +1829,6 @@ transition:0.3s ease-in-out;
   margin:0;
 }
 
-
 #main.article-page article.expanded  .article-content{
   margin:0;
   padding:100px 0 0 0;
@@ -1923,6 +1929,11 @@ transition:0.3s ease-in-out;
   margin:30px 0 60px 0;
 }
 
+#main.article-page section.section-title{
+  padding:0 30px 30px 30px;
+}
+
+
 /* Article Specific Titles */
 
 #main.article-page .article-title h1{
@@ -2003,26 +2014,32 @@ transition:0.3s ease-in-out;
 
 /* Default Archive Article Template */
 
-#main article.default .article-content h4, #main article.default .article-content h3,
-#main article.default .article-content blockquote, #main article.default .article-content p{
+#main article.default .article-content h4, #main article.default .article-content h3, #main article.default .article-content h2,
+#main article.default .article-content blockquote, #main article.default .article-content p, #main article.default-w-headerimage .article-content h4, #main article.default-w-headerimage .article-content h3, #main article.default-w-headerimage .article-content h2,
+#main article.default-w-headerimage .article-content blockquote, #main article.default-w-headerimage .article-content p{
 max-width: 800px;
 margin:15px auto;
 }
 
-#main article.default .article-content h3{
+#main article.default .article-content h3, #main article.default-w-headerimage .article-content h3 {
   display: block;
   text-align: left;
   margin:0 auto 30px auto;
 }
 
-#main article.default .article-content blockquote{
+#main article.default .article-content h2, #main article.default-w-headerimage .article-content h2{
+  display: block!important;
+  margin:0 auto 60px auto!important;
+}
+
+#main article.default .article-content blockquote, #main article.default-w-headerimage  .article-content blockquote{
   margin:60px auto;
 }
 
 /* 2 Column (2/3) W/ Hero */
 
 #main article.twocol-twothirds-hero header{
-  margin-bottom: -90px;
+  margin: 0 0 30px 0;
   padding:100px 0 0 0;
 }
 
@@ -2030,12 +2047,6 @@ margin:15px auto;
   padding:0px 30px;
 }
 
-#main article.twocol-twothirds-hero .article-title h1{
-  line-height: 60px;
-  display: inline;
-  font-weight: 100;
-  padding:0;
-}
 
 #main.article-page article.twocol-twothirds-hero .article-content blockquote, #main.article-page article.twocol-twothirds .article-content blockquote{
   text-align: right;
@@ -2911,6 +2922,9 @@ body.platform-bg{
   margin:0 auto!important;
 }
 
+#main.article-page section.section-title{
+  padding:0 60px 30px 60px;
+}
 
 /* Return User */
 
@@ -2954,9 +2968,20 @@ margin:94vh auto 0 auto;
   margin:345px auto 0 auto;
 }
 
+/* Feature Banners */
+#main article.expanded .featured-banner{
+  margin-top:0;
+}
+/* Hash Hero */
+
+.home #hash-hero, .firstvisit #hash-hero, #hash-hero.drk-prple{
+    padding:180px 60px 60px 60px;
+}
+
 /* Inline Credit */
 
 .inline-credit{
+  display: inline-block;
   opacity: 0.6;
 }
 
@@ -3246,12 +3271,12 @@ header #hero h1{
 }
 
 #main article.expanded .featured-work.statement .featured-body .inner{
-    padding:0 60px 30px 60px;
+    padding:20px 60px 30px 60px;
 }
 
 #main article.expanded .featured-work.statement .featured-body ul.social{
     text-align: right;
-    padding:0 40px;
+    padding:20px 40px 0 0;
 }
 #main article.expanded .featured-work.statement .featured-body ul.social li{
     display:inline-block;
@@ -3742,10 +3767,6 @@ header #hero .actions .break-shape{
 
 
 /* Text */
-
-.section-title{
-  padding:0px 60px 30px 60px!important;
-}
 
 .alignleft{
     text-align: left!important;

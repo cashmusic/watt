@@ -7,13 +7,10 @@
   <div id="hash-hero" class="drk-prple" role="hero">
     <h3>Tag{{#title}} <span>#{{tag}}</span>{{/title}}</h3>
     <h1 class="page-title">{{#title}}{{title}}{{/title}}{{^title}}#{{tag}}{{/title}}</h1>
-    {{#description}}<p>{{description}}</p>{{/description}}
+    {{#description}}<p class="pure-u-1 pure-u-md-2-3">{{description}}</p>{{/description}}
   </div><!--hero-->
 
   <section class="pure-u-1 article-content">
-
-
-
 
      {{#featured_work}}
      <div class="pure-u-1 featured-work {{type}}">
@@ -23,7 +20,7 @@
                      <a class="more-link" href="/{{type}}/{{id}}">Read more</a>
          </div><!--featured-banner-->
       {{/featured_work}}
-    <section class="section-title pure-u-1">
+    <section class="pure-u-1">
     <h3>Recent articles marked {{tag}}</h3>
     </section>
   <section class="pure-u-1">
