@@ -774,7 +774,7 @@ header .scroll{
     padding:30px;
 }
 
-#main article footer:hover ul.tags{
+#main article footer:hover ul.tags, ul.tags{
   opacity: 1;
    -webkit-transition-delay: 0.25s; /* Safari */
     transition-delay: 0.25s;
@@ -993,7 +993,6 @@ header .scroll{
  #main article.expanded .article-archive .inner p{
    font-size: 12px;
    line-height: 16px;
-   text-transform: lowercase;
    padding-top:20px;
    color:#222;
  }
@@ -1534,7 +1533,7 @@ transition:0.3s ease-in-out;
   padding:0;
 }
 
-#main article ul.tags li a{
+#main article ul.tags li a, ul.tags li a{
   font-size: 14px;
   font-family: 'Nunito', sans-serif!important;
   padding:8px 10px;
@@ -1550,7 +1549,8 @@ transition:0.3s ease-in-out;
   min-width: 60px;
 }
 
-#main article.light ul.tags li a{
+#main article.light ul.tags li a, .overview ul.tags li a{
+  border: solid 1px rgba(255, 255, 255, 0.05);
   background:rgba(255,255,255,0.2);
   color:rgba(255,255,255,0.5);
 }
@@ -1564,7 +1564,7 @@ transition:0.3s ease-in-out;
 }
 
 
-#main article ul.tags li a:hover{
+#main article ul.tags li a:hover, .overview ul.tags li a:hover{
   background:rgba(34,34,34,1);
   color:#fff;
 }
