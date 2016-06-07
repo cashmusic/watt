@@ -70,6 +70,7 @@ if ($parsed_route['json']) {
 }
 
 $display_options['current_url'] = $display_options['root_url'] . '/' . $_GET['p'];
+$display_options['share_image'] = 'http://static.cashmusic.netdna-cdn.com/www/img/constant/texture/watt-home.jpg';
 
 // grab the full index from the Harvard class
 $full_index = $brown->getIndex();
@@ -124,6 +125,10 @@ if ($parsed_route) {
 					$template = $work_details['template'];
 				} else {
 					$template = 'default';
+				}
+
+				if (count($display_options['assets'])) {
+					$display_options['share_image'] = $display_options['assets'][0]['url'];
 				}
 			}
 			if ($display_options['json']) {
