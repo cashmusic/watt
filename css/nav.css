@@ -564,13 +564,33 @@ header .overview-inner ul li a{
     padding:0 30px;
 	}
 
-  .watt header .tag-drawer{
-    display: none;
+  header #platform-signup{
+      right:15px;
+  }
+
+  header #platform-signup span{
+    margin:0 8px 0 6px;
   }
 
   header .tag-nav.show .inner{
     top: -1000vh;
   }
+
+  /* Watt Logo */
+
+  .watt header .tag-drawer{
+    display: none;
+  }
+
+  .watt header h1.logo {
+    margin: 0 0 0 105px;
+  }
+
+  .watt .menutoggle {
+      left: 70px;
+  }
+
+
 
   .overview{
     display: none;
