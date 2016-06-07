@@ -4,8 +4,8 @@
 /* CC license font */
    @font-face {
        font-family: 'cc_iconsregular';
-       src: url('../fonts/cc-icons-webfont.woff2') format('woff2'),
-            url('../fonts/cc-icons-webfont.woff') format('woff');
+       src: url('https://static-cashmusic.netdna-ssl.com/www/fonts/cc-icons-webfont.woff2') format('woff2'),
+            url('https://static-cashmusic.netdna-ssl.com/www/fonts/cc-icons-webfont.woff') format('woff');
        font-weight: normal;
        font-style: normal;
 
@@ -386,7 +386,7 @@ header #hero .preview{
 }
 
 .home #hash-hero, .firstvisit #hash-hero, #hash-hero.drk-prple{
-  background:#eeeeee url('../img/constant/texture/hash-pattern.png');
+  background:#eeeeee url('https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/hash-pattern.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -456,7 +456,7 @@ header #hero .preview{
 #main .home-statement .more-link{
   color:#ff475b;
   margin-top:30px!important;
-  margin-bottom:60px!important;
+  margin-bottom:30px!important;
   position: initial;
   height: auto;
   width:250px!important;
@@ -506,7 +506,7 @@ header #hero .preview{
   height:34px;
   width:22px;
   margin:0 auto;
-  background: url('../img/constant/icon/mouse.svg');
+  background: url('https://static-cashmusic.netdna-ssl.com/www/img/constant/icon/mouse.svg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -616,7 +616,7 @@ header .scroll{
 }
 
 .home .head-bg{
-  background: url(../img/constant/texture/header.jpg);
+  background: url('https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/header.jpg');
 }
 
 /* Site Content */
@@ -926,7 +926,7 @@ header .scroll{
 /* WATT Archive Templates */
 
 #main article.expanded .watt-welcome{
-  background: url('../img/welcome.svg') no-repeat;
+  /*background: url('../img/welcome.svg') no-repeat;*/
   text-indent: -5000em;
   height:120px;
   background-position: 50% 50%;
@@ -2109,7 +2109,7 @@ table tr:nth-child(odd){
   height:300px;
   width:50px;
   display: block;
-  background: url(../img/constant/icon/carousel-arw.svg) 50% 50% no-repeat;
+  background: url('https://static-cashmusic.netdna-ssl.com/www/img/constant/icon/carousel-arw.svg') 50% 50% no-repeat;
   z-index: 30;
   -webkit-filter: invert(1);
   filter: invert(1);
@@ -2379,7 +2379,7 @@ font-weight: 400;
     margin:0;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-  background: url(../img/constant/texture/header.jpg);
+  background: url('https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/header.jpg');
   background-position: 50% 50%;
   overflow: hidden;
 }
@@ -2554,7 +2554,7 @@ footer[role=contentinfo] a{display: inline-block;}
     vertical-align: middle;
     opacity: 0.8;
     margin:2px;
-    background: transparent url('../img/constant/icon/chevron.svg') no-repeat;
+    background: transparent url('https://static-cashmusic.netdna-ssl.com/www/img/constant/icon/chevron.svg') no-repeat;
     background-size: 50%;
 }
 
@@ -2818,6 +2818,7 @@ footer[role=contentinfo] a{display: inline-block;}
   min-height: 730px;
   color:#222;
   background:#fff;
+  background: rgba(255,255,255,0.3);
   padding:30px 40px;
   position: relative;
 }
@@ -2893,14 +2894,14 @@ header .scroll, header .credit{
 
 body{
   background-color: #101010;
-  background-image:url('../img/constant/texture/hash-pattern.png');
+  background-image:url('https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/hash-pattern.png');
   background-attachment: fixed;
   background-size: 70%;
   background-blend-mode:overlay;
 }
 
 body.platform-bg{
-  background-image:url('../img/constant/texture/header.jpg');
+  background-image:url('https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/header.jpg');
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -2978,6 +2979,10 @@ margin:94vh auto 0 auto;
     padding:180px 60px 60px 60px;
 }
 
+.home #hash-hero{
+  padding-top:60px;
+}
+
 /* Inline Credit */
 
 .inline-credit{
@@ -3009,7 +3014,7 @@ header #hero{
 
 header #hero .inner{
 	margin:143px auto 74px auto;
-	padding:70px 30px;
+	padding:30px 30px;
   height:70%;
 	max-width:1320px;
 }
@@ -3793,26 +3798,26 @@ header #hero .actions .break-shape{
 
 /* Standard Patterns */
 .marble{
-    background-image:url(../img/constant/texture/marble.png)!important;
+    background-image:url('https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/marble.png')!important;
     background-size: 40%!important;
     background-repeat: repeat!important;
 }
 
 .security{
-    background-image:url(../img/constant/texture/security.png)!important;
+    background-image:url('https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/security.png')!important;
     background-size: 70%!important;
     background-repeat: repeat!important;
 }
 
 .glitch{
-    background-image:url(../img/constant/texture/glitch.jpg)!important;
+    background-image:url('https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/glitch.jpg')!important;
     background-size: 70%!important;
     background-repeat: repeat!important;
 }
 
 
 .paint{
-    background-image:url(../img/constant/texture/header.jpg)!important;
+    background-image:url('https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/header.jpg')!important;
     background-size: 100%!important;
     background-repeat: repeat!important;
 }
@@ -3838,31 +3843,31 @@ header #hero .actions .break-shape{
 
 
 .mint{
-    background-image:url(../img/constant/texture/mint.jpg)!important;
+    background-image:url('https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/mint.jpg')!important;
     background-size: 70%!important;
     background-repeat: repeat!important;
 }
 
 .sparkle{
-    background-image:url(../img/constant/texture/sparkle.png)!important;
+    background-image:url('https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/sparkle.png')!important;
     background-size: 25%!important;
     background-repeat: repeat!important;
 }
 
 .hash{
-    background-image:url(../img/constant/texture/hash.png)!important;
+    background-image:url('https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/hash.png')!important;
     background-size: 25%!important;
     background-repeat: repeat!important;
 }
 
 .dots{
-    background-image:url(../img/constant/texture/dots.png)!important;
+    background-image:url('https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/dots.png')!important;
     background-size: 10%!important;
     background-repeat: repeat!important;
 }
 
 .wiggle{
-    background-image:url(../img/constant/texture/wiggle.png)!important;
+    background-image:url('https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/wiggle.png')!important;
     background-size: 10%!important;
     background-repeat: repeat!important;
 }

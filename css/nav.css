@@ -63,11 +63,10 @@ header #constant #top, header #constant #collapsed{
 header #constant #top{
   background:#202020;
   background-color:rgba(32,32,32,0.98);
-  background:#fe5c71 url('../img/constant/texture/banner.jpg') 0% 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background:#fe5c71 url('https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/banner.jpg') 0% 0%;
+  background-attachment: fixed;
+  background-size: 100%;
+  border-bottom: solid 1px rgba(34,34,34,0.2);
   padding:10px 0;
   width: 100%;
   max-width: 1350px;
@@ -271,7 +270,7 @@ header[role=banner] #constant #collapsed.hide nav ul{
 .tag-drawer h3{
   margin:0 auto;
   text-indent: -5000em;
-  background: url('../img/tag.svg') no-repeat 50% 50%;
+  background: url('https://static-cashmusic.netdna-ssl.com/www/img/constant/icon/tag.svg') no-repeat 50% 50%;
   height:31px;
   width:30px;
   background-size: 60%;
@@ -355,7 +354,7 @@ header .tag-header{
  }
 
 .watt header .watt-logo{
-  background:url('../img/watt-logo.svg') no-repeat 50% 50%;
+  background:url('https://static-cashmusic.netdna-ssl.com/www/img/constant/icon/watt-logo.svg') no-repeat 50% 50%;
   background-size: 100%;
   text-indent: -5000em;
   height: 55px;
@@ -385,7 +384,7 @@ header .tag-header{
 
 
 /*.firstvisit.watt header #constant #top{
-  background:#fe5c71 url('../img/banner.jpg');
+  background:#fe5c71 url('https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/banner.jpg');
   border:none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
