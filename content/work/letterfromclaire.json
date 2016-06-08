@@ -4,7 +4,6 @@
 	"release_id":"first",
 	"title":"Valuing The Freedom To Make Art",
 	"description":"At Watt, we can look at the music industry in a way that highlights a lot of things that don't fit into the editorial mission at most publications, but will help both the industry and the outside see the music business in a new and imperative light.",
-	"summary":"Whatever there's a summary okay?",
 	"type":"writing",
 	"date":"June 2, 2016",
 	"license":"CC-BY",
@@ -18,7 +17,8 @@
 	],
 	"tags":[
 		"community",
-		"sustainability"
+		"sustainability",
+		"watt"
 	],
 	"template":"twocol-twothirds-hero",
 	"template_blend":"exclusion",

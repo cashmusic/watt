@@ -1,10 +1,10 @@
 {
-	"featured_work":["maggievail"],
-	"secondary_work":["meredithgraves","letterfromclaire","whyamidoingthistomyself","impactcolinmeloy"],
+	"featured_work":["whyamidoingthistomyself"],
+	"secondary_work":["maggievail","meredithgraves","letterfromclaire","impactcolinmeloy"],
 	"tertiary_work":[],
 	"quaternary_work":[],
 	"featured_authors":[],
 	"featured_tags":["impact","culture", "community", "sustainability"],
 	"featured_video":[],
-	"template":"index_first"
+	"template":"index-leftalign-feature"
 }

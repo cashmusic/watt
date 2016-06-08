@@ -11,22 +11,25 @@
   </div><!--hero-->
 
   <section class="pure-u-1 article-content">
-
-     {{#featured_work}}
-     <div class="pure-u-1 featured-work {{type}}">
-         <div class="featured-banner  {{template_blend}} {{template_bg_style}} {{template_additional}}" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
-             <h2><a href="/{{type}}/{{id}}">{{title}}</a></h2>
-               <h3>{{description}}</h3>
-                     <a class="more-link" href="/{{type}}/{{id}}">Read more</a>
-         </div><!--featured-banner-->
-       </div><!--featured-work-->
-      {{/featured_work}}
     <section class="pure-u-1">
     <h3>Recent articles marked {{tag}}</h3>
     </section>
   <div id="archive">
-  <section class="pure-u-1">
-{{#work}}<div class="article-archive pure-u-1 pure-u-md-1-4 dark {{type}}">
+  <section class="pure-u-1">{{#featured_work}}<div class="article-archive pure-u-1 pure-u-md-1-2 secondary {{template_additional}} {{type}}">
+         <!--If Video embed present-->
+         {{#embed_url}}
+           <div class="video_inner">
+              {{#youtube}}
+                 <iframe width='560' height='315' src='{{embed_url}}?vq=hd1080&showinfo=0' frameborder='0' allowfullscreen></iframe>
+              {{/youtube}}
+           </div><!--video_inner-->
+         {{/embed_url}}
+         <div id="{{author_id}}" class="inner {{template_blend}}" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
+             <h2><a href="/{{type}}/{{id}}">{{title}}</a></h2>
+             <h4><a href="/author/{{author_id}}">{{author_name}}</a></h4>
+               <p>{{description}}</p>
+             <a class="more-link" href="/{{type}}/{{id}}">Read more</a>
+           </div><!--inner--></div><!--article-archive-->{{/featured_work}}{{#work}}<div class="article-archive pure-u-1 pure-u-md-1-4 dark {{type}}">
     <a class="wrap-link" href="/{{type}}/{{id}}"><div class="sixteen-nine">
         <div class="sn-content" style="background-image:url({{#assets}}{{url}}{{/assets}})">
         <!--img src="{{#assets}}{{url}}{{/assets}}" alt="{{author_id}}" /-->

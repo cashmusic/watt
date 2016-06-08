@@ -1,0 +1,29 @@
+{
+	"id":"tedandjean",
+	"author_id":"dapwell",
+	"release_id":"impactofmusic",
+	"title":"CASH Music Interview Series: EP.1 (Teaser) - Jean Grae & Ted Leo",
+	"description":"Either consciously or subconsciously music is, other than math, the universal language that we can communicate with.",
+	"summary":"",
+	"type":"video",
+	"date":"November 30th, 2015",
+	"license":"CC-BY",
+	"url":"https://youtu.be/xg95VC69PKk",
+	"embed_url":"https://youtu.be/embed/xg95VC69PKk",
+	"youtube":true,
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"credits":""
+		}
+	],
+	"tags":[
+		"culture",
+		"impact",
+		"community"
+	],
+	"template":"twocol-leftalign",
+	"template_styles":"",
+	"template_additional":"dark"
+}

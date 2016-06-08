@@ -1,0 +1,28 @@
+{
+	"id":"storetutorial",
+	"author_id":"christopherleckie",
+	"release_id":"first	",
+	"title":"Tutorial #1: How To Create A Store",
+	"description":"A quick tutorial to run you through setting up your own CASH Music store element.",
+	"summary":"",
+	"type":"video",
+	"date":"November 30th, 2015",
+	"license":"CC-BY",
+	"url":"https://youtu.be/RGE-2Og_pxM",
+	"embed_url":"https://youtu.be/embed/RGE-2Og_pxM",
+	"youtube":true,
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"credits":""
+		}
+	],
+	"tags":[
+		"business models",
+		"CASH platform"
+	],
+	"template":"twocol-leftalign",
+	"template_styles":"",
+	"template_additional":"dark"
+}

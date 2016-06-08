@@ -4,7 +4,6 @@
 	"release_id":"impactofmusic",
 	"title":"Jamie Stewart",
 	"description":"The impact [music] has is that it gives living a context and momentum",
-	"summary":"",
 	"type":"writing",
 	"date":"November 30th, 2015",
 	"license":"CC-BY",
@@ -21,6 +20,6 @@
 		"impact"
 	],
 	"template":"twocol-leftalign",
-	"template_styles":"#jamiestewart{background:blue;}",
+	"template_styles":"#jamiestewart{background:#ff5e42;}",
 	"template_additional":"light"
 }

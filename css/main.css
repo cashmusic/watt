@@ -1030,6 +1030,23 @@ header .scroll{
     display: inline;
 }
 
+/* Left Align feature */
+
+#main.la-feature article.expanded section.article-content .featured-banner h2{
+    width: 65%;
+    text-align: left;
+}
+
+#main.la-feature article.expanded section.article-content .featured-banner h3{
+    line-height: 26px;
+    display: block;
+    margin: 0;
+    width: 65%;
+    text-align: left;
+    border:none;
+}
+
+
 #main article.expanded section.article-content .featured-banner.dark h3{
     max-width: 800px;
     border-color:rgba(34,34,34,0.3);
