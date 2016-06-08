@@ -132,7 +132,6 @@ if ($parsed_route) {
 				}
 			}
 			if ($display_options['json']) {
-				$full_index['work'][$display_options['id']]['permalink'] = $display_options['root_url'] . '/view/' . $display_options['id'];
 				$output = array(
 					"metadata" => $full_index['work'][$display_options['id']],
 					"content" => $display_options['content']
@@ -144,7 +143,7 @@ if ($parsed_route) {
 	} else if ($parsed_route['type'] == 'licenses' || $parsed_route['type'] == 'licenses.json') {
 		/*************************************************************************
 		 *
-		 * RSS FEED (/licenses.json)
+		 * LICENSE ENDPOINT (/licenses.json)
 		 *
 		 ************************************************************************/
 
@@ -167,6 +166,31 @@ if ($parsed_route) {
 		 *
 		 ************************************************************************/
 		$template = 'rss-media';
+	} else if ($parsed_route['type'] == 'index' || $parsed_route['type'] == 'all') {
+		/*************************************************************************
+		 *
+		 * FULL ARTICLE/AUTHOR/TAG INDEX (/index)
+		 *
+		 ************************************************************************/
+		 $loopable_authors = array();
+		 foreach ($full_index['authors']['details'] as $author) {
+			$loopable_authors[] = $author;
+		 }
+
+		 $display_options['work'] = $full_index['filtered_work'];
+		 $display_options['authors'] = $loopable_authors;
+		 $display_options['tags'] = $full_index['tags']['list'];
+		 $template = 'all';
+		 if ($display_options['json']) {
+			 // JSON requested, so spit it out and exit (no template)
+			 $output = array(
+				"authors" => $display_options['authors'],
+				"tags" => 	 $display_options['tags'],
+				"work" => 	 $display_options['work']
+			);
+			 echo json_encode($output);
+			 exit();
+		 }
 	} else if ($parsed_route['type'] == 'tag') {
 		/*************************************************************************
 		 *
@@ -186,7 +210,6 @@ if ($parsed_route) {
 				// set the content
 				$work = array();
 				foreach ($full_index['tags']['index'][$display_options['tag']] as $work_id) {
-					$full_index['work'][$work_id]['permalink'] = $display_options['root_url'] . '/view/' . $work_id;
 					if ((!in_array($work_id,$features) && !$display_options['json']) || $display_options['json']) {
 						$work[] = $full_index['work'][$work_id];
 					}
@@ -250,7 +273,6 @@ if ($parsed_route) {
  				// set the content
  				$work = array();
  				foreach ($full_index['authors']['index'][$display_options['author_id']] as $work_id) {
-					$full_index['work'][$work_id]['permalink'] = $display_options['root_url'] . '/view/' . $work_id;
  					$work[] = $full_index['work'][$work_id];
 					$display_options['author_name'] = $full_index['work'][$work_id]['author_name'];
  				}

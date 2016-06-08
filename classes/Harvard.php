@@ -4,6 +4,7 @@ class Harvard {
 	public $index = false;
 	public $request_type = false;
 	public $request_options = false;
+	public $root_url = 'https://watt.cashmusic.org';
 
 	public function __construct() {
 		require(__DIR__.'/../lib/mustache/Mustache.php');
@@ -44,9 +45,18 @@ class Harvard {
 							// found a trailing.json
 							$request_options[0] = str_replace('.json','',$request_options[0]);
 							$use_json = true;
-							$this->setJSONHeaders();
 						}
 					}
+				} else {
+					if (strpos($request_type,'.json')) {
+						// found a trailing.json
+						$request_type = str_replace('.json','',$request_type);
+						$use_json = true;
+					}
+				}
+
+				if ($use_json) {
+					$this->setJSONHeaders();
 				}
 
 				return array(
@@ -140,8 +150,9 @@ class Harvard {
 		unset($return['authors']);
 		$return['authors']['details'] = $details;
 
-		// add author details to work
+		// add author details and permalink to work
 		foreach ($return['work'] as $key => &$entry) {
+			$entry['permalink'] = $this->root_url . '/view/' . $entry['id'];
 			if (is_array($return['authors']['details'][$entry['author_id']])) {
 				$entry['author_name'] = $return['authors']['details'][$entry['author_id']]['name'];
 				$entry['author_byline'] = $return['authors']['details'][$entry['author_id']]['byline'];
