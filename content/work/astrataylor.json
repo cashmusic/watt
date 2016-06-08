@@ -21,6 +21,6 @@
 		"impact"
 	],
 	"template":"twocol-leftalign",
-	"template_styles":"#astrataylor{background:#000000;}",
-	"template_additional":"light"
+	"template_styles":"#astrataylor{background:#faf2e5;}",
+	"template_additional":"dark"
 }

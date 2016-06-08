@@ -19,7 +19,7 @@
 		"impact",
 		"community"
 	],
-	"template":"default",
-	"template_styles":"#zolajesus{background:#2c2c2c;}",
-	"template_additional":"light"
+	"template":"twocol-twothirds-hero",
+	"template_styles":"#zolajesus{background:#bcc0cc;}",
+	"template_additional":"dark"
 }
