@@ -27,3 +27,6 @@ RewriteCond %{REQUEST_FILENAME} !-l
 RewriteCond %{REQUEST_URI} !.*\.(css|jpg|jpeg|gif|png|zip|js|md|swf)$
 RewriteCond %{QUERY_STRING} (.+)
 RewriteRule ([^\?]+) controller.php?p=$1&%1 [L]
+
+RewriteCond %{HTTP_HOST} !watt.cashmusic.org [NC]
+RewriteRule ^(.*)$ https://watt.cashmusic.org/$1 [R=301,L,QSA]
