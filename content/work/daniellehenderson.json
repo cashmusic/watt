@@ -26,6 +26,6 @@
 		"impact"
 	],
 	"template":"twocol-leftalign",
-	"template_styles":"",
-	"template_additional":""
+	"template_styles":"#daniellehenderson{background:#a3051c;}",
+	"template_additional":"light"
 }

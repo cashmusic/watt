@@ -19,6 +19,6 @@
 		"impact"
 	],
 	"template":"twocol-leftalign",
-	"template_styles":"#annfriedman{background:#000000;}",
-	"template_additional":"light"
+	"template_styles":"#annfriedman{background:#feb63e;}",
+	"template_additional":"dark"
 }

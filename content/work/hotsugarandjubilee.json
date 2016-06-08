@@ -4,7 +4,6 @@
 	"release_id":"impactofmusic",
 	"title":"CASH Music Interview Series: EP.2 (Teaser) - Jubilee & Hot Sugar",
 	"description":"It’s everywhere all the time and I don’t think people realize what kind of an impact it really has.",
-	"summary":"",
 	"type":"video",
 	"date":"November 30th, 2015",
 	"license":"CC-BY",
@@ -15,7 +14,7 @@
 		{
 			"type":"image",
 			"license":"CC-BY",
-			"credits":"https://static-cashmusic.netdna-ssl.com/www/img/article/hs.jpg"
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/hs.jpg"
 		}
 	],
 	"tags":[
