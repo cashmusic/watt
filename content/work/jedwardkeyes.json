@@ -4,7 +4,6 @@
 	"release_id":"impactofmusic",
 	"title":"J. Edward Keyes",
 	"description":"That's always been the music that's excited me the most, when artists question the accepted - in culture, in song structure, in production methods - and tear everything down so they can build it back up again in their own way.",
-	"summary":"",
 	"type":"writing",
 	"date":"December 14, 2015",
 	"license":"CC-BY",
@@ -19,7 +18,7 @@
 	"tags":[
 		"impact",
 		"community"
-		
+
 	],
 	"template":"twocol-rightalign",
 	"template_styles":"#jedwardkeyes{background:#141414;}",

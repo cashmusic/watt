@@ -4,7 +4,6 @@
 	"release_id":"impactofmusic",
 	"title":"Jenn Schiffer",
 	"description":"Music has a way of telling us how horrible and wonderful life is at the same time and it magically makes that reality easy to digest.",
-	"summary":"",
 	"type":"writing",
 	"date":"November 30th, 2015",
 	"license":"CC-BY",
@@ -20,6 +19,6 @@
 		"impact"
 	],
 	"template":"twocol-leftalign",
-	"template_styles":"#jennschiffer{background:#fff;}",
-	"template_additional":"light"
+	"template_styles":"#jennschiffer{background:#2efd39;}",
+	"template_additional":"dark"
 }

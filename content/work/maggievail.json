@@ -4,7 +4,6 @@
 	"release_id":"first",
 	"title":"Welcome to Watt",
 	"description":"I believe deeply that being a musician is an important and valid vocation. Watt is here to help make it easier to be one.",
-	"summary":"Whatever there's a summary okay?",
 	"type":"writing",
 	"date":"June 2, 2016",
 	"license":"CC-BY",
@@ -23,7 +22,7 @@
 		"independence",
 		"watt"
 	],
-	"template":"default-w-headerimage",
+	"template":"twocol-twothirds-hero",
 	"template_blend":"",
 	"template_bg_style":"bg-cover",
 	"template_styles":"#maggievail{background-color:#3c3240;}",

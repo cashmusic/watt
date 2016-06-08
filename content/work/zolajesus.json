@@ -4,7 +4,6 @@
 	"release_id":"impactofmusic",
 	"title":"Zola Jesus",
 	"description":"Music speaks far beyond words. It is a capsule for the human condition.",
-	"summary":"",
 	"type":"writing",
 	"date":"November 16, 2015",
 	"license":"CC-BY",
@@ -17,7 +16,7 @@
 	],
 	"tags":[
 		"culture",
-		"impact"
+		"impact",
 		"community"
 	],
 	"template":"default",
