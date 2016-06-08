@@ -144,7 +144,7 @@ if ($parsed_route) {
 	} else if ($parsed_route['type'] == 'licenses' || $parsed_route['type'] == 'licenses.json') {
 		/*************************************************************************
 		 *
-		 * RSS FEED (/licenses.json)
+		 * LICENSE ENDPOINT (/licenses.json)
 		 *
 		 ************************************************************************/
 
@@ -167,6 +167,21 @@ if ($parsed_route) {
 		 *
 		 ************************************************************************/
 		$template = 'rss-media';
+	} else if ($parsed_route['type'] == 'index' || $parsed_route['type'] == 'all') {
+		/*************************************************************************
+		 *
+		 * FULL ARTICLE/AUTHOR/TAG INDEX (/index)
+		 *
+		 ************************************************************************/
+		 $loopable_authors = array();
+		 foreach ($full_index['authors']['details'] as $author) {
+			$loopable_authors[] = $author;
+		 }
+
+		 $display_options['work'] = $full_index['filtered_work'];
+		 $display_options['authors'] = $loopable_authors;
+		 $display_options['tags'] = $full_index['tags']['list'];
+		 $template = 'all';
 	} else if ($parsed_route['type'] == 'tag') {
 		/*************************************************************************
 		 *
