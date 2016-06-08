@@ -2931,11 +2931,9 @@ header #hero .actions a, #return-user .actions a{
     display: inline-block;
 }
 
-.exhibit #main{
-margin:58px auto 0 auto;
-}
+/* Exhibit Header Space */
 
-.firstvisit.exhibit #main{
+.exhibit #main{
 margin:94vh auto 0 auto;
 }
 
@@ -3525,7 +3523,7 @@ body{
   background: transparent;
 }
 
-.firstvisit.exhibit #main{
+.exhibit #main{
    margin-top:63%;
 }
 
