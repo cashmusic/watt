@@ -178,21 +178,27 @@ if ($parsed_route) {
 			// found a tag. now what?
 			$display_options['tag'] = $parsed_route['options'][0];
 			if (isset($full_index['tags']['index'][$display_options['tag']])) {
-				// set the content
-				$work = array();
-				foreach ($full_index['tags']['index'][$display_options['tag']] as $work_id) {
-					$full_index['work'][$work_id]['permalink'] = $display_options['root_url'] . '/view/' . $work_id;
-					$work[] = $full_index['work'][$work_id];
-				}
-				$display_options['work'] = $work;
-				$display_options['tag_list'] = $full_index['tags']['list'];
+				// set details and features
 				if (isset($full_index['tags']['details'][$display_options['tag']])) {
 					$display_options = array_merge($display_options,$full_index['tags']['details'][$display_options['tag']]);
 				}
 				$features = array_merge($display_options['featured_work'],array());
-				$display_options['featured_work'] = array();
-				foreach ($features as $work_id) {
-					$display_options['featured_work'][] = $full_index['work'][$work_id];
+				// set the content
+				$work = array();
+				foreach ($full_index['tags']['index'][$display_options['tag']] as $work_id) {
+					$full_index['work'][$work_id]['permalink'] = $display_options['root_url'] . '/view/' . $work_id;
+					if ((!in_array($work_id,$features) && !$display_options['json']) || $display_options['json']) {
+						$work[] = $full_index['work'][$work_id];
+					}
+				}
+				$display_options['work'] = $work;
+				$display_options['tag_list'] = $full_index['tags']['list'];
+
+				if (!$display_options['json']) {
+					$display_options['featured_work'] = array();
+					foreach ($features as $work_id) {
+						$display_options['featured_work'][] = $full_index['work'][$work_id];
+					}
 				}
 			}
 			if ($display_options['json']) {
