@@ -20,7 +20,7 @@
 		"economics",
 		"independence"
 	],
-	"template":"twocol-leftalign",
+	"template":"twocol-twothirds-hero",
 	"template_blend":"",
 	"template_bg_style":"bg-cover",
 	"template_styles":"#whyamidoingthistomyself{background-color:#fceefb;}",
