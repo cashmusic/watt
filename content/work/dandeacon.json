@@ -1,0 +1,29 @@
+{
+	"id":"dandeacon",
+	"author_id":"dandeacon",
+	"release_id":"impactofmusic",
+	"title":"Dan Deacon",
+	"description":"Can you manage a world without music or the arts? It’s kind of like imagining a world without adjectives.",
+	"summary":"",
+	"type":"video",
+	"date":"November 30th, 2015",
+	"license":"CC-BY",
+	"url":"https://youtu.be/CDhSh9YCc1o",
+	"embed_url":"https://www.youtube.com/embed/CDhSh9YCc1o",
+	"youtube":true,
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":""
+		}
+	],
+	"tags":[
+		"culture",
+		"impact",
+		"community"
+	],
+	"template":"twocol-leftalign",
+	"template_styles":"",
+	"template_additional":"dark"
+}

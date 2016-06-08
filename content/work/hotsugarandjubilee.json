@@ -1,0 +1,29 @@
+{
+	"id":"hotsugarandjubilee",
+	"author_id":"dapwell",
+	"release_id":"impactofmusic",
+	"title":"CASH Music Interview Series: EP.2 (Teaser) - Jubilee & Hot Sugar
+",
+	"description":"It’s everywhere all the time and I don’t think people realize what kind of an impact it really has.",
+	"summary":"",
+	"type":"video",
+	"date":"November 30th, 2015",
+	"license":"CC-BY",
+	"url":"https://youtu.be/fyKwXTEW3cc",
+	"embed_url":"https://youtu.be/embed/fyKwXTEW3cc",
+	"youtube":true,
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"credits":""
+		}
+	],
+	"tags":[
+		"impact",
+		"community"
+	],
+	"template":"twocol-leftalign",
+	"template_styles":"",
+	"template_additional":"dark"
+}
