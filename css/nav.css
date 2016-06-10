@@ -60,7 +60,7 @@ header #constant #top, header #constant #collapsed{
     -webkit-transform: translate3d(0,0,0);
 }
 
-header #constant #top{
+header #constant #top, .all-header{
   background:#202020;
   background-color:rgba(32,32,32,0.98);
   background:#fe5c71 url('https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/banner.jpg') 0% 0%;
@@ -382,7 +382,6 @@ header .tag-header{
   border-color:#fff;
 }
 
-
 /*.firstvisit.watt header #constant #top{
   background:#fe5c71 url('https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/banner.jpg');
   border:none;
@@ -396,6 +395,10 @@ header .tag-header{
   background: transparent;
   background-position: 0% 0%;
   border-bottom:rgba(255,255,255,0.1) 1px solid;
+}
+
+.watt .all-header{
+  height:59px;
 }
 
 
