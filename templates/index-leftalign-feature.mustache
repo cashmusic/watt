@@ -4,20 +4,16 @@
 
 <main id="main" class="la-feature article-page static pure-g" role="main">
 <article class="pure-u-1 expanded">
-  <div id="hash-hero" role="hero">
-      <!--h2 class="watt-logo"><svg version="1.1" id="watt-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="183.822px" height="175.824px" viewBox="0 0 183.822 175.824" enable-background="new 0 0 183.822 175.824" xml:space="preserve"><g><path class="watt-logo-inner" fill="#FFFFFF" d="M183.823,175.824H0V0h183.822L183.823,175.824L183.823,175.824z M14,161.824h155.822V14H14V161.824z"/></g><g><path class="watt-logo-inner"  fill="#FFFFFF" d="M40.208,30.261l7.048,32.597l7.901-32.597h10.321l7.617,32.733l7.333-32.733h13.597l-13.954,50.15H68.255L60.353,47.95L52.31,80.411H40.137L26.54,30.261H40.208z"/></g><g><path class="watt-logo-inner"  fill="#FFFFFF" d="M119.102,72.159l-2.776,7.251h-14.45l21.144-50.149h10.605l20.931,50.149H139.96l-2.562-7.251H119.102zM122.803,61.994h11.033l-5.409-17.146h-0.215L122.803,61.994z"/></g><g><path class="watt-logo-inner" fill="#FFFFFF" d="M51.882,109.834H31.489v-11.25h54.17v11.25H65.337v38.898H51.882V109.834z"/></g><g><path class="watt-logo-inner"  fill="#FFFFFF" d="M121.4,109.834h-20.395v-11.25h54.17v11.25h-20.321v38.898H121.4V109.834z"/></g></svg></h2-->
-      <h2 class="watt-welcome">Welcome to WATT</h2>
-      <h3>We've been building free, open source tools directly with artists for years but to truly empower musicians it is vital that we pair those tools with educational resources. The combination of tools and learning will truly make for a sustainable future for musicians.</h3>
-      <div class="mouse"></div><!--mouse-->
-  </div><!--hero-->
   <section class="article-content">
 
     {{#featured_work}}
     <div class="pure-u-1 featured-work {{type}}">
         <div class="featured-banner {{template_blend}} {{template_bg_style}} {{template_additional}}" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
+          <div class="inner">
             <h2><a href="/{{type}}/{{id}}">{{title}}</a></h2>
               <h3>{{description}}</h3>
-      <a class="more-link" href="/{{type}}/{{id}}">Read more</a>
+                <a class="more-link" href="/{{type}}/{{id}}">Read more</a>
+        </div>
         </div><!--featured-banner-->
     </div><!--featured-work-->
         {{/featured_work}}
@@ -55,6 +51,9 @@
                   <a class="more-link" href="/{{type}}/{{id}}">Read more</a>
         </div><!--inner-->
 	</div><!--article-archive-->{{/tertiary_work}}
+</section>
+<section class="pure-u-1">
+<a class="more-link dark" href="/all">View all articles</a>
 </section>
 </div><!--archive-->
 </section><!--article-content-->
