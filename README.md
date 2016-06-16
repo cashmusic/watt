@@ -1,5 +1,17 @@
-*WATT Instruction Manual*
+# Watt, by CASH music
+Watt is a new publication from CASH Music that asks and answers questions about music, industry, and the role of art in our world.  
 
+<img src="https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/watt-home.jpg" width="100%" />
+
+We've built Watt using widely used technologies like JSON, markdown, and
+mustache. The goal was to build a system that was lean (like a Jeckyll) but also
+powerful enough to handle tagging, serve content over an open JSON API, and
+provide format RSS feeds, etc.
+
+
+## Quick docs: adding stories to Watt
+
+### Pay attention:
 TO VIEW LOCAL CHANGES YOU MAY NEED TO DELETE THE FOLLOWING GENERATED FILES BEFORE REFRESHING YOUR BROWER
 
 _generated_authors.json
@@ -7,7 +19,7 @@ _generated_tags.json
 _generated_work.json
 
 
-*Index Page*
+### Index Page
 
   1) Settings
 
@@ -15,7 +27,7 @@ _generated_work.json
 
         Located in archive > settings.json
 
-        */*****************************************************************************/*
+        /**********************************************************************/
 
         {
         	"featured_work":["whyamidoingthistomyself"],
@@ -28,7 +40,7 @@ _generated_work.json
         	"template":"index"
         }
 
-        */*****************************************************************************/*
+        /**********************************************************************/
 
 
   2) Index templates
@@ -39,11 +51,11 @@ _generated_work.json
         4)  index_feat_video - Generic Index Structure w/ featured video - ( )
 
 
-*Tag Pages*
+### Tag pages
 
 File should be named same as the tag item of the article
 
-*/*****************************************************************************/*
+/******************************************************************************/
 
 Output location :- watt.cashmusic.org/tag/NAMEOFTAG
 
@@ -57,13 +69,11 @@ Output location :- watt.cashmusic.org/tag/NAMEOFTAG
 
 	"featured_work"  = top featured article of tag page. (outputted in secondary artilce style)
 
-*/*****************************************************************************/*
+/******************************************************************************/
 
 
 
-*Author Pages*
-
-*Creating An Article*
+### Creating An Article
 
 Articles are a creation of three files. author.json / content.md / article.json
 
@@ -101,7 +111,7 @@ New authors files should be added in content > authors
 
 This is a basic .json structure
 
-*/*****************************************************************************/*
+/******************************************************************************/
 
     {
       "id":"maggievail",
@@ -125,7 +135,7 @@ This is a basic .json structure
       }
     }
 
-*/*****************************************************************************/*
+/******************************************************************************/
 
 *Step Two - Creating a new article reference*
 
@@ -135,7 +145,7 @@ Files should be named to give an article memorable context.
 This is a basic .json structure
 
 
-*/*****************************************************************************/*
+/******************************************************************************/
 
     {
       "id":"maggievail",
@@ -166,10 +176,3 @@ This is a basic .json structure
       "template_styles":"#maggievail{background-color:#3c3240;}",
       "template_additional":"light"
 }
-
-*/*****************************************************************************/*
-
-
-*/*****************************************************************************/*
-
-*Step Three - Creating new article body*
