@@ -21,8 +21,8 @@
 		"watt"
 	],
 	"template":"twocol-twothirds-hero",
-	"template_blend":"exclusion",
-	"template_bg_style":"",
-	"template_styles":"#letterfromclaire{background-color:#364998;}",
+	"template_blend":"",
+	"template_bg_style":"bg-cover",
+	"template_styles":"#letterfromclaire{background-color:#4c5e6c;}",
 	"template_additional":"light"
 }
