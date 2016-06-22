@@ -1,0 +1,20 @@
+{
+	"id":"christophersutton",
+	"name":"Christopher Sutton",
+	"byline":"Christopher Sutton is a musician, dj, and writer who lives in Portland, OR. His musical skills have fortified bands like Gossip, The Dirtbombs, Hornet Leg, and Dub Narcotic Sound System just to name a few. He also hosts a radio show called Record Lections on XRAY FM and writes a music blog under the same name",
+	"links":[
+		{
+			"title":"@hornetleg",
+			"url":"https://twitter.com/hornetleg",
+
+			"title":"Record Lections",
+			"url":"recordlections.wordpress.com"
+
+		}
+	],
+	"photo":{
+		"url":"",
+		"license":"",
+		"credits":""
+	}
+}

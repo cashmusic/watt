@@ -1,0 +1,26 @@
+{
+	"id":"impactchristophersutton",
+	"author_id":"christophersutton",
+	"release_id":"second",
+	"title":"Christopher Sutton",
+	"description":"Music, simply put, is life.",
+	"type":"writing",
+	"date":"June 23, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"",
+			"credits":""
+		}
+	],
+	"tags":[
+		"culture",
+		"impact",
+		"economics"
+	],
+	"template":"twocol-rightalign",
+	"template_styles":"",
+	"template_additional":"light"
+}
