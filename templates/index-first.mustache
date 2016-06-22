@@ -1,24 +1,32 @@
-
 {{{header}}}
 <!--SITE HEADER-->
 
-<main id="main" class="pure-g la-feature" role="main">
+<main id="main" class="pure-g" role="main">
 <article class="pure-u-1">
   <section class="article-content">
 
     {{#featured_work}}
-    <div class="pure-u-1 featured-work {{type}}">
-        <div class="featured-banner {{template_blend}} {{{template_bg_style}}} {{template_additional}}" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
-          <div class="inner">
+    <div class="pure-u-1 featured-work {{type}} statement">
+        <div class="featured-banner {{template_blend}} {{template_bg_style}} {{template_additional}}" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
             <h1><a href="/{{type}}/{{id}}">{{title}}</a></h1>
               <h3>{{description}}</h3>
-                <a class="more-link" href="/{{type}}/{{id}}">Read more</a>
-        </div>
-        </div><!--featured-banner-->
-    </div><!--featured-work-->
-        {{/featured_work}}
 
-<section class="pure-u-1">
+        </div><!--featured-banner-->
+        <div class="featured-body">
+            <div class="inner pure-u-1 pure-u-md-2-3">
+              {{{content}}}
+            </div><!--inner--><div class="pure-u-1 pure-u-md-1-3">
+              {{{display_share}}}
+            <div class="author">
+              <h4>Written by <a href="/author/{{author_id}}">{{author_name}}</a></h4>
+            </div><!--author-->
+            </div><!-- pure-->
+      </div><!--featured-body-->
+    </div><!--featured-work-->
+    {{/featured_work}}
+
+
+<section class="section-title pure-u-1">
 <h3>Featured articles:</h3>
 </section>
 <div id="archive" class="pure-u-1">
@@ -52,10 +60,21 @@
         </div><!--inner-->
 	</div><!--article-archive-->{{/tertiary_work}}
 </section>
+<section class="pure-u-1 quaternary space-out">
+  {{#quaternary_work}}<div class="article-archive pure-u-1 pure-u-md-1-4 quaternary">
+    <div class="quaternary-outer"  style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
+      <div class="inner">
+        <h2><a href="/{{type}}/{{id}}">{{title}}</a></h2>
+          <h4><a href="/author/{{id}}">Written by: {{author_name}}</a></h4>
+        </div><!--inner-->
+    </div><!--quarternary-->
+  </div>{{/quaternary_work}}
+</section>
 <section class="pure-u-1">
 <a class="more-link dark" href="/all">View all articles</a>
 </section>
 </div><!--archive-->
+
 </section><!--article-content-->
 </article>
 
