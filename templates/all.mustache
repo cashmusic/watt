@@ -1,13 +1,13 @@
 {{{header}}}
 <!--SITE HEADER-->
 <div class="all-header"></div>
-<main id="main" class="article-page static pure-g" role="main">
-<article class="pure-u-1 expanded">
+<main id="main" class="pure-g" role="main">
+<article class="pure-u-1">
   <section class="article-content">
-    <section class="section-title pure-u-1">
+    <section class="pure-u-1">
     <h3>All articles:</h3>
     </section>
-      <div id="archive" class="dark">
+      <div id="archive" class="all-articles">
   <section class="pure-u-1">
     {{#work}}<div class="article-archive pure-u-1 pure-u-md-1-4 {{template_additional}} {{type}}">
       <a class="wrap-link" href="/{{type}}/{{id}}"><div class="sixteen-nine">
@@ -23,24 +23,22 @@
             </div><!--inner-->
     	</div><!--article-archive-->{{/work}}
 </section>
-  </div><!--archive-->
-
-  <section class="pure-u-1 pure-u-md-1-2">
- 	  <h3>Tags</h3>
-    <ul class="tags">
-	{{#tags}}
-	 <li><a href="/tag/{{tag}}">{{tag}}</a></li>
-	{{/tags}}
-    </ul>
-  </section><section class="pure-u-1 pure-u-md-1-2">
- 	  <h3>Authors</h3>
-     <ul class="tags">
-	{{#authors}}
-		<li><a href="/author/{{id}}">{{name}}</a></li>
-	{{/authors}}
-    </ul>
-</section><!--pure-->
 </div><!--archive-->
+<section class="pure-u-1 pure-u-md-1-2">
+  <h3>Tags</h3>
+  <ul class="tags">
+{{#tags}}
+ <li><a href="/tag/{{tag}}">{{tag}}</a></li>
+{{/tags}}
+  </ul>
+</section><section class="pure-u-1 pure-u-md-1-2">
+  <h3>Authors</h3>
+   <ul class="tags">
+{{#authors}}
+  <li><a href="/author/{{id}}">{{name}}</a></li>
+{{/authors}}
+  </ul>
+</section><!--pure-->
 </section><!--article-content-->
 </article>
 

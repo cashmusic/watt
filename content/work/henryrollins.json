@@ -30,6 +30,6 @@
 		"economics"
 	],
 	"template":"default-w-headerimage",
-	"template_styles":"#henryrollins, #main.article-page #henryrollins .article-title h1{background-color:#111;} #henryrollins h2, #henryrollins blockquote, #henryrollins blockquote p{font-family: 'nova_cutbook'!important; text-transform: uppercase;}",
+	"template_styles":"@font-face {font-family: 'nova_cutbook';src: url('https://static-cashmusic.netdna-ssl.com/www/fonts/novacut-webfont.eot');src: url('https://static-cashmusic.netdna-ssl.com/www/fonts/novacut-webfont.eot?#iefix') format('embedded-opentype'),url('https://static-cashmusic.netdna-ssl.com/www/fonts/novacut-webfont.woff2') format('woff2'),url('https://static-cashmusic.netdna-ssl.com/www/fonts/novacut-webfont.woff') format('woff'),url('https://static-cashmusic.netdna-ssl.com/www/fonts/novacut-webfont.ttf') format('truetype'),url('https://static-cashmusic.netdna-ssl.com/www/fonts/novacut-webfont.svg#nova_cutbook') format('svg');} #henryrollins, #main.article-page #henryrollins .article-title h1{background-color:#111;} #henryrollins h2, #henryrollins blockquote, #henryrollins blockquote p{font-family: 'nova_cutbook'!important; text-transform: uppercase;}",
 	"template_additional":"light"
 }
