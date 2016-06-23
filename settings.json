@@ -1,10 +1,10 @@
 {
-	"featured_work":["whyamidoingthistomyself"],
-	"secondary_work":["maggievail","meredithgraves","letterfromclaire","impactcolinmeloy"],
-	"tertiary_work":[],
+	"featured_work":[],
+	"secondary_work":["openishope","howtobeavaluablemember"],
+	"tertiary_work":["majal","impactchristophersutton","settingupanllc","meredithgraves","letterfromclaire","impactcolinmeloy","maggievail","henryrollins"],
 	"quaternary_work":[],
 	"featured_authors":[],
 	"featured_tags":["impact","culture", "community", "sustainability"],
 	"featured_video":[],
-	"template":"index-leftalign-feature"
+	"template":"index-no-feature"
 }

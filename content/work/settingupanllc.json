@@ -11,7 +11,7 @@
 		{
 			"type":"image",
 			"license":"CC-BY",
-			"url":"",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/pvs.jpg",
 			"credits":""
 		}
 	],
@@ -20,7 +20,7 @@
 		"llc",
 		"legal"
 	],
-	"template":"twocol-twothirds-hero",
-	"template_styles":"",
-	"template_additional":""
+	"template":"twocol-rightalign",
+	"template_styles":"#settingupanllc{background-color:#d9d5cc}",
+	"template_additional":"dark"
 }
