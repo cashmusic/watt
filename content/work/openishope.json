@@ -3,7 +3,7 @@
 	"author_id":"jessevondoom",
 	"release_id":"second",
 	"title":"Open Is Hope",
-	"description":"",
+	"description":"Open brings collective strength and moves functionality from closed systems into spaces that everyone can use, shape, and embrace.",
 	"type":"writing",
 	"date":"June 23, 2016",
 	"license":"CC-BY",
@@ -21,7 +21,7 @@
 		"technology",
 		"economics"
 	],
-	"template":"twocol-rightalign",
+	"template":"twocol-twothirds-hero",
 	"template_styles":"",
-	"template_additional":"light"
+	"template_additional":""
 }

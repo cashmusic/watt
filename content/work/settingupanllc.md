@@ -5,22 +5,22 @@ A Limited Liability Company (“LLC”) is the most simple kind of business enti
 
 **WHY SET UP AN LLC?**
 
-1. Protection
+1) Protection
 
 One of the primary benefits of forming an LLC is that band members’ personal assets (home, car, etc.) would not be placed at risk in the event that your band finds itself in some kind of legal trouble. In most cases, if an LLC gets sued and loses, the financial responsibility does not lie on your life outside of the band. Having corporate protection prevents you having having to take individual responsibility—which could potentially affect other people in your life who are not your bandmates.
 
-2. Structure
+2) Structure
 
 Most states consider a group of people who get together for a shared business purpose a “partnership.” 
 As a partnership, the group can be held individually or collectively responsible for any legal liabilities incurred by the partnership as a whole.  If your group is not incorporated, the default rule in most states is that a group of people that gets together for a common business purpose is a partnership. Also, most states have sections of their state legal codes that automatically apply to partners in a partnership. Relying on these default rules can be dangerous and may have unanticipated consequences. Establishing an LLC allows the group to customize their rights and responsibilities as the LLC would have an “Operating Agreement” that can differ from the state law default rules that would otherwise apply to the band as an unincorporated partnership.
 
 Most bands do not consider the value of having a band agreement, covering all band activities and members, present and future. For many groups, this is not a problem until a band member leaves the band, or if the band starts generating significant amounts of money and conflicts arise due to misunderstandings or unclear band policies. Many problems can be avoided by drafting a band agreement, or, as described below, creating an Operating Agreement that covers all band members’ rights, responsibilities and expectations. LLCs have members; there can also be “managing members” who run the LLC business, or the LLC can be member-managed, with all members can be actively involved in the day-to-day management and operations of the LLC.
 
-3. Convenience
+3) Convenience
 
 Another good reason to establish an LLC is that groups can run all of their music business revenue through the LLC, taking relevant deductions of expenses and, in certain circumstances, availing themselves of tax benefits, such as limiting or avoiding self-employment taxes on income. One LLC can be a publishing company, record company, and can process revenue from all sources including music publishing, sales of sound recordings, public performance revenue from SoundExchange, public performance revenue via ASCAP, BMI or SESAC, merchandise sales, touring and live performance income, endorsement payments, asset licensing income, etc.  Consolidating all of these income streams and carefully tracking group income and expenses can help avoid conflicts and misunderstandings.  At the end of the LLC’s tax year, each member is furnished with an IRS Form K-1, detailing the overall income or loss that each individual group member would declare on their personal tax filings.
 
-4. Tax assistance
+4) Tax assistance
 
 LLC’s, as with all formal business entities, will have what is called an Employer Identification Number (“EIN”) which functions like a social security number for the LLC. Instead of, say, live performance checks payable to one band member, the check would be payable to the band LLC and the LLC’s EIN would be used on W-9 Forms for income reporting to the band LLC. This way bands can avoid the problem of payments being made to one person, whom, in the eyes of the IRS, would be on the hook for reporting all of that income and personally paying any taxes due on that amount.
 

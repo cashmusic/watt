@@ -1,9 +1,9 @@
 {
-	"id":"impactchristophersutton",
-	"author_id":"christophersutton",
+	"id":"majal",
+	"author_id":"esraaalshafei",
 	"release_id":"second",
-	"title":"Christopher Sutton",
-	"description":"Music, simply put, is life.",
+	"title":"",
+	"description":"",
 	"type":"writing",
 	"date":"June 23, 2016",
 	"license":"CC-BY",
@@ -16,11 +16,12 @@
 		}
 	],
 	"tags":[
-		"culture",
-		"impact",
+		"open",
+		"open source",
+		"technology",
 		"economics"
 	],
-	"template":"twocol-twothirds-hero",
+	"template":"twocol-rightalign",
 	"template_styles":"",
-	"template_additional":""
+	"template_additional":"light"
 }
