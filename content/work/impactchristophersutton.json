@@ -11,7 +11,7 @@
 		{
 			"type":"image",
 			"license":"CC-BY",
-			"url":"",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/cs.jpg",
 			"credits":""
 		}
 	],
@@ -21,6 +21,7 @@
 		"economics"
 	],
 	"template":"twocol-twothirds-hero",
-	"template_styles":"",
-	"template_additional":""
+	"template_bg_style":"bg-cover",
+	"template_styles":"#impactchristophersutton{background-color:pink;}",
+	"template_additional":"dark"
 }

@@ -1241,7 +1241,9 @@ margin:15px auto;
 #main.article-page article.twocol-twothirds-hero blockquote p{
   text-align: right;
   width:40%;
+  margin:0 0 0 auto;
 }
+
 
 /* 2 Column (1/2) Text */
 
