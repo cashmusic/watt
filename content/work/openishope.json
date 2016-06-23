@@ -1,0 +1,27 @@
+{
+	"id":"openishope",
+	"author_id":"jessevondoom",
+	"release_id":"second",
+	"title":"Open Is Hope",
+	"description":"Open brings collective strength and moves functionality from closed systems into spaces that everyone can use, shape, and embrace.",
+	"type":"writing",
+	"date":"June 23, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"",
+			"credits":""
+		}
+	],
+	"tags":[
+		"open",
+		"open source",
+		"technology",
+		"economics"
+	],
+	"template":"twocol-twothirds-hero",
+	"template_styles":"",
+	"template_additional":""
+}

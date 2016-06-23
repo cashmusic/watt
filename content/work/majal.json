@@ -1,0 +1,27 @@
+{
+	"id":"majal",
+	"author_id":"esraaalshafei",
+	"release_id":"second",
+	"title":"",
+	"description":"",
+	"type":"writing",
+	"date":"June 23, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"",
+			"credits":""
+		}
+	],
+	"tags":[
+		"open",
+		"open source",
+		"technology",
+		"economics"
+	],
+	"template":"twocol-rightalign",
+	"template_styles":"",
+	"template_additional":"light"
+}

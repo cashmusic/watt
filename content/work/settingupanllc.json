@@ -1,0 +1,26 @@
+{
+	"id":"settingupanllc",
+	"author_id":"petervaughanshaver",
+	"release_id":"second",
+	"title":"Making your band an LLC.",
+	"description":"When, why, and how do you set up an LLC for your band?",
+	"type":"writing",
+	"date":"June 23, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"",
+			"credits":""
+		}
+	],
+	"tags":[
+		"how to",
+		"llc",
+		"legal"
+	],
+	"template":"twocol-twothirds-hero",
+	"template_styles":"",
+	"template_additional":""
+}
