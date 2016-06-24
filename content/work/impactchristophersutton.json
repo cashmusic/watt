@@ -22,6 +22,6 @@
 	],
 	"template":"twocol-twothirds-hero",
 	"template_bg_style":"",
-	"template_styles":"#impactchristophersutton{background-color:pink;}",
-	"template_additional":"dark"
+	"template_styles":"#impactchristophersutton{background-color:#1a1415;}",
+	"template_additional":"light"
 }
