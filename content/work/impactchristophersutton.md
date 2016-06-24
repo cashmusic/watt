@@ -1,6 +1,6 @@
-###What Kind of impact does music have in our world?
+###What kind of impact does music have in our world?
 
->Everyone takes a part in the magic of this expression whether they want to admit it or not, and the individuals that choose to be more inclined will absorb these sounds into their bodies and minds to stimulate particular emotions and provide tonic to their well-beings. 
+>Everyone takes a part in the magic of this expression whether they want to admit it or not, and the individuals that choose to be more inclined will absorb these sounds into their bodies and minds to stimulate particular emotions and provide tonic to their well-beings.
 
 ##Short answer: Music is life.            
 

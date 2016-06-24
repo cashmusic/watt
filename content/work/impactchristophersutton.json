@@ -21,7 +21,7 @@
 		"economics"
 	],
 	"template":"twocol-twothirds-hero",
-	"template_bg_style":"bg-cover",
+	"template_bg_style":"",
 	"template_styles":"#impactchristophersutton{background-color:pink;}",
 	"template_additional":"dark"
 }

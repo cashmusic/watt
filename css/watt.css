@@ -312,6 +312,7 @@
 #main article .article-content p{
   font-size:16px;
   line-height: 28px;
+  margin:0 0 36px 0;
   text-align: justify;
   font-family: 'Nunito', sans-serif;
   font-weight: 100;

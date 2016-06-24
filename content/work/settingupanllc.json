@@ -20,7 +20,7 @@
 		"llc",
 		"legal"
 	],
-	"template":"twocol-rightalign",
+	"template":"default",
 	"template_styles":"#settingupanllc{background-color:#d9d5cc}",
 	"template_additional":"dark"
 }
