@@ -27,6 +27,7 @@
 		"independence"
 	],
 	"template":"twocol-twothirds-hero",
+	"template_bg_style":"bg-cover",
 	"template_styles":"#meredithgraves{background-color:#999;}",
 	"template_additional":"light"
 }
