@@ -190,6 +190,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size:18px;
   line-height: 24px;
+  border: none;
 }
 
 #main article .article-archive .inner h2, #main article .article-archive .inner h4, #main article .article-archive .inner p {
@@ -350,6 +351,8 @@
 #main article .author a{
   opacity: 0.5;
   display: inline;
+  vertical-align:middle;
+  border:none;
 }
 
 #main article .author .details{
