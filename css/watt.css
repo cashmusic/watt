@@ -328,6 +328,7 @@
 
 #main article .article-archive a.wrap-link{
   display:block;
+  border:none;
 }
 
 /* Date */
