@@ -12,7 +12,7 @@ provide format RSS feeds, etc.
 ## Quick docs: adding stories to Watt
 
 ### Pay attention:
-TO VIEW LOCAL CHANGES YOU MAY NEED TO DELETE THE FOLLOWING GENERATED FILES BEFORE REFRESHING YOUR BROWER
+**TO VIEW LOCAL CHANGES YOU MAY NEED TO DELETE THE FOLLOWING GENERATED FILES BEFORE REFRESHING YOUR BROWER**
 
 _generated_authors.json
 _generated_tags.json
@@ -45,10 +45,13 @@ _generated_work.json
 
   2) Index templates
 
-        1)  index -  Generic Index Structure - ( featured / secondary / tertiary / quartinary )
-        2)  index_first - First used template - ( statement feature / secondary array / tertiary_work array )
-        3)  index_statement - Generic Index Structure w/ featured statement - ( featured statement / )
-        4)  index_feat_video - Generic Index Structure w/ featured video - ( )
+        1)  index -  Generic Index Structure - ( featured / secondary / tertiary / quarternary )
+        2)  index-first - First used template - ( statement feature / secondary array / tertiary_work array )
+        3)  index-statement - Generic Index Structure w/ featured statement - ( featured statement / secondary / tertiary / quarternary )
+        4)  index-feat-video - Generic Index Structure w/ featured video - ( featured video )
+        5)  index-leftalign-feature - Generic Index Structure w/ left aligned featured story - ( featured / secondary / tertiary / quarternary )
+        6)  index-rightalign-feature - Generic Index Structure w/ right aligned featured story - ( featured / secondary / tertiary / quarternary )
+        7)  index-no-feature - Generic Index Structure w/o featured story - ( secondary / tertiary / quarternary )
 
 
 ### Tag pages
@@ -57,17 +60,17 @@ File should be named same as the tag item of the article
 
 /******************************************************************************/
 
-Output location :- watt.cashmusic.org/tag/NAMEOFTAG
+  Output location :- watt.cashmusic.org/tag/NAMEOFTAG
 
-{
-	"title":"Impact of music",
-	"description":"Music impacts nearly every aspect of our lives. We ask folks about how, why, and how best to support the people that make it.",
-	"featured_work":[
-		"impactcolinmeloy"
+  {
+	   "title":"Impact of music",
+	    "description":"Music impacts nearly every aspect of our lives. We ask folks about how, why, and how best to support the people that make it.",
+	     "featured_work":[
+		     "impactcolinmeloy"
 	]
-}
+  }
 
-	"featured_work"  = top featured article of tag page. (outputted in secondary artilce style)
+"featured_work"  = top featured article of tag page. (outputted in secondary article style)
 
 /******************************************************************************/
 
@@ -102,7 +105,7 @@ CC-BY-NC-ND  -  (Creative Commons: Attribution-NonCommercial-NoDerivs  -  https:
 CC-BY-NC-SA  -  (Creative Commons: Attribution-NonCommercial-ShareAlike  -  https://creativecommons.org/licenses/by-nc-sa/4.0)
 
 
-*templates*
+*Templates*
 
 
 *Step One - Creating a new Author*
@@ -143,7 +146,6 @@ New authors files should be added in content > work
 
 Files should be named to give an article memorable context.
 This is a basic .json structure
-
 
 /******************************************************************************/
 
