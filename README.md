@@ -177,4 +177,4 @@ This is a basic .json structure
       "template_bg_style":"bg-cover",
       "template_styles":"#maggievail{background-color:#3c3240;}",
       "template_additional":"light"
-}
+    }
