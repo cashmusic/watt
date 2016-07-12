@@ -60,17 +60,17 @@ File should be named same as the tag item of the article
 
 /******************************************************************************/
 
-  Output location :- watt.cashmusic.org/tag/NAMEOFTAG
+  **Output location :- watt.cashmusic.org/tag/NAMEOFTAG**
 
-  {
-	   "title":"Impact of music",
-	    "description":"Music impacts nearly every aspect of our lives. We ask folks about how, why, and how best to support the people that make it.",
-	     "featured_work":[
-		     "impactcolinmeloy"
-	]
-  }
+    {
+	     "title":"Impact of music",
+	      "description":"Music impacts nearly every aspect of our lives. We ask folks about how, why, and how best to support the people that make it.",
+	       "featured_work":[
+		       "impactcolinmeloy"
+	          ]
+          }
 
-  "featured_work"  = top featured article of tag page. (outputted in secondary article style)
+          "featured_work"  = top featured article of tag page. (outputted in secondary article style)
 
 /******************************************************************************/
 
