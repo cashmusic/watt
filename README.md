@@ -70,7 +70,7 @@ File should be named same as the tag item of the article
 	          ]
           }
 
-          "featured_work"  = top featured article of tag page. (outputted in secondary article style)
+"featured_work"  = top featured article of tag page. (outputted in secondary article style)
 
 /******************************************************************************/
 
