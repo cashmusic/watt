@@ -70,7 +70,7 @@ File should be named same as the tag item of the article
 	]
   }
 
-"featured_work"  = top featured article of tag page. (outputted in secondary article style)
+  "featured_work"  = top featured article of tag page. (outputted in secondary article style)
 
 /******************************************************************************/
 
@@ -82,7 +82,7 @@ Articles are a creation of three files. author.json / content.md / article.json
 
 General Information
 
-*Image Locations*
+**Image Locations**
 
 All images should be located on the CDN
 
@@ -93,7 +93,7 @@ Article images :
 https://static-cashmusic.netdna-ssl.com/www/img/article/
 
 
-*Creative Commons License types*
+**Creative Commons License types**
 
 PD  -  (Public Domain  -  https://wiki.creativecommons.org/wiki/Public_domain)
 CC-0  -  (Creative Commons: Public Domain Dedication  -  https://creativecommons.org/publicdomain/zero/1.0/)
@@ -105,10 +105,9 @@ CC-BY-NC-ND  -  (Creative Commons: Attribution-NonCommercial-NoDerivs  -  https:
 CC-BY-NC-SA  -  (Creative Commons: Attribution-NonCommercial-ShareAlike  -  https://creativecommons.org/licenses/by-nc-sa/4.0)
 
 
-*Templates*
+**Templates**
 
-
-*Step One - Creating a new Author*
+**Step One - Creating a new Author**
 
 New authors files should be added in content > authors
 
@@ -140,7 +139,7 @@ This is a basic .json structure
 
 /******************************************************************************/
 
-*Step Two - Creating a new article reference*
+**Step Two - Creating a new article reference**
 
 New authors files should be added in content > work
 
