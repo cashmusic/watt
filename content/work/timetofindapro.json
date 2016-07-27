@@ -10,16 +10,22 @@
 	"assets":[
 		{
 			"type":"image",
-			"license":"CC-BY",
-			"url":"",
-			"credits":""
+			"license":"CC-BY-NC-ND",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/hh.jpg",
+			"credits":[
+				{
+					"username":"Jason Quigley",
+					"user_url":"http://www.photojq.com/"
+				}
+			]
 		}
 	],
 	"tags":[
 		"management",
 		"independence"
 	],
-	"template":"default",
-	"template_styles":"",
+	"template":"default-w-headerimage",
+	"template_styles":"#timetofindapro{background:#fdf9fa;",
+	"template_bg_style":"bg-cover",
 	"template_additional":"dark"
 }

@@ -682,7 +682,7 @@ transition:0.3s ease-in-out;
 
 #main article .article-archive.quaternary .inner h4{
   margin:0;
-  display: block;
+  display: inline-block;
 }
 
 #main article section.article-content .article-archive.quaternary .wrap-link{

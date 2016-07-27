@@ -11,7 +11,7 @@
 		{
 			"type":"image",
 			"license":"CC-BY",
-			"url":"",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/gm.jpg",
 			"credits":""
 		}
 	],
@@ -19,7 +19,7 @@
 		"how to",
 		"licensing"
 	],
-	"template":"default",
-	"template_styles":"",
-	"template_additional":"dark"
+	"template":"twocol-rightalign",
+	"template_styles":"#synchlicensingbasics{background:#2a3041;}",
+	"template_additional":"light"
 }

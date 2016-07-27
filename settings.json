@@ -1,10 +1,10 @@
 {
-	"featured_work":[],
-	"secondary_work":["openishope","howtobeavaluablemember"],
-	"tertiary_work":["majal","impactchristophersutton","settingupanllc","meredithgraves","letterfromclaire","impactcolinmeloy","whyamidoingthistomyself","maggievail"],
-	"quaternary_work":[],
+	"featured_work":["timetofindapro"],
+	"secondary_work":["synchlicensingbasics","lizzypelly"],
+	"tertiary_work":["openishope","howtobeavaluablemember","majal","impactchristophersutton","settingupanllc","meredithgraves","letterfromclaire","whyamidoingthistomyself"],
+	"quaternary_work":["impactcolinmeloy","maggievail","kimboekbinder","horacepanter"],
 	"featured_authors":[],
 	"featured_tags":["impact","culture", "community", "sustainability"],
 	"featured_video":[],
-	"template":"index-no-feature"
+	"template":"index-no-tag"
 }
