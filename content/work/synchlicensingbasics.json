@@ -3,23 +3,23 @@
 	"author_id":"gabemcdonough",
 	"release_id":"",
 	"title":"Synch Licensing Basics",
-	"description":"",
+	"description":"It’s selling out!” “It’s the savior of the music business!” “Some dickhead put my favorite song on a commercial!” “I’M CONFUSED!!!” Welcome to synch licensing!",
 	"type":"writing",
-	"date":"July 27, 2016",
+	"date":"June 28, 2016",
 	"license":"CC-BY",
 	"assets":[
 		{
 			"type":"image",
-			"license":"",
-			"url":""
+			"license":"CC-BY",
+			"url":"",
+			"credits":""
 		}
 	],
 	"tags":[
-		"culture",
-		"impact",
-		"community"
+		"how to",
+		"licensing"
 	],
 	"template":"default",
-	"template_styles":"#sirfoster{background:#fb3f4e;}@font-face {font-family: 'nemoymedium';src: url('https://static-cashmusic.netdna-ssl.com/www/fonts/nemoymedium-webfont.eot');src: url('https://static-cashmusic.netdna-ssl.com/www/fonts/nemoymedium-webfont.eot?#iefix') format('embedded-opentype'),url('https://static-cashmusic.netdna-ssl.com/www/fonts/nemoymedium-webfont.woff2') format('woff2'),url('https://static-cashmusic.netdna-ssl.com/www/fonts/nemoymedium-webfont.woff') format('woff'),url('https://static-cashmusic.netdna-ssl.com/www/fonts/nemoymedium-webfont.ttf') format('truetype'),url('https://static-cashmusic.netdna-ssl.com/www/fonts/nemoymedium-webfont.svg#nemoymedium') format('svg');font-weight: normal;font-style: normal;}#sirfoster h1, #sirfoster h2, #sirfoster h3, #sirfoster aside h3, #sirfoster blockquote, #sirfoster blockquote p{font-family: 'nemoymedium' !important;}",
+	"template_styles":"",
 	"template_additional":"dark"
 }

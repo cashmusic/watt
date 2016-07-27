@@ -1,0 +1,25 @@
+{
+	"id":"timetofindapro",
+	"author_id":"hutchharris",
+	"release_id":"",
+	"title":"Time To Find A Pro",
+	"description":"We never took on a manager because it just never felt right.",
+	"type":"writing",
+	"date":"June 28, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"",
+			"credits":""
+		}
+	],
+	"tags":[
+		"management",
+		"independence"
+	],
+	"template":"default",
+	"template_styles":"",
+	"template_additional":"dark"
+}
