@@ -1,0 +1,28 @@
+{
+	"id":"lizpelly",
+	"author_id":"lizpelly",
+	"release_id":"",
+	"title":"Envisioning a World Where No One's Voice is Silenced",
+	"description":"In the Middle East in particular, acts of violence and occupation limit the growth of society. Regardless of whether a powerful voice is silenced by censorship, prison, or even death, the end result is the same in that the more powerful take away the voices of the less powerful.",
+	"type":"writing",
+	"date":"June 23, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/lp.jpg",
+			"credits":""
+		}
+	],
+	"tags":[
+		"open",
+		"open source",
+		"technology",
+		"economics"
+	],
+	"template":"twocol-twothirds",
+	"template_bg_style":"bg-cover",
+	"template_styles":"#lizpelly{background:#333;}",
+	"template_additional":"light"
+}
