@@ -5,7 +5,7 @@
 	"title":"Time To Find A Pro",
 	"description":"We never took on a manager because it just never felt right.",
 	"type":"writing",
-	"date":"June 28, 2016",
+	"date":"August 2, 2016",
 	"license":"CC-BY",
 	"assets":[
 		{
@@ -22,7 +22,8 @@
 	],
 	"tags":[
 		"management",
-		"independence"
+		"independence",
+		"DIY"
 	],
 	"template":"default-w-headerimage",
 	"template_styles":"#timetofindapro{background:#fdf9fa;",
