@@ -3,7 +3,7 @@
 	"author_id":"lizpelly",
 	"release_id":"",
 	"title":"Creating Space For Creating Art",
-	"description":"Everyone has a story or a perspective, a song or a painting. But some people may not realize they do because space has never been made for them, or they’ve never been handed the tools. Lots of folks have aimless energy; a desire to make something happen that’s bigger than themselves, but nowhere to do it. Community art spaces, at their best, are open doors for this sort of energy: They’re places that anyone can access and where anyone can participate, where everyone’s voice can be heard.",
+	"description":"Everyone has a story or a perspective, a song or a painting. But some people may not realize they do because space has never been made for them, or they’ve never been handed the tools. Lots of folks have aimless energy; a desire to make something happen that’s bigger than themselves, but nowhere to do it.",
 	"type":"writing",
 	"date":"August 2, 2016",
 	"license":"CC-BY-NC",
@@ -22,7 +22,7 @@
 		"venues",
 		"tour"
 	],
-	"template":"default",
+	"template":"twocol",
 	"template_bg_style":"bg-cover",
 	"template_styles":"#lizpelly{background:#47a0d1;}",
 	"template_additional":"light"
