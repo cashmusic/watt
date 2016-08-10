@@ -556,6 +556,10 @@
 
 /* Featured Video Style */
 
+#main article .featured-video{
+  margin:30px 0 0 0;
+}
+
 #main article .featured-video-bg{
   background-color:#ddd;
   margin:10px 10px 0 0;

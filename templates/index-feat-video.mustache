@@ -50,18 +50,19 @@
 	</div><!--article-archive-->{{/tertiary_work}}
 </section>
 </div><!--archive-->
-<section class="pure-u-1">
-<h3>Featured video:</h3>
-</section>
 <section class="article-archive pure-u-1 featured-video">
 {{#featured_video}}
+<h3>Featured video:</h3>
 <div class="featured-video-bg" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
 <div class="featured-video-content">
-  {{#assets}}{{#embed}}
-  <div class="video_inner">
-    {{{embed}}}
-  </div><!--video_inner-->
-  {{/embed}}{{/assets}}
+  <!--If Video embed present-->
+  {{#embed_url}}
+    <div class="video_inner">
+       {{#youtube}}
+          <iframe width='560' height='315' src='{{embed_url}}?vq=hd1080&showinfo=0' frameborder='0' allowfullscreen></iframe>
+       {{/youtube}}
+    </div><!--video_inner-->
+  {{/embed_url}}
 </div><!--featured-video-content-->
 {{/featured_video}}
 </div><!--featured-video-bg-->
@@ -76,7 +77,9 @@
     </div><!--quarternary-->
   </div>{{/quaternary_work}}
 </section>
-
+<section class="pure-u-1">
+<a class="more-link dark" href="/all">View all articles</a>
+</section>
 </section><!--article-content-->
 </article>
 
