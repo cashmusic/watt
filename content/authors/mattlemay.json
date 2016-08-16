@@ -1,0 +1,17 @@
+{
+	"id":"mattlemay",
+	"name":"Matt LeMay",
+	"byline":"writer, musician, recording engineer and product manager. He is the co-founder of Constellate Data, a consultancy that helps organizations use data to understand people. As a product manager, Matt led the consumer product team at analytics startup Bitly, and worked as a senior PM at music startup Songza (acquired by Google). As a musician, Matt released two albums with his band Get Him Eat Him, and has played with bands including Kleenex Girl Wonder, The Moles and the Capstan Shafts.",
+	"links":[
+		{
+			"title":"@mattlemay",
+			"url":"https://twitter.com/mattlemay"
+
+		}
+	],
+	"photo":{
+		"url":"https://static-cashmusic.netdna-ssl.com/www/img/contributor/mlm.jpg",
+		"license":"",
+		"credits":""
+	}
+}

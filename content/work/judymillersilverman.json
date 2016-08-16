@@ -1,0 +1,27 @@
+{
+	"id":"judymillersilverman",
+	"author_id":"judymillersilverman",
+	"release_id":"",
+	"title":"You don't need a publicist (for real)",
+	"description":"I do not hold the magic key to your success kingdom.",
+	"type":"writing",
+	"date":"August 16, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/no-pub.jpg",
+			"credits":""
+		}
+	],
+	"tags":[
+		"publicity", 
+		"DIY",
+		"marketing"
+	],
+	"template":"default-w-headerimage",
+	"template_styles":"#judymillersilverman{background:#0c0c0c;",
+	"template_bg_style":"bg-cover bg-center",
+	"template_additional":"light"
+}

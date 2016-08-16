@@ -326,6 +326,16 @@
   line-height: 36px;
 }
 
+#main article .article-content ol, #main article .article-content ul{
+  font-size:16px;
+  line-height: 28px;
+  margin:0 0 36px 0;
+}
+
+#main article .article-content ol li, #main article .article-content ul li{
+  margin:0 0 18px 0;
+}
+
 #main article .article-archive a.wrap-link{
   display:block;
   border:none;
@@ -1033,6 +1043,12 @@ header .credit span{
 #main article.default-w-headerimage .article-content blockquote, #main article.default-w-headerimage .article-content p{
 max-width: 800px;
 margin:15px auto;
+}
+
+#main article.default-w-headerimage .article-content ol, #main article.default-w-headerimage .article-content ul{
+  max-width: 800px;
+  margin-right:auto;
+  margin-left:auto;
 }
 
 #main article.default .article-content h3, #main article.default-w-headerimage .article-content h3 {

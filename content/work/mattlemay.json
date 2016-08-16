@@ -1,0 +1,27 @@
+{
+	"id":"mattlemay",
+	"author_id":"mattlemay",
+	"release_id":"",
+	"title":"Working in both the music world and the tech world sometimes feels like speaking two entirely different languages.",
+	"description":" (If you don’t believe me, ask your nearest recording engineer what “API” stands for, then ask your nearest web developer.) But more importantly, working in both worlds sometimes feels like oscillating between two entirely different value systems.",
+	"type":"writing",
+	"date":"August 16, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/mlm-scale.jpg",
+			"credits":""
+		}
+	],
+	"tags":[
+		"streaming",
+	  "business models",
+		"economics"
+	],
+	"template":"twocol-twothirds",
+	"template_styles":"#mattlemay{background:#49575E;",
+	"template_bg_style":"bg-cover",
+	"template_additional":"light"
+}
