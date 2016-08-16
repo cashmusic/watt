@@ -27,6 +27,6 @@
 	],
 	"template":"default-w-headerimage",
 	"template_styles":"#timetofindapro{background:#fdf9fa;",
-	"template_bg_style":"bg-cover",
+	"template_bg_style":"bg-center",
 	"template_additional":"dark"
 }
