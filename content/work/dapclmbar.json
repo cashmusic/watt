@@ -1,0 +1,28 @@
+{
+	"id":"dapclmbar",
+	"author_id":"dapwell",
+	"release_id":"impactofmusic",
+	"title":"CASH Music Interview Series: EP.4 - Chairlift & Miles Benjamin Anthony Robinson",
+	"description":"",
+	"type":"video",
+	"date":"August 10th, 2016",
+	"license":"CC-BY",
+	"url":"https://youtu.be/9fa_D8_i9N8",
+	"embed_url":"https://www.youtube.com/embed/9fa_D8_i9N8",
+	"youtube":true,
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/dapclmbar.jpg"
+		}
+	],
+	"tags":[
+		"culture",
+		"impact",
+		"community"
+	],
+	"template":"twocol-leftalign",
+	"template_styles":"",
+	"template_additional":"dark"
+}
