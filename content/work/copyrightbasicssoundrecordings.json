@@ -1,0 +1,26 @@
+{
+	"id":"copyrightbasicssoundrecordings",
+	"author_id":"katrinableckley",
+	"release_id":"",
+	"title":"Copyright Basics: Sound Recordings & Musical Compositions",
+	"description":"As an artist or an artist’s representative, it is critical to understand at least the basics of what rights you control in your art, and how best to monetize those rights.",
+	"type":"writing",
+	"date":"August 29, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"",
+			"credits":""
+		}
+	],
+	"tags":[
+		"copyright", 
+		"legal"
+	],
+	"template":"default-w-headerimage",
+	"template_styles":"",
+	"template_bg_style":"bg-cover bg-center",
+	"template_additional":"light"
+}

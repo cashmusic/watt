@@ -1,0 +1,29 @@
+{
+	"id":"survivingyourfirsttour",
+	"author_id":"danawachs",
+	"release_id":"",
+	"title":" Surviving Your First (and second...and each one after) Tour
+",
+	"description":"",
+	"type":"writing",
+	"date":"August 29, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"",
+			"credits":""
+		}
+	],
+	"tags":[
+		"tour", 
+		"health", 
+		"DIY",
+		"budget"
+	],
+	"template":"default-w-headerimage",
+	"template_styles":"",
+	"template_bg_style":"bg-cover bg-center",
+	"template_additional":"light"
+}
