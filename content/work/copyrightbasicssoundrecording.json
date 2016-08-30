@@ -11,8 +11,13 @@
 		{
 			"type":"image",
 			"license":"CC-BY",
-			"url":"http://memory.loc.gov/service/music/molden/3304/0010000v.jpg",
-			"credits":""
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/kb.jpg",
+			"credits":[
+				{
+					"username":"Charles Hutchins",
+					"user_url":"https://www.flickr.com/photos/celesteh/16815417352/"
+				}
+			]
 		}
 	],
 	"tags":[
@@ -20,7 +25,7 @@
 		"legal"
 	],
 	"template":"default-w-headerimage",
-	"template_styles":"",
+	"template_styles":"#copyrightbasicssoundrecording{background-color:#161616;}",
 	"template_bg_style":"bg-cover bg-center",
 	"template_additional":"light"
 }
