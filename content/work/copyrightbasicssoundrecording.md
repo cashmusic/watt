@@ -1,6 +1,6 @@
 Intellectual property is the currency in which the entertainment industry trades. Fans buy your albums or subscribe to Spotify to listen to your copyrighted songs. They buy your shirts, hoodies, and secret recipe GWAR-B-Q sauce because the merchandise features your trademarked name or logo. As an artist or an artist’s representative, it is critical to understand at least the basics of what rights you control in your art, and how best to monetize those rights. Today, I am only going to speak about copyrights, and further focus on those in musical compositions and sound recordings.
- 
-**Copyright Basics
+
+###Copyright Basics
  
 First, what is a copyright? According to the United States Copyright Act, “original works of authorship fixed in any tangible medium of expression, now known or later developed, from which they can be perceived, reproduced, or otherwise communicated, either directly or with the aid of a machine or device” are protected under federal copyright law. In short, anything that you create that someone can somehow reproduce – whether physically or digitally – is copyrightable. This notably includes musical compositions and sound recordings, but also other works of art such as books, paintings, sculptures, films, plays, choreography routines, and software codes. This does not include band names, album titles, or song titles.  Your band or performer name may be subject to trademark protection once you reach a certain level of notoriety, but that is another conversation for another day. As for album or song titles, those are free for anyone to use.
  
@@ -10,7 +10,7 @@ That being said, it is still advisable to register your copyrights with the Copy
  
 Now, with those basics out of the way, we can move on to the two copyrights those in the music business encounter most frequently: those in sound recordings and musical compositions.
  
-**Sound Recordings
+###Sound Recordings
  
 The first major copyright in the music industry is that of the sound, or master, recording. Sound recordings are among the newest art forms to be afforded protection, having just been added to the United States Copyright Act in 1976.
  
@@ -19,7 +19,7 @@ Each recording of a composition (discussed below) is a separate copyright. For e
 Ownership of sound recording copyrights can be tricky. Anyone who either contributes to the creation or funding of a master has a claim to ownership. This can include the recording artist, record company, producer, mixer, side musicians, and remixers, in the case of remixes. As you can see, this can get fairly messy very quickly, and is where a knowledgeable entertainment attorney can be worth their weight in gold. Music attorneys have an arsenal of agreements to ensure that, as a recording artist, you get all of the rights that you need to exploit your master without worrying about a future lawsuit from an aggrieved producer. Note that, if you are signed to a traditional record deal, your label will likely be the owner of the master recording at the end of the day, but they will still require you to get signed agreements from everyone involved in the creation of the master recording, to secure their rights. 
  
  
-**Musical Compositions
+###Musical Compositions
  
 Underlying every master recording is a musical composition. Composition copyrights protect the melody and lyrics of a song, or what I like to think of as the sheet music for a song. These copyrights are also commonly referred to as “publishing rights.”
  
@@ -27,8 +27,7 @@ Unlike master recordings – where there can be countless different recordings o
  
 The ownership issue here is much more cut and dried than with master recordings. Each songwriter (or their publisher, if they have signed a publishing deal) will own an equal portion of the composition, unless all writers agree otherwise in writing. This is another time when a good music lawyer can come in handy. Say you’re in a writing session with Joe, and his friend Bob stops by to drop off a pizza, at which point he suggests that you change one lyric, then leaves. Bob could arguably claim 1/3 of your song. I think we can all agree that Bob should not get 33% of your song. Your lawyer will have songwriter agreements that everyone can sign, or, if you don’t have a lawyer, you can all simply agree to percentages in an email. The sooner these splits are agreed upon, the better. No one wants to try to remember exactly what they did in a session six months ago, particularly for prolific songwriters.
  
- 
-**Common Exploitations
+###Common Exploitations
  
 To give you an idea of how these rights play out in the Real World, below are some examples of how both master recordings and musical compositions can be monetized. This list is by no means exhaustive, and only includes the top 2-3 sources of income from each.
  
@@ -49,4 +48,3 @@ Musical Compositions:
  
  
  
-

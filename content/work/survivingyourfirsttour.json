@@ -2,8 +2,7 @@
 	"id":"survivingyourfirsttour",
 	"author_id":"danawachs",
 	"release_id":"",
-	"title":" Surviving Your First (and second...and each one after) Tour
-",
+	"title":" Surviving Your First (and second...and each one after) Tour",
 	"description":"",
 	"type":"writing",
 	"date":"August 29, 2016",
@@ -11,9 +10,14 @@
 	"assets":[
 		{
 			"type":"image",
-			"license":"CC-BY",
-			"url":"",
-			"credits":""
+			"license":"CC-BY-NC",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/dw-4.jpg",
+			"credits":[
+				{
+					"username":"@Fio",
+					"user_url":"https://www.flickr.com/photos/126451798@N05/15634184141/"
+				}
+			]
 		}
 	],
 	"tags":[
@@ -22,8 +26,8 @@
 		"DIY",
 		"budget"
 	],
-	"template":"default-w-headerimage",
-	"template_styles":"",
+	"template":"twocol-twothirds-hero",
+	"template_styles":"#survivingyourfirsttour{background-color:#a9afbb;}",
 	"template_bg_style":"bg-cover bg-center",
 	"template_additional":"light"
 }
