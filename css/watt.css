@@ -463,7 +463,7 @@
   background-position: 0% 0%;
   background-size: 30%;
   background-color:#222;
-  margin:-100px 0 60px 0;
+  margin: -21px -15px 60px -15px;
   padding:100px 30px 60px 30px;
   color:#fff;
 }
@@ -654,12 +654,11 @@ transition:0.3s ease-in-out;
 
 /* Quarterney Article Types */
 
-#main article .article-archive.quaternary{
-  overflow: hidden;
+#main article section.quaternary{
+  margin:36px 0;
 }
 
 #main article .article-archive.quaternary .quaternary-outer{
-  /*margin:0 4% 2% 2%;*/
   padding:10px;
   height:130px;
   background-size: cover;
@@ -667,8 +666,8 @@ transition:0.3s ease-in-out;
   background-color:#fc47a1;
   /*background-color:#fe6177;*/
   background-blend-mode: exclusion;
+  overflow: hidden;
 }
-
 
 #main article .article-archive.quaternary .inner .more-link{
   padding:20px 0px;
@@ -686,6 +685,7 @@ transition:0.3s ease-in-out;
 #main article .article-archive.quaternary .inner{
   background-color:rgba(255,255,255,0.95);
   margin:0px;
+  overflow: hidden;
 }
 
 #main article .article-archive.quaternary .inner h2{
@@ -1134,7 +1134,7 @@ margin:15px auto;
 
      /* Feature Banners */
      #main article .featured-banner{
-       margin-top:0;
+       margin:0 0 60px 0;
      }
 
      /* Index No Featured Content */
