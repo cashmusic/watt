@@ -1,0 +1,28 @@
+{
+	"id":"dapcdnn",
+	"author_id":"dapwell",
+	"release_id":"impactofmusic",
+	"title":"CASH Music Interview Series: EP.5 - Nick Catchdubs & Nasty Nigel",
+	"description":"",
+	"type":"video",
+	"date":"September 6th, 2016",
+	"license":"CC-BY",
+	"url":"https://youtu.be/kbkIW3y0xKo",
+	"embed_url":"https://www.youtube.com/embed/kbkIW3y0xKo",
+	"youtube":true,
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/dapcdnn.jpg"
+		}
+	],
+	"tags":[
+		"culture",
+		"impact",
+		"community"
+	],
+	"template":"twocol-leftalign",
+	"template_styles":"",
+	"template_additional":"dark"
+}
