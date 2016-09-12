@@ -1085,6 +1085,128 @@ margin:15px auto;
   clear: both;
 }
 
+/* Backline template */
+
+#main article.backline header{
+  padding: 80px 0 80px 0;
+}
+
+#main article.backline{
+  background:#fff;
+  color:#000;
+  text-align: center;
+}
+
+#main article.backline .backline-title{
+  margin:0 0 -160px 0;
+  position: relative;
+  z-index: 1;
+}
+
+#main article.backline .inline-head{
+  padding:0 30px;
+  text-align: left;
+}
+
+#main article.backline .date, #main article.backline .author .details h4{
+  color:#fff;
+}
+
+#main.article-page .backline section h2.article-title, #main article.backline section h2{
+  font-family: 'Playfair Display', serif;
+  font-size:36px;
+}
+
+#main article.backline section h2{
+  background: url('https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/tape.png') 50% 50% no-repeat;
+  color:#fff;
+  padding: 50px 0;
+  margin:0 auto 60px auto;
+  position: relative;
+  z-index: 10;
+}
+
+#main.article-page .backline section h2.article-title{
+  background: none;
+  color:#000;
+  margin:0 0 36px 0;
+}
+
+#main article.backline section.article-content p{
+  display: none;
+}
+
+#main article.backline section.article-content section p{
+  display: inline-block;
+  max-width: 650px;
+  margin:0 auto 18px auto;
+  padding:0 15px;
+}
+
+#main article.backline section p a{
+  color:#000;
+  border-bottom: solid 1px rgba(0,0,0,0.5);
+}
+
+#main article.backline section{
+  padding:36px 0;
+}
+
+#main article.backline section:nth-of-type(4){
+  background:#000;
+  color:#fff;
+  margin:0 0 -36px 0;
+}
+
+#main article.backline section:nth-of-type(3) h2, #main article.backline section:nth-of-type(4) h2{
+  background: none;
+}
+
+#main article.backline section:nth-of-type(3) h2{
+  color:#000;
+}
+
+#main article.backline .gallery{
+  margin:0;
+}
+
+#main article.backline .gallery img{
+    border:solid 10px #000;
+}
+
+#main article.backline hr{
+  background-image:url(https://static-cashmusic.netdna-ssl.com/www/img/constant/icon/cable.svg);
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+:nth-of-type(4) hr{
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+
+#main article.backline hr:before{
+    content: "";
+}
+
+#main article.backline footer{
+  text-align: left;
+  background:#111;
+  color:#fff;
+  margin:0;
+}
+
+#main article.backline .backline-computer{
+  display: block;
+  height:200px;
+  width:100%;
+  background-image:url(https://static-cashmusic.netdna-ssl.com/www/img/constant/icon/computer.gif);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
 /* ==========================================================================
    Responsive
    ========================================================================== */
@@ -1290,6 +1412,25 @@ margin:15px auto;
   -webkit-column-gap: 60px;
   -moz-column-gap: 60px;
   column-gap: 60px;
+}
+
+
+/* Backline */
+
+#main article.backline .inline-head{
+  padding:60px 60px 150px 60px;
+}
+
+#main article.backline .backline-title{
+  margin:0 0 -190px 0;
+}
+
+#main.article-page article.backline .article-content{
+  padding:36px 0 0 0;
+}
+
+#main article.backline section:nth-of-type(4){
+  margin:0;
 }
 
 }
