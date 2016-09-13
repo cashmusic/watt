@@ -10,13 +10,24 @@
 	"assets":[
 		{
 			"type":"image",
-			"license":"CC-BY",
+			"license":"CC-BY-NC-ND",
 			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/jbx.jpg",
-			"credits":""
+			"credits":[
+				{
+					"username":"@lieve",
+					"user_url":"https://www.flickr.com/photos/lieve/293110702/"
+				},
+				{
+					"username":"@sumlin"
+				}
+			]
 		}
 	],
 	"tags":[
-		"backline","equipment","software","hardware"
+		"backline",
+		"equipment",
+		"software",
+		"hardware"
 	],
 	"template":"backline",
 	"template_bg_style":"bg-cover bg-fixed",

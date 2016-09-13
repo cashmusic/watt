@@ -35,6 +35,33 @@
         </div><!--inner-->
 	</div><!--article-archive-->{{/tertiary_work}}
 </section>
+<section class="article-archive pure-u-1 featured-video">
+{{#featured_video}}
+<h3>Featured video: <em>{{title}}</em></h3>
+<div class="featured-video-bg" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
+<div class="featured-video-content">
+  <!--If Video embed present-->
+  {{#embed_url}}
+    <div class="video_inner">
+       {{#youtube}}
+          <iframe width='560' height='315' src='{{embed_url}}?vq=hd1080&showinfo=0' frameborder='0' allowfullscreen></iframe>
+       {{/youtube}}
+    </div><!--video_inner-->
+  {{/embed_url}}
+</div><!--featured-video-content-->
+{{/featured_video}}
+</div><!--featured-video-bg-->
+</section>
+<section class="pure-u-1 quaternary space-out">
+  {{#quaternary_work}}<div class="article-archive pure-u-1 pure-u-md-1-4 quaternary">
+    <div class="quaternary-outer"  style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
+      <div class="inner">
+        <h2><a href="/{{type}}/{{id}}">{{title}}</a></h2>
+          <h4><a href="/author/{{id}}">Written by: {{author_name}}</a></h4>
+        </div><!--inner-->
+    </div><!--quarternary-->
+  </div>{{/quaternary_work}}
+</section>
 <section class="pure-u-1">
 <a class="more-link dark" href="/all">View all articles</a>
 </section>
