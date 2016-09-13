@@ -1,0 +1,35 @@
+{
+	"id":"jessicaboudreaux",
+	"author_id":"jessicaboudreaux",
+	"release_id":"backline",
+	"title":"Jessica Boudreaux",
+	"description":"Who are you, and what do you do?",
+	"type":"writing",
+	"date":"September 12th, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY-NC-ND",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/jbx.jpg",
+			"credits":[
+				{
+					"username":"@lieve",
+					"user_url":"https://www.flickr.com/photos/lieve/293110702/"
+				},
+				{
+					"username":"@sumlin"
+				}
+			]
+		}
+	],
+	"tags":[
+		"backline",
+		"equipment",
+		"software",
+		"hardware"
+	],
+	"template":"backline",
+	"template_bg_style":"bg-cover bg-fixed",
+	"template_additional":"light"
+}

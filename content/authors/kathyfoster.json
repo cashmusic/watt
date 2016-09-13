@@ -1,0 +1,21 @@
+{
+	"id":"kathyfoster",
+	"name":"Kathy Foster",
+	"byline":"musician, bassist in The Thermals, drummer in Hurry Up, home recording enthusiast, DJ KM Fizzy, Strange Babe.",
+	"links":[
+		{
+			"title":"@kmfizzy",
+			"url":"https://twitter.com/kmfizzy"
+		}
+	],
+	"photo":{
+		"url":"https://static-cashmusic.netdna-ssl.com/www/img/contributor/kf.jpg",
+		"license":"",
+		"credits":[
+			{
+				"username":"@knottyyarn",
+				"user_url":"https://twitter.com/knottyyarn"
+			}
+		]
+	}
+}

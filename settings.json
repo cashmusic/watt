@@ -1,10 +1,10 @@
 {
-	"featured_work":["survivingyourfirsttour"],
-	"secondary_work":["copyrightbasicssoundrecording","judymillersilverman"],
-	"tertiary_work":["mattlemay","timetofindapro","synchlicensingbasics","lizpelly","openishope","howtobeavaluablemember","majal","impactchristophersutton"],
-	"quaternary_work":["settingupanllc","meredithgraves","impactcolinmeloy","maggievail"],
+	"featured_work":[""],
+	"secondary_work":["jessicaboudreaux","kathyfoster"],
+	"tertiary_work":["survivingyourfirsttour","copyrightbasicssoundrecording","judymillersilverman","mattlemay","timetofindapro","synchlicensingbasics","lizpelly","openishope"],
+	"quaternary_work":["howtobeavaluablemember","majal","impactchristophersutton","settingupanllc"],
 	"featured_authors":[],
 	"featured_tags":["impact","culture", "community", "sustainability"],
 	"featured_video":["dapcdnn"],
-	"template":"index-feat-video"
+	"template":"index-no-feature"
 }

@@ -1,0 +1,24 @@
+{
+	"id":"kathyfoster",
+	"author_id":"kathyfoster",
+	"release_id":"backline",
+	"title":"Kathy Foster",
+	"description":"Who are you, and what do you do?",
+	"type":"writing",
+	"date":"September 12th, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/kf.jpg",
+			"credits":""
+		}
+	],
+	"tags":[
+		"backline","equipment","software","hardware"
+	],
+	"template":"backline",
+	"template_bg_style":"bg-cover bg-center",
+	"template_additional":"light"
+}
