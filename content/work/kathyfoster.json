@@ -10,9 +10,14 @@
 	"assets":[
 		{
 			"type":"image",
-			"license":"CC-BY",
+			"license":"CC-BY-NC-ND",
 			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/kf.jpg",
-			"credits":"Jason Quigley"
+			"credits":[
+				{
+					"username":"Jason Quigley",
+					"user_url":"http://www.photojq.com/"
+				}
+			]
 		}
 	],
 	"tags":[
