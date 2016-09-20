@@ -22,8 +22,8 @@
 		"the thermals",
 		"selling out"	
 	],
-	"template":"default-w-headerimage",
-	"template_styles":"",
+	"template":"twocol-twothirds-hero",
+	"template_styles":"#sellingout{background-color:#111;}",
 	"template_bg_style":"bg-cover bg-center",
-	"template_additional":""
+	"template_additional":"light"
 }
