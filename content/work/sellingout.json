@@ -3,24 +3,27 @@
 	"author_id":"hutchharris",
 	"release_id":"",
 	"title":"Selling Out",
-	"description":"",
+	"description":"The song had summed up so much about what we adored and feared in life - love, beauty, and the permanence and inescapable reality of death. Now the song was being used to sell us a mid-size sedan.",
 	"type":"writing",
-	"date":"September 13, 2016",
+	"date":"September 20, 2016",
 	"license":"CC-BY",
 	"assets":[
 		{
 			"type":"image",
 			"license":"CC-BY",
-			"url":"",
-			"credits":""
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/hh-2.jpg",
+			"credits":"Westin Glass"
 		}
 	],
 	"tags":[
-		"", 
-		""
+		"business models", 
+		"economics",
+		"licensing",
+		"the thermals",
+		"selling out"	
 	],
 	"template":"default-w-headerimage",
 	"template_styles":"",
 	"template_bg_style":"bg-cover bg-center",
-	"template_additional":"light"
+	"template_additional":""
 }
