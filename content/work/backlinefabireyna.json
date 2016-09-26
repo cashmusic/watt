@@ -1,0 +1,38 @@
+{
+	"id":"backlinefabireyna",
+	"author_id":"fabireyna",
+	"release_id":"backline",
+	"title":"Backline with Fabi Reyna",
+	"description":"Jessica Boudreaux of She Shreds talks about her set up",
+	"type":"writing",
+	"date":"September 28th, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY-NC-ND",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/jbx.jpg",
+			"credits":[
+				{
+					"username":"Jason Quigley",
+					"user_url":"http://www.photojq.com/"
+				},
+				{
+					"username":"@lieve"
+				},
+				{
+					"username":"@sumlin"
+				}
+			]
+		}
+	],
+	"tags":[
+		"backline",
+		"equipment",
+		"software",
+		"hardware"
+	],
+	"template":"backline",
+	"template_bg_style":"bg-cover bg-fixed",
+	"template_additional":"light"
+}

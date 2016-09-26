@@ -1,0 +1,27 @@
+{
+	"id":"thetransmigrationofart",
+	"author_id":"cariluna",
+	"release_id":"",
+	"title":"The Transmigration of Art",
+	"description":"There is something intensely private in the act of listening to music, the way a song can feel like a very real, personal communication with the artist.",
+	"type":"writing",
+	"date":"September 28, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"",
+			"credits":""
+		}
+	],
+	"tags":[
+		"culture",
+		"power of music",
+		"grief"
+	],
+	"template":"twocol-twothirds-hero",
+	"template_bg_style":"bg-cover",
+	"template_styles":"#howtobeavaluablemember{background-color:#b42249}",
+	"template_additional":"light"
+}
