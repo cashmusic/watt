@@ -1,4 +1,4 @@
->I’m about to unveil one of the darkest secrets of the music industry: you don't need a publicist. 
+##I’m about to unveil one of the darkest secrets of the music industry: you don't need a publicist. 
  
 Every week, I estimate I receive over 50 inquires for publicity services from artists of all stripes. Some of these are so wildly out of the zone of the projects we represent, I have to curb my inclination to write them back and tell them the error of their ways. Other queries are from young bands who have done the research and definitely want to be part of a stable of artists we represent, but are simply nowhere near ready for a publicist. Some arrive from people that believe they can pay to hire you without any regard for the sound or the music or project. There are also an odd breed who write you and honestly do not know what publicity is at all.
  
@@ -26,7 +26,7 @@ I told him I would and encouraged him to try. I liked his initiative and that he
  
 The internet has opened a whole new world of DIY style. Just 10-15 years ago you had to sit on the floor and package up records or CDs or cassettes to send to people with actual letters enclosed. Today a link and an email address can serve the same purpose. However, this relative ease has meant the number of people emailing others has increased exponentially. On average, editors and labels get hundreds of music submissions a day, as do many other people working in various facets of the industry.
  
->This is a list of things you should think about before you start hiring a publicist or cold emailing people:
+##This is a list of things you should think about before you start hiring a publicist or cold emailing people:
  
 **1. 	Where do you live? Is there a local paper? Start there. Some local weeklies have local music columns. If not, start by trying to get your band on opening slots for more popular bands at your local clubs. If you are a DJ or dance/electronic artist, you can do the same.**
 

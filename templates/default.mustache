@@ -37,7 +37,7 @@
             <li><a class="tag" href="/tag/{{tag}}">{{tag}}</a></li>
           {{/tags}}
       </ul>
-        <h1><a href="/{{type}}/{{id}}">{{title}}</a></h1>
+        <h1>{{title}}</h1>
            {{{content}}}
           <div class="footer">
               <h4 class="info date">{{display_time}}</h4><h4 class="author-link">by <a href="/author/{{author_id}}">{{author_name}}</a></h4>
@@ -77,27 +77,31 @@
           </div><!--quick-popular-articles-->
         </div><!--quick-articles-->
 
-        <div class="ad-space">
-        <a href="http://platform.cashmusic.org/" target="_blank"><img src="https://static-cashmusic.netdna-ssl.com/www/img/constant/social/platform-ad.jpg" alt="CASH Platform"/></a>
-        </div><!--ad-space-->
+        <a href="http://platform.cashmusic.org/" target="_blank" class="ad-space">
+        <h1>OWN YOUR OWN SHIT.</h1>
+        <h2>CASH Music makes free open source tools to support musicians.</h2>
+        <a href="http://platform.cashmusic.org/" target="_blank">
+        </a><!--ad-space-->
 
       </aside><!--pure-->
           
-
+<div class="flex-items">
       {{#further_reading}}
-<div class="watt-article pure-u-1 pure-u-md-1-3 {{template_additional}} {{type}}">
-  <a class="wrap-link" href="/{{type}}/{{id}}"><div class="sixteen-nine">
+<div class="watt-article pure-u-1 pure-u-md-1-3 tertiary {{template_additional}} {{type}}">
+        <div id="{{author_id}}" class="inner">
+        <a class="wrap-link" href="/{{type}}/{{id}}"><div class="sixteen-nine">
       <div class="sn-content" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
     </div><!--sn-content-->
   </div><!--sixteen-nine--></a><!--wrap-link-->
-        <div id="{{author_id}}" class="inner">
           <div class="corner-marker"></div><!--important-->
                   <h2><a href="/{{type}}/{{id}}">{{title}}</a></h2>
                   <p>{{description}}</p>
+                  <footer>
                   <h4>by <a href="/author/{{author_id}}">{{author_name}}</a></h4>
-                  
+                  </footer>
         </div><!--inner-->
   </div><!--watt-archive-->{{/further_reading}}
+  </div><!--flex-items-->
 </section>
 
 </section><!--max-width-->

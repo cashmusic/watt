@@ -70,21 +70,23 @@
         </div><!--quick-articles-->
       </aside><!--pure-->
           
-
+<div class="flex-items">
       {{#tertiary_work}}
-<div class="watt-article pure-u-1 pure-u-md-1-3 {{template_additional}} {{type}}">
-  <a class="wrap-link" href="/{{type}}/{{id}}"><div class="sixteen-nine">
+<div class="watt-article pure-u-1 pure-u-md-1-3 tertiary {{template_additional}} {{type}}">
+        <div id="{{author_id}}" class="inner">
+<a class="wrap-link" href="/{{type}}/{{id}}"><div class="sixteen-nine">
       <div class="sn-content" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
     </div><!--sn-content-->
   </div><!--sixteen-nine--></a><!--wrap-link-->
-        <div id="{{author_id}}" class="inner">
           <div class="corner-marker"></div><!--important-->
                   <h2><a href="/{{type}}/{{id}}">{{title}}</a></h2>
-                  <p>{{description}}</p>
-                  <h4>by <a href="/author/{{author_id}}">{{author_name}}</a></h4>
-                  
+                  <p>{{description}}</p> 
+                  <footer><h4>by <a href="/author/{{author_id}}">{{author_name}}</a></h4></footer>
         </div><!--inner-->
+
+                 
   </div><!--watt-archive-->{{/tertiary_work}}
+  </div><!--flex-items-->
 </section>
 
 </section><!--max-width-->
@@ -131,14 +133,12 @@
 
 
 <section class="article-content max-width">
-<section class="pure-u-1 quaternary">
+<section class="quaternary-container">
   {{#quaternary_work}}<div class="watt-article pure-u-1 pure-u-md-1-6 quaternary">
-    <div class="quaternary-outer">
       <div class="inner">
         <h3><a href="/{{type}}/{{id}}">{{title}}</a></h3>
           <h4>by <a href="/author/{{author_id}}">{{author_name}}</a></h4>
         </div><!--inner-->
-    </div><!--quarternary-->
   </div>{{/quaternary_work}}
 </section>
 

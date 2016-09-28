@@ -11,20 +11,23 @@
 </div><!--featured-work-->
 
 <section class="pure-u-1 article-content max-width">
+<div class="flex-items">
 {{#work}}
-<div class="watt-article pure-u-1 pure-u-md-1-2 {{template_additional}} {{type}}">
-  <a class="wrap-link" href="/{{type}}/{{id}}"><div class="sixteen-nine">
+<div class="watt-article pure-u-1 pure-u-md-1-2 tertiary-half {{template_additional}} {{type}}">
+        <div id="{{author_id}}" class="inner">
+          <a class="wrap-link" href="/{{type}}/{{id}}"><div class="sixteen-nine">
       <div class="sn-content" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
     </div><!--sn-content-->
   </div><!--sixteen-nine--></a><!--wrap-link-->
-        <div id="{{author_id}}" class="inner">
           <div class="corner-marker"></div><!--important-->
                   <h2><a href="/{{type}}/{{id}}">{{title}}</a></h2>
                   <p>{{description}}</p>
+                  <footer>
                   <h4>by <a href="/author/{{author_id}}">{{author_name}}</a></h4>
-                  
+                  </footer>
         </div><!--inner-->
   </div><!--watt-article-->{{/work}}
+</div><!--flex-items-->
 
    {{^work}}
     <div class="pure-u-1">

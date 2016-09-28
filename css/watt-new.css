@@ -3,17 +3,17 @@
 
 @font-face {
     font-family: Romain-Regular;
-    src: url(../fonts/romain/TTF/RomainHeadline-Regular-WebTrial.ttf);
+    src: url(https://static-cashmusic.netdna-ssl.com/www/fonts/romain/TTF/RomainHeadline-Regular-WebTrial.ttf);
     font-weight:400;
 }
 
 @font-face {
 	font-family: 'Swiss721BT-Black';
-	src: url('../fonts/swiss/3228A7_0_0.eot');
-	src: url('../fonts/swiss/3228A7_0_0.eot?#iefix') format('embedded-opentype'),
-	url('../fonts/swiss/3228A7_0_0.woff2') format('woff2'),
-	url('../fonts/swiss/3228A7_0_0.woff') format('woff'),
-	url('../fonts/swiss/3228A7_0_0.ttf') format('truetype');
+	src: url('https://static-cashmusic.netdna-ssl.com/www/fonts/swiss/3228A7_0_0.eot');
+	src: url('https://static-cashmusic.netdna-ssl.com/www/fonts/swiss/3228A7_0_0.eot?#iefix') format('embedded-opentype'),
+	url('https://static-cashmusic.netdna-ssl.com/www/fonts/swiss/3228A7_0_0.woff2') format('woff2'),
+	url('https://static-cashmusic.netdna-ssl.com/www/fonts/swiss/3228A7_0_0.woff') format('woff'),
+	url('https://static-cashmusic.netdna-ssl.com/www/fonts/swiss/3228A7_0_0.ttf') format('truetype');
 }
  
 
@@ -57,17 +57,53 @@ body{
 	margin:0 0 36px 0;
 }
 
+#main .watt-article h2 a{
+	border-color: lime;
+}
+
+#main .watt-article h2 a:hover{
+	opacity: 1;
+	border-bottom: solid 1px lime;
+}
+
+#main .flex-items, #main .quaternary-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#main .watt-article.tertiary, #main .watt-article.tertiary-half, #main .watt-article.quaternary{
+  display: flex;
+  padding:10px;
+  margin:0 0 18px 0;
+}
+
+#main .watt-article.tertiary .inner, #main .watt-article.tertiary-half .inner, #main .watt-article.quaternary .inner{
+   display: flex;
+   flex-direction: column;
+   background-color: #fff;
+   width: 100%;
+   position: relative;
+}
+
+#main .watt-article.tertiary .inner p, #main .watt-article.tertiary-half .inner p, #main .watt-article.quaternary .inner h3{
+	flex: 1 0 auto;
+}
+
+
+#main .watt-article footer{
+	padding:0;
+}
 
 .watt-article img{
 	margin:0 0 36px 0;
 }
 
-.watt-article h3{
+.watt-article.writing h3{
 	margin:18px 0;
 }
 
 #main article section .watt-article p a{
-	border-bottom:solid 2px;
+	border-bottom:solid 1px;
 	border-bottom-color:lime; 
 }
 
@@ -116,6 +152,7 @@ h3 a:before, h4 a:before, h6 a:before{
 
 h1{
 	margin:0 0 36px 0;
+	line-height: 1.2em;
 }
 
 h1, h1 a{
@@ -128,7 +165,10 @@ h2{
 	margin:0 0 18px 0;
 }
 
-h1 a{border-bottom:solid 5px lime;}
+h1 a{
+	border-bottom:solid 5px lime;
+	line-height: 1.3em;
+}
 
 h1 a:hover{
 	border-color: #111;
@@ -326,31 +366,25 @@ h4 a:hover{
 
 /* Logo */
 
+#collapsed .watt-logo-lrg{
+	display: none;
+}
 
 .watt-logo-lrg{
+	margin:71px 0 0 0;
+	border:solid 25px #000;
 	position: relative;
 	z-index: 1000;
 	display: block;
-	margin:0 auto 0 0;
 	text-align: left;
-	/*margin:97px 0 -135px 80px;*/
-	margin:97px 0 -90px -85px;
-	border:solid 25px #000;
-	max-width:350px;
-	/*-webkit-filter: invert(100%);
-    filter: invert(100%);
-    max-width:350px;*/
 }
 
 .watt-logo-lrg:hover{
-
-background: linear-gradient(270deg, #ff4600, #ff00bd, #1100ff);
-background-size: 600% 600%;
-
--webkit-animation: logo-bg-grad 30s ease infinite;
--moz-animation: logo-bg-grad 30s ease infinite;
-animation: logo-bg-grad 30s ease infinite;
-
+	background: linear-gradient(270deg, #ff4600, #ff00bd, #1100ff);
+	background-size: 600% 600%;
+	-webkit-animation: logo-bg-grad 30s ease infinite;
+	-moz-animation: logo-bg-grad 30s ease infinite;
+	animation: logo-bg-grad 30s ease infinite;
 }
 
 
@@ -369,6 +403,7 @@ animation: logo-bg-grad 30s ease infinite;
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
+
 .watt-logo-lrg img{
 	margin:0;
 }
@@ -445,14 +480,19 @@ animation: logo-bg-grad 30s ease infinite;
 	opacity: 1;
 }
 
+#main .sixteen-nine:hover .sn-content {
+	background-blend-mode: exclusion;
+}
+
+#main .wrap-link:hover{
+	opacity: 1;
+}
+
 /* Social Links */
 
 .social-links{
-	text-align: right;
-	position: absolute;
-	right:10px;
-	top:0px;
-	z-index: 1000;
+	text-align: center;
+	padding:18px 0 0 0;
 }
 
 .social-links li {
@@ -487,14 +527,7 @@ animation: logo-bg-grad 30s ease infinite;
 /* Featured content */
 
 .featured-work{
-	/*background:#000;*/
-	/*position: absolute;
-	top:0;
-	left:0;*/
-
-	/* THIS WAS THE ONE */ /*padding: 97px 82px 36px 82px;*/
-	/*padding:133px 0 72px 0;*/
-	padding:0 85px;
+	padding:0 0px;
 	position: relative;
 	display: inline-block;
 	text-align: right;
@@ -506,15 +539,15 @@ animation: logo-bg-grad 30s ease infinite;
 }
 
 .featured-work .hero{
+	margin:0 auto -60px auto;
 	max-width:1100px;
-	margin:0 auto;
 	padding:0 10px;
 	position: relative;
 }
 
 .featured-work .hero .title-area{
+	padding:18px 50px;
 	text-align: center;
-	padding:18px 100px;
 	border:solid 25px #000;
 	width: 79.6%;
 	width:81%;
@@ -529,7 +562,7 @@ animation: logo-bg-grad 30s ease infinite;
 }
 
 .featured-work .hero .title-area h1{
-	font-size:67.773px;
+	font-size:40.96px;
 	margin:0 0 18px 0;
 }
 
@@ -553,45 +586,27 @@ animation: logo-bg-grad 30s ease infinite;
 	text-transform: uppercase;
 }
 
-/*
 .featured-carousel .content{
-	border:solid 25px;
-    width: 79.6%;
-    padding:50px 100px;
-    margin: 75px 0 0 0;
-   	display: inline-block;
-    text-align: center;
-    border-color:#000;
-	color:#000;
-	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
-}*/
-
-.featured-carousel .content{
+  padding:400px 10px 36px 10px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: 50% 50%;
-  /*padding: 97px 82px 36px 82px;*/
-  padding: 297px 82px 36px 82px;
-  padding:230px 82px 36px 82px;
-  /*padding:230px 82px 36px 395px;*/
   text-align:right;
 }
 
 .featured-carousel .content .inner{
+	padding:36px 10px;
+	margin: 0 auto;
 	border:solid 25px;
-    /*width: 69.4%;*/
     width:100%;
-    padding:50px 100px;
-    margin: 0 92px;
    	display: inline-block;
     text-align: center;
     border-color:#fff;
 	color:#000;
 	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 	max-width: 880px;
-
 }
 
 .featured-carousel .content .inner h1 a{
@@ -602,20 +617,16 @@ animation: logo-bg-grad 30s ease infinite;
 	border-color: #fff
 }
 
-.featured-carousel{
-	margin:-201px 0 0 0;
-	padding:0;
-}
-
 /* Carousel */
 
 .featured-carousel{
+	margin:-401px 0 0 0;
 	position: relative;
 	overflow: hidden;
 	width:100%;
 	color:#fff;
+	padding:0;
 }
-
 
 .featured-carousel img{
 	position: absolute;
@@ -652,6 +663,7 @@ animation: logo-bg-grad 30s ease infinite;
 /* Carousel Navigation */
 
 .slick-arrow{
+	display: none!important;
 	position: absolute;
 	bottom:36px;
 	height:50%;
@@ -710,7 +722,8 @@ aside{
 }
 
 .quick-video-container{
-	padding:0 0 0 25px;
+	padding:0 0 0 0;
+	margin:18px 0 0 0;
 }
 
 
@@ -765,8 +778,8 @@ aside{
 }
 
 .quick-articles .post .thumb{
+	display: none;
 	background-color:#111;
-	display: inline-block;
 	overflow: hidden;
 }
 
@@ -798,7 +811,7 @@ aside{
 #main .featured-video-section{
 	background:#000;
 	color:#fff;
-	padding:72px 0;
+	padding:72px 10px;
 }
 
 #main .featured-video-section .max-width{
@@ -812,46 +825,46 @@ aside{
 }
 
 .featured-video-bg{
-  background-color:#ddd;
-  margin:10px 0 0 0;
+	background-color:#ddd;
+	margin:10px 0 0 0;
 }
 
 .featured-video-content{
-   position: relative;
-   margin:0;
+	position: relative;
+	margin:0;
 }
 
 .featured-video .featured-video-content{
-   top: -10px;
-   left: 10px;
+	top: -10px;
+	left: 10px;
 }
 
  .featured-video-content:before{
- width:100%;
- display: block;
- content: "";
- width: 100%;
- padding-top: 56.25%;
- margin:0 60px;
+	width:100%;
+	display: block;
+	content: "";
+	width: 100%;
+	padding-top: 56.25%;
+	margin:0 60px;
 }
 
 .featured-video-content .video-inner{
-position: absolute;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-overflow: hidden;
-background-position: 50% 50%
-background-repeat:no-repeat;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-background-color:#000;
--webkit-transition: 0.3s  ease-in-out;
--moz-transition: 0.3s  ease-in-out;
-transition:0.3s ease-in-out;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+	background-position: 50% 50%
+	background-repeat:no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color:#000;
+	-webkit-transition: 0.3s  ease-in-out;
+	-moz-transition: 0.3s  ease-in-out;
+	transition:0.3s ease-in-out;
 }
 
 .featured-video-content iframe{
@@ -888,4 +901,129 @@ transition:0.3s ease-in-out;
 	font-size:10px!important;
 	opacity: 1!important;
 }
+
+
+/* Ad Space */
+
+#main .ad-space{
+	display: block;
+	padding:20px;
+	background:#5440d6 url(https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/ad-bg.jpg);
+}
+
+
+#main .ad-space h1, #main .ad-space h2{
+	font-family: 'Nunito', 'Helvetica', arial, sans-serif;
+	font-weight: 400;
+	color:#fff;
+}
+
+#main .ad-space h1{
+	font-size:72px;
+	margin:0 0 200px 0;
+}
+
+#main .ad-space h2{
+	font-size: 16px;
+	line-height: 18px;
+	width:50%;
+	margin:0;
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+/* Pure Medium + */
+@media screen and (min-width: 48em) {
+
+
+/* Logo */
+
+#collapsed .watt-logo-lrg{
+	display: block;
+}
+
+
+.watt-logo-lrg{
+	text-align: left;
+	margin:97px 0 -90px -85px;
+	max-width:350px;
+}
+
+/* Social Links */
+
+.social-links{
+	text-align: right;
+	position: absolute;
+	right:10px;
+	top:0px;
+	z-index: 1000;
+}
+
+/* Featured-work */
+.featured-work{
+	padding:0 85px;
+}
+
+.featured-work .hero{
+	margin:0 auto;
+}
+
+.featured-work .hero .title-area h1{
+	font-size:67.773px;
+	line-height: 58px;
+}
+
+.featured-work .hero .title-area{
+	padding:18px 100px;
+}
+
+
+/* Articles */
+
+#main .watt-article.tertiary, #main .watt-article.tertiary-half, #main .watt-article.quaternary{
+  width: 33.33%;
+}
+
+#main .watt-article.tertiary-half{
+  width:50%;
+}
+
+#main .watt-article.quaternary{
+  width: 16.66%;
+}
+
+/* Carousel */
+
+.featured-carousel{
+	margin:-201px 0 0 0;
+}
+
+.featured-carousel .content{
+  padding:230px 82px 36px 82px;
+}
+
+.featured-carousel .content .inner{
+	margin: 0 92px;
+	padding:50px 100px;
+}
+
+.slick-arrow{
+	display: block!important;
+}
+
+/* Recent Thumbnails */
+
+.quick-articles .post .thumb{
+	display: inline-block;
+}
+
+.quick-video-container{
+	padding:0 0 0 25px;
+	margin:0 0 0 0;
+}
+
+
+} /* END Pure Medium */
 
