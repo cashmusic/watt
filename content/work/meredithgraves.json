@@ -26,8 +26,8 @@
 		"community",
 		"independence"
 	],
-	"template":"twocol-twothirds-hero",
+	"template":"default",
 	"template_bg_style":"bg-cover",
-	"template_styles":"#meredithgraves{background-color:#999;}",
-	"template_additional":"light"
+	"template_styles":"",
+	"template_additional":""
 }

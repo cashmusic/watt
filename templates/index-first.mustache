@@ -6,7 +6,7 @@
   <section class="article-content">
 
     {{#featured_work}}
-    <div class="pure-u-1 featured-work {{type}} statement">
+    <div class="pure-u-1 featured-work {{type}}{{.}} statement">
         <div class="featured-banner {{template_blend}} {{template_bg_style}} {{template_additional}}" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
             <h1><a href="/{{type}}/{{id}}">{{title}}</a></h1>
               <h3>{{description}}</h3>

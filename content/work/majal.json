@@ -21,8 +21,8 @@
 		"technology",
 		"economics"
 	],
-	"template":"twocol-twothirds-hero",
+	"template":"default",
 	"template_bg_style":"bg-cover",
-	"template_styles":"#majal{background:#162933;}",
-	"template_additional":"light"
+	"template_styles":"",
+	"template_additional":""
 }

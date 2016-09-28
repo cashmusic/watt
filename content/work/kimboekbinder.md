@@ -4,8 +4,6 @@ Music is the art form that travels with us through every aspect of our lives. We
 
 >Music is so important to us that we forget how valuable it is. It has become like water, like air, always around us. And like water or air we are are starting to consider it a human need and a human right. And we should! But music needs musicians too and musicians can't survive on water and air alone.
 
-***
-
 ### What can we do to ensure that artists' voices are heard?
 
 >Stop giving corporations all the power (a.k.a. your money.)
@@ -16,8 +14,6 @@ Streaming is amazing technology but there are only a handful of streaming sites.
 
 Even the dubiously moral torrenting sites are turning into 100% corporate leeches making millions in advertising off the enabling of payment circumvention. Turns out major labels were the nicest corporations ever to make money screwing over musicians.
 
-***
-
 >Content corporations are only part of the problem though.
 
 When artists can't make enough money to support themselves directly through their art they turn to corporate cash. We make money from licensing deals and product placement. We sell toothpaste and insurance and GMO corn, anything that will get us the cash to keep making music, to keep eating.
@@ -25,8 +21,6 @@ When artists can't make enough money to support themselves directly through thei
 Corporations hold the power over what musicians decide to make based on what is being licensed these days. Will indie banjo music bring in the personal hygiene money? Will folk-electronica sell a car? We're letting corporations dictate what gets made because licensing is the only money left. Unless you "win" the streaming lottery. And good luck with that.
 
 Sure, a few talented people with clear artistic visions will break through every now and then, keeping the old chestnut of "talent and hard work" alive, but that's not enough. Why squander the talent and diversity of the voices we have access to now by rebuilding the same structures we sought to dismantle a decade ago? The corporate content hegemony is worse than ever and we're stuck squabbling over the pitiful amounts of money our streaming overlords let slip through their grasp, or clinging to ad agencies and music supervisors like life rafts.
-
-***
 
 >Moral of the story = give artists cash, and lots of it, at every opportunity. Go to shows, pay for downloads, buy merch, subscribe.
 

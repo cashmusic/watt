@@ -20,6 +20,6 @@
 		"strategy"
 	],
 	"template":"default",
-	"template_styles":"#jumpingoffcliffs{background:#131313; color:#bcbcbc!important;}",
-	"template_additional":"light"
+	"template_styles":"",
+	"template_additional":""
 }

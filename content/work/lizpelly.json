@@ -22,8 +22,8 @@
 		"venues",
 		"tour"
 	],
-	"template":"twocol",
+	"template":"default",
 	"template_bg_style":"bg-cover",
-	"template_styles":"#lizpelly{background:#47a0d1;}",
-	"template_additional":"light"
+	"template_styles":"",
+	"template_additional":""
 }

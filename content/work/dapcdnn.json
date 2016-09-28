@@ -22,7 +22,7 @@
 		"impact",
 		"community"
 	],
-	"template":"twocol-leftalign",
+	"template":"default",
 	"template_styles":"",
 	"template_additional":"dark"
 }

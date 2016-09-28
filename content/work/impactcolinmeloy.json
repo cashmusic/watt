@@ -21,7 +21,7 @@
 		"economics",
 		"sustainability"
 	],
-	"template":"twocol-rightalign",
-	"template_styles":"#impactcolinmeloy{background-color:#181818;}",
-	"template_additional":"light"
+	"template":"default",
+	"template_styles":"",
+	"template_additional":""
 }

@@ -2,8 +2,6 @@
 
 A Limited Liability Company (“LLC”) is the most simple kind of business entity. Your band may want to consider registering as a formal business entity (or “incorporating”) in the state where you live to use certain tax advantages and to avoid personal liabilities, should your band ever be sued.
 
-***
-
 ##WHY SET UP AN LLC?
 
 ###1) Protection
@@ -27,15 +25,11 @@ LLC’s, as with all formal business entities, will have what is called an Emplo
 
 Before becoming an LLC, you should discuss your intentions with a tax-preparer, accountant and/or qualified attorney to see if an LLC is right for you, and see if there are some tax considerations that would inform your decision-making about setting up an LLC and/or electing a special tax status for the LLC, such as seeking to have your LLC taxed like an IRS Subchapter S Corporation.
 
-***
-
 ##HOW TO SET UP AN LLC
 
 LLCs are registered through the Corporation Division in every state. This process can usually be done online and will involve a filing fee. Filing fees, tax laws and other restrictions may apply, so do obtain all necessary information about this process from an authority in whatever state in which you wish to file. Generally, your group must have a physical mailing address in that state: PO Boxes may not be sufficient for this purposes.
 
 The LLC must also designate a “registered agent” for the purpose of receiving notices from the state and/or formal legal notices from third parties. Note: even if your group is registered in your home state, if you perform services or sell products in other states, notably, California, you may be required to register as a “foreign LLC,” and pay taxes, in their states.  
-
-***
 
 ##OPERATING AGREEMENTS; POINTS TO CONSIDER.
 

@@ -22,7 +22,7 @@
 		"impact",
 		"community"
 	],
-	"template":"twocol-leftalign",
-	"template_styles":"#bethditto{background:blue;}",
-	"template_additional":"dark"
+	"template":"default",
+	"template_styles":"",
+	"template_additional":"light"
 }

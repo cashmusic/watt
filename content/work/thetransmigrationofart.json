@@ -20,8 +20,8 @@
 		"power of music",
 		"grief"
 	],
-	"template":"twocol-twothirds-hero",
+	"template":"default",
 	"template_bg_style":"bg-cover",
-	"template_styles":"#howtobeavaluablemember{background-color:#b42249}",
-	"template_additional":"light"
+	"template_styles":"",
+	"template_additional":""
 }

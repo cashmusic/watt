@@ -20,7 +20,7 @@
 		"community",
 		"impact"
 	],
-	"template":"twocol-leftalign",
-	"template_styles":"#astrataylor{background:#faf2e5;}",
+	"template":"default",
+	"template_styles":"",
 	"template_additional":"dark"
 }

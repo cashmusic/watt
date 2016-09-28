@@ -25,8 +25,8 @@
 		"independence",
 		"DIY"
 	],
-	"template":"default-w-headerimage",
-	"template_styles":"#timetofindapro{background:#fdf9fa;",
+	"template":"default",
+	"template_styles":"",
 	"template_bg_style":"bg-center",
-	"template_additional":"dark"
+	"template_additional":""
 }

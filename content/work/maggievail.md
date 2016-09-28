@@ -10,11 +10,7 @@ Nearly everything I’ve learned as a musician and a label employee and now as a
 
 This is where **Watt** comes in.
 
->This is where **Watt** comes in.
-
-> Watt is CASH Music's answer to that complexity — a publication dedicated to asking and answering the questions that matter.
-
- Watt is CASH Music's answer to that complexity — a publication dedicated to asking and answering the questions that matter. Here we’ll explore the economics, technology, culture and health issues musicians face. There will be researched and reported articles, first-person narratives from artists, opinion pieces, how-to’s, case studies, infographics all for the sake of teaching and skill-sharing. This will also be where we’ll be publishing our regular video content that has already explored some of the challenges musicians in this industry face.
+Watt is CASH Music's answer to that complexity — a publication dedicated to asking and answering the questions that matter. Here we’ll explore the economics, technology, culture and health issues musicians face. There will be researched and reported articles, first-person narratives from artists, opinion pieces, how-to’s, case studies, infographics all for the sake of teaching and skill-sharing. This will also be where we’ll be publishing our regular video content that has already explored some of the challenges musicians in this industry face.
 
 CASH Music’s stated mission as a nonprofit is to help foster a sustainable future for musicians. We’ve been building free, open source digital tools directly with artists for years but we know to truly empower them it’s vital that we pair these tools with accurate, up-to-date information that’s not written in industry jargon.
 

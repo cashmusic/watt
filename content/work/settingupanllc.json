@@ -21,6 +21,6 @@
 		"legal"
 	],
 	"template":"default",
-	"template_styles":"#settingupanllc{background-color:#d9d5cc}",
+	"template_styles":"",
 	"template_additional":"dark"
 }

@@ -18,7 +18,7 @@
 	"tags":[
 		"impact"
 	],
-	"template":"twocol-leftalign",
-	"template_styles":"#annfriedman{background:#feb63e;}",
+	"template":"default",
+	"template_styles":"",
 	"template_additional":"dark"
 }

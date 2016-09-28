@@ -1,0 +1,44 @@
+{{{header}}}
+<!--SITE HEADER-->
+
+<!--Article Inline Styles-->
+<style type="text/css">
+    {{template_styles}}
+</style>
+
+<main id="main" class="article-page pure-g" role="main">
+
+<article id="{{id}}" class="pure-u-1 {{template}} {{template_additional}}">
+
+  <header class="{{{template_bg_style}}}" style="background-image: url({{assets.0.url}});">
+    <section class="inline-head pure-u-1 pure-u-md-3-4">
+      <h4 class="date">{{display_time}}</h4>
+    </section><section class="inline-head article-social pure-u-1 pure-u-md-1-4">
+      {{{display_share}}}
+        <div class="author-title">
+          {{{display_byline}}}
+        </div><!--author-title-->
+    </section>
+    {{#assets}}<a class="inline-credit {{^credits}}none{{/credits}}" href="{{#credits}}{{user_url}}{{/credits}}" target="_blank"><p>{{#credits}}Image by <span>{{username}}{{/credits}}</span>{{#license}}<span class="cc-license-image {{license}}"></span>{{/license}}</p></a>{{/assets}}
+  </header>
+
+  <section class="article-content">
+    <h2 class="article-title">{{author_name}}</h2>
+    <h1 class="backline-title"><img src="https://static-cashmusic.netdna-ssl.com/www/img/constant/icon/backline-title.svg" alt="Backline" /></h1>
+      	{{{content}}}
+  </section><!--article-content--><footer class="pure-u-1">
+    <h4>Tags:</h4>
+    <ul class="tags">
+        {{#tags}}
+             <li><a class="tag" href="/tag/{{tag}}">{{tag}}</a></li>
+        {{/tags}}
+    </ul>
+    {{#license}}<p class="cc-license {{license}}">By {{author_name}}, distributed under a Creative Commons <strong>{{license}}</strong> license.</p>{{/license}}
+    {{#assets}}<a class="inline-credit-footer {{^credits}}none{{/credits}}" href="{{#credits}}{{user_url}}{{/credits}}" target="_blank"><p>{{#license}}<span class="cc-license-image {{license}}"></span>{{/license}}{{#credits}}Image by <span>{{username}}</span>, distrubuted under the <strong>{{license}}</strong> creative commons license. {{/credits}}</p></a>{{/assets}}
+
+  </footer>
+</article>
+</main><!--main-->
+
+<!--SITE FOOTER-->
+{{{footer}}}

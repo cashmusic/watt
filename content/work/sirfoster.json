@@ -20,6 +20,6 @@
 		"community"
 	],
 	"template":"default",
-	"template_styles":"#sirfoster{background:#fb3f4e;}@font-face {font-family: 'nemoymedium';src: url('https://static-cashmusic.netdna-ssl.com/www/fonts/nemoymedium-webfont.eot');src: url('https://static-cashmusic.netdna-ssl.com/www/fonts/nemoymedium-webfont.eot?#iefix') format('embedded-opentype'),url('https://static-cashmusic.netdna-ssl.com/www/fonts/nemoymedium-webfont.woff2') format('woff2'),url('https://static-cashmusic.netdna-ssl.com/www/fonts/nemoymedium-webfont.woff') format('woff'),url('https://static-cashmusic.netdna-ssl.com/www/fonts/nemoymedium-webfont.ttf') format('truetype'),url('https://static-cashmusic.netdna-ssl.com/www/fonts/nemoymedium-webfont.svg#nemoymedium') format('svg');font-weight: normal;font-style: normal;}#sirfoster h1, #sirfoster h2, #sirfoster h3, #sirfoster aside h3, #sirfoster blockquote, #sirfoster blockquote p{font-family: 'nemoymedium' !important;}",
+	"template_styles":"",
 	"template_additional":"dark"
 }

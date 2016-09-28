@@ -14,8 +14,6 @@ But like all new tech the potential for discovery and access is mind-blowing, an
 
 Greater minds than mine have tackled this subject. Obviously.
 
-***
-
 ### What can we do to ensure that artists' voices are heard?
 
 What can we do to ensure that artists' voices are heard?
@@ -30,11 +28,7 @@ What are those factors? Because sometimes the algorithm is a great thing. If I l
 
 >But as an artist I don't know how to position myself or acts I represent in that pantheon of might-be-recommended material. I should know because I have a record label. I thought I had a grasp on it but I don't. I know there's amazing stuff I need to hear and I don't know how to reach it. I am sure that money is still the prime mover, but I believe the fairy tales of stuff coming out of nowhere, a fluke, and suddenly it's everywhere...it's theoretically possible.
 
-***
-
 As corny as it sounds there is nothing so powerful as word from a friend or trusted mind. It's nostalgia and therefore worthless but I was raised with the guy/gal at the record store who paid attention, and on whose word you would buy anything. Maybe this person now has a blog. I don't know. Then how do you locate the blog?
-
-
 
 I don't think anybody would argue that it's easier than ever to create music and make it available to a theoretically vast audience. This is absolutely true, and this is why so many people are doing it themselves, and get stuck at the "how to get heard" position. People throw so much energy, time and money at this problem.
 

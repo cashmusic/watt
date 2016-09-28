@@ -20,7 +20,7 @@
 		"licensing",
 		"economics"
 	],
-	"template":"twocol-rightalign",
-	"template_styles":"#synchlicensingbasics{background:#2a3041;}",
-	"template_additional":"light"
+	"template":"default",
+	"template_styles":"",
+	"template_additional":""
 }

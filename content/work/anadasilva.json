@@ -19,6 +19,6 @@
 			"culture"
 	],
 	"template":"default",
-	"template_styles":"#anadasilva{background:#ddd;}",
+	"template_styles":"",
 	"template_additional":"dark"
 }

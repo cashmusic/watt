@@ -16,10 +16,6 @@
 				{
 					"username":"@horacepanterart",
 					"user_url":"https://twitter.com/horacepanterart"
-				},
-				{
-					"username":"@thespecials",
-					"user_url":"https://twitter.com/thespecials"
 				}
 			]
 		}
@@ -29,7 +25,7 @@
 		"impact",
 		"community"
 	],
-	"template":"twocol-rightalign",
-	"template_styles":"#horacepanter{background:#414841;}",
-	"template_additional":"light"
+	"template":"default",
+	"template_styles":"",
+	"template_additional":""
 }

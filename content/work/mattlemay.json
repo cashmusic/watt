@@ -20,8 +20,8 @@
 	  "business models",
 		"economics"
 	],
-	"template":"twocol-twothirds",
-	"template_styles":"#mattlemay{background:#6ab8de;",
+	"template":"default",
+	"template_styles":"",
 	"template_bg_style":"bg-center",
-	"template_additional":"light"
+	"template_additional":""
 }

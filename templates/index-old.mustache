@@ -1,0 +1,87 @@
+{{{header}}}
+<!--SITE HEADER-->
+
+<main id="main" class="pure-g" role="main">
+<article class="pure-u-1">
+  <section class="article-content">
+    {{#featured_work}}
+    <div class="pure-u-1 featured-work {{type}}">
+        <div class="featured-banner {{template_blend}} {{template_bg_style}} {{template_additional}}" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
+            <h1><a href="/{{type}}/{{id}}">{{title}}</a></h1>
+              <h3>{{description}}</h3>
+      <a class="more-link" href="/{{type}}/{{id}}">Read more</a>
+        </div><!--featured-banner-->
+    </div><!--featured-work-->
+        {{/featured_work}}
+
+<section class="pure-u-1">
+<h3>Featured articles:</h3>
+</section>
+<div id="archive" class="pure-u-1">
+<section class="pure-u-1">
+  {{#secondary_work}}<div class="article-archive pure-u-1 pure-u-md-1-2 secondary {{template_additional}} {{type}}">
+    <!--If Video embed present-->
+    {{#embed_url}}
+      <div class="video_inner">
+         {{#youtube}}
+            <iframe width='560' height='315' src='{{embed_url}}?vq=hd1080&showinfo=0' frameborder='0' allowfullscreen></iframe>
+         {{/youtube}}
+      </div><!--video_inner-->
+    {{/embed_url}}
+    <div id="{{author_id}}" class="inner {{template_blend}}" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
+        <h2><a href="/{{type}}/{{id}}">{{title}}</a></h2>
+        <h4><a href="/author/{{author_id}}">{{author_name}}</a></h4>
+          <p>{{description}}</p>
+        <a class="more-link" href="/{{type}}/{{id}}">Read more</a>
+      </div><!--inner--></div><!--article-archive-->{{/secondary_work}}{{#tertiary_work}}
+<div class="article-archive pure-u-1 pure-u-md-1-4 {{template_additional}} {{type}}">
+  <a class="wrap-link" href="/{{type}}/{{id}}"><div class="sixteen-nine">
+      <div class="sn-content" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
+    </div><!--sn-content-->
+  </div><!--sixteen-nine--></a><!--wrap-link-->
+        <div id="{{author_id}}" class="inner">
+          <div class="corner-marker"></div><!--important-->
+				          <h2><a href="/{{type}}/{{id}}">{{title}}</a></h2>
+				 	        <h4><a href="/author/{{author_id}}">{{author_name}}</a></h4>
+                  <p>{{description}}</p>
+                  <a class="more-link" href="/{{type}}/{{id}}">Read more</a>
+        </div><!--inner-->
+	</div><!--article-archive-->{{/tertiary_work}}
+</section>
+<section class="pure-u-1 quaternary space-out">
+  {{#quaternary_work}}<div class="article-archive pure-u-1 pure-u-md-1-4 quaternary">
+    <div class="quaternary-outer"  style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
+      <div class="inner">
+        <h2><a href="/{{type}}/{{id}}">{{title}}</a></h2>
+          <h4><a href="/author/{{author_id}}">Written by: {{author_name}}</a></h4>
+        </div><!--inner-->
+    </div><!--quarternary-->
+  </div>{{/quaternary_work}}
+</section>
+<section class="pure-u-1 pure-u-md-1-2">
+    <h3>Featured tags:</h3>
+    <ul class="tags">
+  {{#featured_tags}}
+    <li><a class="tag" href="/tag/{{.}}">{{.}}</a></li>
+  {{/featured_tags}}
+</ul>
+</section><section class="pure-u-1 pure-u-md-1-2">
+    <h3>Featured authors:</h3>
+    <ul class="tags">
+  {{#featured_authors}}
+    <li><a class="tag" href="/author/{{.}}">{{.}}</a></li>
+       <li><a class="tag" href="/author/{{title}}">{{name}}</a></li>
+  {{/featured_authors}}
+</ul>
+</section>
+<section class="pure-u-1">
+<a class="more-link dark" href="/all">View all articles</a>
+</section>
+</div><!--archive-->
+</section><!--article-content-->
+</article>
+
+</main><!--#main-->
+
+<!--SITE FOOTER-->
+{{{footer}}}

@@ -19,7 +19,7 @@
 		"culture",
 		"impact"
 	],
-	"template":"twocol-leftalign",
-	"template_styles":"#haxancloak{background:#000000;}",
-	"template_additional":"light"
+	"template":"default",
+	"template_styles":"",
+	"template_additional":""
 }

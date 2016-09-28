@@ -1,10 +1,14 @@
 {
-	"featured_work":[""],
-	"secondary_work":["itsallinyourhead","sellingout"],
-	"tertiary_work":["kathyfoster","jessicaboudreaux","survivingyourfirsttour","copyrightbasicssoundrecording","judymillersilverman","mattlemay","majal","synchlicensingbasics"],
-	"quaternary_work":["openishope","timetofindapro","impactchristophersutton","settingupanllc"],
+	"featured_work":["itsallinyourhead","sellingout","bethditto"],
+	"recent_work":["kathyfoster","jessicaboudreaux","survivingyourfirsttour","copyrightbasicssoundrecording","judymillersilverman"],
+	"popular_work":["whyamidoingthistomyself","judymillersilverman","timetofindapro","synchlicensingbasics","openishope"],
+	"secondary_work":["itsallinyourhead"],
+	"tertiary_work":["kathyfoster","jessicaboudreaux","judymillersilverman","copyrightbasicssoundrecording","survivingyourfirsttour","mattlemay"],
+	"featured_video":["dapcdnn"],
+	"recent_video":["dapclmbar","dapmgdvs","bethditto"],
+	"quaternary_work":["majal","sellingout","openishope","timetofindapro","impactchristophersutton","settingupanllc"],
 	"featured_authors":[],
 	"featured_tags":["impact","culture", "community", "sustainability"],
-	"featured_video":["dapcdnn"],
-	"template":"index-no-feature"
+	"further_reading":["itsallinyourhead","sellingout","copyrightbasicssoundrecording"],
+	"template":"index"
 }

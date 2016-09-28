@@ -12,7 +12,12 @@
 			"type":"image",
 			"license":"CC-BY",
 			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/hh-2.jpg",
-			"credits":"Westin Glass"
+			"credits":[
+				{
+					"username":"Westin Glass",
+					"user_url":"https://www.instagram.com/squelettes/"
+				}
+			]
 		}
 	],
 	"tags":[
@@ -22,8 +27,8 @@
 		"the thermals",
 		"selling out"	
 	],
-	"template":"twocol-twothirds-hero",
-	"template_styles":"#sellingout{background-color:#111;}",
+	"template":"default",
+	"template_styles":"",
 	"template_bg_style":"bg-cover bg-center",
-	"template_additional":"light"
+	"template_additional":""
 }
