@@ -802,7 +802,7 @@ aside{
 /* Featured-video */
 
 .featured-video{
-	padding:0 5px 0 0;
+	padding:0 15px 0 0;
    	background:black;
 }
 
@@ -913,13 +913,14 @@ aside{
 
 
 #main .ad-space h1, #main .ad-space h2{
-	font-family: 'Nunito', 'Helvetica', arial, sans-serif;
+	font-family: 'Nunito', 'Helvetica', arial,sans-serif;
 	font-weight: 400;
 	color:#fff;
 }
 
 #main .ad-space h1{
 	font-size:72px;
+	line-height: 58px;
 	margin:0 0 200px 0;
 }
 
@@ -1020,7 +1021,7 @@ aside{
 }
 
 .quick-video-container{
-	padding:0 0 0 25px;
+	padding:0 0 0 15px;
 	margin:0 0 0 0;
 }
 
