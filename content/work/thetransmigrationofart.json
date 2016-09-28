@@ -10,8 +10,8 @@
 	"assets":[
 		{
 			"type":"image",
-			"license":"CC-BY",
-			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/cari.jpg",
+			"license":"CC-BY-NC-ND",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/cari-2.jpg",
 			"credits":[
 				{
 					"username":"Eugene Smith",
@@ -26,7 +26,7 @@
 		"grief"
 	],
 	"template":"default",
-	"template_bg_style":"bg-cover",
+	"template_bg_style":"bg-center",
 	"template_styles":"",
 	"template_additional":""
 }

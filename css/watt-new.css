@@ -592,7 +592,6 @@ h4 a:hover{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: 50% 50%;
   text-align:right;
 }
 
@@ -775,6 +774,7 @@ aside{
 
 .quick-articles .post .inner h3{
 	margin:0;
+	display: block;
 }
 
 .quick-articles .post .thumb{
@@ -785,7 +785,6 @@ aside{
 
 .quick-articles .post .thumb img{
     height: 100%;
-    min-width: 170%;
     margin: 0 auto;
 }
 

@@ -4,9 +4,9 @@
     </div><!--hero-->
 </div><!--featured-work-->
     
- <div class="featured-carousel {{template_blend}} {{template_bg_style}} {{template_additional}}">
+ <div class="featured-carousel {{template_additional}}">
     {{#featured_work}}
-            <div class="content {{type}} pure-u-1 pure-u-md-3-4" style="background-image:url({{#assets}}{{url}}{{/assets}});">
+            <div class="content {{type}} {{template_bg_style}} {{template_blend}} pure-u-1 pure-u-md-3-4" style="background-image:url({{#assets}}{{url}}{{/assets}});">
             
             <div class="inner"><h1><a href="/{{type}}/{{id}}" {{#embed_url}}target="_blank"{{/embed_url}}>{{title}} {{#embed_url}}<span class="play-button"></span>{{/embed_url}}</a></h1>
             <h4>by <a href="/author/{{author_id}}">{{author_name}}</a></h4></div>
