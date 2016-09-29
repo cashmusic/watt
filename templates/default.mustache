@@ -32,11 +32,12 @@
         {{^embed_url}} <div class="lead-image"><img src="{{#assets}}{{url}}{{/assets}}"/>
          {{#assets}}{{#credits}}<a href="{{#credits}}{{user_url}}{{/credits}}" target="_blank" class="credit">Image by {{username}}</a>{{/credits}}{{/assets}}
         </div><!--lead-image-->  {{/embed_url}}
-        <ul class="tags">
+          <ul class="tags">
           {{#tags}}
             <li><a class="tag" href="/tag/{{tag}}">{{tag}}</a></li>
           {{/tags}}
       </ul>
+       <h4 class="author-top">{{display_time}} / by <a href="/author/{{author_id}}">{{author_name}}</a></h4>
         <h1>{{title}}</h1>
            {{{content}}}
           <div class="footer">
@@ -57,9 +58,7 @@
                 <div class="inner pure-u-md-2-3">
                 <h3><a href="/{{type}}/{{id}}">{{title}}</a></h3>
                 <h4>by <a href="/author/{{author_id}}">{{author_name}}</a></h4>
-                </div><!--inner--><div class="thumb pure-u-md-1-3">
-                  <img src="{{#assets}}{{url}}{{/assets}}" alt="picture"/>
-                </div><!--thumb-->
+                </div><!--inner--><div class="thumb pure-u-1 pure-u-md-1-3" style="background-image:url({{#assets}}{{url}}{{/assets}});"></div><!--thumb-->
               </div>
           {{/recent_work}}
           </div><!--quick-recent-articles-->
@@ -69,9 +68,7 @@
                 <div class="inner pure-u-md-2-3">
                 <h3><a href="/{{type}}/{{id}}">{{title}}</a></h3>
                 <h4>by <a href="/author/{{author_id}}">{{author_name}}</a></h4>
-                </div><!--inner--><div class="thumb pure-u-md-1-3">
-                  <img src="{{#assets}}{{url}}{{/assets}}" alt="picture"/>
-                </div><!--thumb-->
+                </div><!--inner--><div class="thumb pure-u-1 pure-u-md-1-3" style="background-image:url({{#assets}}{{url}}{{/assets}});"></div><!--thumb-->
               </div>
           {{/popular_work}}
           </div><!--quick-popular-articles-->
@@ -133,9 +130,7 @@
         <div class="inner pure-u-1 pure-u-md-2-3">
           <h3><a href="/{{type}}/{{id}}" target="_blank">{{title}}</a></h3>
           <h4>by <a href="/author/{{author_id}}">{{author_name}}</a></h4>
-        </div><!--inner--><div class="thumb pure-u-1 pure-u-md-1-3">
-          <img src="{{#assets}}{{url}}{{/assets}}" alt="picture"/>
-        </div><!--thumb-->
+        </div><!--inner--><div class="thumb pure-u-1 pure-u-md-1-3" style="background-image:url({{#assets}}{{url}}{{/assets}});"></div><!--thumb-->
     </div><!--post-->
   {{/recent_video}}
     </div><!--quick-recent-video-->
