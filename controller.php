@@ -70,7 +70,7 @@ if ($parsed_route['json']) {
 }
 
 $display_options['current_url'] = $display_options['root_url'] . '/' . $_GET['p'];
-$display_options['share_image'] = 'http://static.cashmusic.netdna-cdn.com/www/img/constant/texture/watt-home.jpg';
+$display_options['share_image'] = 'http://static.cashmusic.netdna-cdn.com/www/img/constant/texture/watt-home.gif';
 
 // grab the full index from the Harvard class
 $full_index = $brown->getIndex();
