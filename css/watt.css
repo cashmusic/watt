@@ -3,8 +3,12 @@
 
 @font-face {
     font-family: Romain-Regular;
-    src: url(https://static-cashmusic.netdna-ssl.com/www/fonts/romain/TTF/RomainHeadline-Regular-WebTrial.ttf);
-    font-weight:400;
+    src: url('https://static-cashmusic.netdna-ssl.com/www/fonts/romain/RomainText-Regular-WebS.eot');
+	src: url('https://static-cashmusic.netdna-ssl.com/www/fonts/romain/RomainText-Regular-WebS.eot?#iefix') format('embedded-opentype'),
+	url('https://static-cashmusic.netdna-ssl.com/www/fonts/romain/RomainText-Regular-WebS.woff2') format('woff2'),
+	url('https://static-cashmusic.netdna-ssl.com/www/fonts/romain/RomainText-Regular-WebS.woff') format('woff'),
+	url('https://static-cashmusic.netdna-ssl.com/www/fonts/romain/RomainText-Regular-WebS.ttf') format('truetype');
+    font-weight:100;
 }
 
 @font-face {
@@ -14,6 +18,7 @@
 	url('https://static-cashmusic.netdna-ssl.com/www/fonts/swiss/3228A7_0_0.woff2') format('woff2'),
 	url('https://static-cashmusic.netdna-ssl.com/www/fonts/swiss/3228A7_0_0.woff') format('woff'),
 	url('https://static-cashmusic.netdna-ssl.com/www/fonts/swiss/3228A7_0_0.ttf') format('truetype');
+	font-weight:100;
 }
  
 
@@ -30,6 +35,7 @@ html{
 body{
 	background:#fff;
 	color:#000;
+	overflow-x:hidden;
 }
 
 #wrapper, header #constant{
@@ -119,7 +125,7 @@ body{
 }
 
 #main p, #main ul, #main ol{
-	font-family:'Romain-Regular';
+	font-family:'Romain-Regular','Times New Roman', Times, serif;
 	font-size:16px;
 	line-height: 26px;
 	margin:0 0 18px 0;
@@ -237,7 +243,7 @@ body{
 }
 
 #main .watt-article .author-top {
-	margin:0 0 18px 0;
+	margin:0 0 36px 0;
 }
 
 #main .tags li{
@@ -578,7 +584,7 @@ body{
 }
 
 #main .featured-work .hero .title-area h2{
-	font-family:'Romain-Regular';
+	font-family:'Romain-Regular','Times New Roman', Times, serif;
 	display: block;
 }
 
@@ -820,7 +826,7 @@ aside{
 }
 
 .featured-video-section span.feat-title{
-	font-family:'Romain-Regular';
+	font-family:'Romain-Regular','Times New Roman', Times, serif;
 	margin:0 0 36px 0;
 	display: block;
 }

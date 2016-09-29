@@ -32,13 +32,15 @@
         {{^embed_url}} <div class="lead-image"><img src="{{#assets}}{{url}}{{/assets}}"/>
          {{#assets}}{{#credits}}<a href="{{#credits}}{{user_url}}{{/credits}}" target="_blank" class="credit">Image by {{username}}</a>{{/credits}}{{/assets}}
         </div><!--lead-image-->  {{/embed_url}}
-          <ul class="tags">
+      <ul class="tags">
           {{#tags}}
             <li><a class="tag" href="/tag/{{tag}}">{{tag}}</a></li>
           {{/tags}}
       </ul>
-       <h4 class="author-top">{{display_time}} / by <a href="/author/{{author_id}}">{{author_name}}</a></h4>
         <h1>{{title}}</h1>
+        <div class="author-top">
+        <h4 class="info date">{{display_time}}</h4><h4 class="author-link">by <a href="/author/{{author_id}}">{{author_name}}</a></h4>
+      </div><!--author-top-->
            {{{content}}}
           <div class="footer">
               <h4 class="info date">{{display_time}}</h4><h4 class="author-link">by <a href="/author/{{author_id}}">{{author_name}}</a></h4>
