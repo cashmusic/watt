@@ -27,6 +27,6 @@
 		"hardware"
 	],
 	"template":"backline",
-	"template_bg_style":"bg-cover",
+	"template_bg_style":"",
 	"template_additional":""
 }
