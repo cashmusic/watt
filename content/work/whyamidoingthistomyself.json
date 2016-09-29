@@ -3,7 +3,7 @@
 	"author_id":"jeangrae",
 	"release_id":"first",
 	"title":"Why Am I Doing This To Myself?",
-	"description":"This independent creative life has myriad simultaneous jobs, no days off, no assurance of security and requires extreme self-­discipline. There is no financial net provided AND you have the the super fun task of MAKING EVERYTHING WITH YOUR MIND. That is beautiful and magical, but also really hard to do in the midst of just trying to live.",
+	"description":"This independent creative life has myriad simultaneous jobs, no days off, no assurance of security and requires extreme self-­discipline. ",
 	"type":"writing",
 	"date":"June 2, 2016",
 	"license":"CC-BY",
@@ -11,7 +11,7 @@
 		{
 			"type":"image",
 			"license":"CC-BY",
-			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/jg-feature.jpg",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/jean-petals.jpg",
 			"credits":""
 		}
 	],
@@ -20,9 +20,9 @@
 		"economics",
 		"independence"
 	],
-	"template":"twocol-twothirds-hero",
+	"template":"default",
 	"template_blend":"",
 	"template_bg_style":"bg-cover",
-	"template_styles":"#whyamidoingthistomyself{background-color:#fceefb;}",
+	"template_styles":"",
 	"template_additional":"dark"
 }

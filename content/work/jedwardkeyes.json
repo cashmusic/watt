@@ -20,7 +20,7 @@
 		"community"
 
 	],
-	"template":"twocol-rightalign",
-	"template_styles":"#jedwardkeyes{background:#141414;}",
-	"template_additional":"light"
+	"template":"default",
+	"template_styles":"",
+	"template_additional":""
 }

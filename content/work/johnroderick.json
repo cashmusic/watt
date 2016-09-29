@@ -20,6 +20,6 @@
 		"sustainability"
 	],
 	"template":"default",
-	"template_styles":"  @font-face {font-family: 'night_club_70sregular';src: url('https://static-cashmusic.netdna-ssl.com/www/fonts/night_club_70s_regular-webfont.eot');src: url('https://static-cashmusic.netdna-ssl.com/www/fonts/night_club_70s_regular-webfont.eot?#iefix') format('embedded-opentype'),url('https://static-cashmusic.netdna-ssl.com/www/fonts/night_club_70s_regular-webfont.woff2') format('woff2'),url('https://static-cashmusic.netdna-ssl.com/www/fonts/night_club_70s_regular-webfont.woff') format('woff'),url('https://static-cashmusic.netdna-ssl.com/www/fonts/night_club_70s_regular-webfont.ttf') format('truetype'),url('https://static-cashmusic.netdna-ssl.com/www/fonts/night_club_70s_regular-webfont.svg#night_club_70sregular') format('svg');font-weight: normal;font-style: normal;}#johnroderick {background:#102850} #johnroderick h2, #johnroderick blockquote, #johnroderick blockquote p{font-family: 'night_club_70sregular' !important;}",
-	"template_additional":"light"
+	"template_styles":"",
+	"template_additional":"dark"
 }

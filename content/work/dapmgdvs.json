@@ -2,7 +2,7 @@
 	"id":"dapmgdvs",
 	"author_id":"dapwell",
 	"release_id":"impactofmusic",
-	"title":"CASH Music Interview Series: EP.3 - Meredith Graves & DVS",
+	"title":"Interview Series: EP.3 - Meredith Graves & DVS",
 	"description":"Certain themes in music evoke feelings whether you want them to or not.",
 	"type":"video",
 	"date":"August 10th, 2016",
@@ -22,7 +22,7 @@
 		"impact",
 		"community"
 	],
-	"template":"twocol-leftalign",
+	"template":"default",
 	"template_styles":"",
 	"template_additional":"dark"
 }

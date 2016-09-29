@@ -26,8 +26,8 @@
 		"business",
 		"summer cannibals"
 	],
-	"template":"default-w-headerimage",
-	"template_styles":"#itsallinyourhead{background-color:#080806;}",
+	"template":"default",
+	"template_styles":"",
 	"template_bg_style":"bg-cover bg-center",
-	"template_additional":"light"
+	"template_additional":""
 }

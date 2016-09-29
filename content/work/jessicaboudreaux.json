@@ -16,12 +16,6 @@
 				{
 					"username":"Jason Quigley",
 					"user_url":"http://www.photojq.com/"
-				},
-				{
-					"username":"@lieve"
-				},
-				{
-					"username":"@sumlin"
 				}
 			]
 		}
@@ -34,5 +28,5 @@
 	],
 	"template":"backline",
 	"template_bg_style":"bg-cover bg-fixed",
-	"template_additional":"light"
+	"template_additional":""
 }

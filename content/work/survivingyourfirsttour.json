@@ -26,8 +26,8 @@
 		"DIY",
 		"budget"
 	],
-	"template":"twocol-twothirds-hero",
-	"template_styles":"#survivingyourfirsttour{background-color:#a9afbb;}",
+	"template":"default",
+	"template_styles":"",
 	"template_bg_style":"bg-cover bg-center",
-	"template_additional":"light"
+	"template_additional":""
 }

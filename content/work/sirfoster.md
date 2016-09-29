@@ -4,8 +4,6 @@ Music is more important than we realize. Our bodies are literally made of tiny a
 
 >The right music can change the entire mood of crowds of people. It can make the atmosphere seem more relaxing at your favorite restaurant or spa. Heck - the right music can create the atmosphere of any place.
 
-***
-
 ### How do we ensure that artists' voices are heard?
 
 >We must first realize that artists play a valuable role in our existence. Artists are just as important as scientists, doctors, mathematicians and the like. Nature does not create anything unless there is a need for it. So the fact that artists exist is proof that we are necessary.

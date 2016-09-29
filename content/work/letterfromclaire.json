@@ -20,9 +20,9 @@
 		"sustainability",
 		"watt"
 	],
-	"template":"twocol-twothirds-hero",
+	"template":"default",
 	"template_blend":"",
 	"template_bg_style":"bg-cover",
-	"template_styles":"#letterfromclaire{background-color:#4c5e6c;}",
-	"template_additional":"light"
+	"template_styles":"",
+	"template_additional":""
 }

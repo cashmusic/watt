@@ -19,7 +19,7 @@
 		"culture",
 		"impact"
 	],
-	"template":"twocol-rightalign",
-	"template_styles":"#laurasnapes{background:#fcffff;}",
-	"template_additional":"dark"
+	"template":"default",
+	"template_styles":"",
+	"template_additional":""
 }

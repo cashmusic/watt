@@ -1,85 +1,145 @@
 {{{header}}}
 <!--SITE HEADER-->
 
-<main id="main" class="pure-g" role="main">
-<article class="pure-u-1">
-  <section class="article-content">
+    </div><!--hero-->
+</div><!--featured-work-->
+    
+ <div class="featured-carousel {{template_additional}}">
     {{#featured_work}}
-    <div class="pure-u-1 featured-work {{type}}">
-        <div class="featured-banner {{template_blend}} {{template_bg_style}} {{template_additional}}" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
-            <h1><a href="/{{type}}/{{id}}">{{title}}</a></h1>
-              <h3>{{description}}</h3>
-      <a class="more-link" href="/{{type}}/{{id}}">Read more</a>
-        </div><!--featured-banner-->
-    </div><!--featured-work-->
-        {{/featured_work}}
+            <div class="content {{type}} {{template_bg_style}} {{template_blend}} pure-u-1 pure-u-md-3-4" style="background-image:url({{#assets}}{{url}}{{/assets}});">
+            
+            <div class="inner"><h1><a href="/{{type}}/{{id}}" {{#embed_url}}target="_blank"{{/embed_url}}>{{title}} {{#embed_url}}<span class="play-button"></span>{{/embed_url}}</a></h1>
+            <h4>by <a href="/author/{{author_id}}">{{author_name}}</a></h4></div>
+            </div>
+    {{/featured_work}}
+  </div><!--featured-carousel-->
+
+<section class="article-content max-width">
 
 <section class="pure-u-1">
-<h3>Featured articles:</h3>
-</section>
-<div id="archive" class="pure-u-1">
-<section class="pure-u-1">
-  {{#secondary_work}}<div class="article-archive pure-u-1 pure-u-md-1-2 secondary {{template_additional}} {{type}}">
+  {{#secondary_work}}<div class="watt-article pure-u-1 pure-u-md-2-3 secondary {{template_additional}} {{type}}">
     <!--If Video embed present-->
-    {{#embed_url}}
-      <div class="video_inner">
-         {{#youtube}}
-            <iframe width='560' height='315' src='{{embed_url}}?vq=hd1080&showinfo=0' frameborder='0' allowfullscreen></iframe>
-         {{/youtube}}
-      </div><!--video_inner-->
-    {{/embed_url}}
-    <div id="{{author_id}}" class="inner {{template_blend}}" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
-        <h2><a href="/{{type}}/{{id}}">{{title}}</a></h2>
-        <h4><a href="/author/{{author_id}}">{{author_name}}</a></h4>
+      {{#embed_url}}
+<div class="featured-video-content">
+  <!--If Video embed present-->
+    <div class="video-inner">
+       {{#youtube}}
+          <iframe width='560' height='315' src='{{embed_url}}?vq=hd1080&showinfo=0' frameborder='0' allowfullscreen></iframe>
+       {{/youtube}}
+    </div><!--video-inner-->
+
+</div><!--featured-video-content-->
+  {{/embed_url}}
+    <div id="{{author_id}}" class="inner {{template_blend}}">
+        {{^embed_url}} <div class="lead-image"><a href="/{{type}}/{{id}}"><img src="{{#assets}}{{url}}{{/assets}}"/></a>
+        </div><!--lead-image-->  {{/embed_url}}
+        <h1><a href="/{{type}}/{{id}}">{{title}}</a></h1>
           <p>{{description}}</p>
-        <a class="more-link" href="/{{type}}/{{id}}">Read more</a>
-      </div><!--inner--></div><!--article-archive-->{{/secondary_work}}{{#tertiary_work}}
-<div class="article-archive pure-u-1 pure-u-md-1-4 {{template_additional}} {{type}}">
-  <a class="wrap-link" href="/{{type}}/{{id}}"><div class="sixteen-nine">
+          <div class="footer">
+            <a class="info" href="/{{type}}/{{id}}">Read more</a><h4 class="author-link">by <a href="/author/{{author_id}}">{{author_name}}</a></h4>
+         </div><!--footer-->
+      </div><!--inner--></div><!--article-archive-->{{/secondary_work}}<aside class="pure-u-1 pure-u-md-1-3 watt-article">
+        <div class="quick-articles show-recent">
+          <div class="tabs">
+          <div class="tab show-recent active pure-u-1 pure-u-md-1-2">Recent Articles</div><div class="tab show-popular pure-u-1 pure-u-md-1-2">Most Popular</div>
+          </div><!--tabs-->
+          <div class="quick-recent-articles">
+          {{#recent_work}}
+              <div class="post">
+                <div class="inner pure-u-1 pure-u-md-2-3">
+                <h3><a href="/{{type}}/{{id}}">{{title}}</a></h3>
+                <h4>by <a href="/author/{{author_id}}">{{author_name}}</a></h4>
+                </div><!--inner--><div class="thumb pure-u-1 pure-u-md-1-3" style="background-image:url({{#assets}}{{url}}{{/assets}});"></div><!--thumb-->
+              </div>
+          {{/recent_work}}
+          </div><!--quick-recent-articles-->
+          <div class="quick-popular-articles">
+          {{#popular_work}}
+              <div class="post">
+                <div class="inner pure-u-1 pure-u-md-2-3">
+                <h3><a href="/{{type}}/{{id}}">{{title}}</a></h3>
+                <h4>by <a href="/author/{{author_id}}">{{author_name}}</a></h4>
+                </div><!--inner--><div class="thumb pure-u-1 pure-u-md-1-3" style="background-image:url({{#assets}}{{url}}{{/assets}});"></div><!--thumb-->
+              </div>
+          {{/popular_work}}
+          </div><!--quick-popular-articles-->
+        </div><!--quick-articles-->
+      </aside><!--pure-->
+          
+<div class="flex-items">
+      {{#tertiary_work}}
+<div class="watt-article pure-u-1 pure-u-md-1-3 tertiary {{template_additional}} {{type}}">
+        <div id="{{author_id}}" class="inner">
+<a class="wrap-link" href="/{{type}}/{{id}}"><div class="sixteen-nine">
       <div class="sn-content" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
     </div><!--sn-content-->
   </div><!--sixteen-nine--></a><!--wrap-link-->
-        <div id="{{author_id}}" class="inner">
           <div class="corner-marker"></div><!--important-->
-				          <h2><a href="/{{type}}/{{id}}">{{title}}</a></h2>
-				 	        <h4><a href="/author/{{author_id}}">{{author_name}}</a></h4>
-                  <p>{{description}}</p>
-                  <a class="more-link" href="/{{type}}/{{id}}">Read more</a>
+                  <h2><a href="/{{type}}/{{id}}">{{title}}</a></h2>
+                  <p>{{description}}</p> 
+                  <footer><h4>by <a href="/author/{{author_id}}">{{author_name}}</a></h4></footer>
         </div><!--inner-->
-	</div><!--article-archive-->{{/tertiary_work}}
+
+                 
+  </div><!--watt-archive-->{{/tertiary_work}}
+  </div><!--flex-items-->
 </section>
-<section class="pure-u-1 quaternary space-out">
-  {{#quaternary_work}}<div class="article-archive pure-u-1 pure-u-md-1-4 quaternary">
-    <div class="quaternary-outer"  style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
+
+</section><!--max-width-->
+
+<section class="pure-u-1 featured-video-section">
+{{#featured_video}}
+<section class="max-width">
+<h2>Featured video: <span class="feat-title">{{title}}</span></h2>
+<div class="pure-u-1 pure-u-md-2-3">
+<div class="featured-video">
+<div class="featured-video-bg" style="background-image:url('{{#assets}}{{url}}{{/assets}}');">
+<div class="featured-video-content">
+  <!--If Video embed present-->
+  {{#embed_url}}
+    <div class="video-inner">
+       {{#youtube}}
+          <iframe width='560' height='315' src='{{embed_url}}?vq=hd1080&showinfo=0' frameborder='0' allowfullscreen></iframe>
+       {{/youtube}}
+    </div><!--video-inner-->
+  {{/embed_url}}
+
+</div><!--featured-video-content-->
+
+</div><!--featured-video-bg-->
+</div><!--featured-video-->
+</div><!--pure--><div class="pure-u-1 pure-u-md-1-3 quick-video-container"><div class="quick-articles">
+<div class="quick-recent-video">
+  {{#recent_video}}
+    <div class="post">
+        <div class="inner pure-u-1 pure-u-md-2-3">
+          <h3><a href="/{{type}}/{{id}}" target="_blank">{{title}}</a></h3>
+          <h4>by <a href="/author/{{author_id}}">{{author_name}}</a></h4>
+        </div><!--inner--><div class="thumb pure-u-1 pure-u-md-1-3" style="background-image:url({{#assets}}{{url}}{{/assets}});"></div><!--thumb-->
+    </div><!--post-->
+  {{/recent_video}}
+    </div><!--quick-recent-video-->
+  </div><!--quick-articles-->
+  </div><!--pure-->
+</section><!--max-width-->
+{{/featured_video}}
+</section>
+
+
+<section class="article-content max-width">
+<section class="quaternary-container">
+  {{#quaternary_work}}<div class="watt-article pure-u-1 pure-u-md-1-6 quaternary">
       <div class="inner">
-        <h2><a href="/{{type}}/{{id}}">{{title}}</a></h2>
-          <h4><a href="/author/{{author_id}}">Written by: {{author_name}}</a></h4>
+        <h3><a href="/{{type}}/{{id}}">{{title}}</a></h3>
+          <h4>by <a href="/author/{{author_id}}">{{author_name}}</a></h4>
         </div><!--inner-->
-    </div><!--quarternary-->
   </div>{{/quaternary_work}}
 </section>
-<section class="pure-u-1 pure-u-md-1-2">
-    <h3>Featured tags:</h3>
-    <ul class="tags">
-  {{#featured_tags}}
-    <li><a class="tag" href="/tag/{{.}}">{{.}}</a></li>
-  {{/featured_tags}}
-</ul>
-</section><section class="pure-u-1 pure-u-md-1-2">
-    <h3>Featured authors:</h3>
-    <ul class="tags">
-  {{#featured_authors}}
-    <li><a class="tag" href="/author/{{.}}">{{.}}</a></li>
-       <li><a class="tag" href="/author/{{title}}">{{name}}</a></li>
-  {{/featured_authors}}
-</ul>
-</section>
+
 <section class="pure-u-1">
 <a class="more-link dark" href="/all">View all articles</a>
 </section>
-</div><!--archive-->
 </section><!--article-content-->
-</article>
 
 </main><!--#main-->
 

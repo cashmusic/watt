@@ -22,7 +22,7 @@
 		"technology",
 		"discovery"
 	],
-	"template":"twocol-twothirds-hero",
-	"template_styles":"#nathanlarson{background:#2c2c2c;}",
-	"template_additional":"light"
+	"template":"default",
+	"template_styles":"",
+	"template_additional":""
 }

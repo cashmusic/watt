@@ -2,7 +2,7 @@
 	"id":"dapcdnn",
 	"author_id":"dapwell",
 	"release_id":"impactofmusic",
-	"title":"CASH Music Interview Series: EP.5 - Nick Catchdubs & Nasty Nigel",
+	"title":"Interview Series: EP.5 - Nick Catchdubs & Nasty Nigel",
 	"description":"",
 	"type":"video",
 	"date":"September 6th, 2016",
@@ -22,7 +22,7 @@
 		"impact",
 		"community"
 	],
-	"template":"twocol-leftalign",
+	"template":"default",
 	"template_styles":"",
 	"template_additional":"dark"
 }

@@ -2,7 +2,6 @@
 
 It's our memory and our future, simultaneously. Music links us to long forgotten emotions and introduces us to new ways to feel. It's a strangely cohesive way to contain and express every version of yourself. And dancing - music gave us the Roger Rabbit.
 
-***
 
 ###How do we ensure that voices will get heard?
 

@@ -86,6 +86,30 @@ if (file_exists(__DIR__.'/templates/footer.mustache')) {
 // Feature tags site wide
 	$display_options['featured_tags'] = $main_settings['featured_tags'];
 
+// Recent/Popular site wide
+
+	foreach ($main_settings['recent_work'] as $work_id) {
+		$display_options['recent_work'][] = $full_index['work'][$work_id];
+	}
+
+	foreach ($main_settings['popular_work'] as $work_id) {
+		$display_options['popular_work'][] = $full_index['work'][$work_id];
+	}
+	
+	foreach ($main_settings['recent_video'] as $work_id) {
+		$display_options['recent_video'][] = $full_index['work'][$work_id];
+	}
+
+	foreach ($main_settings['featured_video'] as $work_id) {
+		$display_options['featured_video'][] = $full_index['work'][$work_id];
+	}
+
+	foreach ($main_settings['further_reading'] as $work_id) {
+		$display_options['further_reading'][] = $full_index['work'][$work_id];
+	}
+
+
+
 /*******************************************************************************
  *
  * GET DATA AND RENDER PAGE
@@ -180,7 +204,8 @@ if ($parsed_route) {
 		 $display_options['work'] = $full_index['filtered_work'];
 		 $display_options['authors'] = $loopable_authors;
 		 $display_options['tags'] = $full_index['tags']['list'];
-		 $template = 'all';
+
+		$template = 'all';
 		 if ($display_options['json']) {
 			 // JSON requested, so spit it out and exit (no template)
 			 $output = array(
@@ -206,7 +231,7 @@ if ($parsed_route) {
 				if (isset($full_index['tags']['details'][$display_options['tag']])) {
 					$display_options = array_merge($display_options,$full_index['tags']['details'][$display_options['tag']]);
 				}
-				$features = array_merge($display_options['featured_work'],array());
+				//$features = array_merge($display_options['featured_work'],array());
 				// set the content
 				$work = array();
 				foreach ($full_index['tags']['index'][$display_options['tag']] as $work_id) {
@@ -231,8 +256,8 @@ if ($parsed_route) {
 			}
 
 			if (!$display_options['title']) {
-				$display_options['title'] = '#' . $display_options['tag'];
-				$display_options['description'] = 'All Watt articles matching #' . $display_options['tag'];
+				$display_options['title'] =  $display_options['tag'];
+				$display_options['description'] = 'All articles matching #' . $display_options['tag'];
 			}
 		} else {
 			// No actual tag specified. Redirect.
@@ -275,6 +300,7 @@ if ($parsed_route) {
  				foreach ($full_index['authors']['index'][$display_options['author_id']] as $work_id) {
  					$work[] = $full_index['work'][$work_id];
 					$display_options['author_name'] = $full_index['work'][$work_id]['author_name'];
+					$display_options['author_byline'] = $full_index['work'][$work_id]['author_byline'];
  				}
  				$display_options['work'] = $work;
 				$display_options['tag_list'] = $full_index['tags']['list'];
@@ -305,6 +331,7 @@ if ($parsed_route) {
 	$display_options['featured_video'] = array();
 	$display_options['secondary_work'] = array();
 	$display_options['tertiary_work'] = array();
+	$display_options['quaternary_work'] = array();
 	$display_options['featured_authors'] = array();
 
 	foreach ($main_settings['featured_work'] as $work_id) {

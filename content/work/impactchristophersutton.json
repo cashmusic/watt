@@ -20,8 +20,8 @@
 		"impact",
 		"economics"
 	],
-	"template":"twocol-twothirds-hero",
+	"template":"default",
 	"template_bg_style":"",
-	"template_styles":"#impactchristophersutton{background-color:#1a1415;}",
-	"template_additional":"light"
+	"template_styles":"",
+	"template_additional":""
 }

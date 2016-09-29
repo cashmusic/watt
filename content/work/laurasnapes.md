@@ -1,8 +1,7 @@
 ### What kind of impact does music have in our world?
 
-> I think it's the greatest source of joy and comfort of all art forms. And done right, it can foster understanding of and openness to other ways of being like nothing else can.
+I think it's the greatest source of joy and comfort of all art forms. And done right, it can foster understanding of and openness to other ways of being like nothing else can.
 
-***
 
 ### What can we do to ensure that artists' voices are heard?
 

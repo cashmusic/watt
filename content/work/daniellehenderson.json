@@ -25,7 +25,7 @@
 	"tags":[
 		"impact"
 	],
-	"template":"twocol-leftalign",
-	"template_styles":"#daniellehenderson{background:#a3051c;}",
-	"template_additional":"light"
+	"template":"default",
+	"template_styles":"",
+	"template_additional":""
 }

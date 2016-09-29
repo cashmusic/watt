@@ -6,7 +6,6 @@ Next in order of truthfulness is the short story: all the truth of a novel witho
 
 >From there, from the leaping off point of the very best poem of all human history, if you keep traveling into the ether higher and higher, eventually you will encounter a child absentmindedly playing a kazoo. That is where the truthfulness of music begins.
 
-***
 
 ### How do we ensure that artists' voices are heard?
 

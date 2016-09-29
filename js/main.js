@@ -29,14 +29,20 @@ if (window.cashmusic) {
 			}, false);
 		});
 
-		var toggles = document.getElementsByClassName('tag-drawer');
+		var toggles = document.getElementsByClassName('tab');
 		Array.prototype.filter.call(toggles, function(toggle){
 			toggle.addEventListener("click", function(e) {
-				if (cm.styles.hasClass(toggle.parentNode,'show')) {
-					cm.styles.removeClass(toggle.parentNode,'show');
-				} else {
-					cm.styles.addClass(toggle.parentNode,'show');
-				}
+				if (cm.styles.hasClass(toggle,'show-recent')) {
+					cm.styles.removeClass(toggle.parentNode.parentNode,'show-recent');
+					cm.styles.removeClass(toggle.parentNode.parentNode,'show-popular');
+					cm.styles.addClass(toggle.parentNode.parentNode,'show-recent');	
+				} 
+				if (cm.styles.hasClass(toggle,'show-popular')) {
+					cm.styles.removeClass(toggle.parentNode.parentNode,'show-popular');
+					cm.styles.removeClass(toggle.parentNode.parentNode,'show-recent');
+					cm.styles.addClass(toggle.parentNode.parentNode,'show-popular');
+				} 
+
 			}, false);
 		});
 

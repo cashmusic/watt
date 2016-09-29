@@ -2,7 +2,7 @@
 	"id":"dapclmbar",
 	"author_id":"dapwell",
 	"release_id":"impactofmusic",
-	"title":"CASH Music Interview Series: EP.4 - Chairlift & Miles Benjamin Anthony Robinson",
+	"title":"Interview Series: EP.4 - Chairlift & Miles Benjamin Anthony Robinson",
 	"description":"",
 	"type":"video",
 	"date":"August 10th, 2016",
@@ -22,7 +22,7 @@
 		"impact",
 		"community"
 	],
-	"template":"twocol-leftalign",
+	"template":"default",
 	"template_styles":"",
 	"template_additional":"dark"
 }

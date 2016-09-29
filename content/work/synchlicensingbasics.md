@@ -1,4 +1,4 @@
->“It’s selling out!” “It’s the savior of the music business!” “Some dickhead put my favorite song on a commercial!” “I’M CONFUSED!!!” Welcome to synch licensing!
+##“It’s selling out!” “It’s the savior of the music business!” “Some dickhead put my favorite song on a commercial!” “I’M CONFUSED!!!” Welcome to synch licensing!
 
 “Synch licensing” is the music industry term to describe the practice of paying an artist to use their song in connection with visual media (think ads, movies, TV shows). A piece of music is put on the film and is “synchronized” to picture. The “license” is the agreement outlining exactly how the song is allowed to be used. Some of the most common synch licenses are for films, TV shows, ads, trailers and web content. No one is allowed to use music in connection with any visual media unless they have permission, 99% of the time in the form of a synch license, to do so.
 
