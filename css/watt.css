@@ -615,6 +615,10 @@ body{
 	max-width: 880px;
 }
 
+#main .featured-carousel .content .inner h1{
+	margin:0 0 18px 0;
+}
+
 #main .featured-carousel .content .inner h1 a{
 	color:#fff;
 }
