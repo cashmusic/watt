@@ -35,7 +35,6 @@ html{
 body{
 	background:#fff;
 	color:#000;
-	overflow-x:hidden;
 }
 
 #wrapper, header #constant{
@@ -146,6 +145,8 @@ body{
 	font-family:'Swiss721BT-Black';
 	margin:0;
 	border:none;
+	word-break: break-word;
+	overflow-wrap: break-word;
 }
 
 #main h3 a:before, #main h4 a:before, #main h6 a:before{
@@ -816,8 +817,7 @@ aside{
 /* Featured-video */
 
 .featured-video{
-	padding:0 15px 0 0;
-   	background:black;
+	padding:0 20px 0 0;
 }
 
 /* Featured Video Style */
@@ -840,7 +840,7 @@ aside{
 
 .featured-video-bg{
 	background-color:#ddd;
-	margin:10px 0 0 0;
+	margin:10px -10px 0 0;
 }
 
 .featured-video-content{
@@ -859,7 +859,6 @@ aside{
 	content: "";
 	width: 100%;
 	padding-top: 56.25%;
-	margin:0 60px;
 }
 
 .featured-video-content .video-inner{
@@ -1039,8 +1038,15 @@ aside{
 }
 
 .quick-video-container{
-	padding:0 0 0 15px;
+	padding:0 0 0 13px;
 	margin:0 0 0 0;
+}
+
+/* Featured Video */
+
+.featured-video{
+	padding:0;
+	margin:0 27px 0 0;
 }
 
 
