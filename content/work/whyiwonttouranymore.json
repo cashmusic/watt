@@ -1,0 +1,32 @@
+{
+	"id":"whyiwonttouranymore",
+	"author_id":"hutchharris",
+	"release_id":"",
+	"title":"Why I Won't Tour Anymore",
+	"description":"I’m done being in a cramped van every day. I’m done being in a loud, dirty club every night. I’m done living in a world in which alcohol is more prevalent, and considered more valuable, than food.",
+	"type":"writing",
+	"date":"October 4, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY-SA",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/hh-3.jpg",
+			"credits":[
+				{
+					"username":"Westin Glass"
+				}
+			]
+		}
+	],
+	"tags":[
+		"tour",
+		"health",
+		"economics",
+		"thethermals"
+	],
+	"template":"default",
+	"template_bg_style":"bg-center",
+	"template_styles":"",
+	"template_additional":""
+}
