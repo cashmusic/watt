@@ -1,0 +1,16 @@
+{
+	"id":"katharding",
+	"name":"Kat Harding",
+	"byline":"music publicist living in Nashville, TN",
+	"links":[
+		{
+			"title":"@iwearaviators",
+			"url":"https://twitter.com/iwearaviators"
+		}
+	],
+	"photo":{
+		"url":"https://static-cashmusic.netdna-ssl.com/www/img/contributor/kh.jpg",
+		"license":"CC-BY-SA",
+		"credits":"Calvin Walker"
+	}
+}
