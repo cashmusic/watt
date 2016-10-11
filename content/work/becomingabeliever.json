@@ -1,0 +1,34 @@
+{
+	"id":"becomingabeliever",
+	"author_id":"jessicaboudreaux",
+	"release_id":"",
+	"title":"Becoming a Believer",
+	"description":"How Rock Music Saved My Life",
+	"type":"writing",
+	"date":"October 11, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY-NC-ND",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/sc.jpg",
+			"credits":[
+				{
+					"username":"Jason Quigley",
+					"user_url":"http://www.photojq.com/"
+				}
+			]
+		}
+	],
+	"tags":[
+		"impact",
+		"summer cannibals",
+		"mental health",
+		"anxiety",
+		"power of music"
+	],
+	"template":"default",
+	"template_bg_style":"bg-center",
+	"template_styles":"",
+	"template_additional":""
+}
