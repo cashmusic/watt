@@ -1,0 +1,27 @@
+{
+	"id":"backlinesatomi",
+	"author_id":"satomimatsuzaki",
+	"release_id":"backline",
+	"title":"Backline with Satomi Matsuzaki",
+	"description":"Satomi Matsuzaki, bassist & singer in Deerhoof, talks about her set up.",
+	"type":"writing",
+	"date":"October 13th, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY-NC-ND",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/sm.jpg"
+				
+		}
+	],
+	"tags":[
+		"backline",
+		"equipment",
+		"software",
+		"hardware"
+	],
+	"template":"backline",
+	"template_bg_style":"",
+	"template_additional":""
+}
