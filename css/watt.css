@@ -161,6 +161,7 @@ body{
 #main h1{
 	margin:0 0 36px 0;
 	line-height: 42px;
+	letter-spacing: -1px;
 }
 
 #main h1, #main h1 a{
