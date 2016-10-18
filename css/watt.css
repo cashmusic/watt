@@ -143,6 +143,7 @@ body{
 
 #main h1,#main h2,#main h3,#main h4{
 	font-family:'Swiss721BT-Black';
+	font-weight:100;
 	margin:0;
 	border:none;
 	word-break: break-word;
@@ -159,7 +160,7 @@ body{
 
 #main h1{
 	margin:0 0 36px 0;
-	line-height: 1.2em;
+	line-height: 42px;
 }
 
 #main h1, #main h1 a{
@@ -175,7 +176,7 @@ body{
 
 #main h1 a{
 	border-bottom:solid 5px lime;
-	line-height: 1.3em;
+	line-height: 54px;
 }
 
 #main h1 a:hover{
