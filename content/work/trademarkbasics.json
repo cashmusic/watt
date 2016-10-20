@@ -1,0 +1,31 @@
+{
+	"id":"trademarkbasics",
+	"author_id":"beckiclee",
+	"release_id":"",
+	"title":"Trademark Basics",
+	"description":"What is a trademark and why/when do you need one?",
+	"type":"writing",
+	"date":"October 20, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY-NC-ND",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/tm.jpg",
+			"credits":[
+				{
+					"username":"Matt Zaske"
+				}
+			]
+		}
+	],
+	"tags":[
+		"trademark",
+		"legal",
+		"how to"
+	],
+	"template":"default",
+	"template_bg_style":"",
+	"template_styles":"",
+	"template_additional":""
+}
