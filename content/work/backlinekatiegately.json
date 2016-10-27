@@ -1,0 +1,32 @@
+{
+	"id":"backlinekatiegately",
+	"author_id":"katiegately",
+	"release_id":"backline",
+	"title":"Backline with Katie Gately",
+	"description":"Katie Gately, Sound Designer, Music Producer, talks about her set up.",
+	"type":"writing",
+	"date":"October 13th, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY-NC-ND",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/kg.jpg",
+			"credits":[
+				{
+					"username":"Jasmine Safaeian",
+					"user_url":"http://jasminesafaeian.com/"
+				}
+			]	
+		}
+	],
+	"tags":[
+		"backline",
+		"equipment",
+		"software",
+		"hardware"
+	],
+	"template":"backline",
+	"template_bg_style":"bg-center",
+	"template_additional":""
+}
