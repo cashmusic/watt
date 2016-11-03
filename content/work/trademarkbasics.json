@@ -1,0 +1,28 @@
+{
+	"id":"trademarkbasics",
+	"author_id":"beckiclee",
+	"release_id":"",
+	"title":"Trademark Basics",
+	"description":"Important information from lawyer Beck C. Lee about trademarks. Questions like do you need one, do you have one, what is it, and more are answered here.",
+	"type":"writing",
+	"date":"November 3, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/tm.jpg",
+			"credits":[
+				{}
+			]
+		}
+	],
+	"tags":[
+		"trademark", 
+		"legal"
+	],
+	"template":"default",
+	"template_styles":"",
+	"template_bg_style":"bg-cover bg-center",
+	"template_additional":""
+}
