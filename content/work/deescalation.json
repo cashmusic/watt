@@ -1,0 +1,33 @@
+{
+	"id":"deescalation",
+	"author_id":"jesskolnik",
+	"release_id":"",
+	"title":"A Practical Web Tutorial to Bystander Intervention and De-escalation Tactics",
+	"description":"I believe that we have a deep responsibility to care for one another and for the people who come to see us play, and that though any kind of independent musical community is immensely fractured, some of those fractures can be healed by everyday thoughtfulness.",
+	"type":"writing",
+	"date":"November 17, 2016",
+	"license":"CC-BY",
+	"assets":[
+			{
+			"type":"image",
+			"license":"CC-BY-SA",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/static.jpg",
+			"credits":[
+				{
+					"username":"Kyknoord'",
+					"user_url":"https://www.flickr.com/photos/kyknoord/"
+				}
+			]
+		}
+	],
+	"tags":[
+		"politics",
+		"safety",
+		"deescalation",
+		"protest"
+	],
+	"template":"default",
+	"template_bg_style":"bg-center",
+	"template_styles":"",
+	"template_additional":""
+}

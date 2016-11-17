@@ -1,0 +1,28 @@
+{
+	"id":"breakingdown",
+	"author_id":"hutchharris",
+	"release_id":"",
+	"title":"Breaking Down",
+	"description":"I have credited music for saving my life in the past, for although it is a cliche, I know it to be true. But it wasn’t music that saved my life that day, it was my best friends.",
+	"type":"writing",
+	"date":"November 17, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY-SA",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/hh-4.jpg"
+		}
+	],
+	"tags":[
+		"politics",
+		"impact",
+		"power of music",
+		"grief",
+		"thethermals"
+	],
+	"template":"default",
+	"template_bg_style":"bg-center",
+	"template_styles":"",
+	"template_additional":""
+}

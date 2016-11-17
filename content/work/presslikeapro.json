@@ -1,0 +1,27 @@
+{
+	"id":"presslikeapro",
+	"author_id":"davidgreenwald",
+	"release_id":"",
+	"title":"How to Work Press on Like a Pro",
+	"description":"The Oregonian's David Greenwald interviews editors and writers from Noisey, Consequence of Sound, FACT and more about best practices when dealing with press.",
+	"type":"writing",
+	"date":"November 22, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY-SA",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/cari-3.jpg"
+		}
+	],
+	"tags":[
+		"publicity",
+		"press",
+		"DIY",
+		"marketing"
+	],
+	"template":"default",
+	"template_bg_style":"bg-center",
+	"template_styles":"",
+	"template_additional":""
+}

@@ -1,0 +1,20 @@
+{
+	"id":"davidgreenwald",
+	"name":"David Greenwald",
+	"byline":"David Greenwald is the Oregonian's music critic. His writing and photography can be found at davidgreenwald.com.",
+	"links":[
+		{
+			"title":"davidgreenwald.com",
+			"url":"http://davidgreenwald.com"
+		},
+		{
+			"title":"@davidegreenwald",
+			"url":"https://twitter.com/davidegreenwald"
+		}
+	],
+	"photo":{
+		"url":"",
+		"license":"",
+		"credits":""
+	}
+}
