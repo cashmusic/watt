@@ -102,7 +102,7 @@ Whatever you do, do your homework before sending that pitch over.
 
 
 ##[Laurent Fintoni](https://twitter.com/laurent_fintoni), freelancer, [FACT](http://www.factmag.com/), [Bandcamp](http://bandcamp.com/) and others
-Fintoni says he’s less reliant on his inbox than he used to be, looking more for recommendations from friends and music that pops up in his Twitter feed. He gets mainly emails from publicists and labels, with “25 percent or so” of those being something he might write about. 
+Fintoni says he’s less reliant on his inbox than he used to be, looking more for recommendations from friends and music that pops up in his [Twitter feed](https://twitter.com/laurent_fintoni). He gets mainly emails from publicists and labels, with “25 percent or so” of those being something he might write about. 
 
 
 “I have over the years struck up relationships with artists who”ve just regularly sent me things without being pushy, just more, ‘Hey this is what I’m doing,’ and maybe asking for advice. I find that’s the best, it gives me time to get into them,” he says. 
