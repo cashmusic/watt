@@ -8,10 +8,16 @@
 	"date":"November 17, 2016",
 	"license":"CC-BY",
 	"assets":[
-		{
+			{
 			"type":"image",
 			"license":"CC-BY-SA",
-			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/hh-4.jpg"
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/static.jpg",
+			"credits":[
+				{
+					"username":"Kyknoord'",
+					"user_url":"https://www.flickr.com/photos/kyknoord/"
+				}
+			]
 		}
 	],
 	"tags":[
