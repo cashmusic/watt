@@ -10,12 +10,15 @@
 	"assets":[
 		{
 			"type":"image",
-			"license":"CC-BY-SA",
+			"license":"CC-BY",
 			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/hh-5.jpg",
+			"credits":[
+				{
 
 					"username":"Nathaniel Shannon"
-				}
-			
+		}
+			]
+		}
 	],
 	"tags":[
 		"politics",

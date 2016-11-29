@@ -1,0 +1,29 @@
+{
+	"id":"keepittidypart1",
+	"author_id":"jessevondoom",
+	"release_id":"",
+	"title":"Keep It Tidy, part 1",
+	"description":"If you’re organizing, thinking about a protest album, or working on art critical of your government then encryption matters to you, as do privacy and safety.",
+	"type":"writing",
+	"date":"November 29, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/jvd.jpg"
+		}
+		
+	],
+	"tags":[
+		"security",
+		"privacy",
+		"twitter",
+		"technology",
+		"politics"
+	],
+	"template":"default",
+	"template_bg_style":"bg-center",
+	"template_styles":"",
+	"template_additional":""
+}
