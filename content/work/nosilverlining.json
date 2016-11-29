@@ -1,0 +1,34 @@
+{
+	"id":"nosilverlining",
+	"author_id":"hutchharris",
+	"release_id":"",
+	"title":"No Silver Lining",
+	"description":"We worked like we were building a wall of our own — one made of power chords, cymbal smashes and sweat — to keep out bigotry and hatred.",
+	"type":"writing",
+	"date":"November 29, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/hh-5.jpg",
+			"credits":[
+				{
+
+					"username":"Nathaniel Shannon"
+		}
+			]
+		}
+	],
+	"tags":[
+		"politics",
+		"impact",
+		"power of music",
+		"grief",
+		"thethermals"
+	],
+	"template":"default",
+	"template_bg_style":"bg-center",
+	"template_styles":"",
+	"template_additional":""
+}
