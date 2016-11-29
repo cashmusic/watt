@@ -799,6 +799,7 @@ aside{
 	background-color:#111;
 	min-height: 136px;
 	background-size:cover;
+	background-position: 50% 50%;
 }
 
 .quick-articles .post .thumb img{
