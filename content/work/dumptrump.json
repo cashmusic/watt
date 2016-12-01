@@ -1,0 +1,29 @@
+{
+	"id":"punktrump",
+	"author_id":"zacharylipez",
+	"release_id":"",
+	"title":"Dump Trump",
+	"description":"If you’re organizing, thinking about a protest album, or working on art critical of your government then encryption matters to you, as do privacy and safety.",
+	"type":"writing",
+	"date":"December 1, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/jvd.jpg"
+		}
+		
+	],
+	"tags":[
+		"punk",
+		"creativity",
+		"impactofmusic",
+		"culture",
+		"politics"
+	],
+	"template":"default",
+	"template_bg_style":"bg-center",
+	"template_styles":"",
+	"template_additional":""
+}
