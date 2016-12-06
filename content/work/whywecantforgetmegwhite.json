@@ -2,18 +2,23 @@
 	"id":"whywecantforgetmegwhite",
 	"author_id":"kayleighhughes",
 	"release_id":"",
-	"title":"Why We Can't Forget Meg White--And the Sexist Way We Talked About Her",
-	"description":"",
+	"title":"Why We Can't Forget Meg White  -  And the Sexist Way We Talked About Her",
+	"description":"Indeed, it’s often hard to untangle the criticism and evaluation of Meg White: The Musician from Meg White: The Female Body. In the fan communities, on the forums and the message boards and blogs, the criticism is most unyielding and brutal.",
 	"type":"writing",
 	"date":"December 6, 2016",
 	"license":"CC-BY",
 	"assets":[
 		{
 			"type":"image",
-			"license":"CC-BY",
-			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/red_white.jpg"
+			"license":"CC-BY-NC-ND",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/red_white.jpg",
+			"credits":[
+				{
+					"username":"Eli Carrico",
+					"user_url":"https://www.flickr.com/photos/shapeofthings/"
+				}
+			]
 		}
-		
 	],
 	"tags":[
 		"sexism",
