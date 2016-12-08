@@ -1,0 +1,34 @@
+{
+	"id":"institutionalizationofrock",
+	"author_id":"franznicolay",
+	"release_id":"",
+	"title":"The Inevitable Institutionalization of Rock",
+	"description":"Rock lineage as a self-supporting mass-culture driver is over, as should be the preposterous and romanticizing idea that it is the music of some kind of spontaneous, youthful holy-fool effusion.",
+	"type":"writing",
+	"date":"December 8, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY-NC-ND",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/circles.jpg",
+			"credits":[
+				{
+					"username":"Jhon Alfa Tumbelaka",
+					"user_url":"https://www.flickr.com/photos/jhontumbelaka/"
+				}
+			]
+		}
+	],
+	"tags":[
+		"culture", 
+		"rock",
+		"business models",
+		"funding",
+		"theholdsteady"
+	],
+	"template":"default",
+	"template_styles":"",
+	"template_bg_style":"bg-cover bg-center",
+	"template_additional":""
+}
