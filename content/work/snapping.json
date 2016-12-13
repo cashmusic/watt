@@ -1,0 +1,33 @@
+{
+	"id":"snapping",
+	"author_id":"hutchharris",
+	"release_id":"",
+	"title":"Snapping",
+	"description":"I knew I was going to snap, and I knew it would be in the face of a friend. We only hurt the ones we love, the ones we shouldn’t hurt at all. I knew it was going to happen. The only question was, when?",
+	"type":"writing",
+	"date":"December 13, 2016",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/hh-3.jpg",
+			"credits":[
+				{
+					"username":"Westin Glass",
+					"user_url":"https://www.instagram.com/squelettes/"
+				}
+			]
+		}
+	],
+	"tags":[
+		"politics", 
+		"mental health",
+		"shows",
+		"the thermals"
+	],
+	"template":"default",
+	"template_styles":"",
+	"template_bg_style":"bg-cover bg-center",
+	"template_additional":""
+}
