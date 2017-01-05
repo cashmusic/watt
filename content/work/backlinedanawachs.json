@@ -1,0 +1,27 @@
+{
+	"id":"backlinedanawachs",
+	"author_id":"danawachs",
+	"release_id":"backline",
+	"title":"Backline with Dana Wachs",
+	"description":"Dana Wachs aka Vorhees is a composer, audio engineer, and producer.",
+	"type":"writing",
+	"date":"January 5th, 2017",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY-NC-ND",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/danabackline2.jpg"
+				
+		}
+	],
+	"tags":[
+		"backline",
+		"equipment",
+		"software",
+		"hardware"
+	],
+	"template":"backline",
+	"template_bg_style":"",
+	"template_additional":""
+}
