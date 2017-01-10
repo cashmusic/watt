@@ -1,0 +1,34 @@
+{
+	"id":"manypathstoacceptingpayment",
+	"author_id":"glennfleishman",
+	"release_id":"",
+	"title":"The Many Paths to Accepting Payment",
+	"description":"Many new ways to pay for physical or digital goods are popping up seemingly every day. And with them, many more options for the types of payments you can accept. The support of your fans is now a tap, swipe, or click away.",
+	"type":"writing",
+	"date":"January 10, 2017",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY-NC-ND",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/merch_table.jpg",
+			"credits":[
+				{
+					"username":"Daniel Paxton",
+					"user_url":"https://www.flickr.com/photos/allthatimprobableblue/"
+				}
+			]
+		}
+	],
+	"tags":[
+		"economics",
+		"payment",
+		"tech",
+		"business models",
+		"web site"
+	],
+	"template":"default",
+	"template_bg_style":"",
+	"template_styles":"",
+	"template_additional":""
+}
