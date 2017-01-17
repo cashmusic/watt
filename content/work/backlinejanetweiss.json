@@ -1,0 +1,27 @@
+{
+	"id":"backlinejanetweiss",
+	"author_id":"janetweiss",
+	"release_id":"backline",
+	"title":"Backline with Janet Weiss",
+	"description":"Janet Weiss of Sleater-Kinney & Quasi talks about her set up with us.",
+	"type":"writing",
+	"date":"January 17th, 2017",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY-NC-ND",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/jw-drums3.jpg"
+				
+		}
+	],
+	"tags":[
+		"backline",
+		"equipment",
+		"software",
+		"hardware"
+	],
+	"template":"backline",
+	"template_bg_style":"",
+	"template_additional":""
+}
