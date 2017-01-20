@@ -8,7 +8,7 @@ I was asked today to speak about web literacy. As one of the executive directors
 
 <img src="https://static-cashmusic.netdna-ssl.com/www/img/article/4.jpg" />
  
-As someone that has played music and worked in the music industry for the better part of 25 years business models are something I think about, a lot. I started my career working at an [independent record label](http://killrockstars.com/) in the 90’s. We were part of a commmunity that was trying to create a more equitable music industry outside of the greed and excess of the major labels. One that put art and artists first, we considered them partners. We built a whole world outside of corporate structures - we had our own magazines, record stores, radio stations, venues, distributors. Suffice to say I came to music thinking about business models first and frankly I’ve never stopped.
+As someone that has played music and worked in the music industry for the better part of 25 years business models are something I think about, a lot. I started my career working at an [independent record label](http://killrockstars.com/) in the 90’s. We were part of a community that was trying to create a more equitable music industry outside of the greed and excess of the major labels.One that put art and artists first, we considered them partners. We built a whole world outside of corporate structures - we had our own magazines, record stores, radio stations, venues, distributors. Suffice to say I came to music thinking about business models first and frankly I’ve never stopped.
 
 <img src="https://static-cashmusic.netdna-ssl.com/www/img/article/5.jpg" />
 
