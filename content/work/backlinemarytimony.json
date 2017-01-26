@@ -1,0 +1,27 @@
+{
+	"id":"backlinemarytimony",
+	"author_id":"marytimony",
+	"release_id":"backline",
+	"title":"Backline with Mary Timony",
+	"description":"The one and only Mary Timony talks to us about her gear for Backline.",
+	"type":"writing",
+	"date":"January 26th, 2017",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/mt.jpg"
+				
+		}
+	],
+	"tags":[
+		"backline",
+		"equipment",
+		"software",
+		"hardware"
+	],
+	"template":"backline",
+	"template_bg_style":"",
+	"template_additional":""
+}
