@@ -948,6 +948,52 @@ aside{
 	margin:0;
 }
 
+#main .ad-space.family{
+	background-image: url(https://static-cashmusic.netdna-ssl.com/www/img/constant/texture/header.jpg);
+	padding:40px 30px;
+	position: relative;
+	display: inline-block;
+	z-index: 0;
+	margin-bottom: 0px;
+}
+
+#main .ad-space.family:after{
+	height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    content: "";
+    z-index: -500;
+	background: -webkit-linear-gradient(left, rgba(255,71,91,0.9) 0%,rgba(128,47,198,0.9) 100%);
+    background: linear-gradient(to right, rgba(255,71,91,0.9) 0%,rgba(128,47,198,0.9) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ff475b', endColorstr='#e6802fc6',GradientType=1 );
+}
+
+#main .ad-space.family h1{
+	margin:0;
+}
+
+#main .ad-space.family h2{
+	width:100%;
+	text-align: center;
+	font-weight: 100;
+	margin:0 0 20px 0;
+}
+
+#main .ad-space.family h1 a{
+	border: none;
+}
+
+#main .ad-space.family h2 a{
+	color:#fff;
+}
+
+#main .ad-space.family h2 a:hover{
+	border: none
+}
+
+
 /* ==========================================================================
    Responsive
    ========================================================================== */
