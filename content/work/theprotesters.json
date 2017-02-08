@@ -1,0 +1,32 @@
+{
+	"id":"theprotesters",
+	"author_id":"becklevy",
+	"release_id":"",
+	"title":"The Protesters The Women's March Forgot About",
+	"description":"On Inauguration Day, I volunteered on a hotline providing legal support to protesters. Hundreds were arrested. Before they were out of jail, mainstream feminism had already cast them aside.",
+	"type":"writing",
+	"date":"February 8, 2017",
+	"license":"CC-BY",
+	"assets":[
+			{
+			"type":"image",
+			"license":"CC-BY-SA-ND",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/bl-3.jpg",
+			"credits":[
+				{
+					"username":"Elvert Barnes'",
+					"user_url":"https://www.flickr.com/photos/perspective/"
+				}
+			]
+		}
+	],
+	"tags":[
+		"politics",
+		"protest",
+		"intersectional feminism"
+	],
+	"template":"default",
+	"template_bg_style":"bg-center",
+	"template_styles":"",
+	"template_additional":""
+}
