@@ -8,6 +8,8 @@ This is a 2min 20sec video where the civilians are mostly on the sidewalk and th
 
 I was nine blocks away, volunteering on a legal hotline. We were providing support to people who were trapped and awaiting arrest, or taking info from friends of people who were arrested. We were swamped. We had the names of over 300 people. As night fell, we learned that–in an unprecedented move–230 of them were being charged with felonies. Felony – Riot Act in particular, which holds a maximum sentence of 10 years and a maximum fine of $25,000. The arrestees were held overnight, slowly arraigned the next afternoon, and all released by late Saturday night. 
 
+<img src="https://static-cashmusic.netdna-ssl.com/www/img/article/bl-1.jpg" />
+
 Saturday was the Women’s March.
 
 I know the Women’s March was an important and moving day for most of the thousands of people who came here for it. People felt inspired and empowered. People joined with old friends and made new ones. People heard good speakers and good music. And during this scary time, people felt less alone. I know that’s true because it’s what I’ve heard. But here’s what I saw: pussyhatted people walking past MAGA–hatted Trump lackeys without confrontation. People hugging cops. People thanking cops. Cops wearing pussyhats. I spent most of that day answering a phone, telling people how to get to the courthouse to pick up their friends, and warning them that nobody was getting their cellphones back. When I got home, I saw troubling tweets:

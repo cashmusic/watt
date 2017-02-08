@@ -5,26 +5,25 @@
 	"title":"The Protesters The Women's March Forgot About",
 	"description":"On Inauguration Day, I volunteered on a hotline providing legal support to protesters. Hundreds were arrested. Before they were out of jail, mainstream feminism had already cast them aside.",
 	"type":"writing",
-	"date":"November 17, 2016",
+	"date":"February 8, 2017",
 	"license":"CC-BY",
 	"assets":[
 			{
 			"type":"image",
-			"license":"CC-BY-SA",
-			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/static.jpg",
+			"license":"CC-BY-SA-ND",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/bl-3.jpg",
 			"credits":[
 				{
-					"username":"Kyknoord'",
-					"user_url":"https://www.flickr.com/photos/kyknoord/"
+					"username":"Elvert Barnes'",
+					"user_url":"https://www.flickr.com/photos/perspective/"
 				}
 			]
 		}
 	],
 	"tags":[
 		"politics",
-		"safety",
-		"deescalation",
-		"protest"
+		"protest",
+		"intersectional feminism"
 	],
 	"template":"default",
 	"template_bg_style":"bg-center",
