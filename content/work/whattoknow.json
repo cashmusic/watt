@@ -1,0 +1,34 @@
+{
+	"id":"whattoknow",
+	"author_id":"larrycrane",
+	"release_id":"",
+	"title":"What To Know Before Your First Recording Session",
+	"description":"Larry Crane, owner of Jackpot! & editor of Tape Op Magazine, with some excellent tips on how to prepare for your first recording session.",
+	"type":"writing",
+	"date":"February 15, 2017",
+	"license":"CC-BY",
+	"assets":[
+			{
+			"type":"image",
+			"license":"CC-BY-SA",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/lc-2.jpg",
+			"credits":[
+				{
+					"username":"Vacant Fever'",
+					"user_url":"https://www.flickr.com/photos/vacantfever/"
+				}
+			]
+		}
+	],
+	"tags":[
+		"recording",
+		"studio",
+		"engineer",
+		"producers",
+		"how to"
+	],
+	"template":"default",
+	"template_bg_style":"bg-center",
+	"template_styles":"",
+	"template_additional":""
+}
