@@ -1,0 +1,30 @@
+{
+	"id":"invaluablemusicbizadvice",
+	"author_id":"jasonnarducy",
+	"release_id":"",
+	"title":"Invaluable Music Biz Advice",
+	"description":"The man with the Sexiest Elbows in Rock lets you in on some of his secrets.",
+	"type":"writing",
+	"date":"February 18, 2017",
+	"license":"CC-BY",
+	"assets":[
+			{
+			"type":"image",
+			"license":"CC-BY-ND",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/jn.jpg",
+			"credits":[
+				{
+					"username":"James Richards IV"
+				}
+			]
+		}
+	],
+	"tags":[
+		"satire",
+		"advice"
+	],
+	"template":"default",
+	"template_bg_style":"bg-center",
+	"template_styles":"",
+	"template_additional":""
+}
