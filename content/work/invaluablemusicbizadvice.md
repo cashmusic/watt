@@ -1,0 +1,15 @@
+I've been fortunate over the last few decades to find work in music so it's not uncommon for younger musicians to approach me with questions. I don't mind that they are often the same two questions:
+
+ 1) "Why are you always borrowing money from my dad?"
+
+ 2) "Do you have to wear three layers of sun screen during the winter months, too?"
+
+Of course, I answer them in a mature, patient tone but deep down I'm giggling at how adorable it is that they don't yet know what it takes to be a REAL PRO. It takes years and years to get to this level and these kids are just getting started. Who could blame them for wanting to learn some shortcuts to the top?
+
+So it’s time to roll out the golden road case full of magic music biz life hacks…
+
+My first bit of advice is to get an education because there is so much money in music, you won’t know how to handle it all without a solid foundation of knowledge. A devil’s advocate might interject here by saying, “But Jason – you never finished college” but let’s not pay attention to a devil’s advocate right now. Just the fact that this person offered to advocate for satan seems reason enough to shun their ideas. “But that could be your lack-of-a-degree talking” Yes, but you are working for the Big Bad Red Dude and I am trying to help aspiring rock geniuses! My point is, without an education one may be ill-prepared to add up the avalanche of hundredths of pennies in music streaming revenue checks. Do the school thing, guys, so you can better handle the windfall.
+
+My second nugget of never-ending, career-exploding goodness, is to take all of the advice yelled into your ear at the merch table and execute it precisely. Sure, there may be other people in line who want to actually purchase your music, but the 47-beers-deep stumbling ponytail guy has the real answers for you. I’ll never forget the first time I was exposed to epiphanies like, “YOU SHOULD DO COVER SONGS” or “ALL YOU HAVE TO DO IS GET A SONG IN A MOVIE OR A TV SHOW OR THE RADIO”. It changed my life and it can change yours. No one knows how to catapult your career into the atmosphere like the lonely merch table screamers. Many of them had an uncle who lived on the same block as the trumpet player for REO Speedwagon [circa 1968]. These kinds of connections must be treasured and preserved. They can be the seeds that help your career blossom.
+
+My last hand-me-down diamond of invaluable music biz intel is to always keep your eye on music awards. This should be your number one goal at all times. Heard about a Battle Of The Bands in your town? Do it. Win it. Name one Battle Of The Bands winner that didn’t go on to have massive success. That’s my point. Too many musicians worry about songs, sounds, connecting with an audience, insightful lyrics, blah blah blah. Try framing a sound to hang in your den for guests to see. I’ll save you the time – it doesn’t work. Your super jealous guests WILL see the glistening blue and gold ribbon acquired from the guitar shop guitar solo contest, though! Do it. Win it. Don’t look back.
