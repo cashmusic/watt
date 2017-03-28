@@ -1,0 +1,33 @@
+{
+	"id":"mentalhealthcareisahumanright",
+	"author_id":"katiealicegreer",
+	"release_id":"",
+	"title":"Mental Health Care Is A Human Right (And Artists Are Humans)",
+	"description":"",
+	"type":"writing",
+	"date":"March 28, 2017",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY-NC-ND",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/KAGillo.jpg",
+			"credits":[
+				{
+					"username":"Annie Mok",
+					"user_url":"http://heyanniemok.com/"
+				}
+			]
+		}
+	],
+	"tags":[
+		"mental health",
+		"insurance",
+		"health", 
+		"politics"
+	],
+	"template":"default",
+	"template_bg_style":"",
+	"template_styles":"",
+	"template_additional":""
+}
