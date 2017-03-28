@@ -36,6 +36,6 @@ Set firm start and end times. Even if the person recording you says they are fle
 
 Show up when you say you will be showing up. C’mon, you make it to your gigs and your day job (if you have one). You’re not gonna take music, the most important thing in your life, as serious? Hmmm…
 
-Don’t expect miracles. If you and/or your band can’t get through a take of a song without messing up, why would it be any easier in the studio and under the recording microscope? People lose 25% of they’re abilities when they walk through the studio door. I invented that fact but it’s true. 
+Don’t expect miracles. If you and/or your band can’t get through a take of a song without messing up, why would it be any easier in the studio and under the recording microscope? People lose 25% of their abilities when they walk through the studio door. I invented that fact but it’s true. 
 
 Lastly, have fun! Book a little more time than you think you need. Tell jokes and laugh. Take the engineer out to lunch, or at least pick something up for them when you make a food run. Play other music that you all enjoy every once in a while, and discuss what you like about it. Guess what, your session will improve and your music will too. 
