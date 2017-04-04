@@ -1,0 +1,29 @@
+{
+	"id":"crowdfundingforyoursickguitarist",
+	"author_id":"carynrose",
+	"release_id":"",
+	"title":"Crowdfunding For Your Sick Guitarist The Smart Way",
+	"description":"Sixty percent of bankruptcies in the U.S. are the result of medical debt. Caryn Rose speaks to nonprofit Sweet Relief on how they help musicians try to avoid that fate.",
+	"type":"writing",
+	"date":"April 4, 2017",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/medical.jpg"
+			
+		}
+	],
+	"tags":[
+		"health insurance",
+		"health care",
+		"crowdfunding",
+		"sweet relief",
+		"musicares"
+	],
+	"template":"default",
+	"template_bg_style":"",
+	"template_styles":"",
+	"template_additional":""
+}
