@@ -8,6 +8,8 @@ Currently, you can catch me with Detroit Garage-Rock Queens…[Gore Gore Girls](
 
 Phew! Sounds like I’m all over the place. It’s always been like this, I’VE always been like this. I grew up listening to all types of music and that followed me into adulthood and into my professional career. I basically listen to everything from Dolly Parton to Lamb Of God.
 
+<img src="https://static-cashmusic.netdna-ssl.com/www/img/article/aw_2.jpg"/>
+
 ###What hardware do you use?
 
 I was confused by this question but then, I looked at your other interviews and like [Janet Weiss](https://watt.cashmusic.org/writing/backlinejanetweiss) said, “Funny to ask a drummer about hardware because to us that is a literal question”, but you mean EVERYTHING. Well, my main drum kit is a [Ludwig Custom Maple](http://www.ludwig-drums.com/en-us/ludwig/products/drumkits):  22” 12” 18” with either a [14” Hammered Brass](http://www.ludwig-drums.com/en-us/ludwig/products/snare-drums/hammered-brass) snare or a [13” Maple Snare](http://www.ludwig-drums.com/en-us/ludwig/products/snare-drums/classic-maple). [Ludwig double-braced hardware](https://www.google.com). Depending on the gig, I also use a [10” Ludwig Epic side snare](http://www.guitarcenter.com/Ludwig/Epic-Side-Snare-Drum-with-Mount.gc). I LOVE snare drums. I have quite a few for recording and whatnot. One of my favs is a [1970’s Ludwig Marching snare](https://reverb.com/item/120847-ludwig-12-x-15-marching-snare-drum-1970-s-stainless-steel). I always end up with bruises when I use that one. Haha. 
@@ -19,9 +21,7 @@ I use coated [Aquarian Drumheads](http://www.aquariandrumheads.com/)! [Impact II
 Pro-Mark is my stick of choice. I use the [Anton Fig model](http://www.musiciansfriend.com/accessories/promark-anton-fig-signature-drumsticks) with the “Warrington Custom” adjustments. Haha. I have them double-dipped in black [ActiveGrip](http://www.idrumchicago.com/get-a-grip-promarks-new-active-grip-drum-stick-review/)…helps with extra stick control. And finally, I use [K-Brakes](https://www.kbrakes.com/)…which are amazing and fit on the end of your kick legs to keep it in place. It doesn’t move ANYWHERE with these things on (and I beat the hell out of my drums).
 
 
-<img src="https://static-cashmusic.netdna-ssl.com/www/img/article/ms2.jpg"/>
-
-<img src="https://static-cashmusic.netdna-ssl.com/www/img/article/ms3.jpg" />
+<img src="https://static-cashmusic.netdna-ssl.com/www/img/article/aw_3.jpg" />
 
 ###And what software?
 
