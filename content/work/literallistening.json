@@ -1,0 +1,28 @@
+{
+	"id":"literallistening",
+	"author_id":"katharding",
+	"release_id":"",
+	"title":"Literal Listening",
+	"description":"Are all artists given the same freedom of expression with their lyrics?",
+	"type":"writing",
+	"date":"April 20, 2017",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/kh2.jpg"
+			
+		}
+	],
+	"tags":[
+		"politics",
+		"culture",
+		"discrimination",
+		"freedom of expression"
+	],
+	"template":"default",
+	"template_bg_style":"bg-center",
+	"template_styles":"",
+	"template_additional":""
+}
