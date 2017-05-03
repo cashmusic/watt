@@ -1,0 +1,16 @@
+{
+	"id":"willmeyer",
+	"name":"Will Meyer",
+	"byline":"Will Meyer is a writer and musician from Western Massachusetts",
+	"links":[
+		{
+			"title":"willinabucket",
+			"url":"https://twitter.com/willinabucket"
+		}
+	],
+	"photo":{
+		"url":"",
+		"license":"",
+		"credits":""
+	}
+}
