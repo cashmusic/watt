@@ -1,0 +1,33 @@
+{
+	"id":"nointernetnomusic",
+	"author_id":"willmeyer",
+	"release_id":"",
+	"title":"No Internet, No Music: Why Musicians Need To Care About Net Neutrality",
+	"description":"Musicians need net neutrality in order to have a fair shake in the internet economy",
+	"type":"writing",
+	"date":"May 3rd, 2017",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY-NC-ND",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/internet.jpg",
+				"credits":[
+				{
+					"username":"Joseph Gruber",
+					"user_url":"https://www.flickr.com/photos/josephgruber/"
+				}
+			]	
+		}
+	],
+	"tags":[
+		"culture",
+		"community",
+		"net neutrality",
+		"access",
+		"politics"
+	],
+	"template":"default",
+	"template_styles":"",
+	"template_additional":"dark"
+}
