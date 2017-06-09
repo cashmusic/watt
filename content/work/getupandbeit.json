@@ -1,0 +1,33 @@
+{
+	"id":"getupandbeit",
+	"author_id":"sarahflynn",
+	"release_id":"",
+	"title":"Get Up & Be It: How A Ted Leo Song Helped Me Survive",
+	"description":"",
+	"type":"writing",
+	"date":"June 9, 2017",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY-ND",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/tl.jpg",
+			"credits":[
+				{
+					"username":"Sarah Mulligan",
+					"user_url":"https://www.flickr.com/photos/smulligannn/"
+				}
+			]
+		}
+	],
+	"tags":[
+		"power of music", 
+		"impact",
+		"health",
+		"ted leo"
+	],
+	"template":"default",
+	"template_styles":"",
+	"template_bg_style":"bg-cover bg-center",
+	"template_additional":""
+}
