@@ -1,0 +1,16 @@
+{
+	"id":"fredthomas",
+	"name":"Fred Thomas",
+	"byline":"Fred Thomas is a musician, writer and producer living in Montreal.",
+	"links":[
+		{
+			"title":"@fredthomasmusic",
+			"url":"https://twitter.com/fredthomasmusic"
+		}
+	],
+	"photo":{
+		"url":"",
+		"license":"",
+		"credits":""
+	}
+}

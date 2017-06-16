@@ -1,0 +1,29 @@
+{
+	"id":"transportation",
+	"author_id":"fredthomas",
+	"release_id":"",
+	"title":"Transportation: An Interview with Chandra",
+	"description":"Chandra was just 10 years old when her lost album, Transportation, was released. Fellow musician Fred Thomas talks with her about that and much more.",
+	"type":"writing",
+	"date":"June 16, 2017",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/CH4.jpg"
+
+		}
+	],
+	"tags":[
+		"power of music", 
+		"lost album",
+		"interview",
+		"chandra",
+		"fred thomas"
+	],
+	"template":"default",
+	"template_styles":"",
+	"template_bg_style":"bg-cover bg-center",
+	"template_additional":""
+}
