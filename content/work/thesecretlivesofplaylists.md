@@ -53,7 +53,7 @@ If it were up to Spotify, this is largely how their playlists would be shaped. S
 
 > Indeed, Spotify would like to be more influential than record labels. Spotify would like for playlists to be more influential than albums. 
 
-This is why, now, if you search for an artist’s name of Spotify, the “Search” feature will deliver you a Spotify-curated, saturated-cover playlist anthology of that artist’s work (for example “This is: Lorde”) and other playlists they’re on before it will show you their most popular album.  
+This is why, now, [if you search for an artist’s name](http://i.imgur.com/LVQkF0z.png) of Spotify, the “Search” feature will deliver you a Spotify-curated, saturated-cover playlist anthology of that artist’s work (for example “This is: Lorde”) and other playlists they’re on before it will show you their most popular album.  
  
 Pay-to-playlist is real. For labels to influence Spotify-created playlists, Jeff describes a whole network of back-scratching and gatekeeping. While money might not be directly changing hands between majors and Spotify for direct access to playlist, there is a bigger picture where labels and Spotify provide value for each other - things like driving social traffic by getting artists to post Spotify links, doing paid media, and advertising. “If you can go to these [streaming] accounts and say, we have a $5,000 ad plan, and we are going to drive exclusively to Spotify...” he explains. Well, isn’t that a relationship they will want to keep mutually beneficial? 
 
