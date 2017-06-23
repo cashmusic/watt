@@ -1,0 +1,27 @@
+{
+	"id":"backlinejamieaaroonaux",
+	"author_id":"jamieaaronaux",
+	"release_id":"backline",
+	"title":"Backline with Jamie Aaron Aux",
+	"description":"Multi-instrumentalist, songwriter, and producer Jamie Aaron Aux talks to us about her set up.",
+	"type":"writing",
+	"date":"June 23rd, 2017",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY-NC",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/jaa3.jpg"
+				
+		}
+	],
+	"tags":[
+		"backline",
+		"equipment",
+		"software",
+		"hardware"
+	],
+	"template":"backline",
+	"template_bg_style":"",
+	"template_additional":""
+}
