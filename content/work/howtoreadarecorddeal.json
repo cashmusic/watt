@@ -1,0 +1,32 @@
+{
+	"id":"howtoreadarecorddeal",
+	"author_id":"johnseay",
+	"release_id":"",
+	"title":"How To Read A Record Deal",
+	"description":"So you were offered a record deal. Congratulations! But the only problem is that now you have to read it.",
+	"type":"writing",
+	"date":"June 30, 2017",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/contract.jpg",
+			"credits":[{
+					"username":"Steve Snodgrass",
+					"user_url":"https://www.flickr.com/photos/stevensnodgrass/"
+				}]
+		}
+	],
+	"tags":[
+		"contract", 
+		"legal",
+		"how to",
+		"record deal",
+		"record labels"
+	],
+	"template":"default",
+	"template_styles":"",
+	"template_bg_style":"bg-cover bg-center",
+	"template_additional":""
+}
