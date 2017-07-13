@@ -50,5 +50,5 @@ Johnson’s house shows, which happen every week or so, generally draw 80-100 pe
  
 According to Johnson, $15 is excessive for shows run by volunteers, curating attendees is risible, and the idea of tiered ticketing with special privileges runs directly against the egalitarian principles of underground music. To him, Sofar is an interloper, extracting money from shows that should run on goodwill and transparency, and should challenge rather than mirror the inequities endemic to the music industry. 
  
->“Basically what Sofar does it take these positive values that allows DIY to happen, like people being willing to volunteer or play for little money, and it exploits them,” Johnson reckons. “These shows sound like great ideas if you don’t know where the money goes.”
+>“Basically what Sofar does is take these positive values that allows DIY to happen, like people being willing to volunteer or play for little money, and it exploits them,” Johnson reckons. “These shows sound like great ideas if you don’t know where the money goes.”
  
