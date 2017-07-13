@@ -3,7 +3,7 @@ Sixty or so people enter an unmarked door in San Francisco’s Tenderloin distri
  
 This unpermitted, homespun gig probably sounds familiar to participants in independent music. Unusually, though, it was coordinated by a start-up underwritten by millions in venture capital, [Sofar Sounds](https://www.sofarsounds.com/). And though each attendee paid $15-$30 to attend, the artists will be compensated with some footage of their performance.
  
-The evening's emcee, an ebullient company rep named Erin, recites the story of Sofar, which stands for “songs from a room”: It started in England in 2009, she recounts, after the founders grew frustrated trying to experience live music amid bar chatter and other such distractions. ow, it operates in more than 300 cities worldwide.
+The evening's emcee, an ebullient company rep named Erin, recites the story of Sofar, which stands for “songs from a room”: It started in England in 2009, she recounts, after the founders grew frustrated trying to experience live music amid bar chatter and other such distractions. Now, it operates in more than 300 cities worldwide.
  
 “So stick to limited phone time,” she says. “You can take pictures and post them to social media and hashtag them, in fact you should do that, but, like, don’t text.”
  
@@ -15,7 +15,7 @@ Following criticism in the media, Sofar’s optional artist stipend recently inc
  
 But that hardly placates critics in the Bay Area, where start-ups’ profitability often takes a back seat to growth and shareholder returns. Sofar, which this year partnered with Airbnb, is backed by venture capital firms to the tune of nearly $6 million, according to [Pitchbook.com](http://pitchbook.com/profiles/sofar-sounds-profile-investors-funding-valuation-and-analysis), in addition to  funds from Virgin Group founder [Richard Branson](http://www.telegraph.co.uk/business/2016/07/14/richard-branson-invests-in-secret-gig-start-up/). The company employs more than sixty people worldwide.
  
-Here’s how it works in ticketed cities: Prospective show-goers apply to attend gigs in a chosen neighborhood on a chosen date and, if selected--since these audiences are “curated”-- purchase a ticket for $15. Airbnb users can pay $30 for guaranteed admission. Hosts volunteer their home or office. Performers, scouted by regional volunteers, receive either a video of their set or $100. 
+Here’s how it works in ticketed cities: Prospective show-goers apply to attend gigs in a chosen neighborhood on a chosen date and, if selected — since these audiences are “curated” — purchase a ticket for $15. Airbnb users can pay $30 for guaranteed admission. Hosts volunteer their home or office. Performers, scouted by regional volunteers, receive either a video of their set or $100. 
 >Sofar puts average attendance at 70, so average shows garner $1000-$2000.
  
 The performer rate used to be $50. An email sent to “alumni” artists about the increase last month — shortly after the publication of a critical [KQED article](https://ww2.kqed.org/arts/2017/04/28/sofar-sounds-house-shows-airbnb-middleman/)— says that “Sofar has never been about the money.” Still, it continues, “[N]ow that we’ve reached a point where we’re not losing money on every show, we want to make sure the money is working for the artists as well.”
