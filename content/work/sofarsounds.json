@@ -1,0 +1,32 @@
+{
+	"id":"sofarsounds",
+	"author_id":"samlefebvre",
+	"release_id":"",
+	"title":"Sofar Sounds - The Uber of House Shows?",
+	"description":"Some musicians in the Bay Area are criticizing a popular house-show startup over paltry compensation, while others challenge its very existence.",
+	"type":"writing",
+	"date":"July 13, 2017",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/sofar.jpg",
+			"credits":[{
+					"username":"Justin Higuchi",
+					"user_url":"https://www.flickr.com/photos/jus10h/"
+				}]
+		}
+	],
+	"tags":[
+		"shows", 
+		"house shows",
+		"start ups",
+		"businessmodels"
+	],
+	
+	"template":"default",
+	"template_styles":"",
+	"template_bg_style":"bg-cover bg-center",
+	"template_additional":""
+}
