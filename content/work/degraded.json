@@ -1,0 +1,32 @@
+{
+	"id":"degraded",
+	"author_id":"franznicolay",
+	"release_id":"",
+	"title":" DE-GRADED: Music Criticism and Regressive Reading",
+	"description":"The convention of assigning elementary school letter grades, star ratings, or best-of-ten subdivisions to music reviews is so ubiquitous now that it’s easy to forget that it wasn’t always this way.",
+	"type":"writing",
+	"date":"July 18, 2017",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/rc1.jpg",
+			"credits":[
+				{
+					"username":"Mark Gstohl",
+					"user_url":"https://www.flickr.com/photos/howieluvzus/"
+				}
+			]
+		}
+	],
+	"tags":[
+			"publicity",
+			"culture",
+			"critique",
+			"publications"
+	],
+	"template":"default",
+	"template_styles":"",
+	"template_additional":"dark"
+}
