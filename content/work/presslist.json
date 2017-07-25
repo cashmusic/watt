@@ -1,0 +1,27 @@
+{
+	"id":"presslist",
+	"author_id":"zacharylipez",
+	"release_id":"",
+	"title":"The List",
+	"description":"Zachary Lipez has compiled a list of web sites to potentially send your music to. Publicize your own fucking life!",
+	"type":"writing",
+	"date":"July 25, 2017",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/thelist.jpg",
+			"credits":""
+		}
+	],
+	"tags":[
+		"publicity", 
+		"DIY",
+		"marketing"
+	],
+	"template":"default",
+	"template_styles":"",
+	"template_bg_style":"bg-cover bg-center",
+	"template_additional":""
+}
