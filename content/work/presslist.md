@@ -100,3 +100,21 @@ Please send more my way. I’ll maybe at some point divide and classify the list
 [Echoes and Dust](http://echoesanddust.com/) 
 
 [The Quietus](http://thequietus.com/) 
+
+[Dimestore Saints](https://dimestoresaints.wordpress.com/)
+
+[Letters From A Tapehead](http://www.letters-from-a-tapehead.com/)
+
+[Diamond Deposits](http://diamonddeposits.tumblr.com/)
+
+[Overblown Zine](http://overblown.co.uk/)
+
+[God Is In The TV](http://www.godisinthetvzine.co.uk/)
+
+[Psychic Insight](https://psychinsightmusic.com/)
+
+[Optimistic Underground](https://optimisticunderground.com/)
+
+[I Heart Noise](http://ihrtn.net/)
+
+[ANCHR Magazine](https://www.anchrmagazine.com/)
