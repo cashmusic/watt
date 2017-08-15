@@ -89,7 +89,7 @@ Please send more my way. I’ll maybe at some point divide and classify the list
 
 [Song Facts](http://www.songfacts.com/) - Just interviews about…song facts. But they cover smaller artist. 
 
-[Rosey Music](http://roseymusic.com/) 
+[Rosey Music](https://roseymusic.net/) 
 
 [Your Last Rites](http://yourlastrites.com/) 
 
@@ -118,3 +118,13 @@ Please send more my way. I’ll maybe at some point divide and classify the list
 [I Heart Noise](http://ihrtn.net/)
 
 [ANCHR Magazine](https://www.anchrmagazine.com/)
+
+[Heartbreaking Bravery](https://heartbreakingbravery.com/)
+
+[Revolver](http://www.revolvermag.com/)
+
+[SYFF](http://www.syffal.com/)
+
+[Decoder Magazine](http://www.secretdecoder.net/)
+
+
