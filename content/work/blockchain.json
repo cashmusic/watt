@@ -1,0 +1,34 @@
+{
+	"id":"blockchain",
+	"author_id":"robarcand",
+	"release_id":"",
+	"title":"Is Blockchain Technology the Future of Music Streaming?",
+	"description":"Rob Arcand talks about blockchain and how it might be able to help independent musicians.",
+	"type":"writing",
+	"date":"September 7th, 2017",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY-NC",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/bc1.jpg",
+			"credits":[
+				{
+					"username":"jk_scotland",
+					"user_url":"https://www.flickr.com/photos/64498037@N00/"
+				}
+			]
+		}
+	],
+	"tags":[
+		"businessmodels",
+		"blockchain",
+		"streaming",
+		"bitcoin",
+		"technology"
+	],
+	"template":"default",
+	"template_bg_style":"",
+	"template_styles":"",
+	"template_additional":""
+}
