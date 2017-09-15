@@ -1,0 +1,33 @@
+{
+	"id":"yourenotalone",
+	"author_id":"laurenrearick",
+	"release_id":"",
+	"title":"You’re Not Alone: Finding Comfort in the Songs of LGBTQ+ artists",
+	"description":"Now, perhaps more than ever, we need music. We need to share the songs and works of marginalized voices — to support them, listen to them and use their art as a way to fight hate.",
+	"type":"writing",
+	"date":"September 15, 2017",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/lr4.jpg",
+			"credits":[
+				{
+					"username":"Paulo Barcelos",
+					"user_url":"https://www.flickr.com/photos/paulo-barcelos/"
+				}
+			]
+		}
+	],
+	"tags":[
+		"politics",
+		"impact",
+		"power of music",
+		"lgbtq+"
+	],
+	"template":"default",
+	"template_bg_style":"bg-center",
+	"template_styles":"",
+	"template_additional":""
+}
