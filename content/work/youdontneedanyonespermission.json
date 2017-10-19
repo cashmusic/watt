@@ -1,0 +1,33 @@
+{
+	"id":"youdontneedanyonespermission",
+	"author_id":"laurenrearick",
+	"release_id":"",
+	"title":"You Don't Need Anyone's Permission to Start Writing About Music",
+	"description":"Lauren Rearick of The Grey Estates gives advice on how to start your own music blog",
+	"type":"writing",
+	"date":"October 18, 2017",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY-NC",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/lk.jpg",
+				"credits":[
+				{
+					"username":"Matthew Ratzloff",
+					"user_url":"https://www.flickr.com/photos/mratzloff/"
+				}
+
+			]
+		}
+	],
+	"tags":[
+		"music journalism",
+		"DIY",
+		"writing"
+	],
+	"template":"default",
+	"template_bg_style":"",
+	"template_styles":"",
+	"template_additional":""
+}
