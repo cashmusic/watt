@@ -1,0 +1,27 @@
+{
+	"id":"backlinebridgettemoody",
+	"author_id":"bridgettemoody",
+	"release_id":"backline",
+	"title":"Backline with Bridgette Moody",
+	"description":"Bridgette Moody, singer and soundscaper in Haunted Summer, talks to us about her set up",
+	"type":"writing",
+	"date":"October 20th, 2017",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/bm.jpg"
+				
+		}
+	],
+	"tags":[
+		"backline",
+		"equipment",
+		"software",
+		"hardware"
+	],
+	"template":"backline",
+	"template_bg_style":"",
+	"template_additional":""
+}
