@@ -1,0 +1,33 @@
+{
+	"id":"backlinejemmurciano",
+	"author_id":"jemmurciano",
+	"release_id":"backline",
+	"title":"Backline with Jem Murciano",
+	"description":"Jem Murciano of The Ghost Ease talks to us about her set up",
+	"type":"writing",
+	"date":"November 8th, 2017",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/jm.jpg",
+			"credits":[
+				{
+					"username":"Sam Gehrke",
+					"user_url":"http://www.samgehrkephotography.com/"
+				}
+			]
+				
+		}
+	],
+	"tags":[
+		"backline",
+		"equipment",
+		"software",
+		"hardware"
+	],
+	"template":"backline",
+	"template_bg_style":"",
+	"template_additional":""
+}
