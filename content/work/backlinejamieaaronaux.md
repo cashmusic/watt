@@ -18,3 +18,5 @@ I use [Pro Tools](http://www.avid.com/pro-tools) and am a big fan of the [Slate 
 ###What would be your dream setup?
 
 I'm about to leave behind my sweet and convenient home studio and move to New York City, so my current dream is to have any sort of reasonable space to continue recording once I move. Gear-wise, I like to keep my dreams attainable. Since tracking the album I've passed the Studio Capture on to a new owner and have my sights set on a [Universal Audio Apollo 8p](http://www.uaudio.com/audio-interfaces/apollo-8p.html), as well as making a significant upgrade to my monitors (I'm still in the research phase there). But mostly the sound and the vibe of the room is, for me, paramount to the gear the sound goes through. 
+
+

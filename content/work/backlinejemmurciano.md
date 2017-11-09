@@ -33,3 +33,5 @@ I started out recording on cassettes because that’s how I always saw my mom re
 I would love it if I could have my very own studio space with all instruments mic’ed up and ready to go. When the muse graces me with a visit, I want to get right to work in communicating with it.
 
 I also wish that in a live setting I could telepathically communicate with whomever is running sound when I need a little more or a little less of whatever-it-is through my stage monitors. That way no one, including myself, is pulled out of the spell.
+
+**The Ghost Ease are currently raising funds for the recording of their next record via Go Fund Me. Please consider [supporting](https://www.gofundme.com/theghostease) if you haven't already. 
