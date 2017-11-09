@@ -26,7 +26,7 @@ On occasion I like to change out my pedals. For instance, when I record my next 
 
 ###And what software?
 
-I started out recording on cassettes because that’s how I always saw my mom record her demos when I was a kid. I sometimes still do this. I love the dreamy warble and warmth of tape. When I started to record digitally I would use [GarageBand](https://www.apple.com/ios/garageband/) since it was readily available on Mac computers. In art school I learned how to use [Final Cut Pro](https://www.apple.com/final-cut-pro/) and [ProTools](http://www.avid.com/pro-tools)for video editing and sound design. In the last year, I’ve been using [Logic Pro X](https://www.apple.com/logic-pro/) to record my demos in my friend’s home studio. I really like the built-in drummers in that program.
+I started out recording on cassettes because that’s how I always saw my mom record her demos when I was a kid. I sometimes still do this. I love the dreamy warble and warmth of tape. When I started to record digitally I would use [GarageBand](https://www.apple.com/ios/garageband/) since it was readily available on Mac computers. In art school I learned how to use [Final Cut Pro](https://www.apple.com/final-cut-pro/) and [ProTools](http://www.avid.com/pro-tools) for video editing and sound design. In the last year, I’ve been using [Logic Pro X](https://www.apple.com/logic-pro/) to record my demos in my friend’s home studio. I really like the built-in drummers in that program.
 
 ###What would be your dream setup?
 
