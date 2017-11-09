@@ -23,9 +23,6 @@ The Polytune is my preferred choice for a tuning pedal because, rather than havi
 <img src="https://static-cashmusic.netdna-ssl.com/www/img/article/jm4.jpg" />
 
 On occasion I like to change out my pedals. For instance, when I record my next album this autumn, I’m planning on switching the Holy Grail Nano pedal out for my [TC Electronic Trinity Reverb](http://www.tcelectronic.com/trinity-reverb/) pedal because the Trinity has extra settings to mess around with in comparison. I’m also going to switch my Monarch pedal out for my [Ibanez Turbo Tube Screamer](http://www.analogman.com/ts9dx.htm). The Tube Screamer overdrive feels heavier than the Monarch, and the extra-heaviness feels most appropriate these days.
- 
-<img src="https://static-cashmusic.netdna-ssl.com/www/img/article/jm5.jpg" />
-
 
 ###And what software?
 
