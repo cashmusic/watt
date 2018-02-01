@@ -1,0 +1,28 @@
+{
+	"id":"deathtaxesdata",
+	"author_id":"bimditson",
+	"release_id":"",
+	"title":"Death, Taxes, and Data: A Memorial to the Throne",
+	"description":"It tells two stories from my life as an artist. These stories are not about the artistic product I create but instead concern how I have been affected by the world. A world none of us asked to be born into, and that we try to look in the eye regardless. Both orbit the problems of consolidated power.",
+	"type":"writing",
+	"date":"February 1, 2018",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/bim.png"
+		}
+	],
+	"tags":[
+		"politics",
+		"streaming",
+		"power of music",
+		"corporate control",
+		"commodification"
+	],
+	"template":"default",
+	"template_bg_style":"bg-center",
+	"template_styles":"",
+	"template_additional":""
+}
