@@ -1,0 +1,33 @@
+{
+	"id":"takingspaceinthecrowd",
+	"author_id":"amayagarcia",
+	"release_id":"",
+	"title":"Taking Space In The Crowd",
+	"description":"Writer Amaya García on going to shows alone as a woman.",
+	"type":"writing",
+	"date":"February 23rd, 2018",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY-NC-ND",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/inthecrowd.jpg",
+			"credits":[
+				{
+					"username":"Jamie Decesare",
+					"user_url":"https://www.flickr.com/photos/jamiedecesare/"
+				}
+			]
+		}
+	],
+	"tags":[
+		"shows",
+		"safety",
+		"security",
+		"feminism"
+	],
+	"template":"default",
+	"template_bg_style":"",
+	"template_styles":"",
+	"template_additional":""
+}
