@@ -1,0 +1,33 @@
+{
+	"id":"getthemostoutofsxsw",
+	"author_id":"laurenrearick",
+	"release_id":"",
+	"title":"Get The Most Out of SXSW",
+	"description":"It's that time of the year again. Lauren Rearick talks to industry experts and gets advice on how to do it right.",
+	"type":"writing",
+	"date":"March 9, 2018",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY-SA",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/sxsw.jpg",
+			"credits":[
+				{
+					"username":"Luca Sartoni",
+					"user_url":"https://www.flickr.com/photos/lucasartoni/"
+				}
+			]
+		}
+	],
+	"tags":[
+		"sxsw",
+		"promotion",
+		"shows",
+		"health"
+	],
+	"template":"default",
+	"template_bg_style":"",
+	"template_styles":"",
+	"template_additional":""
+}

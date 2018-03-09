@@ -1,0 +1,27 @@
+{
+	"id":"backlinelaurenross",
+	"author_id":"laurenross",
+	"release_id":"backline",
+	"title":"Backline with Lauren Ross",
+	"description":"Multi-instrumentalist Lauren Ross aka La Louma talks to us about her set up",
+	"type":"writing",
+	"date":"March 9th, 2018",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/laurenross.jpg"
+				
+		}
+	],
+	"tags":[
+		"backline",
+		"equipment",
+		"software",
+		"hardware"
+	],
+	"template":"backline",
+	"template_bg_style":"",
+	"template_additional":""
+}
