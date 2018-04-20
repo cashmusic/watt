@@ -1,0 +1,27 @@
+{
+	"id":"curatingthelineup",
+	"author_id":"amandawicks",
+	"release_id":"",
+	"title":"Curating the Lineup: The Rise of Artist-Controlled Festivals",
+	"description":"Artists are shaking up the festival circuit with a more homegrown offering drawn from their friendship and fandom.",
+	"type":"writing",
+	"date":"April 20, 2018",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY-SA",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/artistcurated.jpg"
+			
+		}
+	],
+	"tags":[
+		"festivals",
+		"show",
+		"consolidaton"
+	],
+	"template":"default",
+	"template_bg_style":"bg-center",
+	"template_styles":"",
+	"template_additional":""
+}
