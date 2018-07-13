@@ -1,14 +1,14 @@
 {
-	"featured_work":["curatingthelineup","monopoly","getthemostoutofsxsw","takingspaceinthecrowd","beboldpileonstaypunk","blockchain","degraded","sofarsounds","businessmodels"],
-	"recent_work":["backlinelaurenross","getthemostoutofsxsw","writingaboutmusicsucks","takingspaceinthecrowd","deathtaxesdata"],
+	"featured_work":["swimmingupstream","curatingthelineup","monopoly","takingspaceinthecrowd","beboldpileonstaypunk","blockchain","degraded"],
+	"recent_work":["curatingthelineup","monopoly","backlinelaurenross","getthemostoutofsxsw","writingaboutmusicsucks"],
 	"popular_work":["whywecantforgetmegwhite","thesecretlivesofplaylists","whyiwonttouranymore","deescalation","whyamidoingthistomyself"],
-	"secondary_work":["monopoly"],
+	"secondary_work":["backlineastraelane"],
 	"tertiary_work":["thesecretlivesofplaylists","nointernetnomusic","presslist","businessmodels","becomingabeliever","deescalation"],
 	"featured_video":["dapcdnn"],
 	"recent_video":["dapclmbar","dapmgdvs","bethditto"],
 	"quaternary_work":["survivingyourfirsttour","meredithgraves","timetofindapro", "settingupanllc", "lizpelly", "henryrollins"],
 	"featured_authors":[],
 	"featured_tags":["impact","culture", "community", "sustainability"],
-	"further_reading":["thesecretlivesofplaylists","crowdfundingforyoursickguitarist","itsallinyourhead"],
+	"further_reading":["thesecretlivesofplaylists","sofarsounds","itsallinyourhead"],
 	"template":"index"
 }

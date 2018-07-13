@@ -3,18 +3,18 @@
 	"author_id":"kcorcutt",
 	"release_id":"",
 	"title":"Swimming Up Stream",
-	"description":"How artists define success in the streaming era.",
+	"description":"How do artists define success in the streaming era.",
 	"type":"writing",
-	"date":"April 9th, 2018",
+	"date":"July 13th, 2018",
 	"license":"CC-BY",
 	"assets":[
 		{
 			"type":"image",
-			"license":"CC-BY-ND",
-			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/monopoly.jpg",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/swimmingupstream.jpg",
 			"credits":[{
-					"username":"Corentin Kopp",
-					"user_url":"https://www.flickr.com/photos/corentinkopp/"
+					"username":"Johan Larsson",
+					"user_url":"https://www.flickr.com/photos/johanl/"
 				}]
 		}
 	],
@@ -22,7 +22,7 @@
 		"business models", 
 		"streaming",
 		"success",
-		"consolidation"
+		"playlists"
 	],
 	"template":"default",
 	"template_styles":"",
