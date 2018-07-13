@@ -1,0 +1,27 @@
+{
+	"id":"backlineastraelane",
+	"author_id":"astraelane",
+	"release_id":"backline",
+	"title":"Backline with Astra Elane",
+	"description":"Musician, songwriter, and producer Astra Elane of The Gods Themselves talks to us about her set up.",
+	"type":"writing",
+	"date":"July 13th, 2018",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/ae2.jpg"
+				
+		}
+	],
+	"tags":[
+		"backline",
+		"equipment",
+		"software",
+		"hardware"
+	],
+	"template":"backline",
+	"template_bg_style":"",
+	"template_additional":""
+}
