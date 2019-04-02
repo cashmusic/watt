@@ -1,0 +1,28 @@
+{
+	"id":"sterlingtoles",
+	"author_id":"fredthomas",
+	"release_id":"",
+	"title":"Titled Resurget Cineribus: An interview with Sterling Toles",
+	"description":"Detroit producer Sterling Toles peels back the layers on his long-shelved master work in a conversation with artist Fred Thomas about the Detroit riots, intergenerational trauma and rising again from the ashes.",
+	"type":"writing",
+	"date":"April 2, 2019",
+	"license":"CC-BY",
+	"assets":[
+		{
+			"type":"image",
+			"license":"CC-BY",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/ST.jpg"
+
+		}
+	],
+	"tags":[
+		"power of music", 
+		"interview",
+		"sterling toles",
+		"fred thomas"
+	],
+	"template":"default",
+	"template_styles":"",
+	"template_bg_style":"bg-cover bg-center",
+	"template_additional":""
+}
