@@ -11,8 +11,13 @@
 		{
 			"type":"image",
 			"license":"CC-BY-NC",
-			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/beto.jpg"
-
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/beto.jpg",
+			"credits":[
+				{
+					"username":"Thomas Hawk",
+					"user_url":"https://www.flickr.com/photos/thomashawk/"
+				}
+			]
 		}
 	],
 	"tags":[
