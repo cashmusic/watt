@@ -2,17 +2,22 @@
 	"id":"hardcorepresident",
 	"author_id":"zacharylipez",
 	"release_id":"",
-	"title":"Transportation: An Interview with Chandra",
-	"description":"Detroit producer Sterling Toles peels back the layers on his long-shelved master work in a conversation with artist Fred Thomas about the Detroit riots, intergenerational trauma and rising again from the ashes.",
+	"title":"Wig Out at The New Hampshire Primaries",
+	"description":"A handy guide to choosing between faith and void in the upcoming elections.",
 	"type":"writing",
-	"date":"April 2, 2019",
+	"date":"April 9, 2019",
 	"license":"CC-BY",
 	"assets":[
 		{
 			"type":"image",
-			"license":"CC-BY",
-			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/CH4.jpg"
-
+			"license":"CC-BY-NC",
+			"url":"https://static-cashmusic.netdna-ssl.com/www/img/article/beto.jpg",
+			"credits":[
+				{
+					"username":"Thomas Hawk",
+					"user_url":"https://www.flickr.com/photos/thomashawk/"
+				}
+			]
 		}
 	],
 	"tags":[
